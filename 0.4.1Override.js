@@ -37433,8 +37433,8 @@
             }
             getLeaderboard(e, t, n, i) {
                 const r = lL(this, rL, "f").getTokenHash();
-                let a = cL + "leaderboard?version=" + wC.rE + "&trackId=" + e + "&skip=" + t + "&amount=" + n + "&onlyVerified=" + i;
-                return null != r && (a += "&userTokenHash=" + encodeURIComponent(r)),
+                let a = 'https://raw.githubusercontent.com/DoraChad/PolyTAS-Tool/refs/heads/main/leaderboards';
+                return null != r && (a),
                 new Promise(( (e, t) => {
                     const n = new XMLHttpRequest;
                     n.timeout = lL(this, aL, "f"),
