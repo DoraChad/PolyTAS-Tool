@@ -37446,12 +37446,12 @@
                 dL(this, lL, e, "f")
             }
             getLeaderboard(e, t, n, i) {
-                const r = lL(this, rL, "f").getTokenHash();
+                const r = uL(this, lL, "f").getTokenHash();
                 let a = 'https://raw.githubusercontent.com/DoraChad/PolyTAS-Tool/refs/heads/main/leaderboards';
                 return null != r && (a),
                 new Promise(( (e, t) => {
                     const n = new XMLHttpRequest;
-                    n.timeout = lL(this, aL, "f"),
+                    n.timeout = uL(this, cL, "f"),
                     n.overrideMimeType("text/plain"),
                     n.onreadystatechange = () => {
                         if (n.readyState == XMLHttpRequest.DONE)
