@@ -204,7 +204,7 @@
               , r = n.n(i)
               , a = n(314)
               , o = n.n(a)()(r());
-            o.push([e.id, "\n.menu {\n\tposition: absolute;\n\tleft: 0;\n\ttop: 0;\n\twidth: 100%;\n\theight: 100%;\n\tbackground-color: rgba(10,10,20,0.8);\n\ttext-align: center;\n}\n\n.menu > .logo {\n\tdisplay: block;\n\tmargin: 80px auto 180px auto;\n\tpadding: 0;\n\twidth: 1000px;\n\theight: 200px;\n\t-webkit-filter: drop-shadow(0 0 3px #000);\n\tfilter: drop-shadow(0 0 3px #000);\n}\n\n.menu .button-image {\n\tdisplay: inline-block;\n\tmargin: 10px 0;\n\tpadding: 0;\n\twidth: 200px;\n\theight: 200px;\n\tpointer-events: auto;\n}\n.menu .button-image > img {\n\tmargin: 40px 40px 0 40px;\n\tpadding: 0;\n\twidth: 96px;\n\ttransition: transform 0.2s ease-in-out;\n\tpointer-events: none;\n}\n.menu .button-image:not(:disabled):hover > img {\n\ttransform: translateY(-10px);\n}\n@media (hover: none) {\n\t.menu .button-image:not(:disabled):hover > img {\n\t\ttransform: none;\n\t}\n}\n.menu .button-image > p {\n\tmargin: 0;\n\tpadding: 0;\n\tcolor: var(--text-color);\n\tfont-size: 27px;\n}\n\n.menu > .bottom-buttons {\n\tmargin: 4px;\n\tpadding: 0;\n\tposition: absolute;\n\tleft: 0;\n\tbottom: 0;\n}\n\n.menu > .bottom-buttons > .small {\n\tpadding: 6px 12px;\n\tclip-path: polygon(4px 0, 100% 0, calc(100% - 4px) 100%, 0 100%);\n\tfont-size: 22px;\n}\n.menu > .bottom-buttons > .small > img {\n\tvertical-align: middle;\n}\n\n.menu > .discord-link {\n\tdisplay: block;\n\tposition: absolute;\n\tright: 0;\n\tbottom: 0;\n\tmargin: 0;\n\tpadding: 0;\n\tpointer-events: auto;\n}\n.menu > .discord-link > img {\n\tmargin: 8px 16px;\n\tpadding: 0;\n\theight: 40px;\n}\n\n.menu > .info {\n\tposition: absolute;\n\tleft: 0;\n\tbottom: 0;\n\twidth: 100%;\n}\n.menu > .info > a {\n\tdisplay: block;\n\tmargin: 0 auto;\n\tpadding: 5px;\n\twidth: fit-content;\n\tcolor: var(--text-color);\n\ttext-decoration: none;\n\tfont-size: 20px;\n\tpointer-events: auto;\n}\n.menu > .info > a:hover, .menu > .info > a:focus-visible {\n\ttext-decoration: underline;\n\toutline: none;\n}\n", ""]);
+            o.push([e.id, "\n.menu {\n\tposition: absolute;\n\tleft: 0;\n\ttop: 0;\n\twidth: 100%;\n\theight: 100%;\n\tbackground-color: rgba(10,10,20,0.8);\n\ttext-align: center;\n}\n\n.menu > .logo {\n\tdisplay: block;\n\tmargin: 80px auto 180px auto;\n\tpadding: 0;\n\twidth: 1000px;\n\theight: 200px;\n\t-webkit-filter: drop-shadow(0 0 3px #000);\n\tfilter: drop-shadow(0 0 3px #000);\n}\n\n.menu .button-image {\n\tdisplay: inline-block;\n\tmargin: 10px 0;\n\tpadding: 0;\n\twidth: 200px;\n\theight: 200px;\n\tpointer-events: auto;\n}\n.menu .button-image > img {\n\tmargin: 40px 40px 0 40px;\n\tpadding: 0;\n\twidth: 96px;\n\ttransition: transform 0.2s ease-in-out;\n\tpointer-events: none;\n}\n.menu .button-image:not(:disabled):hover > img {\n\ttransform: translateY(-10px);\n}\n@media (hover: none) {\n\t.menu .button-image:not(:disabled):hover > img {\n\t\ttransform: none;\n\t}\n}\n.menu .button-image > p {\n\tmargin: 0;\n\tpadding: 0;\n\tcolor: var(--text-color);\n\tfont-size: 27px;\n}\n\n.menu > .bottom-buttons {\n\tmargin: 4px;\n\tpadding: 0;\n\tposition: absolute;\n\tleft: 0;\n\tbottom: 0;\n}\n\n.menu > .bottom-buttons > .small {\n\tpadding: 6px 12px;\n\tclip-path: polygon(4px 0, 100% 0, calc(100% - 4px) 100%, 0 100%);\n\tfont-size: 22px;\n}\n.menu > .bottom-buttons > .small > img {\n\tvertical-align: middle;\n}\n\n.menu > .discord-link {\n\tdisplay: block;\n\tposition: absolute;\n\tright: 0;\n\tbottom: 0;\n\tmargin: 0;\n\tpadding: 0;\n\tpointer-events: auto;\n}\n.menu > .discord-link > img {\n\tmargin: 8px 16px;\n\tpadding: 0;\n\theight: 40px;\n}\n\n.menu > .info {\n\tposition: absolute;\n\tleft: 0;\n\tbottom: 0;\n\twidth: 100%;\n}\n.menu > .info > a {\n\tdisplay: block;\n\tmargin: 0 auto;\n\tpadding: 5px;\n\twidth: fit-content;\n\tcolor: var(--text-color);\n\ttext-decoration: none;\n\tfont-size: 20px;\n\tpointer-events: auto;\n}\n.menu > .info > a[href]:hover, .menu > .info > a:focus-visible {\n\ttext-decoration: underline;\n\toutline: none;\n}\n", ""]);
             const s = o
         }
         ,
@@ -25557,85 +25557,139 @@
             0
         }
         ;
-        var $m = {
-            inflateReset: jm,
-            inflateReset2: qm,
-            inflateResetKeep: Gm,
-            inflateInit: e => Xm(e, 15),
-            inflateInit2: Xm,
-            inflate: (e, t) => {
-                let n, i, r, a, o, s, l, c, h, d, u, p, f, m, g, v, w, y, b, x, _, k, E = 0;
-                const S = new Uint8Array(4);
-                let M, T;
-                const A = new Uint8Array([16, 17, 18, 0, 8, 7, 9, 6, 10, 5, 11, 4, 12, 3, 13, 2, 14, 1, 15]);
-                if (Vm(e) || !e.output || !e.input && 0 !== e.avail_in)
-                    return Tm;
-                n = e.state,
-                n.mode === Nm && (n.mode = Dm),
-                o = e.next_out,
-                r = e.output,
-                l = e.avail_out,
-                a = e.next_in,
-                i = e.input,
-                s = e.avail_in,
-                c = n.hold,
-                h = n.bits,
-                d = s,
-                u = l,
-                k = Em;
-                e: for (; ; )
-                    switch (n.mode) {
-                    case Lm:
-                        if (0 === n.wrap) {
-                            n.mode = Dm;
-                            break
-                        }
-                        for (; h < 16; ) {
-                            if (0 === s)
-                                break e;
-                            s--,
-                            c += i[a++] << h,
-                            h += 8
-                        }
-                        if (2 & n.wrap && 35615 === c) {
-                            0 === n.wbits && (n.wbits = 15),
-                            n.check = 0,
-                            S[0] = 255 & c,
-                            S[1] = c >>> 8 & 255,
-                            n.check = jp(n.check, S, 2, 0),
-                            c = 0,
-                            h = 0,
-                            n.mode = 16181;
-                            break
-                        }
-                        if (n.head && (n.head.done = !1),
-                        !(1 & n.wrap) || (((255 & c) << 8) + (c >> 8)) % 31) {
-                            e.msg = "incorrect header check",
-                            n.mode = Fm;
-                            break
-                        }
-                        if ((15 & c) !== Rm) {
-                            e.msg = "unknown compression method",
-                            n.mode = Fm;
-                            break
-                        }
-                        if (c >>>= 4,
-                        h -= 4,
-                        _ = 8 + (15 & c),
-                        0 === n.wbits && (n.wbits = _),
-                        _ > 15 || _ > n.wbits) {
-                            e.msg = "invalid window size",
-                            n.mode = Fm;
-                            break
-                        }
-                        n.dmax = 1 << n.wbits,
-                        n.flags = 0,
-                        e.adler = n.check = 1,
-                        n.mode = 512 & c ? 16189 : Nm,
+        var $m = (e, t) => {
+            let n, i, r, a, o, s, l, c, h, d, u, p, f, m, g, v, w, y, b, x, _, k, E = 0;
+            const S = new Uint8Array(4);
+            let M, T;
+            const A = new Uint8Array([16, 17, 18, 0, 8, 7, 9, 6, 10, 5, 11, 4, 12, 3, 13, 2, 14, 1, 15]);
+            if (Vm(e) || !e.output || !e.input && 0 !== e.avail_in)
+                return Tm;
+            n = e.state,
+            n.mode === Nm && (n.mode = Dm),
+            o = e.next_out,
+            r = e.output,
+            l = e.avail_out,
+            a = e.next_in,
+            i = e.input,
+            s = e.avail_in,
+            c = n.hold,
+            h = n.bits,
+            d = s,
+            u = l,
+            k = Em;
+            e: for (; ; )
+                switch (n.mode) {
+                case Lm:
+                    if (0 === n.wrap) {
+                        n.mode = Dm;
+                        break
+                    }
+                    for (; h < 16; ) {
+                        if (0 === s)
+                            break e;
+                        s--,
+                        c += i[a++] << h,
+                        h += 8
+                    }
+                    if (2 & n.wrap && 35615 === c) {
+                        0 === n.wbits && (n.wbits = 15),
+                        n.check = 0,
+                        S[0] = 255 & c,
+                        S[1] = c >>> 8 & 255,
+                        n.check = jp(n.check, S, 2, 0),
                         c = 0,
-                        h = 0;
-                        break;
-                    case 16181:
+                        h = 0,
+                        n.mode = 16181;
+                        break
+                    }
+                    if (n.head && (n.head.done = !1),
+                    !(1 & n.wrap) || (((255 & c) << 8) + (c >> 8)) % 31) {
+                        e.msg = "incorrect header check",
+                        n.mode = Fm;
+                        break
+                    }
+                    if ((15 & c) !== Rm) {
+                        e.msg = "unknown compression method",
+                        n.mode = Fm;
+                        break
+                    }
+                    if (c >>>= 4,
+                    h -= 4,
+                    _ = 8 + (15 & c),
+                    0 === n.wbits && (n.wbits = _),
+                    _ > 15 || _ > n.wbits) {
+                        e.msg = "invalid window size",
+                        n.mode = Fm;
+                        break
+                    }
+                    n.dmax = 1 << n.wbits,
+                    n.flags = 0,
+                    e.adler = n.check = 1,
+                    n.mode = 512 & c ? 16189 : Nm,
+                    c = 0,
+                    h = 0;
+                    break;
+                case 16181:
+                    for (; h < 16; ) {
+                        if (0 === s)
+                            break e;
+                        s--,
+                        c += i[a++] << h,
+                        h += 8
+                    }
+                    if (n.flags = c,
+                    (255 & n.flags) !== Rm) {
+                        e.msg = "unknown compression method",
+                        n.mode = Fm;
+                        break
+                    }
+                    if (57344 & n.flags) {
+                        e.msg = "unknown header flags set",
+                        n.mode = Fm;
+                        break
+                    }
+                    n.head && (n.head.text = c >> 8 & 1),
+                    512 & n.flags && 4 & n.wrap && (S[0] = 255 & c,
+                    S[1] = c >>> 8 & 255,
+                    n.check = jp(n.check, S, 2, 0)),
+                    c = 0,
+                    h = 0,
+                    n.mode = 16182;
+                case 16182:
+                    for (; h < 32; ) {
+                        if (0 === s)
+                            break e;
+                        s--,
+                        c += i[a++] << h,
+                        h += 8
+                    }
+                    n.head && (n.head.time = c),
+                    512 & n.flags && 4 & n.wrap && (S[0] = 255 & c,
+                    S[1] = c >>> 8 & 255,
+                    S[2] = c >>> 16 & 255,
+                    S[3] = c >>> 24 & 255,
+                    n.check = jp(n.check, S, 4, 0)),
+                    c = 0,
+                    h = 0,
+                    n.mode = 16183;
+                case 16183:
+                    for (; h < 16; ) {
+                        if (0 === s)
+                            break e;
+                        s--,
+                        c += i[a++] << h,
+                        h += 8
+                    }
+                    n.head && (n.head.xflags = 255 & c,
+                    n.head.os = c >> 8),
+                    512 & n.flags && 4 & n.wrap && (S[0] = 255 & c,
+                    S[1] = c >>> 8 & 255,
+                    n.check = jp(n.check, S, 2, 0)),
+                    c = 0,
+                    h = 0,
+                    n.mode = 16184;
+                case 16184:
+                    if (1024 & n.flags) {
                         for (; h < 16; ) {
                             if (0 === s)
                                 break e;
@@ -25643,180 +25697,218 @@
                             c += i[a++] << h,
                             h += 8
                         }
-                        if (n.flags = c,
-                        (255 & n.flags) !== Rm) {
-                            e.msg = "unknown compression method",
-                            n.mode = Fm;
-                            break
-                        }
-                        if (57344 & n.flags) {
-                            e.msg = "unknown header flags set",
-                            n.mode = Fm;
-                            break
-                        }
-                        n.head && (n.head.text = c >> 8 & 1),
+                        n.length = c,
+                        n.head && (n.head.extra_len = c),
                         512 & n.flags && 4 & n.wrap && (S[0] = 255 & c,
                         S[1] = c >>> 8 & 255,
                         n.check = jp(n.check, S, 2, 0)),
                         c = 0,
-                        h = 0,
-                        n.mode = 16182;
-                    case 16182:
-                        for (; h < 32; ) {
-                            if (0 === s)
-                                break e;
-                            s--,
-                            c += i[a++] << h,
-                            h += 8
-                        }
-                        n.head && (n.head.time = c),
-                        512 & n.flags && 4 & n.wrap && (S[0] = 255 & c,
-                        S[1] = c >>> 8 & 255,
-                        S[2] = c >>> 16 & 255,
-                        S[3] = c >>> 24 & 255,
-                        n.check = jp(n.check, S, 4, 0)),
-                        c = 0,
-                        h = 0,
-                        n.mode = 16183;
-                    case 16183:
-                        for (; h < 16; ) {
-                            if (0 === s)
-                                break e;
-                            s--,
-                            c += i[a++] << h,
-                            h += 8
-                        }
-                        n.head && (n.head.xflags = 255 & c,
-                        n.head.os = c >> 8),
-                        512 & n.flags && 4 & n.wrap && (S[0] = 255 & c,
-                        S[1] = c >>> 8 & 255,
-                        n.check = jp(n.check, S, 2, 0)),
-                        c = 0,
-                        h = 0,
-                        n.mode = 16184;
-                    case 16184:
-                        if (1024 & n.flags) {
-                            for (; h < 16; ) {
-                                if (0 === s)
-                                    break e;
-                                s--,
-                                c += i[a++] << h,
-                                h += 8
-                            }
-                            n.length = c,
-                            n.head && (n.head.extra_len = c),
-                            512 & n.flags && 4 & n.wrap && (S[0] = 255 & c,
-                            S[1] = c >>> 8 & 255,
-                            n.check = jp(n.check, S, 2, 0)),
-                            c = 0,
-                            h = 0
-                        } else
-                            n.head && (n.head.extra = null);
-                        n.mode = 16185;
-                    case 16185:
-                        if (1024 & n.flags && (p = n.length,
-                        p > s && (p = s),
-                        p && (n.head && (_ = n.head.extra_len - n.length,
-                        n.head.extra || (n.head.extra = new Uint8Array(n.head.extra_len)),
-                        n.head.extra.set(i.subarray(a, a + p), _)),
-                        512 & n.flags && 4 & n.wrap && (n.check = jp(n.check, i, p, a)),
+                        h = 0
+                    } else
+                        n.head && (n.head.extra = null);
+                    n.mode = 16185;
+                case 16185:
+                    if (1024 & n.flags && (p = n.length,
+                    p > s && (p = s),
+                    p && (n.head && (_ = n.head.extra_len - n.length,
+                    n.head.extra || (n.head.extra = new Uint8Array(n.head.extra_len)),
+                    n.head.extra.set(i.subarray(a, a + p), _)),
+                    512 & n.flags && 4 & n.wrap && (n.check = jp(n.check, i, p, a)),
+                    s -= p,
+                    a += p,
+                    n.length -= p),
+                    n.length))
+                        break e;
+                    n.length = 0,
+                    n.mode = 16186;
+                case 16186:
+                    if (2048 & n.flags) {
+                        if (0 === s)
+                            break e;
+                        p = 0;
+                        do {
+                            _ = i[a + p++],
+                            n.head && _ && n.length < 65536 && (n.head.name += String.fromCharCode(_))
+                        } while (_ && p < s);
+                        if (512 & n.flags && 4 & n.wrap && (n.check = jp(n.check, i, p, a)),
                         s -= p,
                         a += p,
-                        n.length -= p),
-                        n.length))
+                        _)
+                            break e
+                    } else
+                        n.head && (n.head.name = null);
+                    n.length = 0,
+                    n.mode = 16187;
+                case 16187:
+                    if (4096 & n.flags) {
+                        if (0 === s)
                             break e;
-                        n.length = 0,
-                        n.mode = 16186;
-                    case 16186:
-                        if (2048 & n.flags) {
-                            if (0 === s)
-                                break e;
-                            p = 0;
-                            do {
-                                _ = i[a + p++],
-                                n.head && _ && n.length < 65536 && (n.head.name += String.fromCharCode(_))
-                            } while (_ && p < s);
-                            if (512 & n.flags && 4 & n.wrap && (n.check = jp(n.check, i, p, a)),
-                            s -= p,
-                            a += p,
-                            _)
-                                break e
-                        } else
-                            n.head && (n.head.name = null);
-                        n.length = 0,
-                        n.mode = 16187;
-                    case 16187:
-                        if (4096 & n.flags) {
-                            if (0 === s)
-                                break e;
-                            p = 0;
-                            do {
-                                _ = i[a + p++],
-                                n.head && _ && n.length < 65536 && (n.head.comment += String.fromCharCode(_))
-                            } while (_ && p < s);
-                            if (512 & n.flags && 4 & n.wrap && (n.check = jp(n.check, i, p, a)),
-                            s -= p,
-                            a += p,
-                            _)
-                                break e
-                        } else
-                            n.head && (n.head.comment = null);
-                        n.mode = 16188;
-                    case 16188:
-                        if (512 & n.flags) {
-                            for (; h < 16; ) {
-                                if (0 === s)
-                                    break e;
-                                s--,
-                                c += i[a++] << h,
-                                h += 8
-                            }
-                            if (4 & n.wrap && c !== (65535 & n.check)) {
-                                e.msg = "header crc mismatch",
-                                n.mode = Fm;
-                                break
-                            }
-                            c = 0,
-                            h = 0
-                        }
-                        n.head && (n.head.hcrc = n.flags >> 9 & 1,
-                        n.head.done = !0),
-                        e.adler = n.check = 0,
-                        n.mode = Nm;
-                        break;
-                    case 16189:
-                        for (; h < 32; ) {
+                        p = 0;
+                        do {
+                            _ = i[a + p++],
+                            n.head && _ && n.length < 65536 && (n.head.comment += String.fromCharCode(_))
+                        } while (_ && p < s);
+                        if (512 & n.flags && 4 & n.wrap && (n.check = jp(n.check, i, p, a)),
+                        s -= p,
+                        a += p,
+                        _)
+                            break e
+                    } else
+                        n.head && (n.head.comment = null);
+                    n.mode = 16188;
+                case 16188:
+                    if (512 & n.flags) {
+                        for (; h < 16; ) {
                             if (0 === s)
                                 break e;
                             s--,
                             c += i[a++] << h,
                             h += 8
                         }
-                        e.adler = n.check = Wm(c),
-                        c = 0,
-                        h = 0,
-                        n.mode = Im;
-                    case Im:
-                        if (0 === n.havedict)
-                            return e.next_out = o,
-                            e.avail_out = l,
-                            e.next_in = a,
-                            e.avail_in = s,
-                            n.hold = c,
-                            n.bits = h,
-                            Mm;
-                        e.adler = n.check = 1,
-                        n.mode = Nm;
-                    case Nm:
-                        if (t === _m || t === km)
-                            break e;
-                    case Dm:
-                        if (n.last) {
-                            c >>>= 7 & h,
-                            h -= 7 & h,
-                            n.mode = zm;
+                        if (4 & n.wrap && c !== (65535 & n.check)) {
+                            e.msg = "header crc mismatch",
+                            n.mode = Fm;
                             break
                         }
+                        c = 0,
+                        h = 0
+                    }
+                    n.head && (n.head.hcrc = n.flags >> 9 & 1,
+                    n.head.done = !0),
+                    e.adler = n.check = 0,
+                    n.mode = Nm;
+                    break;
+                case 16189:
+                    for (; h < 32; ) {
+                        if (0 === s)
+                            break e;
+                        s--,
+                        c += i[a++] << h,
+                        h += 8
+                    }
+                    e.adler = n.check = Wm(c),
+                    c = 0,
+                    h = 0,
+                    n.mode = Im;
+                case Im:
+                    if (0 === n.havedict)
+                        return e.next_out = o,
+                        e.avail_out = l,
+                        e.next_in = a,
+                        e.avail_in = s,
+                        n.hold = c,
+                        n.bits = h,
+                        Mm;
+                    e.adler = n.check = 1,
+                    n.mode = Nm;
+                case Nm:
+                    if (t === _m || t === km)
+                        break e;
+                case Dm:
+                    if (n.last) {
+                        c >>>= 7 & h,
+                        h -= 7 & h,
+                        n.mode = zm;
+                        break
+                    }
+                    for (; h < 3; ) {
+                        if (0 === s)
+                            break e;
+                        s--,
+                        c += i[a++] << h,
+                        h += 8
+                    }
+                    switch (n.last = 1 & c,
+                    c >>>= 1,
+                    h -= 1,
+                    3 & c) {
+                    case 0:
+                        n.mode = 16193;
+                        break;
+                    case 1:
+                        if (Jm(n),
+                        n.mode = Bm,
+                        t === km) {
+                            c >>>= 2,
+                            h -= 2;
+                            break e
+                        }
+                        break;
+                    case 2:
+                        n.mode = 16196;
+                        break;
+                    case 3:
+                        e.msg = "invalid block type",
+                        n.mode = Fm
+                    }
+                    c >>>= 2,
+                    h -= 2;
+                    break;
+                case 16193:
+                    for (c >>>= 7 & h,
+                    h -= 7 & h; h < 32; ) {
+                        if (0 === s)
+                            break e;
+                        s--,
+                        c += i[a++] << h,
+                        h += 8
+                    }
+                    if ((65535 & c) != (c >>> 16 ^ 65535)) {
+                        e.msg = "invalid stored block lengths",
+                        n.mode = Fm;
+                        break
+                    }
+                    if (n.length = 65535 & c,
+                    c = 0,
+                    h = 0,
+                    n.mode = Um,
+                    t === km)
+                        break e;
+                case Um:
+                    n.mode = 16195;
+                case 16195:
+                    if (p = n.length,
+                    p) {
+                        if (p > s && (p = s),
+                        p > l && (p = l),
+                        0 === p)
+                            break e;
+                        r.set(i.subarray(a, a + p), o),
+                        s -= p,
+                        a += p,
+                        l -= p,
+                        o += p,
+                        n.length -= p;
+                        break
+                    }
+                    n.mode = Nm;
+                    break;
+                case 16196:
+                    for (; h < 14; ) {
+                        if (0 === s)
+                            break e;
+                        s--,
+                        c += i[a++] << h,
+                        h += 8
+                    }
+                    if (n.nlen = 257 + (31 & c),
+                    c >>>= 5,
+                    h -= 5,
+                    n.ndist = 1 + (31 & c),
+                    c >>>= 5,
+                    h -= 5,
+                    n.ncode = 4 + (15 & c),
+                    c >>>= 4,
+                    h -= 4,
+                    n.nlen > 286 || n.ndist > 30) {
+                        e.msg = "too many length or distance symbols",
+                        n.mode = Fm;
+                        break
+                    }
+                    n.have = 0,
+                    n.mode = 16197;
+                case 16197:
+                    for (; n.have < n.ncode; ) {
                         for (; h < 3; ) {
                             if (0 === s)
                                 break e;
@@ -25824,517 +25916,425 @@
                             c += i[a++] << h,
                             h += 8
                         }
-                        switch (n.last = 1 & c,
-                        c >>>= 1,
-                        h -= 1,
-                        3 & c) {
-                        case 0:
-                            n.mode = 16193;
-                            break;
-                        case 1:
-                            if (Jm(n),
-                            n.mode = Bm,
-                            t === km) {
-                                c >>>= 2,
-                                h -= 2;
-                                break e
-                            }
-                            break;
-                        case 2:
-                            n.mode = 16196;
-                            break;
-                        case 3:
-                            e.msg = "invalid block type",
-                            n.mode = Fm
-                        }
-                        c >>>= 2,
-                        h -= 2;
-                        break;
-                    case 16193:
-                        for (c >>>= 7 & h,
-                        h -= 7 & h; h < 32; ) {
+                        n.lens[A[n.have++]] = 7 & c,
+                        c >>>= 3,
+                        h -= 3
+                    }
+                    for (; n.have < 19; )
+                        n.lens[A[n.have++]] = 0;
+                    if (n.lencode = n.lendyn,
+                    n.lenbits = 7,
+                    M = {
+                        bits: n.lenbits
+                    },
+                    k = bm(0, n.lens, 0, 19, n.lencode, 0, n.work, M),
+                    n.lenbits = M.bits,
+                    k) {
+                        e.msg = "invalid code lengths set",
+                        n.mode = Fm;
+                        break
+                    }
+                    n.have = 0,
+                    n.mode = 16198;
+                case 16198:
+                    for (; n.have < n.nlen + n.ndist; ) {
+                        for (; E = n.lencode[c & (1 << n.lenbits) - 1],
+                        g = E >>> 24,
+                        v = E >>> 16 & 255,
+                        w = 65535 & E,
+                        !(g <= h); ) {
                             if (0 === s)
                                 break e;
                             s--,
                             c += i[a++] << h,
                             h += 8
                         }
-                        if ((65535 & c) != (c >>> 16 ^ 65535)) {
-                            e.msg = "invalid stored block lengths",
-                            n.mode = Fm;
-                            break
-                        }
-                        if (n.length = 65535 & c,
-                        c = 0,
-                        h = 0,
-                        n.mode = Um,
-                        t === km)
-                            break e;
-                    case Um:
-                        n.mode = 16195;
-                    case 16195:
-                        if (p = n.length,
-                        p) {
-                            if (p > s && (p = s),
-                            p > l && (p = l),
-                            0 === p)
-                                break e;
-                            r.set(i.subarray(a, a + p), o),
-                            s -= p,
-                            a += p,
-                            l -= p,
-                            o += p,
-                            n.length -= p;
-                            break
-                        }
-                        n.mode = Nm;
-                        break;
-                    case 16196:
-                        for (; h < 14; ) {
-                            if (0 === s)
-                                break e;
-                            s--,
-                            c += i[a++] << h,
-                            h += 8
-                        }
-                        if (n.nlen = 257 + (31 & c),
-                        c >>>= 5,
-                        h -= 5,
-                        n.ndist = 1 + (31 & c),
-                        c >>>= 5,
-                        h -= 5,
-                        n.ncode = 4 + (15 & c),
-                        c >>>= 4,
-                        h -= 4,
-                        n.nlen > 286 || n.ndist > 30) {
-                            e.msg = "too many length or distance symbols",
-                            n.mode = Fm;
-                            break
-                        }
-                        n.have = 0,
-                        n.mode = 16197;
-                    case 16197:
-                        for (; n.have < n.ncode; ) {
-                            for (; h < 3; ) {
-                                if (0 === s)
-                                    break e;
-                                s--,
-                                c += i[a++] << h,
-                                h += 8
-                            }
-                            n.lens[A[n.have++]] = 7 & c,
-                            c >>>= 3,
-                            h -= 3
-                        }
-                        for (; n.have < 19; )
-                            n.lens[A[n.have++]] = 0;
-                        if (n.lencode = n.lendyn,
-                        n.lenbits = 7,
-                        M = {
-                            bits: n.lenbits
-                        },
-                        k = bm(0, n.lens, 0, 19, n.lencode, 0, n.work, M),
-                        n.lenbits = M.bits,
-                        k) {
-                            e.msg = "invalid code lengths set",
-                            n.mode = Fm;
-                            break
-                        }
-                        n.have = 0,
-                        n.mode = 16198;
-                    case 16198:
-                        for (; n.have < n.nlen + n.ndist; ) {
-                            for (; E = n.lencode[c & (1 << n.lenbits) - 1],
-                            g = E >>> 24,
-                            v = E >>> 16 & 255,
-                            w = 65535 & E,
-                            !(g <= h); ) {
-                                if (0 === s)
-                                    break e;
-                                s--,
-                                c += i[a++] << h,
-                                h += 8
-                            }
-                            if (w < 16)
-                                c >>>= g,
-                                h -= g,
-                                n.lens[n.have++] = w;
-                            else {
-                                if (16 === w) {
-                                    for (T = g + 2; h < T; ) {
-                                        if (0 === s)
-                                            break e;
-                                        s--,
-                                        c += i[a++] << h,
-                                        h += 8
-                                    }
-                                    if (c >>>= g,
-                                    h -= g,
-                                    0 === n.have) {
-                                        e.msg = "invalid bit length repeat",
-                                        n.mode = Fm;
-                                        break
-                                    }
-                                    _ = n.lens[n.have - 1],
-                                    p = 3 + (3 & c),
-                                    c >>>= 2,
-                                    h -= 2
-                                } else if (17 === w) {
-                                    for (T = g + 3; h < T; ) {
-                                        if (0 === s)
-                                            break e;
-                                        s--,
-                                        c += i[a++] << h,
-                                        h += 8
-                                    }
-                                    c >>>= g,
-                                    h -= g,
-                                    _ = 0,
-                                    p = 3 + (7 & c),
-                                    c >>>= 3,
-                                    h -= 3
-                                } else {
-                                    for (T = g + 7; h < T; ) {
-                                        if (0 === s)
-                                            break e;
-                                        s--,
-                                        c += i[a++] << h,
-                                        h += 8
-                                    }
-                                    c >>>= g,
-                                    h -= g,
-                                    _ = 0,
-                                    p = 11 + (127 & c),
-                                    c >>>= 7,
-                                    h -= 7
+                        if (w < 16)
+                            c >>>= g,
+                            h -= g,
+                            n.lens[n.have++] = w;
+                        else {
+                            if (16 === w) {
+                                for (T = g + 2; h < T; ) {
+                                    if (0 === s)
+                                        break e;
+                                    s--,
+                                    c += i[a++] << h,
+                                    h += 8
                                 }
-                                if (n.have + p > n.nlen + n.ndist) {
+                                if (c >>>= g,
+                                h -= g,
+                                0 === n.have) {
                                     e.msg = "invalid bit length repeat",
                                     n.mode = Fm;
                                     break
                                 }
-                                for (; p--; )
-                                    n.lens[n.have++] = _
+                                _ = n.lens[n.have - 1],
+                                p = 3 + (3 & c),
+                                c >>>= 2,
+                                h -= 2
+                            } else if (17 === w) {
+                                for (T = g + 3; h < T; ) {
+                                    if (0 === s)
+                                        break e;
+                                    s--,
+                                    c += i[a++] << h,
+                                    h += 8
+                                }
+                                c >>>= g,
+                                h -= g,
+                                _ = 0,
+                                p = 3 + (7 & c),
+                                c >>>= 3,
+                                h -= 3
+                            } else {
+                                for (T = g + 7; h < T; ) {
+                                    if (0 === s)
+                                        break e;
+                                    s--,
+                                    c += i[a++] << h,
+                                    h += 8
+                                }
+                                c >>>= g,
+                                h -= g,
+                                _ = 0,
+                                p = 11 + (127 & c),
+                                c >>>= 7,
+                                h -= 7
                             }
+                            if (n.have + p > n.nlen + n.ndist) {
+                                e.msg = "invalid bit length repeat",
+                                n.mode = Fm;
+                                break
+                            }
+                            for (; p--; )
+                                n.lens[n.have++] = _
                         }
-                        if (n.mode === Fm)
-                            break;
-                        if (0 === n.lens[256]) {
-                            e.msg = "invalid code -- missing end-of-block",
-                            n.mode = Fm;
-                            break
-                        }
-                        if (n.lenbits = 9,
-                        M = {
-                            bits: n.lenbits
-                        },
-                        k = bm(1, n.lens, 0, n.nlen, n.lencode, 0, n.work, M),
-                        n.lenbits = M.bits,
-                        k) {
-                            e.msg = "invalid literal/lengths set",
-                            n.mode = Fm;
-                            break
-                        }
-                        if (n.distbits = 6,
-                        n.distcode = n.distdyn,
-                        M = {
-                            bits: n.distbits
-                        },
-                        k = bm(2, n.lens, n.nlen, n.ndist, n.distcode, 0, n.work, M),
-                        n.distbits = M.bits,
-                        k) {
-                            e.msg = "invalid distances set",
-                            n.mode = Fm;
-                            break
-                        }
-                        if (n.mode = Bm,
-                        t === km)
+                    }
+                    if (n.mode === Fm)
+                        break;
+                    if (0 === n.lens[256]) {
+                        e.msg = "invalid code -- missing end-of-block",
+                        n.mode = Fm;
+                        break
+                    }
+                    if (n.lenbits = 9,
+                    M = {
+                        bits: n.lenbits
+                    },
+                    k = bm(1, n.lens, 0, n.nlen, n.lencode, 0, n.work, M),
+                    n.lenbits = M.bits,
+                    k) {
+                        e.msg = "invalid literal/lengths set",
+                        n.mode = Fm;
+                        break
+                    }
+                    if (n.distbits = 6,
+                    n.distcode = n.distdyn,
+                    M = {
+                        bits: n.distbits
+                    },
+                    k = bm(2, n.lens, n.nlen, n.ndist, n.distcode, 0, n.work, M),
+                    n.distbits = M.bits,
+                    k) {
+                        e.msg = "invalid distances set",
+                        n.mode = Fm;
+                        break
+                    }
+                    if (n.mode = Bm,
+                    t === km)
+                        break e;
+                case Bm:
+                    n.mode = Om;
+                case Om:
+                    if (s >= 6 && l >= 258) {
+                        e.next_out = o,
+                        e.avail_out = l,
+                        e.next_in = a,
+                        e.avail_in = s,
+                        n.hold = c,
+                        n.bits = h,
+                        fm(e, u),
+                        o = e.next_out,
+                        r = e.output,
+                        l = e.avail_out,
+                        a = e.next_in,
+                        i = e.input,
+                        s = e.avail_in,
+                        c = n.hold,
+                        h = n.bits,
+                        n.mode === Nm && (n.back = -1);
+                        break
+                    }
+                    for (n.back = 0; E = n.lencode[c & (1 << n.lenbits) - 1],
+                    g = E >>> 24,
+                    v = E >>> 16 & 255,
+                    w = 65535 & E,
+                    !(g <= h); ) {
+                        if (0 === s)
                             break e;
-                    case Bm:
-                        n.mode = Om;
-                    case Om:
-                        if (s >= 6 && l >= 258) {
-                            e.next_out = o,
-                            e.avail_out = l,
-                            e.next_in = a,
-                            e.avail_in = s,
-                            n.hold = c,
-                            n.bits = h,
-                            fm(e, u),
-                            o = e.next_out,
-                            r = e.output,
-                            l = e.avail_out,
-                            a = e.next_in,
-                            i = e.input,
-                            s = e.avail_in,
-                            c = n.hold,
-                            h = n.bits,
-                            n.mode === Nm && (n.back = -1);
-                            break
-                        }
-                        for (n.back = 0; E = n.lencode[c & (1 << n.lenbits) - 1],
+                        s--,
+                        c += i[a++] << h,
+                        h += 8
+                    }
+                    if (v && !(240 & v)) {
+                        for (y = g,
+                        b = v,
+                        x = w; E = n.lencode[x + ((c & (1 << y + b) - 1) >> y)],
                         g = E >>> 24,
                         v = E >>> 16 & 255,
                         w = 65535 & E,
-                        !(g <= h); ) {
+                        !(y + g <= h); ) {
                             if (0 === s)
                                 break e;
                             s--,
                             c += i[a++] << h,
                             h += 8
                         }
-                        if (v && !(240 & v)) {
-                            for (y = g,
-                            b = v,
-                            x = w; E = n.lencode[x + ((c & (1 << y + b) - 1) >> y)],
-                            g = E >>> 24,
-                            v = E >>> 16 & 255,
-                            w = 65535 & E,
-                            !(y + g <= h); ) {
-                                if (0 === s)
-                                    break e;
-                                s--,
-                                c += i[a++] << h,
-                                h += 8
-                            }
-                            c >>>= y,
-                            h -= y,
-                            n.back += y
-                        }
-                        if (c >>>= g,
-                        h -= g,
-                        n.back += g,
-                        n.length = w,
-                        0 === v) {
-                            n.mode = 16205;
-                            break
-                        }
-                        if (32 & v) {
-                            n.back = -1,
-                            n.mode = Nm;
-                            break
-                        }
-                        if (64 & v) {
-                            e.msg = "invalid literal/length code",
-                            n.mode = Fm;
-                            break
-                        }
-                        n.extra = 15 & v,
-                        n.mode = 16201;
-                    case 16201:
-                        if (n.extra) {
-                            for (T = n.extra; h < T; ) {
-                                if (0 === s)
-                                    break e;
-                                s--,
-                                c += i[a++] << h,
-                                h += 8
-                            }
-                            n.length += c & (1 << n.extra) - 1,
-                            c >>>= n.extra,
-                            h -= n.extra,
-                            n.back += n.extra
-                        }
-                        n.was = n.length,
-                        n.mode = 16202;
-                    case 16202:
-                        for (; E = n.distcode[c & (1 << n.distbits) - 1],
-                        g = E >>> 24,
-                        v = E >>> 16 & 255,
-                        w = 65535 & E,
-                        !(g <= h); ) {
+                        c >>>= y,
+                        h -= y,
+                        n.back += y
+                    }
+                    if (c >>>= g,
+                    h -= g,
+                    n.back += g,
+                    n.length = w,
+                    0 === v) {
+                        n.mode = 16205;
+                        break
+                    }
+                    if (32 & v) {
+                        n.back = -1,
+                        n.mode = Nm;
+                        break
+                    }
+                    if (64 & v) {
+                        e.msg = "invalid literal/length code",
+                        n.mode = Fm;
+                        break
+                    }
+                    n.extra = 15 & v,
+                    n.mode = 16201;
+                case 16201:
+                    if (n.extra) {
+                        for (T = n.extra; h < T; ) {
                             if (0 === s)
                                 break e;
                             s--,
                             c += i[a++] << h,
                             h += 8
                         }
-                        if (!(240 & v)) {
-                            for (y = g,
-                            b = v,
-                            x = w; E = n.distcode[x + ((c & (1 << y + b) - 1) >> y)],
-                            g = E >>> 24,
-                            v = E >>> 16 & 255,
-                            w = 65535 & E,
-                            !(y + g <= h); ) {
-                                if (0 === s)
-                                    break e;
-                                s--,
-                                c += i[a++] << h,
-                                h += 8
-                            }
-                            c >>>= y,
-                            h -= y,
-                            n.back += y
+                        n.length += c & (1 << n.extra) - 1,
+                        c >>>= n.extra,
+                        h -= n.extra,
+                        n.back += n.extra
+                    }
+                    n.was = n.length,
+                    n.mode = 16202;
+                case 16202:
+                    for (; E = n.distcode[c & (1 << n.distbits) - 1],
+                    g = E >>> 24,
+                    v = E >>> 16 & 255,
+                    w = 65535 & E,
+                    !(g <= h); ) {
+                        if (0 === s)
+                            break e;
+                        s--,
+                        c += i[a++] << h,
+                        h += 8
+                    }
+                    if (!(240 & v)) {
+                        for (y = g,
+                        b = v,
+                        x = w; E = n.distcode[x + ((c & (1 << y + b) - 1) >> y)],
+                        g = E >>> 24,
+                        v = E >>> 16 & 255,
+                        w = 65535 & E,
+                        !(y + g <= h); ) {
+                            if (0 === s)
+                                break e;
+                            s--,
+                            c += i[a++] << h,
+                            h += 8
                         }
-                        if (c >>>= g,
-                        h -= g,
-                        n.back += g,
-                        64 & v) {
-                            e.msg = "invalid distance code",
-                            n.mode = Fm;
-                            break
+                        c >>>= y,
+                        h -= y,
+                        n.back += y
+                    }
+                    if (c >>>= g,
+                    h -= g,
+                    n.back += g,
+                    64 & v) {
+                        e.msg = "invalid distance code",
+                        n.mode = Fm;
+                        break
+                    }
+                    n.offset = w,
+                    n.extra = 15 & v,
+                    n.mode = 16203;
+                case 16203:
+                    if (n.extra) {
+                        for (T = n.extra; h < T; ) {
+                            if (0 === s)
+                                break e;
+                            s--,
+                            c += i[a++] << h,
+                            h += 8
                         }
-                        n.offset = w,
-                        n.extra = 15 & v,
-                        n.mode = 16203;
-                    case 16203:
-                        if (n.extra) {
-                            for (T = n.extra; h < T; ) {
-                                if (0 === s)
-                                    break e;
-                                s--,
-                                c += i[a++] << h,
-                                h += 8
-                            }
-                            n.offset += c & (1 << n.extra) - 1,
-                            c >>>= n.extra,
-                            h -= n.extra,
-                            n.back += n.extra
-                        }
-                        if (n.offset > n.dmax) {
+                        n.offset += c & (1 << n.extra) - 1,
+                        c >>>= n.extra,
+                        h -= n.extra,
+                        n.back += n.extra
+                    }
+                    if (n.offset > n.dmax) {
+                        e.msg = "invalid distance too far back",
+                        n.mode = Fm;
+                        break
+                    }
+                    n.mode = 16204;
+                case 16204:
+                    if (0 === l)
+                        break e;
+                    if (p = u - l,
+                    n.offset > p) {
+                        if (p = n.offset - p,
+                        p > n.whave && n.sane) {
                             e.msg = "invalid distance too far back",
                             n.mode = Fm;
                             break
                         }
-                        n.mode = 16204;
-                    case 16204:
-                        if (0 === l)
-                            break e;
-                        if (p = u - l,
-                        n.offset > p) {
-                            if (p = n.offset - p,
-                            p > n.whave && n.sane) {
-                                e.msg = "invalid distance too far back",
-                                n.mode = Fm;
-                                break
-                            }
-                            p > n.wnext ? (p -= n.wnext,
-                            f = n.wsize - p) : f = n.wnext - p,
-                            p > n.length && (p = n.length),
-                            m = n.window
-                        } else
-                            m = r,
-                            f = o - n.offset,
-                            p = n.length;
-                        p > l && (p = l),
-                        l -= p,
-                        n.length -= p;
-                        do {
-                            r[o++] = m[f++]
-                        } while (--p);
-                        0 === n.length && (n.mode = Om);
-                        break;
-                    case 16205:
-                        if (0 === l)
-                            break e;
-                        r[o++] = n.length,
-                        l--,
-                        n.mode = Om;
-                        break;
-                    case zm:
-                        if (n.wrap) {
-                            for (; h < 32; ) {
-                                if (0 === s)
-                                    break e;
-                                s--,
-                                c |= i[a++] << h,
-                                h += 8
-                            }
-                            if (u -= l,
-                            e.total_out += u,
-                            n.total += u,
-                            4 & n.wrap && u && (e.adler = n.check = n.flags ? jp(n.check, r, u, o - u) : Vp(n.check, r, u, o - u)),
-                            u = l,
-                            4 & n.wrap && (n.flags ? c : Wm(c)) !== n.check) {
-                                e.msg = "incorrect data check",
-                                n.mode = Fm;
-                                break
-                            }
-                            c = 0,
-                            h = 0
-                        }
-                        n.mode = 16207;
-                    case 16207:
-                        if (n.wrap && n.flags) {
-                            for (; h < 32; ) {
-                                if (0 === s)
-                                    break e;
-                                s--,
-                                c += i[a++] << h,
-                                h += 8
-                            }
-                            if (4 & n.wrap && c !== (4294967295 & n.total)) {
-                                e.msg = "incorrect length check",
-                                n.mode = Fm;
-                                break
-                            }
-                            c = 0,
-                            h = 0
-                        }
-                        n.mode = 16208;
-                    case 16208:
-                        k = Sm;
+                        p > n.wnext ? (p -= n.wnext,
+                        f = n.wsize - p) : f = n.wnext - p,
+                        p > n.length && (p = n.length),
+                        m = n.window
+                    } else
+                        m = r,
+                        f = o - n.offset,
+                        p = n.length;
+                    p > l && (p = l),
+                    l -= p,
+                    n.length -= p;
+                    do {
+                        r[o++] = m[f++]
+                    } while (--p);
+                    0 === n.length && (n.mode = Om);
+                    break;
+                case 16205:
+                    if (0 === l)
                         break e;
-                    case Fm:
-                        k = Am;
-                        break e;
-                    case 16210:
-                        return Cm;
-                    default:
-                        return Tm
+                    r[o++] = n.length,
+                    l--,
+                    n.mode = Om;
+                    break;
+                case zm:
+                    if (n.wrap) {
+                        for (; h < 32; ) {
+                            if (0 === s)
+                                break e;
+                            s--,
+                            c |= i[a++] << h,
+                            h += 8
+                        }
+                        if (u -= l,
+                        e.total_out += u,
+                        n.total += u,
+                        4 & n.wrap && u && (e.adler = n.check = n.flags ? jp(n.check, r, u, o - u) : Vp(n.check, r, u, o - u)),
+                        u = l,
+                        4 & n.wrap && (n.flags ? c : Wm(c)) !== n.check) {
+                            e.msg = "incorrect data check",
+                            n.mode = Fm;
+                            break
+                        }
+                        c = 0,
+                        h = 0
                     }
-                return e.next_out = o,
-                e.avail_out = l,
-                e.next_in = a,
-                e.avail_in = s,
-                n.hold = c,
-                n.bits = h,
-                (n.wsize || u !== e.avail_out && n.mode < Fm && (n.mode < zm || t !== xm)) && Qm(e, e.output, e.next_out, u - e.avail_out),
-                d -= e.avail_in,
-                u -= e.avail_out,
-                e.total_in += d,
-                e.total_out += u,
-                n.total += u,
-                4 & n.wrap && u && (e.adler = n.check = n.flags ? jp(n.check, r, u, e.next_out - u) : Vp(n.check, r, u, e.next_out - u)),
-                e.data_type = n.bits + (n.last ? 64 : 0) + (n.mode === Nm ? 128 : 0) + (n.mode === Bm || n.mode === Um ? 256 : 0),
-                (0 === d && 0 === u || t === xm) && k === Em && (k = Pm),
-                k
-            }
-            ,
-            inflateEnd: e => {
-                if (Vm(e))
-                    return Tm;
-                let t = e.state;
-                return t.window && (t.window = null),
-                e.state = null,
-                Em
-            }
-            ,
-            inflateGetHeader: (e, t) => {
-                if (Vm(e))
-                    return Tm;
-                const n = e.state;
-                return 2 & n.wrap ? (n.head = t,
-                t.done = !1,
-                Em) : Tm
-            }
-            ,
-            inflateSetDictionary: (e, t) => {
-                const n = t.length;
-                let i, r, a;
-                return Vm(e) ? Tm : (i = e.state,
-                0 !== i.wrap && i.mode !== Im ? Tm : i.mode === Im && (r = 1,
-                r = Vp(r, t, n, 0),
-                r !== i.check) ? Am : (a = Qm(e, t, n, n),
-                a ? (i.mode = 16210,
-                Cm) : (i.havedict = 1,
-                Em)))
-            }
-            ,
+                    n.mode = 16207;
+                case 16207:
+                    if (n.wrap && n.flags) {
+                        for (; h < 32; ) {
+                            if (0 === s)
+                                break e;
+                            s--,
+                            c += i[a++] << h,
+                            h += 8
+                        }
+                        if (4 & n.wrap && c !== (4294967295 & n.total)) {
+                            e.msg = "incorrect length check",
+                            n.mode = Fm;
+                            break
+                        }
+                        c = 0,
+                        h = 0
+                    }
+                    n.mode = 16208;
+                case 16208:
+                    k = Sm;
+                    break e;
+                case Fm:
+                    k = Am;
+                    break e;
+                case 16210:
+                    return Cm;
+                default:
+                    return Tm
+                }
+            return e.next_out = o,
+            e.avail_out = l,
+            e.next_in = a,
+            e.avail_in = s,
+            n.hold = c,
+            n.bits = h,
+            (n.wsize || u !== e.avail_out && n.mode < Fm && (n.mode < zm || t !== xm)) && Qm(e, e.output, e.next_out, u - e.avail_out),
+            d -= e.avail_in,
+            u -= e.avail_out,
+            e.total_in += d,
+            e.total_out += u,
+            n.total += u,
+            4 & n.wrap && u && (e.adler = n.check = n.flags ? jp(n.check, r, u, e.next_out - u) : Vp(n.check, r, u, e.next_out - u)),
+            e.data_type = n.bits + (n.last ? 64 : 0) + (n.mode === Nm ? 128 : 0) + (n.mode === Bm || n.mode === Um ? 256 : 0),
+            (0 === d && 0 === u || t === xm) && k === Em && (k = Pm),
+            k
+        }
+          , eg = e => {
+            if (Vm(e))
+                return Tm;
+            let t = e.state;
+            return t.window && (t.window = null),
+            e.state = null,
+            Em
+        }
+          , tg = (e, t) => {
+            if (Vm(e))
+                return Tm;
+            const n = e.state;
+            return 2 & n.wrap ? (n.head = t,
+            t.done = !1,
+            Em) : Tm
+        }
+          , ng = (e, t) => {
+            const n = t.length;
+            let i, r, a;
+            return Vm(e) ? Tm : (i = e.state,
+            0 !== i.wrap && i.mode !== Im ? Tm : i.mode === Im && (r = 1,
+            r = Vp(r, t, n, 0),
+            r !== i.check) ? Am : (a = Qm(e, t, n, n),
+            a ? (i.mode = 16210,
+            Cm) : (i.havedict = 1,
+            Em)))
+        }
+          , ig = {
+            inflateReset: jm,
+            inflateReset2: qm,
+            inflateResetKeep: Gm,
+            inflateInit: e => Xm(e, 15),
+            inflateInit2: Xm,
+            inflate: $m,
+            inflateEnd: eg,
+            inflateGetHeader: tg,
+            inflateSetDictionary: ng,
             inflateInfo: "pako inflate (from Nodeca project)"
         };
-        var eg = function() {
+        var rg = function() {
             this.text = 0,
             this.time = 0,
             this.xflags = 0,
@@ -26346,9 +26346,9 @@
             this.hcrc = 0,
             this.done = !1
         };
-        const tg = Object.prototype.toString
-          , {Z_NO_FLUSH: ng, Z_FINISH: ig, Z_OK: rg, Z_STREAM_END: ag, Z_NEED_DICT: og, Z_STREAM_ERROR: sg, Z_DATA_ERROR: lg, Z_MEM_ERROR: cg} = Xp;
-        function hg(e) {
+        const ag = Object.prototype.toString
+          , {Z_NO_FLUSH: og, Z_FINISH: sg, Z_OK: lg, Z_STREAM_END: cg, Z_NEED_DICT: hg, Z_STREAM_ERROR: dg, Z_DATA_ERROR: ug, Z_MEM_ERROR: pg} = Xp;
+        function fg(e) {
             this.options = Xf.assign({
                 chunkSize: 65536,
                 windowBits: 15,
@@ -26365,53 +26365,53 @@
             this.chunks = [],
             this.strm = new Jf,
             this.strm.avail_out = 0;
-            let n = $m.inflateInit2(this.strm, t.windowBits);
-            if (n !== rg)
+            let n = ig.inflateInit2(this.strm, t.windowBits);
+            if (n !== lg)
                 throw new Error(qp[n]);
-            if (this.header = new eg,
-            $m.inflateGetHeader(this.strm, this.header),
-            t.dictionary && ("string" == typeof t.dictionary ? t.dictionary = Zf.string2buf(t.dictionary) : "[object ArrayBuffer]" === tg.call(t.dictionary) && (t.dictionary = new Uint8Array(t.dictionary)),
-            t.raw && (n = $m.inflateSetDictionary(this.strm, t.dictionary),
-            n !== rg)))
+            if (this.header = new rg,
+            ig.inflateGetHeader(this.strm, this.header),
+            t.dictionary && ("string" == typeof t.dictionary ? t.dictionary = Zf.string2buf(t.dictionary) : "[object ArrayBuffer]" === ag.call(t.dictionary) && (t.dictionary = new Uint8Array(t.dictionary)),
+            t.raw && (n = ig.inflateSetDictionary(this.strm, t.dictionary),
+            n !== lg)))
                 throw new Error(qp[n])
         }
-        function dg(e, t) {
-            const n = new hg(t);
+        function mg(e, t) {
+            const n = new fg(t);
             if (n.push(e),
             n.err)
                 throw n.msg || qp[n.err];
             return n.result
         }
-        hg.prototype.push = function(e, t) {
+        fg.prototype.push = function(e, t) {
             const n = this.strm
               , i = this.options.chunkSize
               , r = this.options.dictionary;
             let a, o, s;
             if (this.ended)
                 return !1;
-            for (o = t === ~~t ? t : !0 === t ? ig : ng,
-            "[object ArrayBuffer]" === tg.call(e) ? n.input = new Uint8Array(e) : n.input = e,
+            for (o = t === ~~t ? t : !0 === t ? sg : og,
+            "[object ArrayBuffer]" === ag.call(e) ? n.input = new Uint8Array(e) : n.input = e,
             n.next_in = 0,
             n.avail_in = n.input.length; ; ) {
                 for (0 === n.avail_out && (n.output = new Uint8Array(i),
                 n.next_out = 0,
                 n.avail_out = i),
-                a = $m.inflate(n, o),
-                a === og && r && (a = $m.inflateSetDictionary(n, r),
-                a === rg ? a = $m.inflate(n, o) : a === lg && (a = og)); n.avail_in > 0 && a === ag && n.state.wrap > 0 && 0 !== e[n.next_in]; )
-                    $m.inflateReset(n),
-                    a = $m.inflate(n, o);
+                a = ig.inflate(n, o),
+                a === hg && r && (a = ig.inflateSetDictionary(n, r),
+                a === lg ? a = ig.inflate(n, o) : a === ug && (a = hg)); n.avail_in > 0 && a === cg && n.state.wrap > 0 && 0 !== e[n.next_in]; )
+                    ig.inflateReset(n),
+                    a = ig.inflate(n, o);
                 switch (a) {
-                case sg:
-                case lg:
-                case og:
-                case cg:
+                case dg:
+                case ug:
+                case hg:
+                case pg:
                     return this.onEnd(a),
                     this.ended = !0,
                     !1
                 }
                 if (s = n.avail_out,
-                n.next_out && (0 === n.avail_out || a === ag))
+                n.next_out && (0 === n.avail_out || a === cg))
                     if ("string" === this.options.to) {
                         let e = Zf.utf8border(n.output, n.next_out)
                           , t = n.next_out - e
@@ -26422,9 +26422,9 @@
                         this.onData(r)
                     } else
                         this.onData(n.output.length === n.next_out ? n.output : n.output.subarray(0, n.next_out));
-                if (a !== rg || 0 !== s) {
-                    if (a === ag)
-                        return a = $m.inflateEnd(this.strm),
+                if (a !== lg || 0 !== s) {
+                    if (a === cg)
+                        return a = ig.inflateEnd(this.strm),
                         this.onEnd(a),
                         this.ended = !0,
                         !0;
@@ -26435,42 +26435,42 @@
             return !0
         }
         ,
-        hg.prototype.onData = function(e) {
+        fg.prototype.onData = function(e) {
             this.chunks.push(e)
         }
         ,
-        hg.prototype.onEnd = function(e) {
-            e === rg && ("string" === this.options.to ? this.result = this.chunks.join("") : this.result = Xf.flattenChunks(this.chunks)),
+        fg.prototype.onEnd = function(e) {
+            e === lg && ("string" === this.options.to ? this.result = this.chunks.join("") : this.result = Xf.flattenChunks(this.chunks)),
             this.chunks = [],
             this.err = e,
             this.msg = this.strm.msg
         }
         ;
-        var ug = function(e, t) {
+        var gg = function(e, t) {
             return (t = t || {}).raw = !0,
-            dg(e, t)
+            mg(e, t)
         }
-          , pg = {
-            Inflate: hg,
-            inflate: dg,
-            inflateRaw: ug,
-            ungzip: dg,
+          , vg = {
+            Inflate: fg,
+            inflate: mg,
+            inflateRaw: gg,
+            ungzip: mg,
             constants: Xp
         };
-        const {Deflate: fg, deflate: mg, deflateRaw: gg, gzip: vg} = um
-          , {Inflate: wg, inflate: yg, inflateRaw: bg, ungzip: xg} = pg;
-        var _g = {
-            Deflate: fg,
-            deflate: mg,
-            deflateRaw: gg,
-            gzip: vg,
-            Inflate: wg,
-            inflate: yg,
-            inflateRaw: bg,
-            ungzip: xg,
+        const {Deflate: wg, deflate: yg, deflateRaw: bg, gzip: xg} = um
+          , {Inflate: _g, inflate: kg, inflateRaw: Eg, ungzip: Sg} = vg;
+        var Mg = {
+            Deflate: wg,
+            deflate: yg,
+            deflateRaw: bg,
+            gzip: xg,
+            Inflate: _g,
+            inflate: kg,
+            inflateRaw: Eg,
+            ungzip: Sg,
             constants: Xp
         };
-        function kg(e) {
+        function Tg(e) {
             let t;
             e = (e = e.replace(/-/g, "+")).replace(/_/g, "/");
             try {
@@ -26487,7 +26487,7 @@
             }
             return n
         }
-        var Eg, Sg = function(e, t, n, i, r) {
+        var Ag, Cg = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -26496,73 +26496,73 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, Mg = function(e, t, n, i) {
+        }, Pg = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        class Tg {
+        class Rg {
             constructor(e) {
-                Eg.set(this, []),
-                null != e && Sg(this, Eg, e, "f")
+                Ag.set(this, []),
+                null != e && Cg(this, Ag, e, "f")
             }
             recordFrame(e, t) {
-                if (Mg(this, Eg, "f").length > 0) {
-                    const e = Mg(this, Eg, "f")[Mg(this, Eg, "f").length - 1];
+                if (Pg(this, Ag, "f").length > 0) {
+                    const e = Pg(this, Ag, "f")[Pg(this, Ag, "f").length - 1];
                     if (e.controls.up == t.up && e.controls.right == t.right && e.controls.down == t.down && e.controls.left == t.left)
                         return
                 }
-                Mg(this, Eg, "f").push({
+                Pg(this, Ag, "f").push({
                     frame: e,
                     controls: t
                 })
             }
             getFrame(e) {
-                for (let t = 0; t < Mg(this, Eg, "f").length; ++t) {
-                    const n = Mg(this, Eg, "f")[t];
+                for (let t = 0; t < Pg(this, Ag, "f").length; ++t) {
+                    const n = Pg(this, Ag, "f")[t];
                     if (n.frame == e)
                         return [n.controls.up, n.controls.right, n.controls.down, n.controls.left];
                     if (n.frame > e && t > 0) {
-                        const e = Mg(this, Eg, "f")[t - 1];
+                        const e = Pg(this, Ag, "f")[t - 1];
                         return [e.controls.up, e.controls.right, e.controls.down, e.controls.left]
                     }
                 }
-                if (Mg(this, Eg, "f").length > 0) {
-                    const e = Mg(this, Eg, "f")[Mg(this, Eg, "f").length - 1];
+                if (Pg(this, Ag, "f").length > 0) {
+                    const e = Pg(this, Ag, "f")[Pg(this, Ag, "f").length - 1];
                     return [e.controls.up, e.controls.right, e.controls.down, e.controls.left]
                 }
                 return [!1, !1, !1, !1]
             }
             getRecording() {
-                return Mg(this, Eg, "f")
+                return Pg(this, Ag, "f")
             }
             serialize() {
-                const e = new Uint8Array(Math.ceil(3.5 * Mg(this, Eg, "f").length));
-                for (let t = 0; t < Mg(this, Eg, "f").length; ++t) {
-                    const n = Mg(this, Eg, "f")[t];
+                const e = new Uint8Array(Math.ceil(3.5 * Pg(this, Ag, "f").length));
+                for (let t = 0; t < Pg(this, Ag, "f").length; ++t) {
+                    const n = Pg(this, Ag, "f")[t];
                     e[3 * t] = 255 & n.frame,
                     e[3 * t + 1] = n.frame >>> 8 & 255,
                     e[3 * t + 2] = n.frame >>> 16 & 255
                 }
-                for (let t = 0; t < Mg(this, Eg, "f").length; t += 2) {
-                    const n = Mg(this, Eg, "f")[t];
+                for (let t = 0; t < Pg(this, Ag, "f").length; t += 2) {
+                    const n = Pg(this, Ag, "f")[t];
                     let i = 0;
                     if (i |= n.controls.up ? 1 : 0,
                     i |= (n.controls.right ? 1 : 0) << 1,
                     i |= (n.controls.down ? 1 : 0) << 2,
                     i |= (n.controls.left ? 1 : 0) << 3,
-                    t + 1 < Mg(this, Eg, "f").length) {
-                        const e = Mg(this, Eg, "f")[t + 1];
+                    t + 1 < Pg(this, Ag, "f").length) {
+                        const e = Pg(this, Ag, "f")[t + 1];
                         i |= (e.controls.up ? 1 : 0) << 4,
                         i |= (e.controls.right ? 1 : 0) << 5,
                         i |= (e.controls.down ? 1 : 0) << 6,
                         i |= (e.controls.left ? 1 : 0) << 7
                     }
-                    e[3 * Mg(this, Eg, "f").length + Math.floor(t / 2)] = i
+                    e[3 * Pg(this, Ag, "f").length + Math.floor(t / 2)] = i
                 }
-                const t = new _g.Deflate({
+                const t = new Mg.Deflate({
                     level: 9
                 });
                 return t.push(new Uint8Array(e), !0),
@@ -26580,15 +26580,17 @@
                 }(t.result)
             }
             static deserialize(e) {
-                const t = kg(e);
+                const t = Tg(e);
                 if (null == t)
                     return null;
-                const n = new _g.Inflate;
+                const n = new Mg.Inflate;
                 if (n.push(t, !0),
                 n.err)
                     return null;
-                const i = n.result
-                  , r = []
+                const i = n.result;
+                if (!(i instanceof Uint8Array))
+                    return null;
+                const r = []
                   , a = Math.round(i.length / 3.5);
                 for (let e = 0; e < a; ++e) {
                     const t = i[3 * e + 0] | i[3 * e + 1] << 8 | i[3 * e + 2] << 16;
@@ -26610,12 +26612,12 @@
                         controls: n
                     })
                 }
-                return new Tg(r)
+                return new Rg(r)
             }
         }
-        Eg = new WeakMap;
-        const Ag = Tg;
-        var Cg, Pg, Rg, Lg, Ig, Ng, Dg, Ug, Bg, Og, zg, Fg, Wg, Hg, Vg, Gg, jg, qg, Xg, Yg, Kg, Zg, Jg, Qg, $g, ev, tv, nv, iv, rv, av, ov, sv, lv, cv, hv, dv, uv, pv, fv, mv, gv, vv, wv, yv, bv, xv, _v, kv, Ev, Sv, Mv, Tv, Av, Cv, Pv, Rv, Lv, Iv = function(e, t, n, i, r) {
+        Ag = new WeakMap;
+        const Lg = Rg;
+        var Ig, Ng, Dg, Ug, Bg, Og, zg, Fg, Wg, Hg, Vg, Gg, jg, qg, Xg, Yg, Kg, Zg, Jg, Qg, $g, ev, tv, nv, iv, rv, av, ov, sv, lv, cv, hv, dv, uv, pv, fv, mv, gv, vv, wv, yv, bv, xv, _v, kv, Ev, Sv, Mv, Tv, Av, Cv, Pv, Rv, Lv, Iv, Nv, Dv, Uv, Bv = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -26624,82 +26626,82 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, Nv = function(e, t, n, i) {
+        }, Ov = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        class Dv {
+        class zv {
             constructor(e, t, n, i, r, a, o, s, l, c) {
                 var h;
-                if (Cg.add(this),
-                Rg.set(this, void 0),
-                Lg.set(this, null),
-                Ig.set(this, 1),
-                Ng.set(this, null),
-                Dg.set(this, 0),
-                Ug.set(this, []),
-                Bg.set(this, null),
+                if (Ig.add(this),
+                Dg.set(this, void 0),
+                Ug.set(this, null),
+                Bg.set(this, 1),
                 Og.set(this, null),
-                zg.set(this, null),
+                zg.set(this, 0),
                 Fg.set(this, []),
-                Wg.set(this, void 0),
-                Hg.set(this, void 0),
-                Vg.set(this, void 0),
-                Gg.set(this, void 0),
-                jg.set(this, !1),
+                Wg.set(this, null),
+                Hg.set(this, null),
+                Vg.set(this, null),
+                Gg.set(this, []),
+                jg.set(this, void 0),
                 qg.set(this, void 0),
                 Xg.set(this, void 0),
                 Yg.set(this, void 0),
-                Kg.set(this, void 0),
-                Zg.set(this, []),
-                Jg.set(this, [0, 0, 0, 0]),
-                Qg.set(this, [0, 0, 0, 0]),
+                Kg.set(this, !1),
+                Zg.set(this, void 0),
+                Jg.set(this, void 0),
+                Qg.set(this, void 0),
                 $g.set(this, void 0),
-                ev.set(this, null),
-                tv.set(this, null),
-                nv.set(this, null),
-                iv.set(this, []),
+                ev.set(this, []),
+                tv.set(this, [0, 0, 0, 0]),
+                nv.set(this, [0, 0, 0, 0]),
+                iv.set(this, void 0),
                 rv.set(this, null),
-                av.set(this, void 0),
-                ov.set(this, void 0),
-                sv.set(this, void 0),
-                lv.set(this, void 0),
+                av.set(this, null),
+                ov.set(this, null),
+                sv.set(this, []),
+                lv.set(this, null),
                 cv.set(this, void 0),
                 hv.set(this, void 0),
                 dv.set(this, void 0),
-                uv.set(this, []),
-                pv.set(this, null),
-                fv.set(this, [.075, .075, .075, .075]),
+                uv.set(this, void 0),
+                pv.set(this, void 0),
+                fv.set(this, void 0),
                 mv.set(this, void 0),
-                gv.set(this, null),
-                vv.set(this, !1),
-                Iv(this, Rg, o, "f"),
-                Iv(this, $g, a, "f"),
-                Iv(this, cv, s, "f"),
-                Iv(this, hv, l, "f"),
-                Iv(this, dv, c, "f"),
-                Iv(this, Gg, e, "f"),
-                Iv(this, Wg, r, "f"),
-                (null == c ? void 0 : c.getSettingBoolean(Jh.ParticlesEnabled)) ? Iv(this, mv, new Ou(a), "f") : Iv(this, mv, null, "f"),
-                null != Nv(this, cv, "f") && null != Nv(this, hv, "f") && Iv(this, uv, [new $u(Nv(this, $g, "f"),Nv(this, cv, "f"),Nv(this, hv, "f")), new $u(Nv(this, $g, "f"),Nv(this, cv, "f"),Nv(this, hv, "f")), new $u(Nv(this, $g, "f"),Nv(this, cv, "f"),Nv(this, hv, "f")), new $u(Nv(this, $g, "f"),Nv(this, cv, "f"),Nv(this, hv, "f"))], "f"),
-                Iv(this, Hg, new Tu, "f"),
-                Nv(this, Hg, "f").reset(t.position, t.quaternion),
-                a.scene.add(Nv(this, Hg, "f").camera),
-                Iv(this, Vg, new gu, "f"),
-                Nv(this, Vg, "f").reset(t.position, t.quaternion),
-                a.scene.add(Nv(this, Vg, "f").camera),
-                null == Pg.models)
+                gv.set(this, []),
+                vv.set(this, null),
+                wv.set(this, [.075, .075, .075, .075]),
+                yv.set(this, void 0),
+                bv.set(this, null),
+                xv.set(this, !1),
+                Bv(this, Dg, o, "f"),
+                Bv(this, iv, a, "f"),
+                Bv(this, pv, s, "f"),
+                Bv(this, fv, l, "f"),
+                Bv(this, mv, c, "f"),
+                Bv(this, Yg, e, "f"),
+                Bv(this, jg, r, "f"),
+                (null == c ? void 0 : c.getSettingBoolean(Jh.ParticlesEnabled)) ? Bv(this, yv, new Ou(a), "f") : Bv(this, yv, null, "f"),
+                null != Ov(this, pv, "f") && null != Ov(this, fv, "f") && Bv(this, gv, [new $u(Ov(this, iv, "f"),Ov(this, pv, "f"),Ov(this, fv, "f")), new $u(Ov(this, iv, "f"),Ov(this, pv, "f"),Ov(this, fv, "f")), new $u(Ov(this, iv, "f"),Ov(this, pv, "f"),Ov(this, fv, "f")), new $u(Ov(this, iv, "f"),Ov(this, pv, "f"),Ov(this, fv, "f"))], "f"),
+                Bv(this, qg, new Tu, "f"),
+                Ov(this, qg, "f").reset(t.position, t.quaternion),
+                a.scene.add(Ov(this, qg, "f").camera),
+                Bv(this, Xg, new gu, "f"),
+                Ov(this, Xg, "f").reset(t.position, t.quaternion),
+                a.scene.add(Ov(this, Xg, "f").camera),
+                null == Ng.models)
                     throw "Car model isn't loaded yet";
-                if (null != Nv(this, Gg, "f") && null != Nv(this, cv, "f") && null != Nv(this, hv, "f"))
-                    Iv(this, qg, Nv(this, Gg, "f").createCar(t, Nv(this, cv, "f").getMountainVertices(), Nv(this, cv, "f").getMountainOffset(), Nv(this, hv, "f").getTrackData(), n, (e => this.setCarState(e))), "f");
+                if (null != Ov(this, Yg, "f") && null != Ov(this, pv, "f") && null != Ov(this, fv, "f"))
+                    Bv(this, Zg, Ov(this, Yg, "f").createCar(t, Ov(this, pv, "f").getMountainVertices(), Ov(this, pv, "f").getMountainOffset(), Ov(this, fv, "f").getTrackData(), n, (e => this.setCarState(e))), "f");
                 else {
                     const e = .11898833513259888
                       , n = [new Un(.627909,.27 - e,1.3478).applyQuaternion(t.quaternion).add(t.position), new Un(-.627909,.27 - e,1.3478).applyQuaternion(t.quaternion).add(t.position), new Un(.720832,.27 - e,-1.52686).applyQuaternion(t.quaternion).add(t.position), new Un(-.720832,.27 - e,-1.52686).applyQuaternion(t.quaternion).add(t.position)]
                       , i = [(new Dn).setFromEuler((new _i).set(0, Math.PI, 0)).multiply(t.quaternion), (new Dn).setFromEuler((new _i).set(0, Math.PI, 0)).multiply(t.quaternion), (new Dn).setFromEuler((new _i).set(0, Math.PI, 0)).multiply(t.quaternion), (new Dn).setFromEuler((new _i).set(0, Math.PI, 0)).multiply(t.quaternion)];
-                    Iv(this, qg, {
+                    Bv(this, Zg, {
                         id: 0,
                         frames: 0,
                         totalFrames: 0,
@@ -26736,24 +26738,24 @@
                         }
                     }, "f")
                 }
-                if (Iv(this, Xg, i, "f"),
+                if (Bv(this, Jg, i, "f"),
                 null == n)
-                    Iv(this, Yg, null != Nv(this, Xg, "f"), "f"),
-                    Iv(this, Kg, new Ag, "f");
+                    Bv(this, Qg, null != Ov(this, Jg, "f"), "f"),
+                    Bv(this, $g, new Lg, "f");
                 else {
-                    if (null != Nv(this, Xg, "f"))
+                    if (null != Ov(this, Jg, "f"))
                         throw "Can't control car when recording is set";
-                    Iv(this, Yg, !1, "f"),
-                    Iv(this, Kg, n, "f")
+                    Bv(this, Qg, !1, "f"),
+                    Bv(this, $g, n, "f")
                 }
-                Iv(this, ev, new Ws, "f"),
-                Nv(this, ev, "f").add(Pg.models.chassis.clone()),
-                Nv(this, ev, "f").add(Pg.models.suspension.clone()),
-                Nv(this, ev, "f").add(Pg.models.wheelFL.clone()),
-                Nv(this, ev, "f").add(Pg.models.wheelFR.clone()),
-                Nv(this, ev, "f").add(Pg.models.wheelBL.clone()),
-                Nv(this, ev, "f").add(Pg.models.wheelBR.clone()),
-                Nv(this, ev, "f").children.forEach((e => {
+                Bv(this, rv, new Ws, "f"),
+                Ov(this, rv, "f").add(Ng.models.chassis.clone()),
+                Ov(this, rv, "f").add(Ng.models.suspension.clone()),
+                Ov(this, rv, "f").add(Ng.models.wheelFL.clone()),
+                Ov(this, rv, "f").add(Ng.models.wheelFR.clone()),
+                Ov(this, rv, "f").add(Ng.models.wheelBL.clone()),
+                Ov(this, rv, "f").add(Ng.models.wheelBR.clone()),
+                Ov(this, rv, "f").children.forEach((e => {
                     const t = e;
                     Array.isArray(t.material) ? t.material = t.material.map((e => e.clone())) : t.material = t.material.clone(),
                     t.castShadow = !0,
@@ -26761,9 +26763,9 @@
                     t.frustumCulled = !1
                 }
                 )),
-                Nv(this, $g, "f").scene.add(Nv(this, ev, "f")),
-                Iv(this, tv, Nv(this, ev, "f").getObjectByName("Body"), "f"),
-                Iv(this, nv, Nv(this, ev, "f").getObjectByName("Suspension"), "f");
+                Ov(this, iv, "f").scene.add(Ov(this, rv, "f")),
+                Bv(this, av, Ov(this, rv, "f").getObjectByName("Body"), "f"),
+                Bv(this, ov, Ov(this, rv, "f").getObjectByName("Suspension"), "f");
                 {
                     const e = document.createElement("canvas");
                     e.width = 2048,
@@ -26774,16 +26776,16 @@
                     const n = new Cn(e);
                     let i;
                     n.flipY = !1,
-                    n.anisotropy = Nv(this, $g, "f").getMaxAnisotropy(),
+                    n.anisotropy = Ov(this, iv, "f").getMaxAnisotropy(),
                     n.needsUpdate = !0,
-                    Iv(this, av, t, "f"),
-                    Iv(this, ov, n, "f"),
-                    Iv(this, lv, wu.random(), "f"),
-                    Nv(this, Cg, "m", yv).call(this),
-                    Iv(this, sv, {
+                    Bv(this, cv, t, "f"),
+                    Bv(this, hv, n, "f"),
+                    Bv(this, uv, wu.random(), "f"),
+                    Ov(this, Ig, "m", kv).call(this),
+                    Bv(this, dv, {
                         value: new Un(0,0,0)
                     }, "f"),
-                    i = Array.isArray(Nv(this, tv, "f").material) ? Nv(this, tv, "f").material : [Nv(this, tv, "f").material];
+                    i = Array.isArray(Ov(this, av, "f").material) ? Ov(this, av, "f").material : [Ov(this, av, "f").material];
                     for (let e = 0; e < i.length; ++e) {
                         const t = i[e];
                         "Main" == t.name ? t.onBeforeCompile = e => {
@@ -26792,21 +26794,21 @@
                             e.uniforms.carColorPattern = {
                                 value: n
                             },
-                            e.uniforms.carColorSecondary = Nv(this, sv, "f"),
+                            e.uniforms.carColorSecondary = Ov(this, dv, "f"),
                             null == e.defines && (e.defines = {}),
                             e.defines.USE_UV = !0
                         }
-                        : "Metal" == t.name ? t.needsUpdate = !0 : "BrakeLight" == t.name && Iv(this, rv, t, "f")
+                        : "Metal" == t.name ? t.needsUpdate = !0 : "BrakeLight" == t.name && Bv(this, lv, t, "f")
                     }
                 }
-                Nv(this, nv, "f").geometry.morphAttributes.position = [];
-                const d = Nv(this, nv, "f")
-                  , u = Pg.models.suspensionFL
-                  , p = Pg.models.suspensionFR
-                  , f = Pg.models.suspensionBL
-                  , m = Pg.models.suspensionBR;
-                Nv(this, ev, "f").children.forEach((e => {
-                    if (e != Nv(this, tv, "f") && e != Nv(this, nv, "f")) {
+                Ov(this, ov, "f").geometry.morphAttributes.position = [];
+                const d = Ov(this, ov, "f")
+                  , u = Ng.models.suspensionFL
+                  , p = Ng.models.suspensionFR
+                  , f = Ng.models.suspensionBL
+                  , m = Ng.models.suspensionBR;
+                Ov(this, rv, "f").children.forEach((e => {
+                    if (e != Ov(this, av, "f") && e != Ov(this, ov, "f")) {
                         const t = e;
                         if (!(u.geometry.attributes.position instanceof lr && p.geometry.attributes.position instanceof lr && f.geometry.attributes.position instanceof lr && m.geometry.attributes.position instanceof lr))
                             throw "Vertices must use BufferAttribute";
@@ -26826,77 +26828,77 @@
                                 throw "Unidentified wheel";
                             o.push(new lr(a,3))
                         }
-                        Nv(this, iv, "f").push(t)
+                        Ov(this, sv, "f").push(t)
                     }
                 }
                 )),
-                Nv(this, nv, "f").updateMorphTargets(),
-                null != Nv(this, Xg, "f") && (null === (h = Nv(this, Gg, "f")) || void 0 === h || h.controlCar(Nv(this, qg, "f").id, Nv(this, Xg, "f").up, Nv(this, Xg, "f").right, Nv(this, Xg, "f").down, Nv(this, Xg, "f").left),
-                Nv(this, Xg, "f").addChangeCallback(Iv(this, gv, (e => {
+                Ov(this, ov, "f").updateMorphTargets(),
+                null != Ov(this, Jg, "f") && (null === (h = Ov(this, Yg, "f")) || void 0 === h || h.controlCar(Ov(this, Zg, "f").id, Ov(this, Jg, "f").up, Ov(this, Jg, "f").right, Ov(this, Jg, "f").down, Ov(this, Jg, "f").left),
+                Ov(this, Jg, "f").addChangeCallback(Bv(this, bv, (e => {
                     var t;
-                    null === (t = Nv(this, Gg, "f")) || void 0 === t || t.controlCar(Nv(this, qg, "f").id, e.up, e.right, e.down, e.left)
+                    null === (t = Ov(this, Yg, "f")) || void 0 === t || t.controlCar(Ov(this, Zg, "f").id, e.up, e.right, e.down, e.left)
                 }
                 ), "f")))
             }
             dispose() {
                 var e, t, n;
-                Iv(this, vv, !0, "f"),
-                Nv(this, Cg, "m", wv).call(this),
-                Nv(this, $g, "f").scene.remove(Nv(this, Hg, "f").camera),
-                Nv(this, $g, "f").scene.remove(Nv(this, Vg, "f").camera),
-                null === (e = Nv(this, mv, "f")) || void 0 === e || e.dispose(),
-                Nv(this, uv, "f").forEach((e => {
+                Bv(this, xv, !0, "f"),
+                Ov(this, Ig, "m", _v).call(this),
+                Ov(this, iv, "f").scene.remove(Ov(this, qg, "f").camera),
+                Ov(this, iv, "f").scene.remove(Ov(this, Xg, "f").camera),
+                null === (e = Ov(this, yv, "f")) || void 0 === e || e.dispose(),
+                Ov(this, gv, "f").forEach((e => {
                     e.dispose()
                 }
                 )),
-                Nv(this, uv, "f").length = 0,
-                null != Nv(this, ev, "f") && (Nv(this, ev, "f").children.forEach((e => {
+                Ov(this, gv, "f").length = 0,
+                null != Ov(this, rv, "f") && (Ov(this, rv, "f").children.forEach((e => {
                     const t = e;
                     Array.isArray(t.material) ? t.material.forEach((e => e.dispose())) : t.material.dispose(),
                     t.geometry.dispose()
                 }
                 )),
-                Nv(this, $g, "f").scene.remove(Nv(this, ev, "f"))),
-                Nv(this, ov, "f").dispose(),
-                null === (t = Nv(this, Gg, "f")) || void 0 === t || t.deleteCar(Nv(this, qg, "f").id),
-                null != Nv(this, gv, "f") && (null === (n = Nv(this, Xg, "f")) || void 0 === n || n.removeChangeCallback(Nv(this, gv, "f")))
+                Ov(this, iv, "f").scene.remove(Ov(this, rv, "f"))),
+                Ov(this, hv, "f").dispose(),
+                null === (t = Ov(this, Yg, "f")) || void 0 === t || t.deleteCar(Ov(this, Zg, "f").id),
+                null != Ov(this, bv, "f") && (null === (n = Ov(this, Jg, "f")) || void 0 === n || n.removeChangeCallback(Ov(this, bv, "f")))
             }
             addFinishCallback(e) {
-                Nv(this, Zg, "f").push(e)
+                Ov(this, ev, "f").push(e)
             }
             getChassisMatrix() {
-                return null != Nv(this, tv, "f") ? Nv(this, tv, "f").matrix : null
+                return null != Ov(this, av, "f") ? Ov(this, av, "f").matrix : null
             }
             getSpeedKmh() {
-                return Nv(this, qg, "f").speedKmh
+                return Ov(this, Zg, "f").speedKmh
             }
             start() {
                 var e;
-                null === (e = Nv(this, Gg, "f")) || void 0 === e || e.startCar(Nv(this, qg, "f").id, null)
+                null === (e = Ov(this, Yg, "f")) || void 0 === e || e.startCar(Ov(this, Zg, "f").id, null)
             }
             hasStarted() {
-                return Nv(this, qg, "f").hasStarted
+                return Ov(this, Zg, "f").hasStarted
             }
             hasFinished() {
-                return Nv(this, qg, "f").hasFinished
+                return Ov(this, Zg, "f").hasFinished
             }
             getRecording() {
-                return Nv(this, Kg, "f")
+                return Ov(this, $g, "f")
             }
             getTime() {
-                return new rp(Nv(this, qg, "f").frames)
+                return new rp(Ov(this, Zg, "f").frames)
             }
             getTotalTime() {
-                return new rp(Nv(this, qg, "f").totalFrames)
+                return new rp(Ov(this, Zg, "f").totalFrames)
             }
             getNextCheckpointIndex() {
-                return Nv(this, qg, "f").nextCheckpointIndex
+                return Ov(this, Zg, "f").nextCheckpointIndex
             }
             getPosition() {
-                return new Un(Nv(this, qg, "f").position.x,Nv(this, qg, "f").position.y,Nv(this, qg, "f").position.z)
+                return new Un(Ov(this, Zg, "f").position.x,Ov(this, Zg, "f").position.y,Ov(this, Zg, "f").position.z)
             }
             getQuaternion() {
-                return new Dn(Nv(this, qg, "f").quaternion.x,Nv(this, qg, "f").quaternion.y,Nv(this, qg, "f").quaternion.z,Nv(this, qg, "f").quaternion.w)
+                return new Dn(Ov(this, Zg, "f").quaternion.x,Ov(this, Zg, "f").quaternion.y,Ov(this, Zg, "f").quaternion.z,Ov(this, Zg, "f").quaternion.w)
             }
             getMatrix4() {
                 const e = this.getPosition()
@@ -26906,43 +26908,43 @@
                 n
             }
             get isPaused() {
-                return Nv(this, jg, "f")
+                return Ov(this, Kg, "f")
             }
             set isPaused(e) {
                 var t;
-                Nv(this, jg, "f") != e && (null === (t = Nv(this, Gg, "f")) || void 0 === t || t.pauseCar(Nv(this, qg, "f").id, e),
-                Iv(this, jg, e, "f"))
+                Ov(this, Kg, "f") != e && (null === (t = Ov(this, Yg, "f")) || void 0 === t || t.pauseCar(Ov(this, Zg, "f").id, e),
+                Bv(this, Kg, e, "f"))
             }
             getControls() {
-                return null != Nv(this, Xg, "f") ? Nv(this, Xg, "f").getControls() : Nv(this, qg, "f").controls
+                return null != Ov(this, Jg, "f") ? Ov(this, Jg, "f").getControls() : Ov(this, Zg, "f").controls
             }
             getColors() {
-                return Nv(this, lv, "f")
+                return Ov(this, uv, "f")
             }
             setColors(e) {
-                if (Nv(this, sv, "f").value = (new Un).setFromColor(e.secondary),
-                null != Nv(this, tv, "f") && Array.isArray(Nv(this, tv, "f").material))
-                    for (let t = 0; t < Nv(this, tv, "f").material.length; ++t) {
-                        const n = Nv(this, tv, "f").material[t];
+                if (Ov(this, dv, "f").value = (new Un).setFromColor(e.secondary),
+                null != Ov(this, av, "f") && Array.isArray(Ov(this, av, "f").material))
+                    for (let t = 0; t < Ov(this, av, "f").material.length; ++t) {
+                        const n = Ov(this, av, "f").material[t];
                         "Main" == n.name ? n.color.set(e.primary) : "Metal" == n.name && n.color.set(e.frame)
                     }
-                if (null != Nv(this, nv, "f") && !Array.isArray(Nv(this, nv, "f").material)) {
-                    const t = Nv(this, nv, "f").material;
+                if (null != Ov(this, ov, "f") && !Array.isArray(Ov(this, ov, "f").material)) {
+                    const t = Ov(this, ov, "f").material;
                     "Metal" == t.name && t.color.set(e.frame)
                 }
-                for (let t = 0; t < Nv(this, iv, "f").length; ++t) {
-                    const n = Nv(this, iv, "f")[t];
+                for (let t = 0; t < Ov(this, sv, "f").length; ++t) {
+                    const n = Ov(this, sv, "f")[t];
                     if (Array.isArray(n.material))
                         for (let t = 0; t < n.material.length; ++t) {
                             const i = n.material[t];
                             "Metal" == i.name ? i.color.set(e.frame) : "Rim" == i.name && i.color.set(e.rims)
                         }
                 }
-                Iv(this, lv, e, "f")
+                Bv(this, uv, e, "f")
             }
             setOpacity(e) {
                 var t;
-                null === (t = Nv(this, ev, "f")) || void 0 === t || t.children.forEach((t => {
+                null === (t = Ov(this, rv, "f")) || void 0 === t || t.children.forEach((t => {
                     const n = t;
                     let i;
                     i = Array.isArray(n.material) ? n.material : [n.material],
@@ -26958,82 +26960,82 @@
             }
             setCarState(e) {
                 var t;
-                if (Nv(this, vv, "f"))
+                if (Ov(this, xv, "f"))
                     return;
-                const n = Nv(this, qg, "f");
-                Iv(this, qg, e, "f");
-                const i = Nv(this, qg, "f").frames != n.frames && Nv(this, qg, "f").frames != n.frames + 1;
-                Nv(this, qg, "f").nextCheckpointIndex > n.nextCheckpointIndex && Nv(this, Wg, "f") && Nv(this, Cg, "m", xv).call(this),
-                Nv(this, qg, "f").hasFinished && !n.hasFinished && (Nv(this, Wg, "f") && Nv(this, Cg, "m", _v).call(this),
-                Nv(this, Zg, "f").forEach((e => e(this))));
+                const n = Ov(this, Zg, "f");
+                Bv(this, Zg, e, "f");
+                const i = Ov(this, Zg, "f").frames != n.frames && Ov(this, Zg, "f").frames != n.frames + 1;
+                Ov(this, Zg, "f").nextCheckpointIndex > n.nextCheckpointIndex && Ov(this, jg, "f") && Ov(this, Ig, "m", Sv).call(this),
+                Ov(this, Zg, "f").hasFinished && !n.hasFinished && (Ov(this, jg, "f") && Ov(this, Ig, "m", Mv).call(this),
+                Ov(this, ev, "f").forEach((e => e(this))));
                 const r = .001;
-                i && (null === (t = Nv(this, mv, "f")) || void 0 === t || t.clear(),
-                Nv(this, uv, "f").forEach((e => {
+                i && (null === (t = Ov(this, yv, "f")) || void 0 === t || t.clear(),
+                Ov(this, gv, "f").forEach((e => {
                     e.clear()
                 }
                 ))),
-                this.getTotalTime().numberOfFrames % 10 == 0 && Nv(this, Cg, "m", kv).call(this, .01),
-                i && (Nv(this, Hg, "f").reset(this.getPosition(), this.getQuaternion()),
-                Nv(this, Vg, "f").reset(this.getPosition(), this.getQuaternion())),
-                Nv(this, qg, "f").hasFinished || (Nv(this, Hg, "f").update(this.getPosition(), this.getQuaternion(), this.getSpeedKmh()),
-                Nv(this, Vg, "f").update(this.getPosition(), this.getQuaternion(), this.getSpeedKmh())),
-                Nv(this, Cg, "m", Mv).call(this, r),
-                Nv(this, Cg, "m", Av).call(this, r),
-                Nv(this, Yg, "f") && Nv(this, qg, "f").hasStarted && !Nv(this, qg, "f").hasFinished && Nv(this, Kg, "f").recordFrame(n.frames, Nv(this, qg, "f").controls)
+                this.getTotalTime().numberOfFrames % 10 == 0 && Ov(this, Ig, "m", Tv).call(this, .01),
+                i && (Ov(this, qg, "f").reset(this.getPosition(), this.getQuaternion()),
+                Ov(this, Xg, "f").reset(this.getPosition(), this.getQuaternion())),
+                Ov(this, Zg, "f").hasFinished || (Ov(this, qg, "f").update(this.getPosition(), this.getQuaternion(), this.getSpeedKmh()),
+                Ov(this, Xg, "f").update(this.getPosition(), this.getQuaternion(), this.getSpeedKmh())),
+                Ov(this, Ig, "m", Pv).call(this, r),
+                Ov(this, Ig, "m", Lv).call(this, r),
+                Ov(this, Qg, "f") && Ov(this, Zg, "f").hasStarted && !Ov(this, Zg, "f").hasFinished && Ov(this, $g, "f").recordFrame(n.frames, Ov(this, Zg, "f").controls)
             }
             update(e) {
                 var t, n, i;
-                if (null != Nv(this, tv, "f") && null != Nv(this, nv, "f")) {
-                    Nv(this, Cg, "m", Ev).call(this),
-                    null === (t = Nv(this, mv, "f")) || void 0 === t || t.update(e);
+                if (null != Ov(this, av, "f") && null != Ov(this, ov, "f")) {
+                    Ov(this, Ig, "m", Av).call(this),
+                    null === (t = Ov(this, yv, "f")) || void 0 === t || t.update(e);
                     const r = this.getMatrix4()
                       , a = this.getQuaternion();
-                    Nv(this, tv, "f").matrixAutoUpdate = !1,
-                    Nv(this, tv, "f").matrix.copy(r),
-                    Nv(this, tv, "f").matrix.multiply((new ui).makeTranslation(0, Pg.massOffset, 0)),
-                    Nv(this, nv, "f").matrixAutoUpdate = !1,
-                    Nv(this, nv, "f").matrix.copy(Nv(this, tv, "f").matrix);
+                    Ov(this, av, "f").matrixAutoUpdate = !1,
+                    Ov(this, av, "f").matrix.copy(r),
+                    Ov(this, av, "f").matrix.multiply((new ui).makeTranslation(0, Ng.massOffset, 0)),
+                    Ov(this, ov, "f").matrixAutoUpdate = !1,
+                    Ov(this, ov, "f").matrix.copy(Ov(this, av, "f").matrix);
                     const o = 4;
                     for (let t = 0; t < o; t++) {
-                        const r = Nv(this, qg, "f").wheelInContact[t]
-                          , o = Nv(this, qg, "f").wheelDeltaRotation[t];
+                        const r = Ov(this, Zg, "f").wheelInContact[t]
+                          , o = Ov(this, Zg, "f").wheelDeltaRotation[t];
                         if (this.hasStarted()) {
                             if (r)
-                                Nv(this, Jg, "f")[t] = 1e3 * o;
+                                Ov(this, tv, "f")[t] = 1e3 * o;
                             else {
                                 const {up: i, down: r} = null !== (n = this.getControls()) && void 0 !== n ? n : {
                                     up: !1,
                                     down: !1
                                 };
-                                (2 == t || 3 == t) && (i ? Nv(this, Jg, "f")[t] += 50 * e : r && (Nv(this, Jg, "f")[t] -= 25 * e)),
-                                Nv(this, Jg, "f")[t] *= Math.max(0, 1 - e)
+                                (2 == t || 3 == t) && (i ? Ov(this, tv, "f")[t] += 50 * e : r && (Ov(this, tv, "f")[t] -= 25 * e)),
+                                Ov(this, tv, "f")[t] *= Math.max(0, 1 - e)
                             }
-                            Nv(this, Qg, "f")[t] += Nv(this, Jg, "f")[t] * e
+                            Ov(this, nv, "f")[t] += Ov(this, tv, "f")[t] * e
                         }
-                        const s = Nv(this, qg, "f").wheelPosition[t]
-                          , l = new Dn(Nv(this, qg, "f").wheelQuaternion[t].x,Nv(this, qg, "f").wheelQuaternion[t].y,Nv(this, qg, "f").wheelQuaternion[t].z,Nv(this, qg, "f").wheelQuaternion[t].w)
-                          , c = Nv(this, qg, "f").wheelRotation[t];
-                        l.multiply((new Dn).setFromAxisAngle(new Un(-1,0,0), Nv(this, Qg, "f")[t] - c)),
-                        Nv(this, iv, "f")[t].position.set(s.x, s.y, s.z),
-                        Nv(this, iv, "f")[t].quaternion.set(l.x, l.y, l.z, l.w);
-                        const h = Nv(this, qg, "f").wheelSuspensionLength[t]
-                          , d = Nv(this, qg, "f").wheelSkidInfo[t];
-                        Nv(this, nv, "f").morphTargetInfluences || (Nv(this, nv, "f").morphTargetInfluences = []),
-                        Nv(this, nv, "f").morphTargetInfluences[t] = 2 * h + .06,
-                        e > 0 && (null === (i = Nv(this, dv, "f")) || void 0 === i ? void 0 : i.getSettingBoolean(Jh.SkidmarksEnabled)) && t < Nv(this, uv, "f").length && r && o > .06 && d < .5 && 0 == Nv(this, fv, "f")[t] && Nv(this, uv, "f")[t].spawn(s.x, s.y, s.z, a)
+                        const s = Ov(this, Zg, "f").wheelPosition[t]
+                          , l = new Dn(Ov(this, Zg, "f").wheelQuaternion[t].x,Ov(this, Zg, "f").wheelQuaternion[t].y,Ov(this, Zg, "f").wheelQuaternion[t].z,Ov(this, Zg, "f").wheelQuaternion[t].w)
+                          , c = Ov(this, Zg, "f").wheelRotation[t];
+                        l.multiply((new Dn).setFromAxisAngle(new Un(-1,0,0), Ov(this, nv, "f")[t] - c)),
+                        Ov(this, sv, "f")[t].position.set(s.x, s.y, s.z),
+                        Ov(this, sv, "f")[t].quaternion.set(l.x, l.y, l.z, l.w);
+                        const h = Ov(this, Zg, "f").wheelSuspensionLength[t]
+                          , d = Ov(this, Zg, "f").wheelSkidInfo[t];
+                        Ov(this, ov, "f").morphTargetInfluences || (Ov(this, ov, "f").morphTargetInfluences = []),
+                        Ov(this, ov, "f").morphTargetInfluences[t] = 2 * h + .06,
+                        e > 0 && (null === (i = Ov(this, mv, "f")) || void 0 === i ? void 0 : i.getSettingBoolean(Jh.SkidmarksEnabled)) && t < Ov(this, gv, "f").length && r && o > .06 && d < .5 && 0 == Ov(this, wv, "f")[t] && Ov(this, gv, "f")[t].spawn(s.x, s.y, s.z, a)
                     }
-                    Nv(this, Cg, "m", Rv).call(this, Nv(this, qg, "f").brakeLightEnabled)
+                    Ov(this, Ig, "m", Dv).call(this, Ov(this, Zg, "f").brakeLightEnabled)
                 }
             }
             get cameraOrbit() {
-                return Nv(this, Hg, "f").camera
+                return Ov(this, qg, "f").camera
             }
             get cameraCockpit() {
-                return Nv(this, Vg, "f").camera
+                return Ov(this, Xg, "f").camera
             }
             set audioVolume(e) {
-                Iv(this, Ig, e, "f"),
-                null != Nv(this, Lg, "f") && Nv(this, Lg, "f").gain.setTargetAtTime(Nv(this, Ig, "f"), 0, .01)
+                Bv(this, Bg, e, "f"),
+                null != Ov(this, Ug, "f") && Ov(this, Ug, "f").gain.setTargetAtTime(Ov(this, Bg, "f"), 0, .01)
             }
             static initResources(e) {
                 e.addResource();
@@ -27063,7 +27065,7 @@
                         t.forEach((e => e.side = M)),
                         e
                     }
-                    Pg.models = {
+                    Ng.models = {
                         chassis: i(n("Body")),
                         suspension: i(n("Suspension")),
                         suspensionFL: i(n("SuspensionFL")),
@@ -27074,16 +27076,16 @@
                         wheelFR: i(n("WheelFR")),
                         wheelBL: i(n("WheelBL")),
                         wheelBR: i(n("WheelBR")),
-                        collisionShapeVertices: Nv(Pg, Pg, "m", Lv).call(Pg, n("Collision"))
+                        collisionShapeVertices: Ov(Ng, Ng, "m", Uv).call(Ng, n("Collision"))
                     },
-                    Pg.models.wheelFL.geometry.translate(-.627909, .218824, -1.3478),
-                    Pg.models.wheelFR.geometry.translate(.627909, .218824, -1.3478),
-                    Pg.models.wheelBL.geometry.translate(-.720832, .218824, 1.52686),
-                    Pg.models.wheelBR.geometry.translate(.720832, .218824, 1.52686),
-                    Pg.models.wheelFL.geometry.rotateZ(Math.PI),
-                    Pg.models.wheelFR.geometry.rotateZ(Math.PI),
-                    Pg.models.wheelBL.geometry.rotateZ(Math.PI),
-                    Pg.models.wheelBR.geometry.rotateZ(Math.PI),
+                    Ng.models.wheelFL.geometry.translate(-.627909, .218824, -1.3478),
+                    Ng.models.wheelFR.geometry.translate(.627909, .218824, -1.3478),
+                    Ng.models.wheelBL.geometry.translate(-.720832, .218824, 1.52686),
+                    Ng.models.wheelBR.geometry.translate(.720832, .218824, 1.52686),
+                    Ng.models.wheelFL.geometry.rotateZ(Math.PI),
+                    Ng.models.wheelFR.geometry.rotateZ(Math.PI),
+                    Ng.models.wheelBL.geometry.rotateZ(Math.PI),
+                    Ng.models.wheelBR.geometry.rotateZ(Math.PI),
                     e.loadedResource()
                 }
                 )),
@@ -27094,16 +27096,12 @@
                 }
                 )),
                 t.src = "images/car_stripe.svg",
-                Pg.images = {
+                Ng.images = {
                     stripe: t
                 }
             }
         }
-        Pg = Dv,
-        Rg = new WeakMap,
-        Lg = new WeakMap,
-        Ig = new WeakMap,
-        Ng = new WeakMap,
+        Ng = zv,
         Dg = new WeakMap,
         Ug = new WeakMap,
         Bg = new WeakMap,
@@ -27141,222 +27139,226 @@
         mv = new WeakMap,
         gv = new WeakMap,
         vv = new WeakMap,
-        Cg = new WeakSet,
-        wv = function() {
-            Nv(this, Cg, "m", bv).call(this),
+        wv = new WeakMap,
+        yv = new WeakMap,
+        bv = new WeakMap,
+        xv = new WeakMap,
+        Ig = new WeakSet,
+        _v = function() {
+            Ov(this, Ig, "m", Ev).call(this),
             setTimeout(( () => {
-                null != Nv(this, Ng, "f") && (Nv(this, Ng, "f").source.stop(),
-                Iv(this, Ng, null, "f")),
-                null != Nv(this, Bg, "f") && (Nv(this, Bg, "f").forEach(( ({source: e}) => {
+                null != Ov(this, Og, "f") && (Ov(this, Og, "f").source.stop(),
+                Bv(this, Og, null, "f")),
+                null != Ov(this, Wg, "f") && (Ov(this, Wg, "f").forEach(( ({source: e}) => {
                     e.stop()
                 }
                 )),
-                Iv(this, Bg, null, "f"))
+                Bv(this, Wg, null, "f"))
             }
             ), 200)
         }
         ,
-        yv = function() {
-            if (null == Pg.images)
+        kv = function() {
+            if (null == Ng.images)
                 throw "Car images are not loaded yet";
-            Nv(this, av, "f").clearRect(0, 0, Nv(this, av, "f").canvas.width, Nv(this, av, "f").canvas.height),
-            Nv(this, av, "f").drawImage(Pg.images.stripe, 0, 0, Nv(this, av, "f").canvas.width, Nv(this, av, "f").canvas.height),
-            Nv(this, ov, "f").needsUpdate = !0
-        }
-        ,
-        bv = function() {
-            if (null != Nv(this, Ng, "f") && (Nv(this, Ng, "f").source.playbackRate.setTargetAtTime(.7, 0, .15),
-            Nv(this, Ng, "f").gain.gain.setTargetAtTime(0, 0, .15)),
-            null != Nv(this, Bg, "f"))
-                for (let e = 0; e < Nv(this, Bg, "f").length; ++e) {
-                    const t = Nv(this, Bg, "f")[e];
-                    t.source.playbackRate.setTargetAtTime(.3, 0, .15),
-                    t.gain.gain.setTargetAtTime(0, 0, .15)
-                }
-            null != Nv(this, pv, "f") && (Nv(this, pv, "f").forEach(( ({source: e}) => {
-                e.stop()
-            }
-            )),
-            Iv(this, pv, null, "f"))
-        }
-        ,
-        xv = function() {
-            var e, t;
-            const n = null !== (t = null === (e = Nv(this, dv, "f")) || void 0 === e ? void 0 : e.getSettingFloat(Jh.CheckpointVolume)) && void 0 !== t ? t : 0;
-            let i = Math.min(Math.max(Nv(this, Ig, "f") * n, 0), 1);
-            if (Number.isNaN(i) && (i = 0),
-            i > 0 && null != Nv(this, Rg, "f")) {
-                const e = Nv(this, Rg, "f").getBuffer("checkpoint");
-                if (null != e && null != Nv(this, Rg, "f").context && null != Nv(this, Rg, "f").destinationMaster) {
-                    const t = Nv(this, Rg, "f").context.createBufferSource();
-                    t.buffer = e,
-                    t.playbackRate.value = 1.25;
-                    const n = Nv(this, Rg, "f").context.createGain();
-                    n.gain.value = .03 * i,
-                    t.connect(n),
-                    n.connect(Nv(this, Rg, "f").destinationMaster),
-                    t.start(0)
-                }
-            }
-        }
-        ,
-        _v = function() {
-            var e, t;
-            const n = null !== (t = null === (e = Nv(this, dv, "f")) || void 0 === e ? void 0 : e.getSettingFloat(Jh.CheckpointVolume)) && void 0 !== t ? t : 0;
-            let i = Math.min(Math.max(Nv(this, Ig, "f") * n, 0), 1);
-            if (Number.isNaN(i) && (i = 0),
-            i > 0 && null != Nv(this, Rg, "f")) {
-                const e = Nv(this, Rg, "f").getBuffer("finish");
-                if (null != e && null != Nv(this, Rg, "f").context && null != Nv(this, Rg, "f").destinationMaster) {
-                    const t = Nv(this, Rg, "f").context.createBufferSource();
-                    t.buffer = e,
-                    t.playbackRate.value = 1.25;
-                    const n = Nv(this, Rg, "f").context.createGain();
-                    n.gain.value = .03,
-                    t.connect(n),
-                    n.connect(Nv(this, Rg, "f").destinationMaster),
-                    t.start(0)
-                }
-            }
-        }
-        ,
-        kv = function(e) {
-            var t;
-            for (let n = 0; n < 4; n++) {
-                const i = Nv(this, qg, "f").wheelPosition[n]
-                  , r = Nv(this, qg, "f").wheelInContact[n]
-                  , a = Nv(this, qg, "f").wheelDeltaRotation[n]
-                  , o = Nv(this, qg, "f").wheelSkidInfo[n];
-                r && a > .06 && o < .5 ? (n < Nv(this, uv, "f").length && (Nv(this, fv, "f")[n] = Math.max(0, Nv(this, fv, "f")[n] - e)),
-                0 == Nv(this, fv, "f")[n] && null != Nv(this, mv, "f") && Nv(this, mv, "f").spawn(i.x, i.y, i.z)) : (n < Nv(this, uv, "f").length && (null === (t = Nv(this, dv, "f")) || void 0 === t ? void 0 : t.getSettingBoolean(Jh.SkidmarksEnabled)) && Nv(this, uv, "f")[n].break(),
-                Nv(this, fv, "f")[n] = .075)
-            }
+            Ov(this, cv, "f").clearRect(0, 0, Ov(this, cv, "f").canvas.width, Ov(this, cv, "f").canvas.height),
+            Ov(this, cv, "f").drawImage(Ng.images.stripe, 0, 0, Ov(this, cv, "f").canvas.width, Ov(this, cv, "f").canvas.height),
+            Ov(this, hv, "f").needsUpdate = !0
         }
         ,
         Ev = function() {
-            if (null != Nv(this, Rg, "f") && null != Nv(this, Rg, "f").context && null != Nv(this, Rg, "f").destinationSfx) {
-                null == Nv(this, Lg, "f") && (Iv(this, Lg, Nv(this, Rg, "f").context.createGain(), "f"),
-                Nv(this, Lg, "f").gain.value = Nv(this, Ig, "f"),
-                Nv(this, Lg, "f").connect(Nv(this, Rg, "f").destinationSfx)),
-                null == Nv(this, zg, "f") && (Iv(this, zg, Nv(this, Rg, "f").context.createPanner(), "f"),
-                Nv(this, zg, "f").refDistance = 5,
-                Nv(this, zg, "f").connect(Nv(this, Lg, "f")));
+            if (null != Ov(this, Og, "f") && (Ov(this, Og, "f").source.playbackRate.setTargetAtTime(.7, 0, .15),
+            Ov(this, Og, "f").gain.gain.setTargetAtTime(0, 0, .15)),
+            null != Ov(this, Wg, "f"))
+                for (let e = 0; e < Ov(this, Wg, "f").length; ++e) {
+                    const t = Ov(this, Wg, "f")[e];
+                    t.source.playbackRate.setTargetAtTime(.3, 0, .15),
+                    t.gain.gain.setTargetAtTime(0, 0, .15)
+                }
+            null != Ov(this, vv, "f") && (Ov(this, vv, "f").forEach(( ({source: e}) => {
+                e.stop()
+            }
+            )),
+            Bv(this, vv, null, "f"))
+        }
+        ,
+        Sv = function() {
+            var e, t;
+            const n = null !== (t = null === (e = Ov(this, mv, "f")) || void 0 === e ? void 0 : e.getSettingFloat(Jh.CheckpointVolume)) && void 0 !== t ? t : 0;
+            let i = Math.min(Math.max(Ov(this, Bg, "f") * n, 0), 1);
+            if (Number.isNaN(i) && (i = 0),
+            i > 0 && null != Ov(this, Dg, "f")) {
+                const e = Ov(this, Dg, "f").getBuffer("checkpoint");
+                if (null != e && null != Ov(this, Dg, "f").context && null != Ov(this, Dg, "f").destinationMaster) {
+                    const t = Ov(this, Dg, "f").context.createBufferSource();
+                    t.buffer = e,
+                    t.playbackRate.value = 1.25;
+                    const n = Ov(this, Dg, "f").context.createGain();
+                    n.gain.value = .03 * i,
+                    t.connect(n),
+                    n.connect(Ov(this, Dg, "f").destinationMaster),
+                    t.start(0)
+                }
+            }
+        }
+        ,
+        Mv = function() {
+            var e, t;
+            const n = null !== (t = null === (e = Ov(this, mv, "f")) || void 0 === e ? void 0 : e.getSettingFloat(Jh.CheckpointVolume)) && void 0 !== t ? t : 0;
+            let i = Math.min(Math.max(Ov(this, Bg, "f") * n, 0), 1);
+            if (Number.isNaN(i) && (i = 0),
+            i > 0 && null != Ov(this, Dg, "f")) {
+                const e = Ov(this, Dg, "f").getBuffer("finish");
+                if (null != e && null != Ov(this, Dg, "f").context && null != Ov(this, Dg, "f").destinationMaster) {
+                    const t = Ov(this, Dg, "f").context.createBufferSource();
+                    t.buffer = e,
+                    t.playbackRate.value = 1.25;
+                    const n = Ov(this, Dg, "f").context.createGain();
+                    n.gain.value = .03,
+                    t.connect(n),
+                    n.connect(Ov(this, Dg, "f").destinationMaster),
+                    t.start(0)
+                }
+            }
+        }
+        ,
+        Tv = function(e) {
+            var t;
+            for (let n = 0; n < 4; n++) {
+                const i = Ov(this, Zg, "f").wheelPosition[n]
+                  , r = Ov(this, Zg, "f").wheelInContact[n]
+                  , a = Ov(this, Zg, "f").wheelDeltaRotation[n]
+                  , o = Ov(this, Zg, "f").wheelSkidInfo[n];
+                r && a > .06 && o < .5 ? (n < Ov(this, gv, "f").length && (Ov(this, wv, "f")[n] = Math.max(0, Ov(this, wv, "f")[n] - e)),
+                0 == Ov(this, wv, "f")[n] && null != Ov(this, yv, "f") && Ov(this, yv, "f").spawn(i.x, i.y, i.z)) : (n < Ov(this, gv, "f").length && (null === (t = Ov(this, mv, "f")) || void 0 === t ? void 0 : t.getSettingBoolean(Jh.SkidmarksEnabled)) && Ov(this, gv, "f")[n].break(),
+                Ov(this, wv, "f")[n] = .075)
+            }
+        }
+        ,
+        Av = function() {
+            if (null != Ov(this, Dg, "f") && null != Ov(this, Dg, "f").context && null != Ov(this, Dg, "f").destinationSfx) {
+                null == Ov(this, Ug, "f") && (Bv(this, Ug, Ov(this, Dg, "f").context.createGain(), "f"),
+                Ov(this, Ug, "f").gain.value = Ov(this, Bg, "f"),
+                Ov(this, Ug, "f").connect(Ov(this, Dg, "f").destinationSfx)),
+                null == Ov(this, Vg, "f") && (Bv(this, Vg, Ov(this, Dg, "f").context.createPanner(), "f"),
+                Ov(this, Vg, "f").refDistance = 5,
+                Ov(this, Vg, "f").connect(Ov(this, Ug, "f")));
                 const e = this.getPosition();
-                Nv(this, zg, "f").positionX.value = e.x,
-                Nv(this, zg, "f").positionY.value = e.y,
-                Nv(this, zg, "f").positionZ.value = e.z;
+                Ov(this, Vg, "f").positionX.value = e.x,
+                Ov(this, Vg, "f").positionY.value = e.y,
+                Ov(this, Vg, "f").positionZ.value = e.z;
                 const t = 4;
-                if (Nv(this, Fg, "f").length < t) {
-                    Nv(this, Fg, "f").length = 0;
+                if (Ov(this, Gg, "f").length < t) {
+                    Ov(this, Gg, "f").length = 0;
                     for (let e = 0; e < t; ++e) {
-                        const e = Nv(this, Rg, "f").context.createPanner();
+                        const e = Ov(this, Dg, "f").context.createPanner();
                         e.refDistance = 5,
-                        e.connect(Nv(this, Lg, "f")),
-                        Nv(this, Fg, "f").push(e)
+                        e.connect(Ov(this, Ug, "f")),
+                        Ov(this, Gg, "f").push(e)
                     }
                 }
                 for (let e = 0; e < t; ++e) {
-                    const t = Nv(this, Fg, "f")[e]
-                      , n = Nv(this, qg, "f").wheelPosition[e];
+                    const t = Ov(this, Gg, "f")[e]
+                      , n = Ov(this, Zg, "f").wheelPosition[e];
                     t.positionX.value = n.x,
                     t.positionY.value = n.y,
                     t.positionZ.value = n.z
                 }
-                Nv(this, $g, "f").camera != Nv(this, Hg, "f").camera && Nv(this, $g, "f").camera != Nv(this, Vg, "f").camera || Nv(this, Rg, "f").refreshListener(Nv(this, $g, "f")),
-                Nv(this, Cg, "m", Sv).call(this),
-                Nv(this, Cg, "m", Tv).call(this),
-                Nv(this, Cg, "m", Pv).call(this)
+                Ov(this, iv, "f").camera != Ov(this, qg, "f").camera && Ov(this, iv, "f").camera != Ov(this, Xg, "f").camera || Ov(this, Dg, "f").refreshListener(Ov(this, iv, "f")),
+                Ov(this, Ig, "m", Cv).call(this),
+                Ov(this, Ig, "m", Rv).call(this),
+                Ov(this, Ig, "m", Nv).call(this)
             }
         }
         ,
-        Sv = function() {
+        Cv = function() {
             var e;
-            if (null == Nv(this, Ng, "f") && null != Nv(this, zg, "f") && null != Nv(this, Rg, "f")) {
-                const e = Nv(this, Rg, "f").getBuffer("engine");
-                if (null != e && null != Nv(this, Rg, "f").context) {
-                    const t = Nv(this, Rg, "f").context.createBufferSource();
+            if (null == Ov(this, Og, "f") && null != Ov(this, Vg, "f") && null != Ov(this, Dg, "f")) {
+                const e = Ov(this, Dg, "f").getBuffer("engine");
+                if (null != e && null != Ov(this, Dg, "f").context) {
+                    const t = Ov(this, Dg, "f").context.createBufferSource();
                     t.buffer = e,
                     t.loop = !0,
                     t.playbackRate.value = .7;
-                    const n = Nv(this, Rg, "f").context.createGain();
+                    const n = Ov(this, Dg, "f").context.createGain();
                     n.gain.value = 0,
                     t.connect(n),
-                    n.connect(Nv(this, zg, "f")),
+                    n.connect(Ov(this, Vg, "f")),
                     t.start(0, 2 * Math.random()),
-                    Iv(this, Ng, {
+                    Bv(this, Og, {
                         source: t,
                         gain: n
                     }, "f")
                 }
             }
-            if (null != Nv(this, Ng, "f")) {
-                const t = (Nv(this, Jg, "f")[0] + Nv(this, Jg, "f")[1] + Nv(this, Jg, "f")[2] + Nv(this, Jg, "f")[3]) / 4
+            if (null != Ov(this, Og, "f")) {
+                const t = (Ov(this, tv, "f")[0] + Ov(this, tv, "f")[1] + Ov(this, tv, "f")[2] + Ov(this, tv, "f")[3]) / 4
                   , n = .7 + Math.pow(Math.abs(t), 1 / 3) / 3
-                  , i = Nv(this, qg, "f").wheelInContact[0] || Nv(this, qg, "f").wheelInContact[1] || Nv(this, qg, "f").wheelInContact[2] || Nv(this, qg, "f").wheelInContact[3]
+                  , i = Ov(this, Zg, "f").wheelInContact[0] || Ov(this, Zg, "f").wheelInContact[1] || Ov(this, Zg, "f").wheelInContact[2] || Ov(this, Zg, "f").wheelInContact[3]
                   , {up: r, down: a} = null !== (e = this.getControls()) && void 0 !== e ? e : {
                     up: !1,
                     down: !1
                 };
-                i ? (r || a && t < 0) && this.hasStarted() && !this.hasFinished() ? Iv(this, Dg, n, "f") : Iv(this, Dg, Math.max(.7, n / 2), "f") : (r || a && t < 0) && this.hasStarted() && !this.hasFinished() ? Iv(this, Dg, Math.max(.7, 1.15 * n), "f") : Iv(this, Dg, Math.max(.7, n / 2), "f"),
-                Nv(this, Ng, "f").source.playbackRate.setTargetAtTime(Nv(this, Dg, "f"), 0, .05),
-                Nv(this, Ng, "f").gain.gain.setTargetAtTime(Math.min(.285, Nv(this, Dg, "f") / 14), 0, .05)
+                i ? (r || a && t < 0) && this.hasStarted() && !this.hasFinished() ? Bv(this, zg, n, "f") : Bv(this, zg, Math.max(.7, n / 2), "f") : (r || a && t < 0) && this.hasStarted() && !this.hasFinished() ? Bv(this, zg, Math.max(.7, 1.15 * n), "f") : Bv(this, zg, Math.max(.7, n / 2), "f"),
+                Ov(this, Og, "f").source.playbackRate.setTargetAtTime(Ov(this, zg, "f"), 0, .05),
+                Ov(this, Og, "f").gain.gain.setTargetAtTime(Math.min(.285, Ov(this, zg, "f") / 14), 0, .05)
             }
         }
         ,
-        Mv = function(e) {
-            if (Nv(this, Ug, "f").length < 4) {
-                Nv(this, Ug, "f").length = 0;
+        Pv = function(e) {
+            if (Ov(this, Fg, "f").length < 4) {
+                Ov(this, Fg, "f").length = 0;
                 for (let e = 0; e < 4; ++e)
-                    Nv(this, Ug, "f").push(0)
+                    Ov(this, Fg, "f").push(0)
             }
-            for (let t = 0; t < 4 && t < Nv(this, Fg, "f").length; t++)
-                if (Nv(this, Ug, "f")[t] -= e,
-                Nv(this, Ug, "f")[t] <= 0) {
-                    const e = Math.abs(Nv(this, qg, "f").wheelSuspensionVelocity[t]);
-                    if (e > 4 && null != Nv(this, Rg, "f")) {
-                        const n = Nv(this, Rg, "f").getBuffer("suspension");
-                        if (null != n && null != Nv(this, Rg, "f").context) {
-                            const i = Nv(this, Rg, "f").context.createBufferSource();
+            for (let t = 0; t < 4 && t < Ov(this, Gg, "f").length; t++)
+                if (Ov(this, Fg, "f")[t] -= e,
+                Ov(this, Fg, "f")[t] <= 0) {
+                    const e = Math.abs(Ov(this, Zg, "f").wheelSuspensionVelocity[t]);
+                    if (e > 4 && null != Ov(this, Dg, "f")) {
+                        const n = Ov(this, Dg, "f").getBuffer("suspension");
+                        if (null != n && null != Ov(this, Dg, "f").context) {
+                            const i = Ov(this, Dg, "f").context.createBufferSource();
                             i.buffer = n,
                             i.playbackRate.value = .7 + .1 * Math.random();
-                            const r = Nv(this, Rg, "f").context.createGain();
+                            const r = Ov(this, Dg, "f").context.createGain();
                             r.gain.value = Math.min(.285, e / 140),
                             i.connect(r),
-                            r.connect(Nv(this, Fg, "f")[t]),
-                            i.start(Nv(this, Rg, "f").context.currentTime + .02 * Math.random()),
-                            Nv(this, Ug, "f")[t] = .1
+                            r.connect(Ov(this, Gg, "f")[t]),
+                            i.start(Ov(this, Dg, "f").context.currentTime + .02 * Math.random()),
+                            Ov(this, Fg, "f")[t] = .1
                         }
                     }
                 }
         }
         ,
-        Tv = function() {
-            if (null == Nv(this, Bg, "f") && null != Nv(this, Rg, "f")) {
-                const e = Nv(this, Rg, "f").getBuffer("tires");
-                if (null != e && null != Nv(this, Rg, "f").context) {
-                    Iv(this, Bg, [], "f");
+        Rv = function() {
+            if (null == Ov(this, Wg, "f") && null != Ov(this, Dg, "f")) {
+                const e = Ov(this, Dg, "f").getBuffer("tires");
+                if (null != e && null != Ov(this, Dg, "f").context) {
+                    Bv(this, Wg, [], "f");
                     const t = 4;
                     for (let n = 0; n < t; n++) {
-                        const i = Nv(this, Rg, "f").context.createBufferSource();
+                        const i = Ov(this, Dg, "f").context.createBufferSource();
                         i.buffer = e,
                         i.loop = !0,
                         i.playbackRate.value = .3;
-                        const r = Nv(this, Rg, "f").context.createGain();
+                        const r = Ov(this, Dg, "f").context.createGain();
                         r.gain.value = 0,
                         i.connect(r),
-                        r.connect(Nv(this, Fg, "f")[n]),
+                        r.connect(Ov(this, Gg, "f")[n]),
                         i.start(0, n / t * 3.5 + .25 * Math.random()),
-                        Nv(this, Bg, "f").push({
+                        Ov(this, Wg, "f").push({
                             source: i,
                             gain: r
                         })
                     }
                 }
             }
-            if (null != Nv(this, Bg, "f"))
-                for (let e = 0; e < Nv(this, Bg, "f").length; ++e) {
-                    const t = Nv(this, Bg, "f")[e];
-                    if (Nv(this, qg, "f").wheelInContact[e]) {
+            if (null != Ov(this, Wg, "f"))
+                for (let e = 0; e < Ov(this, Wg, "f").length; ++e) {
+                    const t = Ov(this, Wg, "f")[e];
+                    if (Ov(this, Zg, "f").wheelInContact[e]) {
                         const e = Math.min(3, Math.abs(this.getSpeedKmh()) / 110);
                         t.gain.gain.setTargetAtTime(e / 10.5, 0, .15)
                     } else
@@ -27366,102 +27368,102 @@
                 }
         }
         ,
-        Av = function(e) {
-            null != Nv(this, Og, "f") && (Nv(this, Og, "f").timeout -= e,
-            Nv(this, Og, "f").timeout <= 0 && Iv(this, Og, null, "f"));
-            Nv(this, qg, "f").collisionImpulses.forEach((e => {
-                Nv(this, Cg, "m", Cv).call(this, e)
+        Lv = function(e) {
+            null != Ov(this, Hg, "f") && (Ov(this, Hg, "f").timeout -= e,
+            Ov(this, Hg, "f").timeout <= 0 && Bv(this, Hg, null, "f"));
+            Ov(this, Zg, "f").collisionImpulses.forEach((e => {
+                Ov(this, Ig, "m", Iv).call(this, e)
             }
             ))
         }
         ,
-        Cv = function(e) {
-            if (e > 25 && null != Nv(this, zg, "f") && null != Nv(this, Rg, "f") && (null == Nv(this, Og, "f") || Nv(this, Og, "f").impulse + 100 < e)) {
-                Iv(this, Og, {
+        Iv = function(e) {
+            if (e > 25 && null != Ov(this, Vg, "f") && null != Ov(this, Dg, "f") && (null == Ov(this, Hg, "f") || Ov(this, Hg, "f").impulse + 100 < e)) {
+                Bv(this, Hg, {
                     timeout: .2,
                     impulse: e
                 }, "f");
-                const t = Nv(this, Rg, "f").getBuffer("collision");
-                if (null != t && null != Nv(this, Rg, "f").context) {
-                    const n = Nv(this, Rg, "f").context.createBufferSource();
+                const t = Ov(this, Dg, "f").getBuffer("collision");
+                if (null != t && null != Ov(this, Dg, "f").context) {
+                    const n = Ov(this, Dg, "f").context.createBufferSource();
                     n.buffer = t,
                     n.playbackRate.value = .5 - .3 * Math.max(0, Math.min(1, e / 1e3)) + .2 * Math.random();
-                    const i = Nv(this, Rg, "f").context.createGain();
+                    const i = Ov(this, Dg, "f").context.createGain();
                     i.gain.value = Math.max(.3, Math.min(e / 2e3, 1)) / 3.5,
                     n.connect(i),
-                    i.connect(Nv(this, zg, "f")),
+                    i.connect(Ov(this, Vg, "f")),
                     n.start(0)
                 }
             }
         }
         ,
-        Pv = function() {
-            if (null == Nv(this, pv, "f") && null != Nv(this, Rg, "f")) {
-                const e = Nv(this, Rg, "f").getBuffer("skidding");
-                if (null != e && null != Nv(this, Rg, "f").context) {
-                    Iv(this, pv, [], "f");
+        Nv = function() {
+            if (null == Ov(this, vv, "f") && null != Ov(this, Dg, "f")) {
+                const e = Ov(this, Dg, "f").getBuffer("skidding");
+                if (null != e && null != Ov(this, Dg, "f").context) {
+                    Bv(this, vv, [], "f");
                     const t = 4;
                     for (let n = 0; n < t; ++n) {
-                        const i = Nv(this, Rg, "f").context.createBufferSource();
+                        const i = Ov(this, Dg, "f").context.createBufferSource();
                         i.buffer = e,
                         i.loop = !0,
                         i.playbackRate.value = .5;
-                        const r = Nv(this, Rg, "f").context.createGain();
+                        const r = Ov(this, Dg, "f").context.createGain();
                         r.gain.value = 0,
                         i.connect(r),
-                        r.connect(Nv(this, Fg, "f")[n]),
+                        r.connect(Ov(this, Gg, "f")[n]),
                         i.start(0, n / t * 3.5 + .25 * Math.random()),
-                        Nv(this, pv, "f").push({
+                        Ov(this, vv, "f").push({
                             source: i,
                             gain: r
                         })
                     }
                 }
             }
-            if (null != Nv(this, pv, "f"))
-                for (let e = 0; e < Nv(this, pv, "f").length; ++e) {
-                    const t = Nv(this, pv, "f")[e];
-                    0 == Nv(this, fv, "f")[e] ? t.gain.gain.setTargetAtTime(.75 / 3.5, 0, .1) : t.gain.gain.setTargetAtTime(0, 0, .1)
+            if (null != Ov(this, vv, "f"))
+                for (let e = 0; e < Ov(this, vv, "f").length; ++e) {
+                    const t = Ov(this, vv, "f")[e];
+                    0 == Ov(this, wv, "f")[e] ? t.gain.gain.setTargetAtTime(.75 / 3.5, 0, .1) : t.gain.gain.setTargetAtTime(0, 0, .1)
                 }
         }
         ,
-        Rv = function(e) {
-            null != Nv(this, rv, "f") && (e ? Nv(this, rv, "f").emissive.setRGB(1, .4, .3) : Nv(this, rv, "f").emissive.setRGB(0, 0, 0))
+        Dv = function(e) {
+            null != Ov(this, lv, "f") && (e ? Ov(this, lv, "f").emissive.setRGB(1, .4, .3) : Ov(this, lv, "f").emissive.setRGB(0, 0, 0))
         }
         ,
-        Lv = function(e) {
+        Uv = function(e) {
             const t = e.geometry.toNonIndexed();
             if (!(t.attributes.position instanceof lr))
                 throw "Vertices must use BufferAttribute";
             return Array.from(t.attributes.position.array)
         }
         ,
-        Dv.massOffset = .6,
-        Dv.models = null,
-        Dv.images = null;
-        const Uv = Dv;
-        var Bv = n(959)
-          , Ov = {};
-        Ov.styleTagTransform = u(),
-        Ov.setAttributes = l(),
-        Ov.insert = o().bind(null, "head"),
-        Ov.domAPI = r(),
-        Ov.insertStyleElement = h();
-        t()(Bv.A, Ov);
-        Bv.A && Bv.A.locals && Bv.A.locals;
-        const zv = {
+        zv.massOffset = .6,
+        zv.models = null,
+        zv.images = null;
+        const Fv = zv;
+        var Wv = n(959)
+          , Hv = {};
+        Hv.styleTagTransform = u(),
+        Hv.setAttributes = l(),
+        Hv.insert = o().bind(null, "head"),
+        Hv.domAPI = r(),
+        Hv.insertStyleElement = h();
+        t()(Wv.A, Hv);
+        Wv.A && Wv.A.locals && Wv.A.locals;
+        const Vv = {
             type: "change"
         }
-          , Fv = {
+          , Gv = {
             type: "start"
         }
-          , Wv = {
+          , jv = {
             type: "end"
         }
-          , Hv = new di
-          , Vv = new ia
-          , Gv = Math.cos(70 * sn.DEG2RAD);
-        class jv extends Kt {
+          , qv = new di
+          , Xv = new ia
+          , Yv = Math.cos(70 * sn.DEG2RAD);
+        class Kv extends Kt {
             constructor(e, t) {
                 super(),
                 this.object = e,
@@ -27545,7 +27547,7 @@
                     n.object.position.copy(n.position0),
                     n.object.zoom = n.zoom0,
                     n.object.updateProjectionMatrix(),
-                    n.dispatchEvent(zv),
+                    n.dispatchEvent(Vv),
                     n.update(),
                     r = i.NONE
                 }
@@ -27620,10 +27622,10 @@
                             } else
                                 console.warn("WARNING: OrbitControls.js encountered an unknown camera type - zoom to cursor disabled."),
                                 n.zoomToCursor = !1;
-                            null !== i && (this.screenSpacePanning ? n.target.set(0, 0, -1).transformDirection(n.object.matrix).multiplyScalar(i).add(n.object.position) : (Hv.origin.copy(n.object.position),
-                            Hv.direction.set(0, 0, -1).transformDirection(n.object.matrix),
-                            Math.abs(n.object.up.dot(Hv.direction)) < Gv ? e.lookAt(n.target) : (Vv.setFromNormalAndCoplanarPoint(n.object.up, n.target),
-                            Hv.intersectPlane(Vv, n.target))))
+                            null !== i && (this.screenSpacePanning ? n.target.set(0, 0, -1).transformDirection(n.object.matrix).multiplyScalar(i).add(n.object.position) : (qv.origin.copy(n.object.position),
+                            qv.direction.set(0, 0, -1).transformDirection(n.object.matrix),
+                            Math.abs(n.object.up.dot(qv.direction)) < Yv ? e.lookAt(n.target) : (Xv.setFromNormalAndCoplanarPoint(n.object.up, n.target),
+                            qv.intersectPlane(Xv, n.target))))
                         } else if (n.object.isOrthographicCamera) {
                             const e = n.object.zoom;
                             n.object.zoom = Math.max(n.minZoom, Math.min(n.maxZoom, n.object.zoom / l)),
@@ -27632,7 +27634,7 @@
                         }
                         return l = 1,
                         A = !1,
-                        !!(b || u.distanceToSquared(n.object.position) > a || 8 * (1 - p.dot(n.object.quaternion)) > a || f.distanceToSquared(n.target) > a) && (n.dispatchEvent(zv),
+                        !!(b || u.distanceToSquared(n.object.position) > a || 8 * (1 - p.dot(n.object.quaternion)) > a || f.distanceToSquared(n.target) > a) && (n.dispatchEvent(Vv),
                         u.copy(n.object.position),
                         p.copy(n.object.quaternion),
                         f.copy(n.target),
@@ -27891,7 +27893,7 @@
                         default:
                             r = i.NONE
                         }
-                        r !== i.NONE && n.dispatchEvent(Fv)
+                        r !== i.NONE && n.dispatchEvent(Gv)
                     }(e)))
                 }
                 function J(e) {
@@ -27982,7 +27984,7 @@
                         n.domElement.releasePointerCapture(e.pointerId),
                         n.domElement.removeEventListener("pointermove", J),
                         n.domElement.removeEventListener("pointerup", Q),
-                        n.dispatchEvent(Wv),
+                        n.dispatchEvent(jv),
                         r = i.NONE;
                         break;
                     case 1:
@@ -27997,7 +27999,7 @@
                 }
                 function $(e) {
                     !1 !== n.enabled && !1 !== n.enableZoom && r === i.NONE && (e.preventDefault(),
-                    n.dispatchEvent(Fv),
+                    n.dispatchEvent(Gv),
                     function(e) {
                         F(e.clientX, e.clientY),
                         e.deltaY < 0 ? z(L(e.deltaY)) : e.deltaY > 0 && O(L(e.deltaY)),
@@ -28019,7 +28021,7 @@
                         e.ctrlKey && !R && (n.deltaY *= 10);
                         return n
                     }(e)),
-                    n.dispatchEvent(Wv))
+                    n.dispatchEvent(jv))
                 }
                 function ee(e) {
                     if ("Control" === e.key) {
@@ -28111,7 +28113,7 @@
                     default:
                         r = i.NONE
                     }
-                    r !== i.NONE && n.dispatchEvent(Fv)
+                    r !== i.NONE && n.dispatchEvent(Gv)
                 }
                 function re(e) {
                     !1 !== n.enabled && e.preventDefault()
@@ -28139,16 +28141,16 @@
                 this.update()
             }
         }
-        var qv = n(848)
-          , Xv = {};
-        Xv.styleTagTransform = u(),
-        Xv.setAttributes = l(),
-        Xv.insert = o().bind(null, "head"),
-        Xv.domAPI = r(),
-        Xv.insertStyleElement = h();
-        t()(qv.A, Xv);
-        qv.A && qv.A.locals && qv.A.locals;
-        var Yv, Kv, Zv, Jv, Qv, $v, ew, tw, nw, iw, rw, aw, ow, sw, lw, cw, hw, dw, uw, pw = function(e, t, n, i, r) {
+        var Zv = n(848)
+          , Jv = {};
+        Jv.styleTagTransform = u(),
+        Jv.setAttributes = l(),
+        Jv.insert = o().bind(null, "head"),
+        Jv.domAPI = r(),
+        Jv.insertStyleElement = h();
+        t()(Zv.A, Jv);
+        Zv.A && Zv.A.locals && Zv.A.locals;
+        var Qv, $v, ew, tw, nw, iw, rw, aw, ow, sw, lw, cw, hw, dw, uw, pw, fw, mw, gw, vw = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -28157,17 +28159,13 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, fw = function(e, t, n, i) {
+        }, ww = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        Kv = new WeakMap,
-        Zv = new WeakMap,
-        Jv = new WeakMap,
-        Qv = new WeakMap,
         $v = new WeakMap,
         ew = new WeakMap,
         tw = new WeakMap,
@@ -28180,121 +28178,125 @@
         lw = new WeakMap,
         cw = new WeakMap,
         hw = new WeakMap,
-        Yv = new WeakSet,
-        dw = function() {
-            fw(this, nw, "f").style.left = "calc(" + 100 * fw(this, ow, "f") / 360 + "% - 1px)",
-            fw(this, Qv, "f").style.backgroundImage = "linear-gradient(transparent, #000), linear-gradient(to right, transparent, hsla(" + fw(this, ow, "f") + ", 100%, 50%, 1))"
+        dw = new WeakMap,
+        uw = new WeakMap,
+        pw = new WeakMap,
+        fw = new WeakMap,
+        Qv = new WeakSet,
+        mw = function() {
+            ww(this, ow, "f").style.left = "calc(" + 100 * ww(this, hw, "f") / 360 + "% - 1px)",
+            ww(this, nw, "f").style.backgroundImage = "linear-gradient(transparent, #000), linear-gradient(to right, transparent, hsla(" + ww(this, hw, "f") + ", 100%, 50%, 1))"
         }
         ,
-        uw = function() {
-            fw(this, $v, "f").style.left = "calc(" + fw(this, aw, "f") + "% - 6px)",
-            fw(this, $v, "f").style.top = "calc(" + (100 - fw(this, rw, "f")) + "% - 6px)"
+        gw = function() {
+            ww(this, iw, "f").style.left = "calc(" + ww(this, cw, "f") + "% - 6px)",
+            ww(this, iw, "f").style.top = "calc(" + (100 - ww(this, lw, "f")) + "% - 6px)"
         }
         ;
-        const mw = class {
+        const yw = class {
             constructor(e, t) {
-                Yv.add(this),
-                Kv.set(this, void 0),
-                Zv.set(this, void 0),
-                Jv.set(this, void 0),
-                Qv.set(this, void 0),
+                Qv.add(this),
                 $v.set(this, void 0),
-                ew.set(this, !1),
+                ew.set(this, void 0),
                 tw.set(this, void 0),
                 nw.set(this, void 0),
-                iw.set(this, !1),
-                rw.set(this, 0),
-                aw.set(this, 0),
-                ow.set(this, 0),
-                sw.set(this, void 0),
-                lw.set(this, void 0),
-                cw.set(this, void 0),
-                hw.set(this, void 0),
-                pw(this, Kv, e, "f"),
-                pw(this, Zv, t, "f"),
-                pw(this, Jv, document.createElement("div"), "f"),
-                fw(this, Jv, "f").className = "color-picker",
-                pw(this, Qv, document.createElement("div"), "f"),
-                fw(this, Qv, "f").className = "value-saturation-picker",
-                fw(this, Jv, "f").appendChild(fw(this, Qv, "f")),
-                pw(this, $v, document.createElement("div"), "f"),
-                fw(this, $v, "f").className = "marker",
-                fw(this, Qv, "f").appendChild(fw(this, $v, "f")),
-                pw(this, tw, document.createElement("div"), "f"),
-                fw(this, tw, "f").className = "hue-picker",
-                fw(this, Jv, "f").appendChild(fw(this, tw, "f")),
-                pw(this, nw, document.createElement("div"), "f"),
-                fw(this, nw, "f").className = "marker",
-                fw(this, tw, "f").appendChild(fw(this, nw, "f")),
-                fw(this, Kv, "f").appendChild(fw(this, Jv, "f"));
-                pw(this, sw, (e => {
+                iw.set(this, void 0),
+                rw.set(this, !1),
+                aw.set(this, void 0),
+                ow.set(this, void 0),
+                sw.set(this, !1),
+                lw.set(this, 0),
+                cw.set(this, 0),
+                hw.set(this, 0),
+                dw.set(this, void 0),
+                uw.set(this, void 0),
+                pw.set(this, void 0),
+                fw.set(this, void 0),
+                vw(this, $v, e, "f"),
+                vw(this, ew, t, "f"),
+                vw(this, tw, document.createElement("div"), "f"),
+                ww(this, tw, "f").className = "color-picker",
+                vw(this, nw, document.createElement("div"), "f"),
+                ww(this, nw, "f").className = "value-saturation-picker",
+                ww(this, tw, "f").appendChild(ww(this, nw, "f")),
+                vw(this, iw, document.createElement("div"), "f"),
+                ww(this, iw, "f").className = "marker",
+                ww(this, nw, "f").appendChild(ww(this, iw, "f")),
+                vw(this, aw, document.createElement("div"), "f"),
+                ww(this, aw, "f").className = "hue-picker",
+                ww(this, tw, "f").appendChild(ww(this, aw, "f")),
+                vw(this, ow, document.createElement("div"), "f"),
+                ww(this, ow, "f").className = "marker",
+                ww(this, aw, "f").appendChild(ww(this, ow, "f")),
+                ww(this, $v, "f").appendChild(ww(this, tw, "f"));
+                vw(this, dw, (e => {
                     let n = null;
-                    if (e instanceof MouseEvent ? fw(this, ew, "f") && (n = e) : e instanceof TouchEvent && e.targetTouches.length > 0 && (n = e.targetTouches[e.targetTouches.length - 1]),
+                    if (e instanceof MouseEvent ? ww(this, rw, "f") && (n = e) : e instanceof TouchEvent && e.targetTouches.length > 0 && (n = e.targetTouches[e.targetTouches.length - 1]),
                     null != n) {
-                        const e = fw(this, Qv, "f").getBoundingClientRect()
+                        const e = ww(this, nw, "f").getBoundingClientRect()
                           , i = Math.max(0, Math.min(1, (n.clientX - e.left) / e.width))
                           , r = Math.max(0, Math.min(1, (n.clientY - e.top) / e.height));
-                        pw(this, aw, 100 * i, "f"),
-                        pw(this, rw, 100 * (1 - r), "f"),
-                        fw(this, Yv, "m", uw).call(this),
+                        vw(this, cw, 100 * i, "f"),
+                        vw(this, lw, 100 * (1 - r), "f"),
+                        ww(this, Qv, "m", gw).call(this),
                         t(this.color)
                     }
                 }
                 ), "f"),
-                pw(this, lw, (e => {
-                    0 == e.button && pw(this, ew, !1, "f")
+                vw(this, uw, (e => {
+                    0 == e.button && vw(this, rw, !1, "f")
                 }
                 ), "f"),
-                fw(this, Qv, "f").addEventListener("mousedown", (e => {
-                    0 == e.button && pw(this, ew, !0, "f"),
-                    fw(this, sw, "f").call(this, e)
+                ww(this, nw, "f").addEventListener("mousedown", (e => {
+                    0 == e.button && vw(this, rw, !0, "f"),
+                    ww(this, dw, "f").call(this, e)
                 }
                 )),
-                window.addEventListener("mouseup", fw(this, lw, "f")),
-                window.addEventListener("mousemove", fw(this, sw, "f")),
-                fw(this, Qv, "f").addEventListener("touchstart", fw(this, sw, "f")),
-                fw(this, Qv, "f").addEventListener("touchmove", fw(this, sw, "f")),
-                pw(this, cw, (e => {
+                window.addEventListener("mouseup", ww(this, uw, "f")),
+                window.addEventListener("mousemove", ww(this, dw, "f")),
+                ww(this, nw, "f").addEventListener("touchstart", ww(this, dw, "f")),
+                ww(this, nw, "f").addEventListener("touchmove", ww(this, dw, "f")),
+                vw(this, pw, (e => {
                     let n = null;
-                    if (e instanceof MouseEvent ? fw(this, iw, "f") && (n = e) : e instanceof TouchEvent && e.targetTouches.length > 0 && (n = e.targetTouches[e.targetTouches.length - 1]),
+                    if (e instanceof MouseEvent ? ww(this, sw, "f") && (n = e) : e instanceof TouchEvent && e.targetTouches.length > 0 && (n = e.targetTouches[e.targetTouches.length - 1]),
                     null != n) {
-                        const e = fw(this, tw, "f").getBoundingClientRect()
+                        const e = ww(this, aw, "f").getBoundingClientRect()
                           , i = Math.max(0, Math.min(1, (n.clientX - e.left) / e.width));
-                        pw(this, ow, 360 * i, "f"),
-                        fw(this, Yv, "m", dw).call(this),
+                        vw(this, hw, 360 * i, "f"),
+                        ww(this, Qv, "m", mw).call(this),
                         t(this.color)
                     }
                 }
                 ), "f"),
-                pw(this, hw, (e => {
-                    0 == e.button && pw(this, iw, !1, "f")
+                vw(this, fw, (e => {
+                    0 == e.button && vw(this, sw, !1, "f")
                 }
                 ), "f"),
-                fw(this, tw, "f").addEventListener("mousedown", (e => {
-                    0 == e.button && pw(this, iw, !0, "f"),
-                    fw(this, cw, "f").call(this, e)
+                ww(this, aw, "f").addEventListener("mousedown", (e => {
+                    0 == e.button && vw(this, sw, !0, "f"),
+                    ww(this, pw, "f").call(this, e)
                 }
                 )),
-                window.addEventListener("mouseup", fw(this, hw, "f")),
-                window.addEventListener("mousemove", fw(this, cw, "f")),
-                fw(this, tw, "f").addEventListener("touchstart", fw(this, cw, "f")),
-                fw(this, tw, "f").addEventListener("touchmove", fw(this, cw, "f")),
-                fw(this, Yv, "m", dw).call(this),
-                fw(this, Yv, "m", uw).call(this)
+                window.addEventListener("mouseup", ww(this, fw, "f")),
+                window.addEventListener("mousemove", ww(this, pw, "f")),
+                ww(this, aw, "f").addEventListener("touchstart", ww(this, pw, "f")),
+                ww(this, aw, "f").addEventListener("touchmove", ww(this, pw, "f")),
+                ww(this, Qv, "m", mw).call(this),
+                ww(this, Qv, "m", gw).call(this)
             }
             dispose() {
-                window.removeEventListener("mouseup", fw(this, lw, "f")),
-                window.removeEventListener("mousemove", fw(this, sw, "f")),
-                window.removeEventListener("mouseup", fw(this, hw, "f")),
-                window.removeEventListener("mousemove", fw(this, cw, "f"))
+                window.removeEventListener("mouseup", ww(this, uw, "f")),
+                window.removeEventListener("mousemove", ww(this, dw, "f")),
+                window.removeEventListener("mouseup", ww(this, fw, "f")),
+                window.removeEventListener("mousemove", ww(this, pw, "f"))
             }
             get color() {
-                const e = fw(this, aw, "f") / 100
-                  , t = fw(this, rw, "f") / 100
+                const e = ww(this, cw, "f") / 100
+                  , t = ww(this, lw, "f") / 100
                   , n = t - t * e / 2
                   , i = Math.min(n, 1 - n)
                   , r = 0 != i ? (t - n) / i : 0;
-                return new tr("hsl(" + fw(this, ow, "f") + "," + 100 * r + "%," + 100 * n + "%)")
+                return new tr("hsl(" + ww(this, hw, "f") + "," + 100 * r + "%," + 100 * n + "%)")
             }
             set color(e) {
                 const {h: t, s: n, l: i} = e.getHSL({
@@ -28304,16 +28306,16 @@
                 }, At)
                   , r = i + n * Math.min(i, 1 - i)
                   , a = 0 == r ? 0 : 2 * (1 - i / r);
-                pw(this, ow, 360 * t, "f"),
-                pw(this, aw, 100 * a, "f"),
-                pw(this, rw, 100 * r, "f"),
-                fw(this, Yv, "m", dw).call(this),
-                fw(this, Yv, "m", uw).call(this),
-                fw(this, Zv, "f").call(this, this.color)
+                vw(this, hw, 360 * t, "f"),
+                vw(this, cw, 100 * a, "f"),
+                vw(this, lw, 100 * r, "f"),
+                ww(this, Qv, "m", mw).call(this),
+                ww(this, Qv, "m", gw).call(this),
+                ww(this, ew, "f").call(this, this.color)
             }
         }
         ;
-        var gw, vw, ww, yw, bw, xw, _w, kw, Ew, Sw, Mw, Tw, Aw, Cw, Pw, Rw, Lw, Iw = function(e, t, n, i, r) {
+        var bw, xw, _w, kw, Ew, Sw, Mw, Tw, Aw, Cw, Pw, Rw, Lw, Iw, Nw, Dw, Uw, Bw = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -28322,17 +28324,13 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, Nw = function(e, t, n, i) {
+        }, Ow = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        vw = new WeakMap,
-        ww = new WeakMap,
-        yw = new WeakMap,
-        bw = new WeakMap,
         xw = new WeakMap,
         _w = new WeakMap,
         kw = new WeakMap,
@@ -28341,11 +28339,15 @@
         Mw = new WeakMap,
         Tw = new WeakMap,
         Aw = new WeakMap,
-        gw = new WeakSet,
-        Cw = function(e) {
+        Cw = new WeakMap,
+        Pw = new WeakMap,
+        Rw = new WeakMap,
+        Lw = new WeakMap,
+        bw = new WeakSet,
+        Iw = function(e) {
             const t = document.createElement("div");
             t.className = "color",
-            Nw(this, Mw, "f").appendChild(t);
+            Ow(this, Pw, "f").appendChild(t);
             const n = document.createElement("h2");
             n.textContent = e,
             t.appendChild(n);
@@ -28355,8 +28357,8 @@
                 let e = i.value;
                 /^[0-9A-F]{6}$/i.test(e) && (e = "#" + e),
                 r.color = new tr(e),
-                Nw(this, vw, "f").setColors(Nw(this, gw, "m", Rw).call(this)),
-                Iw(this, Aw, !0, "f")
+                Ow(this, xw, "f").setColors(Ow(this, bw, "m", Dw).call(this)),
+                Bw(this, Lw, !0, "f")
             }
             )),
             i.addEventListener("blur", ( () => {
@@ -28364,75 +28366,75 @@
             }
             )),
             t.appendChild(i);
-            const r = new mw(t,(e => {
+            const r = new yw(t,(e => {
                 document.activeElement != i && (i.value = "#" + e.getHexString()),
-                Nw(this, vw, "f").setColors(Nw(this, gw, "m", Rw).call(this)),
-                Iw(this, Aw, !0, "f")
+                Ow(this, xw, "f").setColors(Ow(this, bw, "m", Dw).call(this)),
+                Bw(this, Lw, !0, "f")
             }
             ));
             i.value = "#" + r.color.getHexString(),
-            Nw(this, Tw, "f").push(r)
+            Ow(this, Rw, "f").push(r)
         }
         ,
-        Pw = function() {
+        Nw = function() {
             const e = wu.random();
-            Nw(this, Tw, "f")[0].color = e.primary.clone(),
-            Nw(this, Tw, "f")[1].color = e.secondary.clone(),
-            Nw(this, Tw, "f")[2].color = e.frame.clone(),
-            Nw(this, Tw, "f")[3].color = e.rims.clone()
+            Ow(this, Rw, "f")[0].color = e.primary.clone(),
+            Ow(this, Rw, "f")[1].color = e.secondary.clone(),
+            Ow(this, Rw, "f")[2].color = e.frame.clone(),
+            Ow(this, Rw, "f")[3].color = e.rims.clone()
         }
         ,
-        Rw = function() {
-            return new wu(Nw(this, Tw, "f")[0].color.clone(),Nw(this, Tw, "f")[1].color.clone(),Nw(this, Tw, "f")[2].color.clone(),Nw(this, Tw, "f")[3].color.clone())
+        Dw = function() {
+            return new wu(Ow(this, Rw, "f")[0].color.clone(),Ow(this, Rw, "f")[1].color.clone(),Ow(this, Rw, "f")[2].color.clone(),Ow(this, Rw, "f")[3].color.clone())
         }
         ,
-        Lw = function(e) {
-            Nw(this, Tw, "f")[0].color = e.primary.clone(),
-            Nw(this, Tw, "f")[1].color = e.secondary.clone(),
-            Nw(this, Tw, "f")[2].color = e.frame.clone(),
-            Nw(this, Tw, "f")[3].color = e.rims.clone()
+        Uw = function(e) {
+            Ow(this, Rw, "f")[0].color = e.primary.clone(),
+            Ow(this, Rw, "f")[1].color = e.secondary.clone(),
+            Ow(this, Rw, "f")[2].color = e.frame.clone(),
+            Ow(this, Rw, "f")[3].color = e.rims.clone()
         }
         ;
-        const Dw = class {
+        const zw = class {
             constructor(e, t, n, i, r, a, o) {
-                gw.add(this),
-                vw.set(this, void 0),
-                ww.set(this, void 0),
-                yw.set(this, void 0),
-                bw.set(this, void 0),
+                bw.add(this),
                 xw.set(this, void 0),
                 _w.set(this, void 0),
                 kw.set(this, void 0),
                 Ew.set(this, void 0),
                 Sw.set(this, void 0),
                 Mw.set(this, void 0),
-                Tw.set(this, []),
-                Aw.set(this, !1),
-                Iw(this, vw, e, "f"),
-                Iw(this, ww, n, "f"),
-                Iw(this, yw, r, "f"),
-                Iw(this, bw, a, "f"),
-                Iw(this, kw, new Kr(70,1,.1,1e4), "f"),
-                Nw(this, kw, "f").position.set(4, 3, 4),
-                n.scene.add(Nw(this, kw, "f")),
-                Iw(this, Ew, new jv(Nw(this, kw, "f"),n.canvas), "f"),
-                Nw(this, Ew, "f").target.set(0, .7, 1.2),
-                Nw(this, Ew, "f").update(),
-                Nw(this, Ew, "f").mouseButtons = {
+                Tw.set(this, void 0),
+                Aw.set(this, void 0),
+                Cw.set(this, void 0),
+                Pw.set(this, void 0),
+                Rw.set(this, []),
+                Lw.set(this, !1),
+                Bw(this, xw, e, "f"),
+                Bw(this, _w, n, "f"),
+                Bw(this, kw, r, "f"),
+                Bw(this, Ew, a, "f"),
+                Bw(this, Tw, new Kr(70,1,.1,1e4), "f"),
+                Ow(this, Tw, "f").position.set(4, 3, 4),
+                n.scene.add(Ow(this, Tw, "f")),
+                Bw(this, Aw, new Kv(Ow(this, Tw, "f"),n.canvas), "f"),
+                Ow(this, Aw, "f").target.set(0, .7, 1.2),
+                Ow(this, Aw, "f").update(),
+                Ow(this, Aw, "f").mouseButtons = {
                     LEFT: g,
                     MIDDLE: g,
                     RIGHT: g
                 },
-                Nw(this, Ew, "f").enablePan = !1,
-                Nw(this, Ew, "f").minDistance = 2.5,
-                Nw(this, Ew, "f").maxDistance = 5.8,
-                Nw(this, Ew, "f").maxPolarAngle = Math.PI / 2 + .06,
-                Iw(this, xw, document.getElementById("ui"), "f"),
-                Iw(this, Sw, document.createElement("div"), "f"),
-                Nw(this, Sw, "f").className = "customization";
+                Ow(this, Aw, "f").enablePan = !1,
+                Ow(this, Aw, "f").minDistance = 2.5,
+                Ow(this, Aw, "f").maxDistance = 5.8,
+                Ow(this, Aw, "f").maxPolarAngle = Math.PI / 2 + .06,
+                Bw(this, Sw, document.getElementById("ui"), "f"),
+                Bw(this, Cw, document.createElement("div"), "f"),
+                Ow(this, Cw, "f").className = "customization";
                 const s = document.createElement("div");
                 s.className = "top",
-                Nw(this, Sw, "f").appendChild(s);
+                Ow(this, Cw, "f").appendChild(s);
                 const l = document.createElement("button");
                 l.className = "button",
                 l.innerHTML = '<img class="button-icon" src="images/quit.svg"> ',
@@ -28443,7 +28445,7 @@
                 }
                 )),
                 s.appendChild(l),
-                window.addEventListener("keydown", Iw(this, _w, (e => {
+                window.addEventListener("keydown", Bw(this, Mw, (e => {
                     "Escape" == e.code && (o(),
                     e.preventDefault())
                 }
@@ -28454,47 +28456,47 @@
                 c.append(document.createTextNode(t.get("Random"))),
                 c.addEventListener("click", ( () => {
                     i.playUIClick(),
-                    Nw(this, gw, "m", Pw).call(this)
+                    Ow(this, bw, "m", Nw).call(this)
                 }
                 )),
                 s.appendChild(c),
-                Iw(this, Mw, document.createElement("div"), "f"),
-                Nw(this, Mw, "f").className = "colors",
-                Nw(this, Sw, "f").appendChild(Nw(this, Mw, "f")),
-                Nw(this, gw, "m", Cw).call(this, t.get("Primary")),
-                Nw(this, gw, "m", Cw).call(this, t.get("Secondary")),
-                Nw(this, gw, "m", Cw).call(this, t.get("Frame")),
-                Nw(this, gw, "m", Cw).call(this, t.get("Rims")),
-                Nw(this, xw, "f").appendChild(Nw(this, Sw, "f"));
-                const h = Nw(this, bw, "f").getCarColors();
-                Nw(this, gw, "m", Lw).call(this, h),
-                Nw(this, vw, "f").setColors(h),
-                Iw(this, Aw, !1, "f")
+                Bw(this, Pw, document.createElement("div"), "f"),
+                Ow(this, Pw, "f").className = "colors",
+                Ow(this, Cw, "f").appendChild(Ow(this, Pw, "f")),
+                Ow(this, bw, "m", Iw).call(this, t.get("Primary")),
+                Ow(this, bw, "m", Iw).call(this, t.get("Secondary")),
+                Ow(this, bw, "m", Iw).call(this, t.get("Frame")),
+                Ow(this, bw, "m", Iw).call(this, t.get("Rims")),
+                Ow(this, Sw, "f").appendChild(Ow(this, Cw, "f"));
+                const h = Ow(this, Ew, "f").getCarColors();
+                Ow(this, bw, "m", Uw).call(this, h),
+                Ow(this, xw, "f").setColors(h),
+                Bw(this, Lw, !1, "f")
             }
             save() {
-                if (Nw(this, Aw, "f")) {
-                    const e = Nw(this, gw, "m", Rw).call(this);
-                    Nw(this, bw, "f").setCarColors(e),
-                    Nw(this, yw, "f").submitUserProfile(Nw(this, bw, "f").getToken(), Nw(this, bw, "f").getNickname(), e),
-                    Iw(this, Aw, !1, "f")
+                if (Ow(this, Lw, "f")) {
+                    const e = Ow(this, bw, "m", Dw).call(this);
+                    Ow(this, Ew, "f").setCarColors(e),
+                    Ow(this, kw, "f").submitUserProfile(Ow(this, Ew, "f").getToken(), Ow(this, Ew, "f").getNickname(), e),
+                    Bw(this, Lw, !1, "f")
                 }
             }
             dispose() {
-                Nw(this, Tw, "f").forEach((e => {
+                Ow(this, Rw, "f").forEach((e => {
                     e.dispose()
                 }
                 )),
-                Nw(this, ww, "f").scene.remove(Nw(this, kw, "f")),
-                window.removeEventListener("keydown", Nw(this, _w, "f")),
-                Nw(this, xw, "f").removeChild(Nw(this, Sw, "f")),
-                Nw(this, Ew, "f").dispose()
+                Ow(this, _w, "f").scene.remove(Ow(this, Tw, "f")),
+                window.removeEventListener("keydown", Ow(this, Mw, "f")),
+                Ow(this, Sw, "f").removeChild(Ow(this, Cw, "f")),
+                Ow(this, Aw, "f").dispose()
             }
             get camera() {
-                return Nw(this, kw, "f")
+                return Ow(this, Tw, "f")
             }
         }
         ;
-        var Uw;
+        var Fw;
         !function(e) {
             e[e.Straight = 0] = "Straight",
             e[e.TurnSharp = 1] = "TurnSharp",
@@ -28674,9 +28676,9 @@
             e[e.BlackBlockBridgeCorner = 176] = "BlackBlockBridgeCorner",
             e[e.BlackBlockBridgeIntersectionT = 177] = "BlackBlockBridgeIntersectionT",
             e[e.BlackBlockBridgeIntersectionCross = 178] = "BlackBlockBridgeIntersectionCross"
-        }(Uw || (Uw = {}));
-        const Bw = Uw;
-        var Ow, zw, Fw, Ww, Hw, Vw, Gw, jw = function(e, t, n, i, r) {
+        }(Fw || (Fw = {}));
+        const Ww = Fw;
+        var Hw, Vw, Gw, jw, qw, Xw, Yw, Kw = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -28685,67 +28687,67 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, qw = function(e, t, n, i) {
+        }, Zw = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        Ow = new WeakMap,
-        zw = new WeakMap,
-        Fw = new WeakMap,
-        Ww = new WeakMap,
         Hw = new WeakMap,
         Vw = new WeakMap,
-        Gw = new WeakMap;
-        const Xw = class {
+        Gw = new WeakMap,
+        jw = new WeakMap,
+        qw = new WeakMap,
+        Xw = new WeakMap,
+        Yw = new WeakMap;
+        const Jw = class {
             constructor(e, t, n, i, r, a, o, s, l, c) {
-                Ow.set(this, void 0),
-                zw.set(this, void 0),
-                Fw.set(this, void 0),
-                Ww.set(this, void 0),
                 Hw.set(this, void 0),
                 Vw.set(this, void 0),
                 Gw.set(this, void 0),
-                jw(this, Ow, a, "f"),
-                jw(this, zw, n, "f"),
-                jw(this, Fw, i, "f"),
-                jw(this, Ww, r, "f"),
-                jw(this, Hw, s, "f");
+                jw.set(this, void 0),
+                qw.set(this, void 0),
+                Xw.set(this, void 0),
+                Yw.set(this, void 0),
+                Kw(this, Hw, a, "f"),
+                Kw(this, Vw, n, "f"),
+                Kw(this, Gw, i, "f"),
+                Kw(this, jw, r, "f"),
+                Kw(this, qw, s, "f");
                 for (let e = -100; e < 100; ++e)
-                    0 == e ? n.setPart(0, 0, e, Bw.Start, 2, null) : n.setPart(0, 0, e, Bw.Straight, 0, null);
+                    0 == e ? n.setPart(0, 0, e, Ww.Start, 2, null) : n.setPart(0, 0, e, Ww.Straight, 0, null);
                 n.generateMeshes(),
                 i.generateMountains(n.getBounds()),
-                jw(this, Gw, new Uv(e,qw(this, zw, "f").getStartTransform(),null,null,!1,r,a,i,n,s), "f"),
-                qw(this, Gw, "f").audioVolume = 0,
-                qw(this, Gw, "f").update(0),
-                jw(this, Vw, new Dw(qw(this, Gw, "f"),t,r,a,l,o,c), "f"),
-                r.setCamera(qw(this, Vw, "f").camera)
+                Kw(this, Yw, new Fv(e,Zw(this, Vw, "f").getStartTransform(),null,null,!1,r,a,i,n,s), "f"),
+                Zw(this, Yw, "f").audioVolume = 0,
+                Zw(this, Yw, "f").update(0),
+                Kw(this, Xw, new zw(Zw(this, Yw, "f"),t,r,a,l,o,c), "f"),
+                r.setCamera(Zw(this, Xw, "f").camera)
             }
             dispose() {
-                qw(this, zw, "f").clear(),
-                qw(this, Fw, "f").clearMountains(),
-                qw(this, Vw, "f").save(),
-                qw(this, Vw, "f").dispose(),
-                qw(this, Gw, "f").dispose()
+                Zw(this, Vw, "f").clear(),
+                Zw(this, Gw, "f").clearMountains(),
+                Zw(this, Xw, "f").save(),
+                Zw(this, Xw, "f").dispose(),
+                Zw(this, Yw, "f").dispose()
             }
             update(e) {
-                qw(this, Ww, "f").update(qw(this, Gw, "f").getPosition()),
-                qw(this, Ow, "f").update(e, !0, qw(this, Ww, "f"), qw(this, Hw, "f"))
+                Zw(this, jw, "f").update(Zw(this, Yw, "f").getPosition()),
+                Zw(this, Hw, "f").update(e, !0, Zw(this, jw, "f"), Zw(this, qw, "f"))
             }
         }
         ;
-        var Yw = n(344)
-          , Kw = {};
-        Kw.styleTagTransform = u(),
-        Kw.setAttributes = l(),
-        Kw.insert = o().bind(null, "head"),
-        Kw.domAPI = r(),
-        Kw.insertStyleElement = h();
-        t()(Yw.A, Kw);
-        Yw.A && Yw.A.locals && Yw.A.locals;
-        var Zw, Jw, Qw, $w, ey = function(e, t, n, i, r) {
+        var Qw = n(344)
+          , $w = {};
+        $w.styleTagTransform = u(),
+        $w.setAttributes = l(),
+        $w.insert = o().bind(null, "head"),
+        $w.domAPI = r(),
+        $w.insertStyleElement = h();
+        t()(Qw.A, $w);
+        Qw.A && Qw.A.locals && Qw.A.locals;
+        var ey, ty, ny, iy, ry = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -28754,58 +28756,58 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, ty = function(e, t, n, i) {
+        }, ay = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        Zw = new WeakMap,
-        Jw = new WeakMap,
-        Qw = new WeakMap,
-        $w = new WeakMap;
-        const ny = class {
+        ey = new WeakMap,
+        ty = new WeakMap,
+        ny = new WeakMap,
+        iy = new WeakMap;
+        const oy = class {
             constructor() {
-                Zw.set(this, !1),
-                Jw.set(this, void 0),
-                Qw.set(this, 0),
-                $w.set(this, 0);
+                ey.set(this, !1),
+                ty.set(this, void 0),
+                ny.set(this, 0),
+                iy.set(this, 0);
                 const e = document.getElementById("ui");
-                ey(this, Jw, document.createElement("div"), "f"),
-                ty(this, Jw, "f").className = "hidden",
-                e.appendChild(ty(this, Jw, "f"))
+                ry(this, ty, document.createElement("div"), "f"),
+                ay(this, ty, "f").className = "hidden",
+                e.appendChild(ay(this, ty, "f"))
             }
             show() {
-                ty(this, Jw, "f").className = "debug",
-                ey(this, Zw, !0, "f")
+                ay(this, ty, "f").className = "debug",
+                ry(this, ey, !0, "f")
             }
             hide() {
-                ty(this, Jw, "f").className = "hidden",
-                ey(this, Zw, !1, "f")
+                ay(this, ty, "f").className = "hidden",
+                ry(this, ey, !1, "f")
             }
             toggle() {
-                ty(this, Zw, "f") ? this.hide() : this.show()
+                ay(this, ey, "f") ? this.hide() : this.show()
             }
             update(e) {
-                ey(this, Qw, ty(this, Qw, "f") + e, "f"),
-                ey(this, $w, ty(this, $w, "f") + 1, "f"),
-                ty(this, Qw, "f") >= 1 && (ty(this, Jw, "f").textContent = "FPS: " + ty(this, $w, "f"),
-                ey(this, Qw, ty(this, Qw, "f") - Math.trunc(ty(this, Qw, "f")), "f"),
-                ey(this, $w, 0, "f"))
+                ry(this, ny, ay(this, ny, "f") + e, "f"),
+                ry(this, iy, ay(this, iy, "f") + 1, "f"),
+                ay(this, ny, "f") >= 1 && (ay(this, ty, "f").textContent = "FPS: " + ay(this, iy, "f"),
+                ry(this, ny, ay(this, ny, "f") - Math.trunc(ay(this, ny, "f")), "f"),
+                ry(this, iy, 0, "f"))
             }
         }
         ;
-        var iy = n(57)
-          , ry = {};
-        ry.styleTagTransform = u(),
-        ry.setAttributes = l(),
-        ry.insert = o().bind(null, "head"),
-        ry.domAPI = r(),
-        ry.insertStyleElement = h();
-        t()(iy.A, ry);
-        iy.A && iy.A.locals && iy.A.locals;
-        class ay extends jv {
+        var sy = n(57)
+          , ly = {};
+        ly.styleTagTransform = u(),
+        ly.setAttributes = l(),
+        ly.insert = o().bind(null, "head"),
+        ly.domAPI = r(),
+        ly.insertStyleElement = h();
+        t()(sy.A, ly);
+        sy.A && sy.A.locals && sy.A.locals;
+        class cy extends Kv {
             constructor(e, t) {
                 super(e, t),
                 this.screenSpacePanning = !1,
@@ -28820,7 +28822,7 @@
                 }
             }
         }
-        class oy extends fh {
+        class hy extends fh {
             constructor(e) {
                 super(e)
             }
@@ -28837,10 +28839,10 @@
                 ), n, i)
             }
             parse(e) {
-                return new sy(e)
+                return new dy(e)
             }
         }
-        class sy {
+        class dy {
             constructor(e) {
                 this.isFont = !0,
                 this.type = "Font",
@@ -28861,7 +28863,7 @@
                             s = 0,
                             l -= a;
                         else {
-                            const e = ly(t, r, s, l, n);
+                            const e = uy(t, r, s, l, n);
                             s += e.offsetX,
                             o.push(e.path)
                         }
@@ -28873,7 +28875,7 @@
                 return n
             }
         }
-        function ly(e, t, n, i, r) {
+        function uy(e, t, n, i, r) {
             const a = r.glyphs[e] || r.glyphs["?"];
             if (!a)
                 return void console.error('THREE.Font: character "' + e + '" does not exists in font family ' + r.familyName + ".");
@@ -28916,7 +28918,7 @@
                 path: o
             }
         }
-        class cy extends Sl {
+        class py extends Sl {
             constructor(e, t) {
                 const n = new ar({
                     color: t,
@@ -28956,41 +28958,41 @@
                 this.matrix.multiplyMatrices(n, this.meshMatrix)
             }
         }
-        var hy = n(312);
-        const dy = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
-          , uy = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, -1, -1, -1, -1, -1, -1, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, -1, -1, -1, -1, -1, -1, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]
-          , py = 30;
-        function fy(e) {
+        var fy = n(312);
+        const my = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+          , gy = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, -1, -1, -1, -1, -1, -1, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, -1, -1, -1, -1, -1, -1, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]
+          , vy = 30;
+        function wy(e) {
             let t = 0
               , n = "";
             for (; t < 8 * e.length; ) {
-                const i = gy(e, t);
+                const i = by(e, t);
                 let r;
-                (i & py) == py ? (r = 31 & i,
+                (i & vy) == vy ? (r = 31 & i,
                 t += 5) : (r = i,
                 t += 6),
-                n += dy[r]
+                n += my[r]
             }
             return n
         }
-        function my(e) {
+        function yy(e) {
             let t = 0;
             const n = []
               , i = e.length;
             for (let r = 0; r < i; r++) {
                 const a = e.charCodeAt(r);
-                if (a >= uy.length)
+                if (a >= gy.length)
                     return null;
-                const o = uy[a];
+                const o = gy[a];
                 if (-1 == o)
                     return null;
-                (o & py) == py ? (vy(n, t, 5, o, r == i - 1),
-                t += 5) : (vy(n, t, 6, o, r == i - 1),
+                (o & vy) == vy ? (xy(n, t, 5, o, r == i - 1),
+                t += 5) : (xy(n, t, 6, o, r == i - 1),
                 t += 6)
             }
             return new Uint8Array(n)
         }
-        function gy(e, t) {
+        function by(e, t) {
             if (t >= 8 * e.length)
                 throw "Out of range";
             const n = Math.floor(t / 8)
@@ -29000,7 +29002,7 @@
                 return (i & 63 << r) >>> r;
             return (i & 63 << r) >>> r | (e[n + 1] & 63 >>> 8 - r) << 8 - r
         }
-        function vy(e, t, n, i, r) {
+        function xy(e, t, n, i, r) {
             const a = Math.floor(t / 8);
             for (; a >= e.length; )
                 e.push(0);
@@ -29012,22 +29014,22 @@
                 e[t] |= i >> 8 - o
             }
         }
-        var wy;
+        var _y;
         !function(e) {
             e[e.Checkpoint = 0] = "Checkpoint",
             e[e.Finish = 1] = "Finish"
-        }(wy || (wy = {}));
-        const yy = wy;
-        function by(e, t) {
+        }(_y || (_y = {}));
+        const ky = _y;
+        function Ey(e, t) {
             const n = e.parts;
             if ("object" != typeof n && null !== n && !Array.isArray(n))
                 return null;
-            const i = t.getPartTypesWithDetector(yy.Checkpoint)
-              , r = new Py
+            const i = t.getPartTypesWithDetector(ky.Checkpoint)
+              , r = new Ny
               , a = Object.keys(n);
             for (let e = 0; e < a.length; ++e) {
                 const t = parseInt(a[e], 10);
-                if (!(t in Bw))
+                if (!(t in Ww))
                     return null;
                 {
                     const e = n[t];
@@ -29052,7 +29054,7 @@
             }
             return r
         }
-        function xy(e, t) {
+        function Sy(e, t) {
             if ("string" != typeof e.name)
                 return null;
             if ("string" != typeof e.track)
@@ -29064,25 +29066,25 @@
                 return console.error(e),
                 null
             }
-            const i = by(n, t);
+            const i = Ey(n, t);
             return null == i ? null : {
                 trackName: e.name,
                 trackData: i
             }
         }
-        function _y(e, t) {
-            const n = kg(e);
+        function My(e, t) {
+            const n = Tg(e);
             if (null == n)
                 return null;
-            const i = t.getPartTypesWithDetector(yy.Checkpoint)
-              , r = new Py;
+            const i = t.getPartTypesWithDetector(ky.Checkpoint)
+              , r = new Ny;
             let a = 0;
             for (; a < n.length; ) {
                 if (n.length - a < 2)
                     return null;
                 const e = n[a + 0] | n[a + 1] << 8;
                 if (a += 2,
-                !(e in Bw))
+                !(e in Ww))
                     return null;
                 if (n.length - a < 4)
                     return null;
@@ -29112,24 +29114,26 @@
             }
             return r
         }
-        function ky(e, t) {
-            const n = my(e);
+        function Ty(e, t) {
+            const n = yy(e);
             if (null == n)
                 return null;
-            const i = new _g.Inflate;
+            const i = new Mg.Inflate;
             if (i.push(n, !0),
             i.err)
                 return null;
-            const r = i.result
-              , a = t.getPartTypesWithDetector(yy.Checkpoint)
-              , o = new Py;
+            const r = i.result;
+            if (!(r instanceof Uint8Array))
+                return null;
+            const a = t.getPartTypesWithDetector(ky.Checkpoint)
+              , o = new Ny;
             let s = 0;
             for (; s < r.length; ) {
                 if (r.length - s < 2)
                     return null;
                 const e = r[s + 0] | r[s + 1] << 8;
                 if (s += 2,
-                !(e in Bw))
+                !(e in Ww))
                     return null;
                 if (r.length - s < 4)
                     return null;
@@ -29160,24 +29164,26 @@
             }
             return o
         }
-        function Ey(e, t) {
-            const n = my(e);
+        function Ay(e, t) {
+            const n = yy(e);
             if (null == n)
                 return null;
-            const i = new _g.Inflate;
+            const i = new Mg.Inflate;
             if (i.push(n, !0),
             i.err)
                 return null;
-            const r = i.result
-              , a = t.getPartTypesWithDetector(yy.Checkpoint)
-              , o = new Py;
+            const r = i.result;
+            if (!(r instanceof Uint8Array))
+                return null;
+            const a = t.getPartTypesWithDetector(ky.Checkpoint)
+              , o = new Ny;
             let s = 0;
             for (; s < r.length; ) {
                 if (r.length - s < 2)
                     return null;
                 const e = r[s + 0] | r[s + 1] << 8;
                 if (s += 2,
-                !(e in Bw))
+                !(e in Ww))
                     return null;
                 if (r.length - s < 4)
                     return null;
@@ -29208,24 +29214,24 @@
             }
             return o
         }
-        var Sy, My, Ty, Ay, Cy = function(e, t, n, i) {
+        var Cy, Py, Ry, Ly, Iy = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        My = new WeakMap,
-        Sy = new WeakSet,
-        Ty = function() {
-            const e = Cy(this, My, "f").get(Bw.Start);
+        Py = new WeakMap,
+        Cy = new WeakSet,
+        Ry = function() {
+            const e = Iy(this, Py, "f").get(Ww.Start);
             return null != e && e.length > 0 ? e[e.length - 1] : null
         }
         ,
-        Ay = function(e) {
-            const t = e.getPartTypesWithDetector(yy.Checkpoint)
+        Ly = function(e) {
+            const t = e.getPartTypesWithDetector(ky.Checkpoint)
               , n = [];
-            return Cy(this, My, "f").forEach(( (e, i) => {
+            return Iy(this, Py, "f").forEach(( (e, i) => {
                 if (i < 0 || i > 65535)
                     throw "Type id is out of range";
                 const r = e.length;
@@ -29247,20 +29253,20 @@
             new Uint8Array(n)
         }
         ;
-        const Py = class {
+        const Ny = class {
             constructor() {
-                Sy.add(this),
-                My.set(this, new Map)
+                Cy.add(this),
+                Py.set(this, new Map)
             }
             addPart(e, t, n, i, r, a) {
-                const o = Cy(this, My, "f").get(i);
+                const o = Iy(this, Py, "f").get(i);
                 null != o ? o.push({
                     x: e,
                     y: t,
                     z: n,
                     rotation: r,
                     checkpointOrder: a
-                }) : Cy(this, My, "f").set(i, [{
+                }) : Iy(this, Py, "f").set(i, [{
                     x: e,
                     y: t,
                     z: n,
@@ -29269,7 +29275,7 @@
                 }])
             }
             forEachPart(e) {
-                Cy(this, My, "f").forEach(( (t, n) => {
+                Iy(this, Py, "f").forEach(( (t, n) => {
                     t.forEach((t => {
                         e(t.x, t.y, t.z, n, t.rotation, t.checkpointOrder)
                     }
@@ -29279,7 +29285,7 @@
             }
             getId(e) {
                 return (0,
-                hy.sha256)(Cy(this, Sy, "m", Ay).call(this, e))
+                fy.sha256)(Iy(this, Cy, "m", Ly).call(this, e))
             }
             getBounds() {
                 let e = 1 / 0
@@ -29302,48 +29308,48 @@
                 }
             }
             hasStartingPoint() {
-                return Cy(this, My, "f").has(Bw.Start)
+                return Iy(this, Py, "f").has(Ww.Start)
             }
             getStartTransform() {
-                const e = Cy(this, Sy, "m", Ty).call(this);
+                const e = Iy(this, Cy, "m", Ry).call(this);
                 if (null != e) {
                     const t = (new Dn).setFromEuler(new _i(0,Math.PI + e.rotation * Math.PI / 2,0))
                       , n = new Un(0,.385,1.35);
                     return n.applyQuaternion(t),
                     {
-                        position: new Un(e.x * Ky.partWidth + n.x,e.y * Ky.partHeight + n.y,e.z * Ky.partLength + n.z),
+                        position: new Un(e.x * $y.partWidth + n.x,e.y * $y.partHeight + n.y,e.z * $y.partLength + n.z),
                         quaternion: t
                     }
                 }
                 return null
             }
             toSaveString(e) {
-                const t = Cy(this, Sy, "m", Ay).call(this, e)
-                  , n = new _g.Deflate({
+                const t = Iy(this, Cy, "m", Ly).call(this, e)
+                  , n = new Mg.Deflate({
                     level: 9
                 });
                 return n.push(t, !0),
-                fy(n.result)
+                wy(n.result)
             }
             toExportString(e, t) {
-                const n = fy((new TextEncoder).encode(e))
+                const n = wy((new TextEncoder).encode(e))
                   , i = new Uint8Array(1);
                 i[0] = n.length;
-                let r = fy(i);
+                let r = wy(i);
                 return 1 == r.length && (r += "A"),
                 "v3" + r + n + this.toSaveString(t)
             }
             static fromSaveString(e, t) {
-                const n = Ey(e, t);
+                const n = Ay(e, t);
                 if (null != n)
                     return n;
-                const i = ky(e, t);
+                const i = Ty(e, t);
                 if (null != i)
                     return i;
-                const r = _y(e, t);
+                const r = My(e, t);
                 if (null != r)
                     return r;
-                const a = by(e, t);
+                const a = Ey(e, t);
                 return null != a ? a : null
             }
             static fromExportString(e, t) {
@@ -29351,13 +29357,13 @@
                   , i = function(e, t) {
                     if (!e.startsWith("v3"))
                         return null;
-                    const n = my(e.substring(2, 4));
+                    const n = yy(e.substring(2, 4));
                     if (null == n)
                         return null;
                     if (1 != n.length)
                         return null;
                     const i = n[0]
-                      , r = my(e.substring(4, 4 + i));
+                      , r = yy(e.substring(4, 4 + i));
                     if (null == r)
                         return null;
                     let a;
@@ -29366,7 +29372,7 @@
                     } catch (e) {
                         return null
                     }
-                    const o = Ey(e.substring(4 + i), t);
+                    const o = Ay(e.substring(4 + i), t);
                     return null == o ? null : {
                         trackName: a,
                         trackData: o
@@ -29377,14 +29383,14 @@
                 const r = function(e, t) {
                     if (!e.startsWith("v2"))
                         return null;
-                    const n = my(e.substring(2, 4));
+                    const n = yy(e.substring(2, 4));
                     if (null == n)
                         return null;
                     if (1 != n.length)
                         return null;
                     const i = n[0]
                       , r = Math.ceil(i / 3 * 4)
-                      , a = my(e.substring(4, 4 + r));
+                      , a = yy(e.substring(4, 4 + r));
                     if (null == a)
                         return null;
                     let o;
@@ -29393,7 +29399,7 @@
                     } catch (e) {
                         return null
                     }
-                    const s = ky(e.substring(4 + r), t);
+                    const s = Ty(e.substring(4 + r), t);
                     return null == s ? null : {
                         trackName: o,
                         trackData: s
@@ -29404,7 +29410,7 @@
                 const a = function(e, t) {
                     if (!e.startsWith("v1n"))
                         return null;
-                    const n = kg(e.substring(3, 5));
+                    const n = Tg(e.substring(3, 5));
                     if (null == n)
                         return null;
                     if (1 != n.length)
@@ -29418,7 +29424,7 @@
                         return console.error(e),
                         null
                     }
-                    const o = _y(e.substring(5 + i), t);
+                    const o = My(e.substring(5 + i), t);
                     return null == o ? null : {
                         trackName: a,
                         trackData: o
@@ -29426,7 +29432,7 @@
                 }(n, t);
                 if (null != a)
                     return a;
-                const o = xy(e, t);
+                const o = Sy(e, t);
                 return null != o ? o : null
             }
             createThumbnail(e) {
@@ -29460,7 +29466,7 @@
                     const l = e.getPart(o);
                     l.tiles.rotated(s).forEach(( (e, r, s) => {
                         c.fillRect(t + e - n, a + s - i, 1, 1),
-                        o == Bw.Start ? d.push([t + e - n, a + s - i]) : null != l.detector && l.detector.type == yy.Checkpoint ? h.push([t + e - n, a + s - i]) : null != l.detector && l.detector.type == yy.Finish && u.push([t + e - n, a + s - i])
+                        o == Ww.Start ? d.push([t + e - n, a + s - i]) : null != l.detector && l.detector.type == ky.Checkpoint ? h.push([t + e - n, a + s - i]) : null != l.detector && l.detector.type == ky.Finish && u.push([t + e - n, a + s - i])
                     }
                     ))
                 }
@@ -29484,7 +29490,7 @@
             }
         }
         ;
-        var Ry, Ly, Iy, Ny, Dy, Uy, By, Oy, zy, Fy, Wy, Hy, Vy, Gy, jy = function(e, t, n, i, r) {
+        var Dy, Uy, By, Oy, zy, Fy, Wy, Hy, Vy, Gy, jy, qy, Xy, Yy, Ky = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -29493,14 +29499,14 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, qy = function(e, t, n, i) {
+        }, Zy = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        class Xy {
+        class Jy {
             constructor(e, t, n, i, r, a, o) {
                 if (this.checkpointOrder = null,
                 this.x = e,
@@ -29510,86 +29516,86 @@
                 this.type = r,
                 this.matrix = a,
                 this.checkpointOrder = o,
-                null != r.detector && r.detector.type == yy.Checkpoint) {
+                null != r.detector && r.detector.type == ky.Checkpoint) {
                     if (null == o)
                         throw "Checkpoint has no checkpoint order"
                 } else if (null != o)
                     throw "Non-checkpoint has checkpoint order"
             }
         }
-        class Yy {
+        class Qy {
             constructor(e, t, n) {
-                Ry.add(this),
-                Ly.set(this, void 0),
-                Iy.set(this, void 0),
-                Ny.set(this, void 0),
-                Dy.set(this, []),
-                Uy.set(this, new Map),
-                By.set(this, new Map),
-                Oy.set(this, {
+                Dy.add(this),
+                Uy.set(this, void 0),
+                By.set(this, void 0),
+                Oy.set(this, void 0),
+                zy.set(this, []),
+                Fy.set(this, new Map),
+                Wy.set(this, new Map),
+                Hy.set(this, {
                     min: new ln(0,0),
                     max: new ln(0,0)
                 }),
-                zy.set(this, null),
-                Fy.set(this, []),
-                jy(this, Ly, e, "f"),
-                jy(this, Iy, t, "f"),
-                jy(this, Ny, n, "f")
+                Vy.set(this, null),
+                Gy.set(this, []),
+                Ky(this, Uy, e, "f"),
+                Ky(this, By, t, "f"),
+                Ky(this, Oy, n, "f")
             }
             getID() {
-                return qy(this, zy, "f")
+                return Zy(this, Vy, "f")
             }
             clear() {
-                jy(this, zy, null, "f"),
-                qy(this, Dy, "f").length = 0,
-                qy(this, Uy, "f").clear(),
-                qy(this, By, "f").clear(),
-                qy(this, Ry, "m", Wy).call(this)
+                Ky(this, Vy, null, "f"),
+                Zy(this, zy, "f").length = 0,
+                Zy(this, Fy, "f").clear(),
+                Zy(this, Wy, "f").clear(),
+                Zy(this, Dy, "m", jy).call(this)
             }
             hasPartAt(e, t, n) {
-                return qy(this, Uy, "f").has(e + "|" + t + "|" + n)
+                return Zy(this, Fy, "f").has(e + "|" + t + "|" + n)
             }
             getPartAt(e, t, n) {
-                const i = qy(this, Uy, "f").get(e + "|" + t + "|" + n);
+                const i = Zy(this, Fy, "f").get(e + "|" + t + "|" + n);
                 return null == i ? null : {
                     id: i.type.id,
                     rotation: i.rotation
                 }
             }
             setPart(e, t, n, i, r, a) {
-                const o = qy(this, Ny, "f").getPart(i)
-                  , s = new Xy(e,t,n,r,o,(new ui).makeRotationY(r * Math.PI / 2).setPosition(e * Yy.partWidth, t * Yy.partHeight, n * Yy.partLength),a);
-                qy(this, Dy, "f").push(s);
+                const o = Zy(this, Oy, "f").getPart(i)
+                  , s = new Jy(e,t,n,r,o,(new ui).makeRotationY(r * Math.PI / 2).setPosition(e * Qy.partWidth, t * Qy.partHeight, n * Qy.partLength),a);
+                Zy(this, zy, "f").push(s);
                 o.tiles.rotated(r).forEach(( (i, r, a) => {
                     const o = e + i + "|" + (t + r) + "|" + (n + a);
                     if (this.hasPartAt(e + i, t + r, n + a))
                         throw "Track part collision";
-                    qy(this, Uy, "f").set(o, s)
+                    Zy(this, Fy, "f").set(o, s)
                 }
                 ));
-                const l = qy(this, By, "f").get(i);
-                null == l ? qy(this, By, "f").set(i, [s]) : l.push(s)
+                const l = Zy(this, Wy, "f").get(i);
+                null == l ? Zy(this, Wy, "f").set(i, [s]) : l.push(s)
             }
             deletePart(e, t, n) {
-                const i = qy(this, Uy, "f").get(e + "|" + t + "|" + n);
+                const i = Zy(this, Fy, "f").get(e + "|" + t + "|" + n);
                 if (null == i)
                     throw "Track part missing from parts by position map";
-                for (let e = 0; e < qy(this, Dy, "f").length; ++e) {
-                    if (qy(this, Dy, "f")[e] == i) {
-                        qy(this, Dy, "f").splice(e, 1);
+                for (let e = 0; e < Zy(this, zy, "f").length; ++e) {
+                    if (Zy(this, zy, "f")[e] == i) {
+                        Zy(this, zy, "f").splice(e, 1);
                         break
                     }
-                    if (e == qy(this, Dy, "f").length - 1)
+                    if (e == Zy(this, zy, "f").length - 1)
                         throw "Track part missing from parts list"
                 }
                 i.type.tiles.rotated(i.rotation).forEach(( (e, t, n) => {
                     const r = i.x + e + "|" + (i.y + t) + "|" + (i.z + n);
-                    if (!qy(this, Uy, "f").has(r))
+                    if (!Zy(this, Fy, "f").has(r))
                         throw "Track part section missing";
-                    qy(this, Uy, "f").delete(r)
+                    Zy(this, Fy, "f").delete(r)
                 }
                 ));
-                const r = qy(this, By, "f").get(i.type.id);
+                const r = Zy(this, Wy, "f").get(i.type.id);
                 if (null == r)
                     throw "Track part type is missing from parts by type map";
                 for (let e = 0; e < r.length; ++e) {
@@ -29602,15 +29608,15 @@
                 }
             }
             getBounds() {
-                return qy(this, Oy, "f")
+                return Zy(this, Hy, "f")
             }
             shortRaycast(e) {
-                const t = new Un(Math.floor(e.ray.origin.x / Yy.partWidth),Math.floor(e.ray.origin.y / Yy.partHeight),Math.floor(e.ray.origin.z / Yy.partLength))
+                const t = new Un(Math.floor(e.ray.origin.x / Qy.partWidth),Math.floor(e.ray.origin.y / Qy.partHeight),Math.floor(e.ray.origin.z / Qy.partLength))
                   , n = new Set;
                 for (let e = -1; e <= 1; e++)
                     for (let i = -1; i <= 1; i++)
                         for (let r = -1; r <= 1; r++) {
-                            const a = qy(this, Ry, "m", Hy).call(this, t.x + e, t.y + i, t.z + r);
+                            const a = Zy(this, Dy, "m", qy).call(this, t.x + e, t.y + i, t.z + r);
                             null != a && n.add(a)
                         }
                 let i = null;
@@ -29627,13 +29633,13 @@
                 i
             }
             generateMeshes() {
-                qy(this, Ry, "m", Wy).call(this);
-                const e = qy(this, Ly, "f").getShadowDirection()
+                Zy(this, Dy, "m", jy).call(this);
+                const e = Zy(this, Uy, "f").getShadowDirection()
                   , t = new Pn(e.x,e.y,e.z,0);
-                qy(this, Ny, "f").getAllParts().forEach((e => {
+                Zy(this, Oy, "f").getAllParts().forEach((e => {
                     const n = [];
-                    for (let t = 0; t < qy(this, Dy, "f").length; ++t)
-                        qy(this, Dy, "f")[t].type == e && n.push(qy(this, Dy, "f")[t]);
+                    for (let t = 0; t < Zy(this, zy, "f").length; ++t)
+                        Zy(this, zy, "f")[t].type == e && n.push(Zy(this, zy, "f")[t]);
                     if (n.length > 0) {
                         if (null == e.mesh)
                             throw "Mesh is not loaded";
@@ -29642,23 +29648,23 @@
                         i.receiveShadow = !0;
                         for (let e = 0; e < n.length; ++e)
                             i.setMatrixAt(e, n[e].matrix);
-                        if (qy(this, Ly, "f").scene.add(i),
-                        qy(this, Fy, "f").push(i),
-                        qy(this, Iy, "f").getSettingBoolean(Jh.TrackShadowEnabled)) {
-                            const e = new cy(i,1192238);
+                        if (Zy(this, Uy, "f").scene.add(i),
+                        Zy(this, Gy, "f").push(i),
+                        Zy(this, By, "f").getSettingBoolean(Jh.TrackShadowEnabled)) {
+                            const e = new py(i,1192238);
                             e.update(new ia(new Un(0,1,0),0), t),
-                            qy(this, Ly, "f").scene.add(e),
-                            qy(this, Fy, "f").push(e)
+                            Zy(this, Uy, "f").scene.add(e),
+                            Zy(this, Gy, "f").push(e)
                         }
                     }
                 }
                 )),
-                qy(this, Ry, "m", Vy).call(this)
+                Zy(this, Dy, "m", Xy).call(this)
             }
             getCheckpoints() {
                 let e = [];
-                return qy(this, Ny, "f").getPartTypesWithDetector(yy.Checkpoint).forEach((t => {
-                    const n = qy(this, By, "f").get(t);
+                return Zy(this, Oy, "f").getPartTypesWithDetector(ky.Checkpoint).forEach((t => {
+                    const n = Zy(this, Wy, "f").get(t);
                     null != n && (e = e.concat(n))
                 }
                 )),
@@ -29680,8 +29686,8 @@
             }
             getCheckpointOrders() {
                 let e = [];
-                return qy(this, Ny, "f").getPartTypesWithDetector(yy.Checkpoint).forEach((t => {
-                    const n = qy(this, By, "f").get(t);
+                return Zy(this, Oy, "f").getPartTypesWithDetector(ky.Checkpoint).forEach((t => {
+                    const n = Zy(this, Wy, "f").get(t);
                     null != n && (e = e.concat(n))
                 }
                 )),
@@ -29696,8 +29702,8 @@
             }
             getTotalNumberOfCheckpointIndices() {
                 let e = [];
-                if (qy(this, Ny, "f").getPartTypesWithDetector(yy.Checkpoint).forEach((t => {
-                    const n = qy(this, By, "f").get(t);
+                if (Zy(this, Oy, "f").getPartTypesWithDetector(ky.Checkpoint).forEach((t => {
+                    const n = Zy(this, Wy, "f").get(t);
                     null != n && (e = e.concat(n))
                 }
                 )),
@@ -29706,21 +29712,21 @@
                 return e.map((e => e.checkpointOrder)).filter(( (e, t, n) => n.indexOf(e) == t)).length
             }
             getStartTransform() {
-                const e = qy(this, Ry, "m", Gy).call(this);
+                const e = Zy(this, Dy, "m", Yy).call(this);
                 if (null != e) {
                     const t = (new Dn).setFromEuler(new _i(0,Math.PI + e.rotation * Math.PI / 2,0))
                       , n = new Un(0,.385,1.35);
                     return n.applyQuaternion(t),
                     {
-                        position: new Un(e.x * Yy.partWidth + n.x,e.y * Yy.partHeight + n.y,e.z * Yy.partLength + n.z),
+                        position: new Un(e.x * Qy.partWidth + n.x,e.y * Qy.partHeight + n.y,e.z * Qy.partLength + n.z),
                         quaternion: t
                     }
                 }
                 return null
             }
             getTrackData() {
-                const e = new Py;
-                return qy(this, Dy, "f").forEach((t => {
+                const e = new Ny;
+                return Zy(this, zy, "f").forEach((t => {
                     e.addPart(t.x, t.y, t.z, t.type.id, t.rotation, t.checkpointOrder)
                 }
                 )),
@@ -29728,7 +29734,7 @@
             }
             loadTrackData(e, t=!0) {
                 return this.clear(),
-                jy(this, zy, t ? e.getId(qy(this, Ny, "f")) : null, "f"),
+                Ky(this, Vy, t ? e.getId(Zy(this, Oy, "f")) : null, "f"),
                 e.forEachPart(( (e, t, n, i, r, a) => {
                     this.setPart(e, t, n, i, r, a)
                 }
@@ -29736,59 +29742,59 @@
                 !0
             }
         }
-        Ly = new WeakMap,
-        Iy = new WeakMap,
-        Ny = new WeakMap,
-        Dy = new WeakMap,
         Uy = new WeakMap,
         By = new WeakMap,
         Oy = new WeakMap,
         zy = new WeakMap,
         Fy = new WeakMap,
-        Ry = new WeakSet,
-        Wy = function() {
-            for (let e = 0; e < qy(this, Fy, "f").length; ++e) {
-                const t = qy(this, Fy, "f")[e];
-                qy(this, Ly, "f").scene.remove(t)
+        Wy = new WeakMap,
+        Hy = new WeakMap,
+        Vy = new WeakMap,
+        Gy = new WeakMap,
+        Dy = new WeakSet,
+        jy = function() {
+            for (let e = 0; e < Zy(this, Gy, "f").length; ++e) {
+                const t = Zy(this, Gy, "f")[e];
+                Zy(this, Uy, "f").scene.remove(t)
             }
-            qy(this, Fy, "f").length = 0
+            Zy(this, Gy, "f").length = 0
         }
         ,
-        Hy = function(e, t, n) {
-            return qy(this, Uy, "f").get(e + "|" + t + "|" + n)
+        qy = function(e, t, n) {
+            return Zy(this, Fy, "f").get(e + "|" + t + "|" + n)
         }
         ,
-        Vy = function() {
+        Xy = function() {
             let e = 1 / 0
               , t = 1 / 0
               , n = -1 / 0
               , i = -1 / 0;
-            qy(this, Dy, "f").forEach((r => {
+            Zy(this, zy, "f").forEach((r => {
                 e = Math.min(r.x, e),
                 t = Math.min(r.z, t),
                 n = Math.max(r.x, n),
                 i = Math.max(r.z, i)
             }
             )),
-            Number.isFinite(e) && Number.isFinite(t) && Number.isFinite(n) && Number.isFinite(i) ? jy(this, Oy, {
+            Number.isFinite(e) && Number.isFinite(t) && Number.isFinite(n) && Number.isFinite(i) ? Ky(this, Hy, {
                 min: new ln(e,t),
                 max: new ln(n,i)
-            }, "f") : jy(this, Oy, {
+            }, "f") : Ky(this, Hy, {
                 min: new ln,
                 max: new ln
             }, "f")
         }
         ,
-        Gy = function() {
-            const e = qy(this, By, "f").get(Bw.Start);
+        Yy = function() {
+            const e = Zy(this, Wy, "f").get(Ww.Start);
             return null != e && e.length > 0 ? e[e.length - 1] : null
         }
         ,
-        Yy.partWidth = 20,
-        Yy.partHeight = 5,
-        Yy.partLength = 20;
-        const Ky = Yy;
-        var Zy, Jy, Qy, $y, eb, tb = function(e, t, n, i, r) {
+        Qy.partWidth = 20,
+        Qy.partHeight = 5,
+        Qy.partLength = 20;
+        const $y = Qy;
+        var eb, tb, nb, ib, rb, ab = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -29797,36 +29803,36 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, nb = function(e, t, n, i) {
+        }, ob = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        class ib {
+        class sb {
             constructor(e) {
-                Jy.set(this, void 0),
-                Qy.set(this, []),
-                $y.set(this, []),
-                tb(this, Jy, e, "f")
+                tb.set(this, void 0),
+                nb.set(this, []),
+                ib.set(this, []),
+                ab(this, tb, e, "f")
             }
             dispose() {
-                nb(this, Qy, "f").forEach((e => {
+                ob(this, nb, "f").forEach((e => {
                     Array.isArray(e.material) ? e.material.forEach((e => e.dispose())) : e.material.dispose(),
                     e.geometry.dispose(),
-                    nb(this, Jy, "f").scene.remove(e)
+                    ob(this, tb, "f").scene.remove(e)
                 }
                 )),
-                nb(this, Qy, "f").length = 0
+                ob(this, nb, "f").length = 0
             }
             refresh(e) {
                 const t = e.getCheckpoints();
                 let n = !1;
-                if (t.length == nb(this, $y, "f").length)
+                if (t.length == ob(this, ib, "f").length)
                     for (let e = 0; e < t.length; e++) {
                         const i = t[e]
-                          , r = nb(this, $y, "f")[e];
+                          , r = ob(this, ib, "f")[e];
                         if (i.x != r.x || i.y != r.y || i.z != r.z || i.rotation != r.rotation || i.checkpointOrder != r.checkpointOrder) {
                             n = !0;
                             break
@@ -29836,12 +29842,12 @@
                     n = !0;
                 if (n) {
                     this.dispose(),
-                    tb(this, $y, t, "f");
+                    ab(this, ib, t, "f");
                     const e = new ar({
                         color: 16777215
                     });
                     t.forEach((t => {
-                        if (null == nb(Zy, Zy, "f", eb))
+                        if (null == ob(eb, eb, "f", rb))
                             throw "Font is not loaded yet";
                         const n = new Un(...t.detector.center);
                         let i;
@@ -29856,9 +29862,9 @@
                                 throw "Invalid rotation";
                             i = new Un(n.z,n.y,n.x)
                         }
-                        i.add(new Un(t.x * Ky.partWidth,t.y * Ky.partHeight,t.z * Ky.partLength)),
+                        i.add(new Un(t.x * $y.partWidth,t.y * $y.partHeight,t.z * $y.partLength)),
                         i.add(new Un(0,-1.3,0));
-                        const r = nb(Zy, Zy, "f", eb).generateShapes((t.checkpointOrder + 1).toString(), 4)
+                        const r = ob(eb, eb, "f", rb).generateShapes((t.checkpointOrder + 1).toString(), 4)
                           , a = new Wc(r);
                         a.computeBoundingBox();
                         const o = -.5 * (a.boundingBox.max.x - a.boundingBox.min.x);
@@ -29866,44 +29872,44 @@
                         const s = new Br(a,e);
                         s.position.copy(i),
                         s.rotation.y = Math.PI / 2 * t.rotation,
-                        nb(this, Jy, "f").scene.add(s),
-                        nb(this, Qy, "f").push(s);
+                        ob(this, tb, "f").scene.add(s),
+                        ob(this, nb, "f").push(s);
                         const l = new Br(a,e);
                         l.position.copy(i),
                         l.rotation.y = Math.PI / 2 * t.rotation + Math.PI,
-                        nb(this, Jy, "f").scene.add(l),
-                        nb(this, Qy, "f").push(l)
+                        ob(this, tb, "f").scene.add(l),
+                        ob(this, nb, "f").push(l)
                     }
                     ))
                 }
             }
             static initResources(e) {
                 e.addResource();
-                (new oy).load("forced_square.json", (t => {
-                    tb(this, Zy, t, "f", eb),
+                (new hy).load("forced_square.json", (t => {
+                    ab(this, eb, t, "f", rb),
                     e.loadedResource()
                 }
                 ))
             }
         }
-        Zy = ib,
-        Jy = new WeakMap,
-        Qy = new WeakMap,
-        $y = new WeakMap,
-        eb = {
+        eb = sb,
+        tb = new WeakMap,
+        nb = new WeakMap,
+        ib = new WeakMap,
+        rb = {
             value: null
         };
-        const rb = ib;
-        var ab = n(909)
-          , ob = {};
-        ob.styleTagTransform = u(),
-        ob.setAttributes = l(),
-        ob.insert = o().bind(null, "head"),
-        ob.domAPI = r(),
-        ob.insertStyleElement = h();
-        t()(ab.A, ob);
-        ab.A && ab.A.locals && ab.A.locals;
-        var sb, lb, cb, hb, db, ub, pb, fb, mb, gb, vb = function(e, t, n, i, r) {
+        const lb = sb;
+        var cb = n(909)
+          , hb = {};
+        hb.styleTagTransform = u(),
+        hb.setAttributes = l(),
+        hb.insert = o().bind(null, "head"),
+        hb.domAPI = r(),
+        hb.insertStyleElement = h();
+        t()(cb.A, hb);
+        cb.A && cb.A.locals && cb.A.locals;
+        var db, ub, pb, fb, mb, gb, vb, wb, yb, bb, xb = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -29912,26 +29918,26 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, wb = function(e, t, n, i) {
+        }, _b = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        lb = new WeakMap,
-        cb = new WeakMap,
-        hb = new WeakMap,
-        db = new WeakMap,
         ub = new WeakMap,
         pb = new WeakMap,
         fb = new WeakMap,
-        sb = new WeakSet,
-        mb = function() {
-            wb(this, ub, "f").textContent = wb(this, cb, "f").get("Checkpoint order") + ": " + (this.checkpointOrder + 1)
+        mb = new WeakMap,
+        gb = new WeakMap,
+        vb = new WeakMap,
+        wb = new WeakMap,
+        db = new WeakSet,
+        yb = function() {
+            _b(this, gb, "f").textContent = _b(this, pb, "f").get("Checkpoint order") + ": " + (this.checkpointOrder + 1)
         }
         ,
-        gb = function(e) {
+        bb = function(e) {
             const t = e.getCheckpointOrders()
               , n = new Set;
             t.forEach((e => {
@@ -29944,29 +29950,29 @@
             return 65535
         }
         ;
-        const yb = class {
+        const kb = class {
             constructor(e, t, n, i) {
-                sb.add(this),
-                lb.set(this, void 0),
-                cb.set(this, void 0),
-                hb.set(this, void 0),
-                db.set(this, void 0),
+                db.add(this),
                 ub.set(this, void 0),
-                pb.set(this, 0),
+                pb.set(this, void 0),
                 fb.set(this, void 0),
-                vb(this, lb, e, "f"),
-                vb(this, cb, t, "f"),
-                vb(this, hb, i, "f"),
-                vb(this, db, document.createElement("div"), "f"),
-                wb(this, db, "f").className = "hidden",
-                e.appendChild(wb(this, db, "f")),
-                wb(this, hb, "f").addChangeListener(vb(this, fb, (e => {
-                    e ? wb(this, db, "f").classList.add("touch") : wb(this, db, "f").classList.remove("touch")
+                mb.set(this, void 0),
+                gb.set(this, void 0),
+                vb.set(this, 0),
+                wb.set(this, void 0),
+                xb(this, ub, e, "f"),
+                xb(this, pb, t, "f"),
+                xb(this, fb, i, "f"),
+                xb(this, mb, document.createElement("div"), "f"),
+                _b(this, mb, "f").className = "hidden",
+                e.appendChild(_b(this, mb, "f")),
+                _b(this, fb, "f").addChangeListener(xb(this, wb, (e => {
+                    e ? _b(this, mb, "f").classList.add("touch") : _b(this, mb, "f").classList.remove("touch")
                 }
                 ), "f"));
                 const r = document.createElement("div");
                 r.className = "buttons",
-                wb(this, db, "f").appendChild(r);
+                _b(this, mb, "f").appendChild(r);
                 const a = document.createElement("button");
                 a.addEventListener("click", ( () => {
                     n.playUIClick(),
@@ -29987,47 +29993,47 @@
                 const l = document.createElement("img");
                 l.src = "images/arrow_down.svg",
                 s.appendChild(l),
-                vb(this, ub, document.createElement("p"), "f"),
-                wb(this, db, "f").appendChild(wb(this, ub, "f")),
-                wb(this, sb, "m", mb).call(this)
+                xb(this, gb, document.createElement("p"), "f"),
+                _b(this, mb, "f").appendChild(_b(this, gb, "f")),
+                _b(this, db, "m", yb).call(this)
             }
             dispose() {
-                wb(this, lb, "f").removeChild(wb(this, db, "f")),
-                wb(this, hb, "f").removeChangeListener(wb(this, fb, "f"))
+                _b(this, ub, "f").removeChild(_b(this, mb, "f")),
+                _b(this, fb, "f").removeChangeListener(_b(this, wb, "f"))
             }
             hide() {
-                wb(this, db, "f").classList.add("hidden"),
-                wb(this, db, "f").classList.remove("editor-checkpoint-order")
+                _b(this, mb, "f").classList.add("hidden"),
+                _b(this, mb, "f").classList.remove("editor-checkpoint-order")
             }
             show() {
-                wb(this, db, "f").classList.remove("hidden"),
-                wb(this, db, "f").classList.add("editor-checkpoint-order")
+                _b(this, mb, "f").classList.remove("hidden"),
+                _b(this, mb, "f").classList.add("editor-checkpoint-order")
             }
             reset() {
                 this.checkpointOrder = 0
             }
             get checkpointOrder() {
-                return wb(this, pb, "f")
+                return _b(this, vb, "f")
             }
             set checkpointOrder(e) {
-                vb(this, pb, Math.max(0, Math.min(65535, e)), "f"),
-                wb(this, sb, "m", mb).call(this)
+                xb(this, vb, Math.max(0, Math.min(65535, e)), "f"),
+                _b(this, db, "m", yb).call(this)
             }
             setFromExistingCheckpoints(e) {
-                this.checkpointOrder = wb(this, sb, "m", gb).call(this, e)
+                this.checkpointOrder = _b(this, db, "m", bb).call(this, e)
             }
         }
         ;
-        var bb = n(7)
-          , xb = {};
-        xb.styleTagTransform = u(),
-        xb.setAttributes = l(),
-        xb.insert = o().bind(null, "head"),
-        xb.domAPI = r(),
-        xb.insertStyleElement = h();
-        t()(bb.A, xb);
-        bb.A && bb.A.locals && bb.A.locals;
-        var _b, kb, Eb, Sb, Mb, Tb, Ab = function(e, t, n, i, r) {
+        var Eb = n(7)
+          , Sb = {};
+        Sb.styleTagTransform = u(),
+        Sb.setAttributes = l(),
+        Sb.insert = o().bind(null, "head"),
+        Sb.domAPI = r(),
+        Sb.insertStyleElement = h();
+        t()(Eb.A, Sb);
+        Eb.A && Eb.A.locals && Eb.A.locals;
+        var Mb, Tb, Ab, Cb, Pb, Rb, Lb = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -30036,42 +30042,42 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, Cb = function(e, t, n, i) {
+        }, Ib = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        _b = new WeakMap,
-        kb = new WeakMap,
-        Eb = new WeakMap,
-        Sb = new WeakMap,
         Mb = new WeakMap,
-        Tb = new WeakMap;
-        const Pb = class {
+        Tb = new WeakMap,
+        Ab = new WeakMap,
+        Cb = new WeakMap,
+        Pb = new WeakMap,
+        Rb = new WeakMap;
+        const Nb = class {
             constructor(e, t, n, i, r) {
-                _b.set(this, void 0),
-                kb.set(this, void 0),
-                Eb.set(this, void 0),
-                Sb.set(this, void 0),
                 Mb.set(this, void 0),
                 Tb.set(this, void 0),
-                Ab(this, _b, e, "f"),
-                Ab(this, kb, t, "f"),
-                Ab(this, Eb, n, "f"),
-                Ab(this, Sb, document.createElement("div"), "f"),
-                Cb(this, Sb, "f").className = "editor-height-selector",
-                e.appendChild(Cb(this, Sb, "f")),
-                Cb(this, Eb, "f").addChangeListener(Ab(this, Tb, (e => {
-                    e ? Cb(this, Sb, "f").classList.add("touch") : Cb(this, Sb, "f").classList.remove("touch")
+                Ab.set(this, void 0),
+                Cb.set(this, void 0),
+                Pb.set(this, void 0),
+                Rb.set(this, void 0),
+                Lb(this, Mb, e, "f"),
+                Lb(this, Tb, t, "f"),
+                Lb(this, Ab, n, "f"),
+                Lb(this, Cb, document.createElement("div"), "f"),
+                Ib(this, Cb, "f").className = "editor-height-selector",
+                e.appendChild(Ib(this, Cb, "f")),
+                Ib(this, Ab, "f").addChangeListener(Lb(this, Rb, (e => {
+                    e ? Ib(this, Cb, "f").classList.add("touch") : Ib(this, Cb, "f").classList.remove("touch")
                 }
                 ), "f")),
-                Ab(this, Mb, document.createElement("p"), "f"),
-                Cb(this, Sb, "f").appendChild(Cb(this, Mb, "f"));
+                Lb(this, Pb, document.createElement("p"), "f"),
+                Ib(this, Cb, "f").appendChild(Ib(this, Pb, "f"));
                 const a = document.createElement("div");
                 a.className = "buttons",
-                Cb(this, Sb, "f").appendChild(a);
+                Ib(this, Cb, "f").appendChild(a);
                 const o = document.createElement("button");
                 o.addEventListener("click", i),
                 a.appendChild(o);
@@ -30086,15 +30092,15 @@
                 l.appendChild(c)
             }
             refresh(e) {
-                Cb(this, Mb, "f").textContent = Cb(this, kb, "f").get("Height") + ": " + e
+                Ib(this, Pb, "f").textContent = Ib(this, Tb, "f").get("Height") + ": " + e
             }
             dispose() {
-                Cb(this, _b, "f").removeChild(Cb(this, Sb, "f")),
-                Cb(this, Eb, "f").removeChangeListener(Cb(this, Tb, "f"))
+                Ib(this, Mb, "f").removeChild(Ib(this, Cb, "f")),
+                Ib(this, Ab, "f").removeChangeListener(Ib(this, Rb, "f"))
             }
         }
         ;
-        var Rb;
+        var Db;
         !function(e) {
             e[e.VehicleAccelerate = 0] = "VehicleAccelerate",
             e[e.VehicleTurnRight = 1] = "VehicleTurnRight",
@@ -30123,18 +30129,18 @@
             e[e.SpectatorMoveBackwards = 24] = "SpectatorMoveBackwards",
             e[e.SpectatorMoveLeft = 25] = "SpectatorMoveLeft",
             e[e.SpectatorSpeedModifier = 26] = "SpectatorSpeedModifier"
-        }(Rb || (Rb = {}));
-        const Lb = Rb;
-        var Ib = n(687)
-          , Nb = {};
-        Nb.styleTagTransform = u(),
-        Nb.setAttributes = l(),
-        Nb.insert = o().bind(null, "head"),
-        Nb.domAPI = r(),
-        Nb.insertStyleElement = h();
-        t()(Ib.A, Nb);
-        Ib.A && Ib.A.locals && Ib.A.locals;
-        var Db, Ub, Bb, Ob, zb, Fb, Wb, Hb = function(e, t, n, i, r) {
+        }(Db || (Db = {}));
+        const Ub = Db;
+        var Bb = n(687)
+          , Ob = {};
+        Ob.styleTagTransform = u(),
+        Ob.setAttributes = l(),
+        Ob.insert = o().bind(null, "head"),
+        Ob.domAPI = r(),
+        Ob.insertStyleElement = h();
+        t()(Bb.A, Ob);
+        Bb.A && Bb.A.locals && Bb.A.locals;
+        var zb, Fb, Wb, Hb, Vb, Gb, jb, qb = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -30143,40 +30149,40 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, Vb = function(e, t, n, i) {
+        }, Xb = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        Db = new WeakMap,
-        Ub = new WeakMap,
-        Bb = new WeakMap,
-        Ob = new WeakMap,
         zb = new WeakMap,
         Fb = new WeakMap,
-        Wb = new WeakMap;
-        const Gb = class {
+        Wb = new WeakMap,
+        Hb = new WeakMap,
+        Vb = new WeakMap,
+        Gb = new WeakMap,
+        jb = new WeakMap;
+        const Yb = class {
             constructor(e, t, n, i, r, a, o, s, l) {
-                Db.set(this, void 0),
-                Ub.set(this, void 0),
-                Bb.set(this, void 0),
-                Ob.set(this, void 0),
                 zb.set(this, void 0),
                 Fb.set(this, void 0),
                 Wb.set(this, void 0),
-                Hb(this, Db, r, "f"),
-                Hb(this, Ub, document.getElementById("ui"), "f"),
-                Hb(this, Bb, document.createElement("div"), "f"),
-                Vb(this, Bb, "f").className = "track-export",
-                Vb(this, Ub, "f").appendChild(Vb(this, Bb, "f"));
+                Hb.set(this, void 0),
+                Vb.set(this, void 0),
+                Gb.set(this, void 0),
+                jb.set(this, void 0),
+                qb(this, zb, r, "f"),
+                qb(this, Fb, document.getElementById("ui"), "f"),
+                qb(this, Wb, document.createElement("div"), "f"),
+                Xb(this, Wb, "f").className = "track-export",
+                Xb(this, Fb, "f").appendChild(Xb(this, Wb, "f"));
                 const c = document.createElement("div");
                 c.className = "background",
-                Vb(this, Bb, "f").appendChild(c);
+                Xb(this, Wb, "f").appendChild(c);
                 const h = document.createElement("div");
                 h.className = "box",
-                Vb(this, Bb, "f").appendChild(h);
+                Xb(this, Wb, "f").appendChild(h);
                 const d = document.createElement("div");
                 d.className = "bar",
                 h.appendChild(d);
@@ -30190,36 +30196,36 @@
                 }
                 )),
                 d.appendChild(u),
-                Hb(this, zb, document.createElement("button"), "f"),
-                Vb(this, zb, "f").className = "hidden",
-                Vb(this, zb, "f").innerHTML = '<img class="button-icon" src="images/copy.svg"> ',
-                Vb(this, zb, "f").append(document.createTextNode(r.get("Copy"))),
-                Vb(this, zb, "f").addEventListener("click", ( () => {
+                qb(this, Vb, document.createElement("button"), "f"),
+                Xb(this, Vb, "f").className = "hidden",
+                Xb(this, Vb, "f").innerHTML = '<img class="button-icon" src="images/copy.svg"> ',
+                Xb(this, Vb, "f").append(document.createTextNode(r.get("Copy"))),
+                Xb(this, Vb, "f").addEventListener("click", ( () => {
                     a.playUIClick();
                     try {
-                        navigator.clipboard.writeText(Vb(this, Ob, "f").value)
+                        navigator.clipboard.writeText(Xb(this, Hb, "f").value)
                     } catch (e) {
                         console.error(e)
                     }
                 }
                 )),
-                d.appendChild(Vb(this, zb, "f")),
-                Hb(this, Fb, document.createElement("button"), "f"),
-                Vb(this, Fb, "f").className = "hidden",
-                Vb(this, Fb, "f").innerHTML = '<img class="button-icon" src="images/import.svg"> ',
-                Vb(this, Fb, "f").append(document.createTextNode(r.get("Import"))),
-                Vb(this, Fb, "f").addEventListener("click", ( () => {
+                d.appendChild(Xb(this, Vb, "f")),
+                qb(this, Gb, document.createElement("button"), "f"),
+                Xb(this, Gb, "f").className = "hidden",
+                Xb(this, Gb, "f").innerHTML = '<img class="button-icon" src="images/import.svg"> ',
+                Xb(this, Gb, "f").append(document.createTextNode(r.get("Import"))),
+                Xb(this, Gb, "f").addEventListener("click", ( () => {
                     a.playUIClick();
                     const e = () => {
-                        const e = Vb(this, Bb, "f").className;
-                        Vb(this, Bb, "f").className = "hidden",
+                        const e = Xb(this, Wb, "f").className;
+                        Xb(this, Wb, "f").className = "hidden",
                         l.show(r.get("Failed to import track"), r.get("Ok"), ( () => {
-                            Vb(this, Bb, "f").className = e
+                            Xb(this, Wb, "f").className = e
                         }
                         ))
                     }
-                      , i = Vb(this, Ob, "f").value
-                      , c = Py.fromExportString(i, o);
+                      , i = Xb(this, Hb, "f").value
+                      , c = Ny.fromExportString(i, o);
                     if (null == c)
                         e();
                     else {
@@ -30227,13 +30233,13 @@
                           , h = a.getId(o)
                           , d = a.createThumbnail(o);
                         if (s.checkTrackExists(i)) {
-                            const c = Vb(this, Bb, "f").className;
-                            Vb(this, Bb, "f").className = "hidden",
+                            const c = Xb(this, Wb, "f").className;
+                            Xb(this, Wb, "f").className = "hidden",
                             l.showConfirm(r.get('The track "{0}" already exists. Do you wish to overwrite it?', [i]), r.get("Cancel"), r.get("Overwrite"), ( () => {
-                                Vb(this, Bb, "f").className = c
+                                Xb(this, Wb, "f").className = c
                             }
                             ), ( () => {
-                                Vb(this, Bb, "f").className = c,
+                                Xb(this, Wb, "f").className = c,
                                 s.saveTrack(i, a, o) ? null != n ? n(a, i, h, d) : t() : e()
                             }
                             ))
@@ -30242,47 +30248,47 @@
                     }
                 }
                 )),
-                d.appendChild(Vb(this, Fb, "f")),
-                Hb(this, Ob, document.createElement("textarea"), "f"),
-                Vb(this, Ob, "f").spellcheck = !1,
-                h.appendChild(Vb(this, Ob, "f")),
-                i && (Vb(this, Ob, "f").placeholder = Vb(this, Db, "f").get("Paste track data here...")),
-                Vb(this, Ob, "f").value = e,
-                Vb(this, Ob, "f").readOnly = !i,
-                i ? (Vb(this, zb, "f").className = "hidden",
-                Vb(this, Fb, "f").className = "button right") : (Vb(this, zb, "f").className = "button right",
-                Vb(this, Fb, "f").className = "hidden"),
-                window.addEventListener("keydown", Hb(this, Wb, (e => {
+                d.appendChild(Xb(this, Gb, "f")),
+                qb(this, Hb, document.createElement("textarea"), "f"),
+                Xb(this, Hb, "f").spellcheck = !1,
+                h.appendChild(Xb(this, Hb, "f")),
+                i && (Xb(this, Hb, "f").placeholder = Xb(this, zb, "f").get("Paste track data here...")),
+                Xb(this, Hb, "f").value = e,
+                Xb(this, Hb, "f").readOnly = !i,
+                i ? (Xb(this, Vb, "f").className = "hidden",
+                Xb(this, Gb, "f").className = "button right") : (Xb(this, Vb, "f").className = "button right",
+                Xb(this, Gb, "f").className = "hidden"),
+                window.addEventListener("keydown", qb(this, jb, (e => {
                     "Escape" == e.code && (t(),
                     e.preventDefault())
                 }
                 ), "f"))
             }
             dispose() {
-                Vb(this, Ub, "f").removeChild(Vb(this, Bb, "f")),
-                window.removeEventListener("keydown", Vb(this, Wb, "f"))
+                Xb(this, Fb, "f").removeChild(Xb(this, Wb, "f")),
+                window.removeEventListener("keydown", Xb(this, jb, "f"))
             }
         }
         ;
-        var jb = n(353)
-          , qb = {};
-        qb.styleTagTransform = u(),
-        qb.setAttributes = l(),
-        qb.insert = o().bind(null, "head"),
-        qb.domAPI = r(),
-        qb.insertStyleElement = h();
-        t()(jb.A, qb);
-        jb.A && jb.A.locals && jb.A.locals;
-        var Xb = n(479)
-          , Yb = {};
-        Yb.styleTagTransform = u(),
-        Yb.setAttributes = l(),
-        Yb.insert = o().bind(null, "head"),
-        Yb.domAPI = r(),
-        Yb.insertStyleElement = h();
-        t()(Xb.A, Yb);
-        Xb.A && Xb.A.locals && Xb.A.locals;
-        var Kb, Zb, Jb, Qb, $b, ex, tx, nx, ix, rx = function(e, t, n, i, r) {
+        var Kb = n(353)
+          , Zb = {};
+        Zb.styleTagTransform = u(),
+        Zb.setAttributes = l(),
+        Zb.insert = o().bind(null, "head"),
+        Zb.domAPI = r(),
+        Zb.insertStyleElement = h();
+        t()(Kb.A, Zb);
+        Kb.A && Kb.A.locals && Kb.A.locals;
+        var Jb = n(479)
+          , Qb = {};
+        Qb.styleTagTransform = u(),
+        Qb.setAttributes = l(),
+        Qb.insert = o().bind(null, "head"),
+        Qb.domAPI = r(),
+        Qb.insertStyleElement = h();
+        t()(Jb.A, Qb);
+        Jb.A && Jb.A.locals && Jb.A.locals;
+        var $b, ex, tx, nx, ix, rx, ax, ox, sx, lx = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -30291,79 +30297,79 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, ax = function(e, t, n, i) {
+        }, cx = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        class ox {
+        class hx {
             constructor(e, t, n, i=!1) {
-                if (Kb.set(this, void 0),
-                Zb.set(this, void 0),
-                Jb.set(this, void 0),
-                Qb.set(this, void 0),
-                $b.set(this, void 0),
+                if ($b.set(this, void 0),
                 ex.set(this, void 0),
-                tx.set(this, null),
-                nx.set(this, null),
-                ix.set(this, null),
+                tx.set(this, void 0),
+                nx.set(this, void 0),
+                ix.set(this, void 0),
+                rx.set(this, void 0),
+                ax.set(this, null),
+                ox.set(this, null),
+                sx.set(this, null),
                 this.record = null,
-                rx(this, Kb, t, "f"),
-                rx(this, Zb, document.getElementById("ui"), "f"),
-                rx(this, Jb, document.createElement("div"), "f"),
-                t.getSettingBoolean(Jh.TimerPosition) ? ax(this, Jb, "f").className = "timer up" : ax(this, Jb, "f").className = "timer",
+                lx(this, $b, t, "f"),
+                lx(this, ex, document.getElementById("ui"), "f"),
+                lx(this, tx, document.createElement("div"), "f"),
+                t.getSettingBoolean(Jh.TimerPosition) ? cx(this, tx, "f").className = "timer up" : cx(this, tx, "f").className = "timer",
                 i)
-                    rx(this, Qb, null, "f");
+                    lx(this, nx, null, "f");
                 else {
                     const t = document.createElement("div");
                     t.className = "left",
-                    ax(this, Jb, "f").appendChild(t);
+                    cx(this, tx, "f").appendChild(t);
                     const i = document.createElement("h2");
                     i.textContent = null != n ? '"' + n + '"' : e.get("Record"),
                     t.appendChild(i);
                     const r = document.createElement("div");
                     t.appendChild(r),
-                    rx(this, Qb, document.createElement("p"), "f"),
-                    ax(this, Qb, "f").className = "small",
-                    ax(this, Qb, "f").textContent = "- - -",
-                    r.appendChild(ax(this, Qb, "f"))
+                    lx(this, nx, document.createElement("p"), "f"),
+                    cx(this, nx, "f").className = "small",
+                    cx(this, nx, "f").textContent = "- - -",
+                    r.appendChild(cx(this, nx, "f"))
                 }
                 const r = document.createElement("div");
                 r.className = "center",
-                ax(this, Jb, "f").appendChild(r);
+                cx(this, tx, "f").appendChild(r);
                 const a = document.createElement("h2");
                 a.textContent = e.get("Current"),
                 r.appendChild(a);
                 const o = document.createElement("div");
                 if (r.appendChild(o),
-                rx(this, $b, document.createElement("p"), "f"),
-                ax(this, $b, "f").textContent = "- - -",
-                o.appendChild(ax(this, $b, "f")),
+                lx(this, ix, document.createElement("p"), "f"),
+                cx(this, ix, "f").textContent = "- - -",
+                o.appendChild(cx(this, ix, "f")),
                 i)
-                    rx(this, ex, null, "f");
+                    lx(this, rx, null, "f");
                 else {
                     const t = document.createElement("div");
                     t.className = "right",
-                    ax(this, Jb, "f").appendChild(t);
+                    cx(this, tx, "f").appendChild(t);
                     const n = document.createElement("h2");
                     n.textContent = e.get("Difference"),
                     t.appendChild(n);
                     const i = document.createElement("div");
                     t.appendChild(i),
-                    rx(this, ex, document.createElement("p"), "f"),
-                    ax(this, ex, "f").className = "small",
-                    ax(this, ex, "f").textContent = "- - -",
-                    i.appendChild(ax(this, ex, "f"))
+                    lx(this, rx, document.createElement("p"), "f"),
+                    cx(this, rx, "f").className = "small",
+                    cx(this, rx, "f").textContent = "- - -",
+                    i.appendChild(cx(this, rx, "f"))
                 }
-                ax(this, Zb, "f").appendChild(ax(this, Jb, "f"))
+                cx(this, ex, "f").appendChild(cx(this, tx, "f"))
             }
             dispose() {
-                ax(this, Zb, "f").removeChild(ax(this, Jb, "f"))
+                cx(this, ex, "f").removeChild(cx(this, tx, "f"))
             }
             setOverridePosition(e) {
-                (null != e ? e : ax(this, Kb, "f").getSettingBoolean(Jh.TimerPosition)) ? ax(this, Jb, "f").className = "timer up" : ax(this, Jb, "f").className = "timer"
+                (null != e ? e : cx(this, $b, "f").getSettingBoolean(Jh.TimerPosition)) ? cx(this, tx, "f").className = "timer up" : cx(this, tx, "f").className = "timer"
             }
             static formatTimeString(e, t=!1) {
                 if (null == e)
@@ -30382,252 +30388,56 @@
                 const t = e.getTime();
                 let n;
                 if (n = null != this.record ? t.difference(this.record) : null,
-                null != ax(this, Qb, "f")) {
-                    const e = ox.formatTimeString(this.record, !1);
-                    if (e != ax(this, tx, "f")) {
-                        ax(this, Qb, "f").innerHTML = "";
+                null != cx(this, nx, "f")) {
+                    const e = hx.formatTimeString(this.record, !1);
+                    if (e != cx(this, ax, "f")) {
+                        cx(this, nx, "f").innerHTML = "";
                         for (let t = 0; t < e.length; ++t) {
                             const n = document.createElement("span");
                             n.textContent = e[t],
-                            ax(this, Qb, "f").appendChild(n)
+                            cx(this, nx, "f").appendChild(n)
                         }
-                        rx(this, tx, e, "f")
+                        lx(this, ax, e, "f")
                     }
-                    null == this.record ? "small center" != ax(this, Qb, "f").className && (ax(this, Qb, "f").className = "small center") : "small" != ax(this, Qb, "f").className && (ax(this, Qb, "f").className = "small")
+                    null == this.record ? "small center" != cx(this, nx, "f").className && (cx(this, nx, "f").className = "small center") : "small" != cx(this, nx, "f").className && (cx(this, nx, "f").className = "small")
                 }
-                const i = ox.formatTimeString(t, !1);
-                if (i != ax(this, nx, "f")) {
-                    ax(this, $b, "f").innerHTML = "";
+                const i = hx.formatTimeString(t, !1);
+                if (i != cx(this, ox, "f")) {
+                    cx(this, ix, "f").innerHTML = "";
                     for (let e = 0; e < i.length; ++e) {
                         const t = document.createElement("span");
                         t.textContent = i[e],
-                        ax(this, $b, "f").appendChild(t)
+                        cx(this, ix, "f").appendChild(t)
                     }
-                    rx(this, nx, i, "f")
+                    lx(this, ox, i, "f")
                 }
-                if (null != ax(this, ex, "f")) {
-                    const e = ox.formatTimeString(n, !0);
-                    if (e != ax(this, ix, "f")) {
-                        ax(this, ex, "f").innerHTML = "";
+                if (null != cx(this, rx, "f")) {
+                    const e = hx.formatTimeString(n, !0);
+                    if (e != cx(this, sx, "f")) {
+                        cx(this, rx, "f").innerHTML = "";
                         for (let t = 0; t < e.length; ++t) {
                             const i = document.createElement("span");
                             0 == t && Number.isFinite(n) && (i.className = "sign"),
                             i.textContent = e[t],
-                            ax(this, ex, "f").appendChild(i)
+                            cx(this, rx, "f").appendChild(i)
                         }
-                        rx(this, ix, e, "f")
+                        lx(this, sx, e, "f")
                     }
-                    null == n ? "small center" != ax(this, ex, "f").className && (ax(this, ex, "f").className = "small center") : n.isNegative() ? "small green" != ax(this, ex, "f").className && (ax(this, ex, "f").className = "small green") : "small red" != ax(this, ex, "f").className && (ax(this, ex, "f").className = "small red")
+                    null == n ? "small center" != cx(this, rx, "f").className && (cx(this, rx, "f").className = "small center") : n.isNegative() ? "small green" != cx(this, rx, "f").className && (cx(this, rx, "f").className = "small green") : "small red" != cx(this, rx, "f").className && (cx(this, rx, "f").className = "small red")
                 }
             }
         }
-        Kb = new WeakMap,
-        Zb = new WeakMap,
-        Jb = new WeakMap,
-        Qb = new WeakMap,
         $b = new WeakMap,
         ex = new WeakMap,
         tx = new WeakMap,
         nx = new WeakMap,
-        ix = new WeakMap;
-        const sx = ox;
-        var lx, cx, hx, dx, ux, px, fx, mx, gx, vx, wx, yx, bx, xx, _x, kx, Ex, Sx, Mx = function(e, t, n, i, r) {
-            if ("m" === i)
-                throw new TypeError("Private method is not writable");
-            if ("a" === i && !r)
-                throw new TypeError("Private accessor was defined without a setter");
-            if ("function" == typeof t ? e !== t || !r : !t.has(e))
-                throw new TypeError("Cannot write private member to an object whose class did not declare it");
-            return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
-            n
-        }, Tx = function(e, t, n, i) {
-            if ("a" === n && !i)
-                throw new TypeError("Private accessor was defined without a getter");
-            if ("function" == typeof t ? e !== t || !i : !t.has(e))
-                throw new TypeError("Cannot read private member from an object whose class did not declare it");
-            return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
-        };
-        cx = new WeakMap,
-        hx = new WeakMap,
-        dx = new WeakMap,
-        ux = new WeakMap,
-        px = new WeakMap,
-        fx = new WeakMap,
-        mx = new WeakMap,
-        gx = new WeakMap,
-        vx = new WeakMap,
-        wx = new WeakMap,
-        yx = new WeakMap,
-        bx = new WeakMap,
-        xx = new WeakMap,
-        _x = new WeakMap,
-        kx = new WeakMap,
-        lx = new WeakSet,
-        Ex = function(e, t, n, i, r=null) {
-            const a = document.createElement("div");
-            a.className = "track",
-            Tx(this, bx, "f").appendChild(a);
-            const o = document.createElement("button");
-            o.className = "button",
-            o.addEventListener("click", ( () => {
-                Tx(this, dx, "f").playUIClick(),
-                Tx(this, wx, "f").call(this, e, t, n, i)
-            }
-            )),
-            a.appendChild(o);
-            const s = document.createElement("div");
-            s.className = "track-title",
-            o.appendChild(s);
-            const l = document.createElement("p");
-            l.textContent = t,
-            s.appendChild(l),
-            o.appendChild(i);
-            const c = Tx(this, ux, "f").getRecordTime(Tx(this, mx, "f").profileSlot, n)
-              , h = document.createElement("div");
-            if (h.className = "record",
-            h.textContent = null != c ? sx.formatTimeString(c) : Tx(this, hx, "f").get("No record"),
-            o.appendChild(h),
-            null != r) {
-                const e = document.createElement("button");
-                e.className = "delete-button",
-                e.innerHTML = '<img src="images/erase.svg">',
-                e.addEventListener("click", ( () => {
-                    Tx(this, dx, "f").playUIClick(),
-                    r()
-                }
-                )),
-                a.appendChild(e)
-            }
-        }
-        ,
-        Sx = function() {
-            Tx(this, bx, "f").innerHTML = "",
-            Tx(this, fx, "f").refreshCustomTracks();
-            const e = document.createElement("h2");
-            if (e.textContent = Tx(this, hx, "f").get("Standard tracks"),
-            Tx(this, bx, "f").appendChild(e),
-            Tx(this, fx, "f").forEachStandard(( (e, t, n, i) => {
-                Tx(this, lx, "m", Ex).call(this, n, t, e, i)
-            }
-            )),
-            !Tx(this, fx, "f").isCustomTracksEmpty()) {
-                const e = document.createElement("h2");
-                e.textContent = Tx(this, hx, "f").get("Custom tracks"),
-                Tx(this, bx, "f").appendChild(e),
-                Tx(this, fx, "f").forEachCustom(( (e, t, n, i) => {
-                    Tx(this, lx, "m", Ex).call(this, n, t, e, i, ( () => {
-                        this.hide(),
-                        Tx(this, gx, "f").showConfirm(Tx(this, hx, "f").get('Are you sure you want to delete "{0}"?', [t]), Tx(this, hx, "f").get("Cancel"), Tx(this, hx, "f").get("Delete"), ( () => {
-                            this.show()
-                        }
-                        ), ( () => {
-                            Tx(this, px, "f").deleteTrack(t),
-                            this.show()
-                        }
-                        ))
-                    }
-                    ))
-                }
-                ))
-            }
-        }
-        ;
-        const Ax = class {
-            constructor(e, t, n, i, r, a, o, s, l, c, h, d) {
-                lx.add(this),
-                cx.set(this, void 0),
-                hx.set(this, void 0),
-                dx.set(this, void 0),
-                ux.set(this, void 0),
-                px.set(this, void 0),
-                fx.set(this, void 0),
-                mx.set(this, void 0),
-                gx.set(this, void 0),
-                vx.set(this, void 0),
-                wx.set(this, void 0),
-                yx.set(this, void 0),
-                bx.set(this, void 0),
-                xx.set(this, null),
-                _x.set(this, !1),
-                kx.set(this, void 0),
-                Mx(this, cx, e, "f"),
-                Mx(this, hx, t, "f"),
-                Mx(this, dx, n, "f"),
-                Mx(this, ux, i, "f"),
-                Mx(this, px, r, "f"),
-                Mx(this, fx, a, "f"),
-                Mx(this, mx, s, "f"),
-                Mx(this, gx, l, "f"),
-                Mx(this, vx, c, "f"),
-                Mx(this, wx, d, "f"),
-                Mx(this, yx, document.createElement("div"), "f"),
-                Tx(this, yx, "f").className = "hidden",
-                e.appendChild(Tx(this, yx, "f"));
-                const u = document.createElement("div");
-                u.className = "bar",
-                Tx(this, yx, "f").appendChild(u),
-                Mx(this, bx, document.createElement("div"), "f"),
-                Tx(this, bx, "f").className = "tracks-container",
-                Tx(this, yx, "f").appendChild(Tx(this, bx, "f"));
-                const p = document.createElement("button");
-                p.className = "button",
-                c ? (p.innerHTML = '<img class="button-icon" src="images/erase.svg"> ',
-                p.append(document.createTextNode(Tx(this, hx, "f").get("Cancel")))) : (p.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
-                p.append(document.createTextNode(Tx(this, hx, "f").get("Back")))),
-                p.addEventListener("click", ( () => {
-                    Tx(this, dx, "f").playUIClick(),
-                    h()
-                }
-                )),
-                u.appendChild(p);
-                const f = document.createElement("button");
-                f.className = "button right",
-                f.innerHTML = '<img class="button-icon" src="images/import.svg"> ',
-                f.append(document.createTextNode(Tx(this, hx, "f").get("Import"))),
-                f.addEventListener("click", ( () => {
-                    Tx(this, dx, "f").playUIClick(),
-                    this.hide(),
-                    Mx(this, xx, new Gb("",( () => {
-                        var e;
-                        this.show(),
-                        null === (e = Tx(this, xx, "f")) || void 0 === e || e.dispose(),
-                        Mx(this, xx, null, "f")
-                    }
-                    ),( (e, t, n, i) => {
-                        var r;
-                        null === (r = Tx(this, xx, "f")) || void 0 === r || r.dispose(),
-                        Mx(this, xx, null, "f"),
-                        Tx(this, wx, "f").call(this, e, t, n, i)
-                    }
-                    ),!0,t,n,o,r,l), "f")
-                }
-                )),
-                u.appendChild(f),
-                window.addEventListener("keydown", Mx(this, kx, (e => {
-                    Tx(this, _x, "f") && "Escape" == e.code && (h(),
-                    e.preventDefault())
-                }
-                ), "f"))
-            }
-            dispose() {
-                Tx(this, cx, "f").removeChild(Tx(this, yx, "f")),
-                window.removeEventListener("keydown", Tx(this, kx, "f"))
-            }
-            hide() {
-                Tx(this, yx, "f").className = "hidden",
-                Mx(this, _x, !1, "f")
-            }
-            show() {
-                Tx(this, vx, "f") ? Tx(this, yx, "f").className = "track-selection editor-track-selection" : Tx(this, yx, "f").className = "track-selection",
-                Mx(this, _x, !0, "f"),
-                Tx(this, lx, "m", Sx).call(this)
-            }
-            get isOpen() {
-                return Tx(this, _x, "f")
-            }
-        }
-        ;
-        var Cx, Px = function(e, t, n, i, r) {
+        ix = new WeakMap,
+        rx = new WeakMap,
+        ax = new WeakMap,
+        ox = new WeakMap,
+        sx = new WeakMap;
+        const dx = hx;
+        var ux, px, fx, mx, gx, vx, wx, yx, bx, xx, _x, kx, Ex, Sx, Mx, Tx, Ax, Cx, Px = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -30643,19 +30453,215 @@
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        class Lx {
+        px = new WeakMap,
+        fx = new WeakMap,
+        mx = new WeakMap,
+        gx = new WeakMap,
+        vx = new WeakMap,
+        wx = new WeakMap,
+        yx = new WeakMap,
+        bx = new WeakMap,
+        xx = new WeakMap,
+        _x = new WeakMap,
+        kx = new WeakMap,
+        Ex = new WeakMap,
+        Sx = new WeakMap,
+        Mx = new WeakMap,
+        Tx = new WeakMap,
+        ux = new WeakSet,
+        Ax = function(e, t, n, i, r=null) {
+            const a = document.createElement("div");
+            a.className = "track",
+            Rx(this, Ex, "f").appendChild(a);
+            const o = document.createElement("button");
+            o.className = "button",
+            o.addEventListener("click", ( () => {
+                Rx(this, mx, "f").playUIClick(),
+                Rx(this, _x, "f").call(this, e, t, n, i)
+            }
+            )),
+            a.appendChild(o);
+            const s = document.createElement("div");
+            s.className = "track-title",
+            o.appendChild(s);
+            const l = document.createElement("p");
+            l.textContent = t,
+            s.appendChild(l),
+            o.appendChild(i);
+            const c = Rx(this, gx, "f").getRecordTime(Rx(this, yx, "f").profileSlot, n)
+              , h = document.createElement("div");
+            if (h.className = "record",
+            h.textContent = null != c ? dx.formatTimeString(c) : Rx(this, fx, "f").get("No record"),
+            o.appendChild(h),
+            null != r) {
+                const e = document.createElement("button");
+                e.className = "delete-button",
+                e.innerHTML = '<img src="images/erase.svg">',
+                e.addEventListener("click", ( () => {
+                    Rx(this, mx, "f").playUIClick(),
+                    r()
+                }
+                )),
+                a.appendChild(e)
+            }
+        }
+        ,
+        Cx = function() {
+            Rx(this, Ex, "f").innerHTML = "",
+            Rx(this, wx, "f").refreshCustomTracks();
+            const e = document.createElement("h2");
+            if (e.textContent = Rx(this, fx, "f").get("Standard tracks"),
+            Rx(this, Ex, "f").appendChild(e),
+            Rx(this, wx, "f").forEachStandard(( (e, t, n, i) => {
+                Rx(this, ux, "m", Ax).call(this, n, t, e, i)
+            }
+            )),
+            !Rx(this, wx, "f").isCustomTracksEmpty()) {
+                const e = document.createElement("h2");
+                e.textContent = Rx(this, fx, "f").get("Custom tracks"),
+                Rx(this, Ex, "f").appendChild(e),
+                Rx(this, wx, "f").forEachCustom(( (e, t, n, i) => {
+                    Rx(this, ux, "m", Ax).call(this, n, t, e, i, ( () => {
+                        this.hide(),
+                        Rx(this, bx, "f").showConfirm(Rx(this, fx, "f").get('Are you sure you want to delete "{0}"?', [t]), Rx(this, fx, "f").get("Cancel"), Rx(this, fx, "f").get("Delete"), ( () => {
+                            this.show()
+                        }
+                        ), ( () => {
+                            Rx(this, vx, "f").deleteTrack(t),
+                            this.show()
+                        }
+                        ))
+                    }
+                    ))
+                }
+                ))
+            }
+        }
+        ;
+        const Lx = class {
+            constructor(e, t, n, i, r, a, o, s, l, c, h, d) {
+                ux.add(this),
+                px.set(this, void 0),
+                fx.set(this, void 0),
+                mx.set(this, void 0),
+                gx.set(this, void 0),
+                vx.set(this, void 0),
+                wx.set(this, void 0),
+                yx.set(this, void 0),
+                bx.set(this, void 0),
+                xx.set(this, void 0),
+                _x.set(this, void 0),
+                kx.set(this, void 0),
+                Ex.set(this, void 0),
+                Sx.set(this, null),
+                Mx.set(this, !1),
+                Tx.set(this, void 0),
+                Px(this, px, e, "f"),
+                Px(this, fx, t, "f"),
+                Px(this, mx, n, "f"),
+                Px(this, gx, i, "f"),
+                Px(this, vx, r, "f"),
+                Px(this, wx, a, "f"),
+                Px(this, yx, s, "f"),
+                Px(this, bx, l, "f"),
+                Px(this, xx, c, "f"),
+                Px(this, _x, d, "f"),
+                Px(this, kx, document.createElement("div"), "f"),
+                Rx(this, kx, "f").className = "hidden",
+                e.appendChild(Rx(this, kx, "f"));
+                const u = document.createElement("div");
+                u.className = "bar",
+                Rx(this, kx, "f").appendChild(u),
+                Px(this, Ex, document.createElement("div"), "f"),
+                Rx(this, Ex, "f").className = "tracks-container",
+                Rx(this, kx, "f").appendChild(Rx(this, Ex, "f"));
+                const p = document.createElement("button");
+                p.className = "button",
+                c ? (p.innerHTML = '<img class="button-icon" src="images/erase.svg"> ',
+                p.append(document.createTextNode(Rx(this, fx, "f").get("Cancel")))) : (p.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
+                p.append(document.createTextNode(Rx(this, fx, "f").get("Back")))),
+                p.addEventListener("click", ( () => {
+                    Rx(this, mx, "f").playUIClick(),
+                    h()
+                }
+                )),
+                u.appendChild(p);
+                const f = document.createElement("button");
+                f.className = "button right",
+                f.innerHTML = '<img class="button-icon" src="images/import.svg"> ',
+                f.append(document.createTextNode(Rx(this, fx, "f").get("Import"))),
+                f.addEventListener("click", ( () => {
+                    Rx(this, mx, "f").playUIClick(),
+                    this.hide(),
+                    Px(this, Sx, new Yb("",( () => {
+                        var e;
+                        this.show(),
+                        null === (e = Rx(this, Sx, "f")) || void 0 === e || e.dispose(),
+                        Px(this, Sx, null, "f")
+                    }
+                    ),( (e, t, n, i) => {
+                        var r;
+                        null === (r = Rx(this, Sx, "f")) || void 0 === r || r.dispose(),
+                        Px(this, Sx, null, "f"),
+                        Rx(this, _x, "f").call(this, e, t, n, i)
+                    }
+                    ),!0,t,n,o,r,l), "f")
+                }
+                )),
+                u.appendChild(f),
+                window.addEventListener("keydown", Px(this, Tx, (e => {
+                    Rx(this, Mx, "f") && "Escape" == e.code && (h(),
+                    e.preventDefault())
+                }
+                ), "f"))
+            }
+            dispose() {
+                Rx(this, px, "f").removeChild(Rx(this, kx, "f")),
+                window.removeEventListener("keydown", Rx(this, Tx, "f"))
+            }
+            hide() {
+                Rx(this, kx, "f").className = "hidden",
+                Px(this, Mx, !1, "f")
+            }
+            show() {
+                Rx(this, xx, "f") ? Rx(this, kx, "f").className = "track-selection editor-track-selection" : Rx(this, kx, "f").className = "track-selection",
+                Px(this, Mx, !0, "f"),
+                Rx(this, ux, "m", Cx).call(this)
+            }
+            get isOpen() {
+                return Rx(this, Mx, "f")
+            }
+        }
+        ;
+        var Ix, Nx = function(e, t, n, i, r) {
+            if ("m" === i)
+                throw new TypeError("Private method is not writable");
+            if ("a" === i && !r)
+                throw new TypeError("Private accessor was defined without a setter");
+            if ("function" == typeof t ? e !== t || !r : !t.has(e))
+                throw new TypeError("Cannot write private member to an object whose class did not declare it");
+            return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
+            n
+        }, Dx = function(e, t, n, i) {
+            if ("a" === n && !i)
+                throw new TypeError("Private accessor was defined without a getter");
+            if ("function" == typeof t ? e !== t || !i : !t.has(e))
+                throw new TypeError("Cannot read private member from an object whose class did not declare it");
+            return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
+        };
+        class Ux {
             constructor(e) {
-                Cx.set(this, void 0);
+                Ix.set(this, void 0);
                 const t = [];
                 e.forEach(( ([e,n,i]) => {
                     t.push([e, n, i])
                 }
                 )),
-                Px(this, Cx, t, "f")
+                Nx(this, Ix, t, "f")
             }
             rotated(e) {
                 const t = [];
-                return Rx(this, Cx, "f").forEach(( ([n,i,r]) => {
+                return Dx(this, Ix, "f").forEach(( ([n,i,r]) => {
                     switch (e) {
                     case 0:
                         t.push([n, i, r]);
@@ -30674,27 +30680,27 @@
                     }
                 }
                 )),
-                new Lx(t)
+                new Ux(t)
             }
             forEach(e) {
-                Rx(this, Cx, "f").forEach(( ([t,n,i]) => {
+                Dx(this, Ix, "f").forEach(( ([t,n,i]) => {
                     e(t, n, i)
                 }
                 ))
             }
         }
-        Cx = new WeakMap;
-        const Ix = Lx;
-        var Nx = n(51)
-          , Dx = {};
-        Dx.styleTagTransform = u(),
-        Dx.setAttributes = l(),
-        Dx.insert = o().bind(null, "head"),
-        Dx.domAPI = r(),
-        Dx.insertStyleElement = h();
-        t()(Nx.A, Dx);
-        Nx.A && Nx.A.locals && Nx.A.locals;
-        var Ux, Bx, Ox, zx, Fx, Wx, Hx = function(e, t, n, i, r) {
+        Ix = new WeakMap;
+        const Bx = Ux;
+        var Ox = n(51)
+          , zx = {};
+        zx.styleTagTransform = u(),
+        zx.setAttributes = l(),
+        zx.insert = o().bind(null, "head"),
+        zx.domAPI = r(),
+        zx.insertStyleElement = h();
+        t()(Ox.A, zx);
+        Ox.A && Ox.A.locals && Ox.A.locals;
+        var Fx, Wx, Hx, Vx, Gx, jx, qx = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -30703,33 +30709,33 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, Vx = function(e, t, n, i) {
+        }, Xx = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        Bx = new WeakMap,
-        Ox = new WeakMap,
-        zx = new WeakMap,
-        Fx = new WeakMap,
-        Ux = new WeakSet,
-        Wx = function() {
-            !Vx(this, Fx, "f") && Vx(this, zx, "f") ? Vx(this, Ox, "f").className = "editor-touch-controls" : Vx(this, Ox, "f").className = "hidden"
+        Wx = new WeakMap,
+        Hx = new WeakMap,
+        Vx = new WeakMap,
+        Gx = new WeakMap,
+        Fx = new WeakSet,
+        jx = function() {
+            !Xx(this, Gx, "f") && Xx(this, Vx, "f") ? Xx(this, Hx, "f").className = "editor-touch-controls" : Xx(this, Hx, "f").className = "hidden"
         }
         ;
-        const Gx = class {
+        const Yx = class {
             constructor(e, t, n) {
-                Ux.add(this),
-                Bx.set(this, void 0),
-                Ox.set(this, void 0),
-                zx.set(this, !1),
-                Fx.set(this, !1),
-                Hx(this, Bx, e, "f"),
-                Hx(this, Ox, document.createElement("div"), "f"),
-                Vx(this, Ox, "f").className = "hidden",
-                Vx(this, Bx, "f").appendChild(Vx(this, Ox, "f"));
+                Fx.add(this),
+                Wx.set(this, void 0),
+                Hx.set(this, void 0),
+                Vx.set(this, !1),
+                Gx.set(this, !1),
+                qx(this, Wx, e, "f"),
+                qx(this, Hx, document.createElement("div"), "f"),
+                Xx(this, Hx, "f").className = "hidden",
+                Xx(this, Wx, "f").appendChild(Xx(this, Hx, "f"));
                 const i = document.createElement("button");
                 i.className = "rotate",
                 i.innerHTML = '<img src="images/rotate.svg">',
@@ -30746,35 +30752,35 @@
                     n()
                 }
                 )),
-                Vx(this, Ox, "f").appendChild(i)
+                Xx(this, Hx, "f").appendChild(i)
             }
             setEnabled(e) {
-                Hx(this, zx, e, "f"),
-                Vx(this, Ux, "m", Wx).call(this)
+                qx(this, Vx, e, "f"),
+                Xx(this, Fx, "m", jx).call(this)
             }
             hide() {
-                Hx(this, Fx, !0, "f"),
-                Vx(this, Ux, "m", Wx).call(this)
+                qx(this, Gx, !0, "f"),
+                Xx(this, Fx, "m", jx).call(this)
             }
             show() {
-                Hx(this, Fx, !1, "f"),
-                Vx(this, Ux, "m", Wx).call(this)
+                qx(this, Gx, !1, "f"),
+                Xx(this, Fx, "m", jx).call(this)
             }
             dispose() {
-                Vx(this, Bx, "f").removeChild(Vx(this, Ox, "f"))
+                Xx(this, Wx, "f").removeChild(Xx(this, Hx, "f"))
             }
         }
         ;
-        var jx = n(242)
-          , qx = {};
-        qx.styleTagTransform = u(),
-        qx.setAttributes = l(),
-        qx.insert = o().bind(null, "head"),
-        qx.domAPI = r(),
-        qx.insertStyleElement = h();
-        t()(jx.A, qx);
-        jx.A && jx.A.locals && jx.A.locals;
-        var Xx, Yx, Kx, Zx = function(e, t, n, i, r) {
+        var Kx = n(242)
+          , Zx = {};
+        Zx.styleTagTransform = u(),
+        Zx.setAttributes = l(),
+        Zx.insert = o().bind(null, "head"),
+        Zx.domAPI = r(),
+        Zx.insertStyleElement = h();
+        t()(Kx.A, Zx);
+        Kx.A && Kx.A.locals && Kx.A.locals;
+        var Jx, Qx, $x, e_ = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -30783,31 +30789,31 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, Jx = function(e, t, n, i) {
+        }, t_ = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        Xx = new WeakMap,
-        Yx = new WeakMap,
-        Kx = new WeakMap;
-        const Qx = class {
+        Jx = new WeakMap,
+        Qx = new WeakMap,
+        $x = new WeakMap;
+        const n_ = class {
             constructor(e, t, n, i, r, a, o, s) {
-                Xx.set(this, void 0),
-                Yx.set(this, void 0),
-                Kx.set(this, void 0),
-                Zx(this, Xx, document.getElementById("ui"), "f"),
-                Zx(this, Yx, document.createElement("div"), "f"),
-                Jx(this, Yx, "f").className = "editor-help",
-                Jx(this, Xx, "f").appendChild(Jx(this, Yx, "f"));
+                Jx.set(this, void 0),
+                Qx.set(this, void 0),
+                $x.set(this, void 0),
+                e_(this, Jx, document.getElementById("ui"), "f"),
+                e_(this, Qx, document.createElement("div"), "f"),
+                t_(this, Qx, "f").className = "editor-help",
+                t_(this, Jx, "f").appendChild(t_(this, Qx, "f"));
                 const l = document.createElement("div");
                 l.className = "background",
-                Jx(this, Yx, "f").appendChild(l);
+                t_(this, Qx, "f").appendChild(l);
                 const c = document.createElement("section");
                 c.className = "container",
-                Jx(this, Yx, "f").appendChild(c);
+                t_(this, Qx, "f").appendChild(c);
                 const h = document.createElement("h1");
                 h.textContent = t.get("How to use the editor"),
                 c.appendChild(h);
@@ -30825,15 +30831,15 @@
                 i.touchEnabled ? (f += t.get("The camera can be moved by dragging with one finger. Rotate the camera by dragging with two fingers. Zoom in and out by pinching.") + "\n\n",
                 f += t.get("The edited height can be changed by using the height selection in the bottom left corner.")) : (f += t.get("The camera can be moved by right clicking and dragging the mouse. Rotate the camera by clicking the middle mouse button (mouse wheel) or holding the control key and right clicking and dragging the mouse. Zoom in and out by scrolling the mouse wheel.") + "\n\n",
                 f += t.get("Alternatively, the camera can also be controlled using the following keyboard keys:") + "\n\n",
-                f += "\t" + t.get("Move forwards:") + " " + p(Lb.EditorMoveForwards) + "\n",
-                f += "\t" + t.get("Move backwards:") + " " + p(Lb.EditorMoveBackwards) + "\n",
-                f += "\t" + t.get("Move left:") + " " + p(Lb.EditorMoveLeft) + "\n",
-                f += "\t" + t.get("Move right:") + " " + p(Lb.EditorMoveRight) + "\n",
-                f += "\t" + t.get("Rotate left:") + " " + p(Lb.EditorRotateLeft) + "\n",
-                f += "\t" + t.get("Rotate right:") + " " + p(Lb.EditorRotateRight) + "\n\n",
+                f += "\t" + t.get("Move forwards:") + " " + p(Ub.EditorMoveForwards) + "\n",
+                f += "\t" + t.get("Move backwards:") + " " + p(Ub.EditorMoveBackwards) + "\n",
+                f += "\t" + t.get("Move left:") + " " + p(Ub.EditorMoveLeft) + "\n",
+                f += "\t" + t.get("Move right:") + " " + p(Ub.EditorMoveRight) + "\n",
+                f += "\t" + t.get("Rotate left:") + " " + p(Ub.EditorRotateLeft) + "\n",
+                f += "\t" + t.get("Rotate right:") + " " + p(Ub.EditorRotateRight) + "\n\n",
                 f += t.get("The edited height can be changed either by using the height selection in the bottom left corner, or holding the shift key and scrolling the mouse wheel. Alternatively, you can use the following keyboard keys:") + "\n\n",
-                f += "\t" + t.get("Move up:") + " " + p(Lb.EditorMoveUp) + "\n",
-                f += "\t" + t.get("Move down:") + " " + p(Lb.EditorMoveDown));
+                f += "\t" + t.get("Move up:") + " " + p(Ub.EditorMoveUp) + "\n",
+                f += "\t" + t.get("Move down:") + " " + p(Ub.EditorMoveDown));
                 const m = document.createElement("p");
                 m.textContent = f,
                 d.appendChild(m);
@@ -30844,9 +30850,9 @@
                 i.touchEnabled ? (v += t.get("Track parts can be selected in the menu on the right after which they can be placed by tapping on the screen.") + "\n\n",
                 v += t.get("The selected part can then be rotated by tapping the rotate button in the bottom left corner.") + "\n\n",
                 v += t.get("Track parts can be deleted by using the delete tool in the right side menu.")) : (v += t.get("Track parts can be selected in the menu on the right after which they can be placed by left clicking with the mouse.") + "\n\n",
-                v += t.get("Alternatively, the track part currently hovered by the mouse can be selected with the following keyboard shortcut:") + " " + p(Lb.EditorPick) + "\n\n",
-                v += t.get("The selected part can then be rotated using the following keyboard shortcut:") + " " + p(Lb.EditorRotate) + "\n\n",
-                v += t.get("Track parts can be deleted by using the delete tool in the right side menu or by holding the following key:") + " " + p(Lb.EditorDelete));
+                v += t.get("Alternatively, the track part currently hovered by the mouse can be selected with the following keyboard shortcut:") + " " + p(Ub.EditorPick) + "\n\n",
+                v += t.get("The selected part can then be rotated using the following keyboard shortcut:") + " " + p(Ub.EditorRotate) + "\n\n",
+                v += t.get("Track parts can be deleted by using the delete tool in the right side menu or by holding the following key:") + " " + p(Ub.EditorDelete));
                 const w = document.createElement("p");
                 w.textContent = v,
                 d.appendChild(w);
@@ -30907,19 +30913,19 @@
                 }
                 )),
                 D.appendChild(U),
-                window.addEventListener("keydown", Zx(this, Kx, (e => {
+                window.addEventListener("keydown", e_(this, $x, (e => {
                     "Escape" == e.code && (s(),
                     e.preventDefault())
                 }
                 ), "f"))
             }
             dispose() {
-                Jx(this, Xx, "f").removeChild(Jx(this, Yx, "f")),
-                window.removeEventListener("keydown", Jx(this, Kx, "f"))
+                t_(this, Jx, "f").removeChild(t_(this, Qx, "f")),
+                window.removeEventListener("keydown", t_(this, $x, "f"))
             }
         }
         ;
-        var $x, e_, t_, n_, i_, r_, a_, o_, s_, l_, c_, h_, d_, u_, p_, f_, m_, g_, v_, w_, y_, b_, x_, __, k_, E_, S_, M_, T_, A_, C_, P_, R_, L_, I_, N_, D_, U_, B_, O_, z_, F_, W_, H_, V_, G_, j_, q_, X_, Y_, K_, Z_, J_, Q_, $_, ek, tk, nk, ik, rk, ak, ok, sk, lk, ck, hk, dk, uk, pk, fk, mk, gk, vk, wk, yk, bk, xk, _k, kk, Ek, Sk, Mk, Tk, Ak, Ck, Pk, Rk, Lk, Ik, Nk = function(e, t, n, i, r) {
+        var i_, r_, a_, o_, s_, l_, c_, h_, d_, u_, p_, f_, m_, g_, v_, w_, y_, b_, x_, __, k_, E_, S_, M_, T_, A_, C_, P_, R_, L_, I_, N_, D_, U_, B_, O_, z_, F_, W_, H_, V_, G_, j_, q_, X_, Y_, K_, Z_, J_, Q_, $_, ek, tk, nk, ik, rk, ak, ok, sk, lk, ck, hk, dk, uk, pk, fk, mk, gk, vk, wk, yk, bk, xk, _k, kk, Ek, Sk, Mk, Tk, Ak, Ck, Pk, Rk, Lk, Ik, Nk, Dk, Uk, Bk, Ok = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -30928,17 +30934,13 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, Dk = function(e, t, n, i) {
+        }, zk = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        e_ = new WeakMap,
-        t_ = new WeakMap,
-        n_ = new WeakMap,
-        i_ = new WeakMap,
         r_ = new WeakMap,
         a_ = new WeakMap,
         o_ = new WeakMap,
@@ -31003,47 +31005,51 @@
         dk = new WeakMap,
         uk = new WeakMap,
         pk = new WeakMap,
-        _k = new WeakMap,
-        kk = new WeakMap,
-        Ek = new WeakMap,
-        $x = new WeakSet,
-        fk = function(e) {
+        fk = new WeakMap,
+        mk = new WeakMap,
+        gk = new WeakMap,
+        vk = new WeakMap,
+        Mk = new WeakMap,
+        Tk = new WeakMap,
+        Ak = new WeakMap,
+        i_ = new WeakSet,
+        wk = function(e) {
             const t = document.getElementById("ui");
-            Nk(this, g_, document.createElement("div"), "f"),
-            Dk(this, g_, "f").className = "hidden",
-            t.appendChild(Dk(this, g_, "f")),
-            Nk(this, v_, document.createElement("div"), "f"),
-            Dk(this, v_, "f").className = "top",
-            Dk(this, g_, "f").appendChild(Dk(this, v_, "f"));
+            Ok(this, b_, document.createElement("div"), "f"),
+            zk(this, b_, "f").className = "hidden",
+            t.appendChild(zk(this, b_, "f")),
+            Ok(this, x_, document.createElement("div"), "f"),
+            zk(this, x_, "f").className = "top",
+            zk(this, b_, "f").appendChild(zk(this, x_, "f"));
             const n = document.createElement("div");
             n.className = "button-bar",
-            Dk(this, v_, "f").appendChild(n);
+            zk(this, x_, "f").appendChild(n);
             const i = document.createElement("button");
             i.className = "button",
             i.innerHTML = '<img class="button-icon" src="images/quit.svg"> ',
-            i.append(document.createTextNode(Dk(this, n_, "f").get("Exit"))),
+            i.append(document.createTextNode(zk(this, o_, "f").get("Exit"))),
             i.addEventListener("click", ( () => {
-                Dk(this, e_, "f").playUIClick(),
-                Dk(this, $x, "m", mk).call(this, e)
+                zk(this, r_, "f").playUIClick(),
+                zk(this, i_, "m", yk).call(this, e)
             }
             )),
             n.appendChild(i);
             const r = document.createElement("button");
             r.className = "button",
             r.innerHTML = '<img class="button-icon" src="images/test.svg"> ',
-            r.append(Dk(this, n_, "f").get("Test")),
+            r.append(zk(this, o_, "f").get("Test")),
             r.addEventListener("click", ( () => {
-                Dk(this, e_, "f").playUIClick(),
-                Dk(this, $x, "m", gk).call(this)
+                zk(this, r_, "f").playUIClick(),
+                zk(this, i_, "m", bk).call(this)
             }
             )),
             n.appendChild(r);
             const a = document.createElement("button");
             a.className = "button",
             a.innerHTML = '<img class="button-icon" src="images/random.svg"> ',
-            a.append(Dk(this, n_, "f").get("Generate")),
+            a.append(zk(this, o_, "f").get("Generate")),
             a.addEventListener("click", ( () => {
-                Dk(this, e_, "f").playUIClick();
+                zk(this, r_, "f").playUIClick();
                 const e = () => {
                     var e;
                     !function(e) {
@@ -31455,62 +31461,62 @@
                             }
                             ))
                         } while (t)
-                    }(Dk(this, a_, "f")),
-                    Dk(this, a_, "f").generateMeshes(),
-                    null === (e = Dk(this, ck, "f")) || void 0 === e || e.refresh(Dk(this, a_, "f")),
-                    Dk(this, E_, "f").setFromExistingCheckpoints(Dk(this, a_, "f")),
-                    Nk(this, K_, !0, "f")
+                    }(zk(this, c_, "f")),
+                    zk(this, c_, "f").generateMeshes(),
+                    null === (e = zk(this, pk, "f")) || void 0 === e || e.refresh(zk(this, c_, "f")),
+                    zk(this, A_, "f").setFromExistingCheckpoints(zk(this, c_, "f")),
+                    Ok(this, $_, !0, "f")
                 }
                 ;
-                Dk(this, K_, "f") ? e() : (Dk(this, g_, "f").inert = !0,
-                Dk(this, d_, "f").showConfirm(Dk(this, n_, "f").get("Are you sure you want to generate a new track?\n\nYour current track will be lost!"), Dk(this, n_, "f").get("Cancel"), Dk(this, n_, "f").get("Confirm"), ( () => {
-                    Dk(this, g_, "f").inert = !1
+                zk(this, $_, "f") ? e() : (zk(this, b_, "f").inert = !0,
+                zk(this, m_, "f").showConfirm(zk(this, o_, "f").get("Are you sure you want to generate a new track?\n\nYour current track will be lost!"), zk(this, o_, "f").get("Cancel"), zk(this, o_, "f").get("Confirm"), ( () => {
+                    zk(this, b_, "f").inert = !1
                 }
                 ), ( () => {
                     e(),
-                    Dk(this, g_, "f").inert = !1
+                    zk(this, b_, "f").inert = !1
                 }
                 )))
             }
             )),
             n.appendChild(a),
-            Nk(this, S_, new Ax(t,Dk(this, n_, "f"),Dk(this, e_, "f"),Dk(this, s_, "f"),Dk(this, l_, "f"),Dk(this, c_, "f"),Dk(this, o_, "f"),Dk(this, h_, "f"),Dk(this, d_, "f"),!0,( () => {
-                Dk(this, g_, "f").className = "editor",
-                Dk(this, S_, "f").hide()
+            Ok(this, C_, new Lx(t,zk(this, o_, "f"),zk(this, r_, "f"),zk(this, d_, "f"),zk(this, u_, "f"),zk(this, p_, "f"),zk(this, h_, "f"),zk(this, f_, "f"),zk(this, m_, "f"),!0,( () => {
+                zk(this, b_, "f").className = "editor",
+                zk(this, C_, "f").hide()
             }
             ),( (e, t) => {
                 var n;
-                Dk(this, a_, "f").loadTrackData(e, !1),
-                Dk(this, a_, "f").generateMeshes(),
-                null === (n = Dk(this, ck, "f")) || void 0 === n || n.refresh(Dk(this, a_, "f")),
-                Dk(this, E_, "f").setFromExistingCheckpoints(Dk(this, a_, "f")),
-                Nk(this, K_, !0, "f"),
-                Dk(this, w_, "f").value = t,
+                zk(this, c_, "f").loadTrackData(e, !1),
+                zk(this, c_, "f").generateMeshes(),
+                null === (n = zk(this, pk, "f")) || void 0 === n || n.refresh(zk(this, c_, "f")),
+                zk(this, A_, "f").setFromExistingCheckpoints(zk(this, c_, "f")),
+                Ok(this, $_, !0, "f"),
+                zk(this, __, "f").value = t,
                 this.resetView(),
-                Dk(this, g_, "f").className = "editor",
-                Dk(this, S_, "f").hide()
+                zk(this, b_, "f").className = "editor",
+                zk(this, C_, "f").hide()
             }
             )), "f"),
-            Nk(this, T_, new Gx(Dk(this, g_, "f"),Dk(this, e_, "f"),( () => {
-                Nk(this, ok, (Dk(this, ok, "f") + 1) % 4, "f")
+            Ok(this, R_, new Yx(zk(this, b_, "f"),zk(this, r_, "f"),( () => {
+                Ok(this, hk, (zk(this, hk, "f") + 1) % 4, "f")
             }
             )), "f"),
-            Dk(this, T_, "f").setEnabled(Dk(this, u_, "f").touchEnabled);
+            zk(this, R_, "f").setEnabled(zk(this, g_, "f").touchEnabled);
             const o = document.createElement("button");
             o.className = "button",
             o.innerHTML = '<img class="button-icon" src="images/load.svg"> ',
-            o.append(document.createTextNode(Dk(this, n_, "f").get("Load"))),
+            o.append(document.createTextNode(zk(this, o_, "f").get("Load"))),
             o.addEventListener("click", ( () => {
-                Dk(this, e_, "f").playUIClick(),
-                Dk(this, K_, "f") ? (Dk(this, S_, "f").show(),
-                Dk(this, g_, "f").className = "hidden") : (Dk(this, g_, "f").inert = !0,
-                Dk(this, d_, "f").showConfirm(Dk(this, n_, "f").get("Are you sure you want to load a new track?\n\nYour current track will be lost!"), Dk(this, n_, "f").get("Cancel"), Dk(this, n_, "f").get("Confirm"), ( () => {
-                    Dk(this, g_, "f").inert = !1
+                zk(this, r_, "f").playUIClick(),
+                zk(this, $_, "f") ? (zk(this, C_, "f").show(),
+                zk(this, b_, "f").className = "hidden") : (zk(this, b_, "f").inert = !0,
+                zk(this, m_, "f").showConfirm(zk(this, o_, "f").get("Are you sure you want to load a new track?\n\nYour current track will be lost!"), zk(this, o_, "f").get("Cancel"), zk(this, o_, "f").get("Confirm"), ( () => {
+                    zk(this, b_, "f").inert = !1
                 }
                 ), ( () => {
-                    Dk(this, S_, "f").show(),
-                    Dk(this, g_, "f").className = "hidden",
-                    Dk(this, g_, "f").inert = !1
+                    zk(this, C_, "f").show(),
+                    zk(this, b_, "f").className = "hidden",
+                    zk(this, b_, "f").inert = !1
                 }
                 )))
             }
@@ -31519,25 +31525,25 @@
             const s = document.createElement("button");
             s.className = "button",
             s.innerHTML = '<img class="button-icon" src="images/save.svg"> ',
-            s.append(document.createTextNode(Dk(this, n_, "f").get("Save"))),
+            s.append(document.createTextNode(zk(this, o_, "f").get("Save"))),
             s.addEventListener("click", ( () => {
-                Dk(this, e_, "f").playUIClick();
+                zk(this, r_, "f").playUIClick();
                 const e = this.getTrackName();
                 if (null == e)
-                    Dk(this, $x, "m", wk).call(this, Dk(this, n_, "f").get("Failed to save - Track name is needed!"), !1);
+                    zk(this, i_, "m", _k).call(this, zk(this, o_, "f").get("Failed to save - Track name is needed!"), !1);
                 else {
                     const t = () => {
-                        Dk(this, l_, "f").saveTrack(e, Dk(this, a_, "f").getTrackData(), Dk(this, o_, "f")) ? (Dk(this, $x, "m", wk).call(this, Dk(this, n_, "f").get("Track saved!"), !0),
-                        Nk(this, K_, !0, "f")) : Dk(this, $x, "m", wk).call(this, Dk(this, n_, "f").get("Failed to save!"), !1)
+                        zk(this, u_, "f").saveTrack(e, zk(this, c_, "f").getTrackData(), zk(this, h_, "f")) ? (zk(this, i_, "m", _k).call(this, zk(this, o_, "f").get("Track saved!"), !0),
+                        Ok(this, $_, !0, "f")) : zk(this, i_, "m", _k).call(this, zk(this, o_, "f").get("Failed to save!"), !1)
                     }
-                      , n = Dk(this, l_, "f").checkTrackExists(e);
-                    null == n ? Dk(this, $x, "m", wk).call(this, Dk(this, n_, "f").get("Failed to save!"), !1) : 0 == n ? t() : (Dk(this, g_, "f").inert = !0,
-                    Dk(this, d_, "f").showConfirm(Dk(this, n_, "f").get('Are you sure you want to overwrite "{0}"?', [e]), Dk(this, n_, "f").get("Cancel"), Dk(this, n_, "f").get("Confirm"), ( () => {
-                        Dk(this, g_, "f").inert = !1
+                      , n = zk(this, u_, "f").checkTrackExists(e);
+                    null == n ? zk(this, i_, "m", _k).call(this, zk(this, o_, "f").get("Failed to save!"), !1) : 0 == n ? t() : (zk(this, b_, "f").inert = !0,
+                    zk(this, m_, "f").showConfirm(zk(this, o_, "f").get('Are you sure you want to overwrite "{0}"?', [e]), zk(this, o_, "f").get("Cancel"), zk(this, o_, "f").get("Confirm"), ( () => {
+                        zk(this, b_, "f").inert = !1
                     }
                     ), ( () => {
                         t(),
-                        Dk(this, g_, "f").inert = !1
+                        zk(this, b_, "f").inert = !1
                     }
                     )))
                 }
@@ -31547,22 +31553,22 @@
             const l = document.createElement("button");
             l.className = "button",
             l.innerHTML = '<img class="button-icon" src="images/export.svg"> ',
-            l.append(document.createTextNode(Dk(this, n_, "f").get("Export"))),
+            l.append(document.createTextNode(zk(this, o_, "f").get("Export"))),
             l.addEventListener("click", ( () => {
-                Dk(this, e_, "f").playUIClick();
+                zk(this, r_, "f").playUIClick();
                 const e = this.getTrackName();
                 if (null == e)
-                    Dk(this, $x, "m", wk).call(this, Dk(this, n_, "f").get("Failed to export - Track name is needed!"), !1);
+                    zk(this, i_, "m", _k).call(this, zk(this, o_, "f").get("Failed to export - Track name is needed!"), !1);
                 else {
-                    const t = Dk(this, a_, "f").getTrackData().toExportString(e, Dk(this, o_, "f"));
-                    Dk(this, g_, "f").className = "hidden",
-                    Nk(this, M_, new Gb(t,( () => {
+                    const t = zk(this, c_, "f").getTrackData().toExportString(e, zk(this, h_, "f"));
+                    zk(this, b_, "f").className = "hidden",
+                    Ok(this, P_, new Yb(t,( () => {
                         var e;
-                        null === (e = Dk(this, M_, "f")) || void 0 === e || e.dispose(),
-                        Nk(this, M_, null, "f"),
-                        Dk(this, g_, "f").className = "editor"
+                        null === (e = zk(this, P_, "f")) || void 0 === e || e.dispose(),
+                        Ok(this, P_, null, "f"),
+                        zk(this, b_, "f").className = "editor"
                     }
-                    ),null,!1,Dk(this, n_, "f"),Dk(this, e_, "f"),Dk(this, o_, "f"),Dk(this, l_, "f"),Dk(this, d_, "f")), "f")
+                    ),null,!1,zk(this, o_, "f"),zk(this, r_, "f"),zk(this, h_, "f"),zk(this, u_, "f"),zk(this, m_, "f")), "f")
                 }
             }
             )),
@@ -31570,27 +31576,27 @@
             const c = document.createElement("button");
             c.className = "button",
             c.innerHTML = '<img class="button-icon" src="images/help.svg"> ',
-            c.append(document.createTextNode(Dk(this, n_, "f").get("Help"))),
+            c.append(document.createTextNode(zk(this, o_, "f").get("Help"))),
             c.addEventListener("click", ( () => {
-                Dk(this, e_, "f").playUIClick();
-                const e = Dk(this, o_, "f").getPart(Bw.Start).mesh;
+                zk(this, r_, "f").playUIClick();
+                const e = zk(this, h_, "f").getPart(Ww.Start).mesh;
                 if (null == e)
                     throw new Error("Starting point mesh is null");
-                const t = Dk(this, $x, "m", Sk).call(this, e)
-                  , n = Dk(this, o_, "f").getPart(Bw.Checkpoint).mesh;
+                const t = zk(this, i_, "m", Ck).call(this, e)
+                  , n = zk(this, h_, "f").getPart(Ww.Checkpoint).mesh;
                 if (null == n)
                     throw new Error("Checkpoint mesh is null");
-                const i = Dk(this, $x, "m", Sk).call(this, n)
-                  , r = Dk(this, o_, "f").getPart(Bw.Finish).mesh;
+                const i = zk(this, i_, "m", Ck).call(this, n)
+                  , r = zk(this, h_, "f").getPart(Ww.Finish).mesh;
                 if (null == r)
                     throw new Error("Finish line mesh is null");
-                const a = Dk(this, $x, "m", Sk).call(this, r);
-                Dk(this, g_, "f").className = "hidden",
-                Nk(this, A_, new Qx(Dk(this, e_, "f"),Dk(this, n_, "f"),Dk(this, p_, "f"),Dk(this, u_, "f"),t,i,a,( () => {
+                const a = zk(this, i_, "m", Ck).call(this, r);
+                zk(this, b_, "f").className = "hidden",
+                Ok(this, L_, new n_(zk(this, r_, "f"),zk(this, o_, "f"),zk(this, v_, "f"),zk(this, g_, "f"),t,i,a,( () => {
                     var e;
-                    null === (e = Dk(this, A_, "f")) || void 0 === e || e.dispose(),
-                    Nk(this, A_, null, "f"),
-                    Dk(this, g_, "f").className = "editor"
+                    null === (e = zk(this, L_, "f")) || void 0 === e || e.dispose(),
+                    Ok(this, L_, null, "f"),
+                    zk(this, b_, "f").className = "editor"
                 }
                 )), "f")
             }
@@ -31598,74 +31604,74 @@
             n.appendChild(c);
             const h = document.createElement("div");
             h.className = "trackname-input",
-            h.textContent = Dk(this, n_, "f").get("Track name") + ": ",
-            Dk(this, v_, "f").appendChild(h),
-            Nk(this, w_, document.createElement("input"), "f"),
-            Dk(this, w_, "f").type = "text",
-            Dk(this, w_, "f").maxLength = 64,
-            Dk(this, w_, "f").spellcheck = !1,
-            h.appendChild(Dk(this, w_, "f")),
-            Nk(this, y_, document.createElement("div"), "f"),
-            Dk(this, y_, "f").className = "message-box",
-            Dk(this, g_, "f").appendChild(Dk(this, y_, "f"));
+            h.textContent = zk(this, o_, "f").get("Track name") + ": ",
+            zk(this, x_, "f").appendChild(h),
+            Ok(this, __, document.createElement("input"), "f"),
+            zk(this, __, "f").type = "text",
+            zk(this, __, "f").maxLength = 64,
+            zk(this, __, "f").spellcheck = !1,
+            h.appendChild(zk(this, __, "f")),
+            Ok(this, k_, document.createElement("div"), "f"),
+            zk(this, k_, "f").className = "message-box",
+            zk(this, b_, "f").appendChild(zk(this, k_, "f"));
             const d = document.createElement("side");
             d.className = "side",
-            Dk(this, g_, "f").appendChild(d),
-            Nk(this, E_, new yb(d,Dk(this, n_, "f"),Dk(this, e_, "f"),Dk(this, u_, "f")), "f"),
-            Nk(this, x_, document.createElement("div"), "f"),
-            Dk(this, x_, "f").className = "side-panel",
-            d.appendChild(Dk(this, x_, "f")),
-            Nk(this, __, document.createElement("div"), "f"),
-            Dk(this, __, "f").className = "category-panel",
-            Dk(this, x_, "f").appendChild(Dk(this, __, "f"));
-            const u = new zr(Ky.partWidth,Ky.partHeight,Ky.partLength);
+            zk(this, b_, "f").appendChild(d),
+            Ok(this, A_, new kb(d,zk(this, o_, "f"),zk(this, r_, "f"),zk(this, g_, "f")), "f"),
+            Ok(this, S_, document.createElement("div"), "f"),
+            zk(this, S_, "f").className = "side-panel",
+            d.appendChild(zk(this, S_, "f")),
+            Ok(this, M_, document.createElement("div"), "f"),
+            zk(this, M_, "f").className = "category-panel",
+            zk(this, S_, "f").appendChild(zk(this, M_, "f"));
+            const u = new zr($y.partWidth,$y.partHeight,$y.partLength);
             u.translate(0, 2.5, 0);
-            const p = new Br(u,Dk(this, $_, "f"))
+            const p = new Br(u,zk(this, ik, "f"))
               , f = document.createElement("button");
             f.addEventListener("click", ( () => {
-                Dk(this, e_, "f").playUIClick(),
-                Dk(this, $x, "m", bk).call(this, null)
+                zk(this, r_, "f").playUIClick(),
+                zk(this, i_, "m", Ek).call(this, null)
             }
             )),
-            Dk(this, __, "f").appendChild(f);
+            zk(this, M_, "f").appendChild(f);
             const m = document.createElement("img");
             m.src = "images/erase.svg",
             f.appendChild(m),
-            Dk(this, Q_, "f").add(p),
-            Dk(this, hk, "f").push({
+            zk(this, nk, "f").add(p),
+            zk(this, fk, "f").push({
                 id: null,
                 mesh: p,
                 button: f,
-                tiles: new Ix([[0, 0, 0]]),
+                tiles: new Bx([[0, 0, 0]]),
                 isCheckpoint: !1,
                 category: null
             }),
-            Nk(this, k_, new Pb(Dk(this, g_, "f"),Dk(this, n_, "f"),Dk(this, u_, "f"),( () => {
-                Dk(this, e_, "f").playUIClick(),
-                Nk(this, $x, Dk(this, $x, "a", Mk) + 1, "a", Tk)
+            Ok(this, T_, new Nb(zk(this, b_, "f"),zk(this, o_, "f"),zk(this, g_, "f"),( () => {
+                zk(this, r_, "f").playUIClick(),
+                Ok(this, i_, zk(this, i_, "a", Pk) + 1, "a", Rk)
             }
             ),( () => {
-                Dk(this, e_, "f").playUIClick(),
-                Nk(this, $x, Math.max(0, Dk(this, $x, "a", Mk) - 1), "a", Tk)
+                zk(this, r_, "f").playUIClick(),
+                Ok(this, i_, Math.max(0, zk(this, i_, "a", Pk) - 1), "a", Rk)
             }
             )), "f"),
-            Dk(this, k_, "f").refresh(Dk(this, $x, "a", Mk))
+            zk(this, T_, "f").refresh(zk(this, i_, "a", Pk))
         }
         ,
-        mk = function(e) {
+        yk = function(e) {
             const t = () => {
-                Dk(this, r_, "f").trigger(( () => {
-                    Nk(this, K_, !0, "f"),
-                    Dk(this, w_, "f").value = "",
+                zk(this, l_, "f").trigger(( () => {
+                    Ok(this, $_, !0, "f"),
+                    zk(this, __, "f").value = "",
                     e(),
-                    Dk(this, g_, "f").inert = !1
+                    zk(this, b_, "f").inert = !1
                 }
                 ))
             }
             ;
-            Dk(this, K_, "f") ? t() : (Dk(this, g_, "f").inert = !0,
-            Dk(this, d_, "f").showConfirm(Dk(this, n_, "f").get("Are you sure you want to exit the editor?") + "\n\n" + Dk(this, n_, "f").get("All unsaved data will be lost!"), Dk(this, n_, "f").get("Cancel"), Dk(this, n_, "f").get("Confirm"), ( () => {
-                Dk(this, g_, "f").inert = !1
+            zk(this, $_, "f") ? t() : (zk(this, b_, "f").inert = !0,
+            zk(this, m_, "f").showConfirm(zk(this, o_, "f").get("Are you sure you want to exit the editor?") + "\n\n" + zk(this, o_, "f").get("All unsaved data will be lost!"), zk(this, o_, "f").get("Cancel"), zk(this, o_, "f").get("Confirm"), ( () => {
+                zk(this, b_, "f").inert = !1
             }
             ), ( () => {
                 t()
@@ -31673,69 +31679,69 @@
             )))
         }
         ,
-        gk = function() {
-            if (null != Dk(this, a_, "f").getStartTransform()) {
-                if (null == Dk(this, f_, "f"))
+        bk = function() {
+            if (null != zk(this, c_, "f").getStartTransform()) {
+                if (null == zk(this, w_, "f"))
                     throw "Test callback is null";
-                Dk(this, f_, "f").call(this)
+                zk(this, w_, "f").call(this)
             } else
-                Dk(this, $x, "m", wk).call(this, Dk(this, n_, "f").get("Starting point is missing!"), !1)
+                zk(this, i_, "m", _k).call(this, zk(this, o_, "f").get("Starting point is missing!"), !1)
         }
         ,
-        vk = function() {
-            if (null != Dk(this, ak, "f")) {
-                const e = Dk(this, a_, "f").getPartAt(Dk(this, ak, "f").x, Dk(this, ak, "f").y, Dk(this, ak, "f").z);
+        xk = function() {
+            if (null != zk(this, ck, "f")) {
+                const e = zk(this, c_, "f").getPartAt(zk(this, ck, "f").x, zk(this, ck, "f").y, zk(this, ck, "f").z);
                 if (null != e) {
-                    const t = Dk(this, hk, "f").findIndex((t => t.id == e.id));
-                    t >= 0 && (Dk(this, $x, "m", xk).call(this, t),
-                    Nk(this, ok, e.rotation, "f"))
+                    const t = zk(this, fk, "f").findIndex((t => t.id == e.id));
+                    t >= 0 && (zk(this, i_, "m", Sk).call(this, t),
+                    Ok(this, hk, e.rotation, "f"))
                 }
             }
         }
         ,
-        wk = function(e, t) {
-            null != Dk(this, b_, "f") && (clearTimeout(Dk(this, b_, "f")),
-            Nk(this, b_, null, "f")),
-            t ? Dk(this, y_, "f").classList.add("green") : Dk(this, y_, "f").classList.remove("green"),
-            Dk(this, y_, "f").classList.remove("show"),
-            Dk(this, y_, "f").classList.remove("hide"),
-            Nk(this, b_, window.setTimeout(( () => {
-                Dk(this, y_, "f").textContent = e,
-                Dk(this, y_, "f").classList.add("show"),
-                Nk(this, b_, window.setTimeout(( () => {
-                    Dk(this, y_, "f").classList.remove("show"),
-                    Dk(this, y_, "f").classList.add("hide")
+        _k = function(e, t) {
+            null != zk(this, E_, "f") && (clearTimeout(zk(this, E_, "f")),
+            Ok(this, E_, null, "f")),
+            t ? zk(this, k_, "f").classList.add("green") : zk(this, k_, "f").classList.remove("green"),
+            zk(this, k_, "f").classList.remove("show"),
+            zk(this, k_, "f").classList.remove("hide"),
+            Ok(this, E_, window.setTimeout(( () => {
+                zk(this, k_, "f").textContent = e,
+                zk(this, k_, "f").classList.add("show"),
+                Ok(this, E_, window.setTimeout(( () => {
+                    zk(this, k_, "f").classList.remove("show"),
+                    zk(this, k_, "f").classList.add("hide")
                 }
                 ), 3e3), "f")
             }
             ), 0), "f")
         }
         ,
-        yk = function() {
+        kk = function() {
             var e;
-            const t = Dk(this, o_, "f").getAllParts();
+            const t = zk(this, h_, "f").getAllParts();
             for (let n = 0; n < t.length; ++n) {
                 const i = t[n];
                 if (null == i.mesh)
                     throw "Mesh is not loaded";
                 const r = i.mesh.clone()
-                  , a = Dk(this, $x, "m", Sk).call(this, r);
-                let o = null === (e = Dk(this, uk, "f").find((e => e.category == i.category))) || void 0 === e ? void 0 : e.partPanel;
+                  , a = zk(this, i_, "m", Ck).call(this, r);
+                let o = null === (e = zk(this, gk, "f").find((e => e.category == i.category))) || void 0 === e ? void 0 : e.partPanel;
                 if (null == o) {
                     o = document.createElement("div"),
                     o.className = "part-panel hidden",
-                    Dk(this, x_, "f").prepend(o);
+                    zk(this, S_, "f").prepend(o);
                     const e = document.createElement("button");
                     e.addEventListener("click", ( () => {
-                        Dk(this, $x, "m", bk).call(this, i.category),
-                        Dk(this, e_, "f").playUIClick()
+                        zk(this, i_, "m", Ek).call(this, i.category),
+                        zk(this, r_, "f").playUIClick()
                     }
                     )),
-                    Dk(this, __, "f").appendChild(e);
+                    zk(this, M_, "f").appendChild(e);
                     const t = document.createElement("img");
                     t.src = a,
                     e.appendChild(t),
-                    Dk(this, uk, "f").push({
+                    zk(this, gk, "f").push({
                         category: i.category,
                         button: e,
                         partPanel: o,
@@ -31744,148 +31750,148 @@
                 }
                 const s = document.createElement("button");
                 s.addEventListener("click", ( () => {
-                    Dk(this, e_, "f").playUIClick(),
-                    Dk(this, $x, "m", xk).call(this, 1 + n)
+                    zk(this, r_, "f").playUIClick(),
+                    zk(this, i_, "m", Sk).call(this, 1 + n)
                 }
                 )),
                 o.appendChild(s);
                 const l = document.createElement("img");
                 l.src = a,
                 s.appendChild(l),
-                r.material = Dk(this, $_, "f"),
-                Dk(this, Q_, "f").add(r),
-                Dk(this, hk, "f").push({
+                r.material = zk(this, ik, "f"),
+                zk(this, nk, "f").add(r),
+                zk(this, fk, "f").push({
                     id: i.id,
                     mesh: r,
                     button: s,
                     tiles: i.tiles,
-                    isCheckpoint: null != i.detector && i.detector.type == yy.Checkpoint,
+                    isCheckpoint: null != i.detector && i.detector.type == ky.Checkpoint,
                     category: i.category
                 })
             }
-            Dk(this, $x, "m", xk).call(this, 1)
+            zk(this, i_, "m", Sk).call(this, 1)
         }
         ,
-        bk = function(e) {
+        Ek = function(e) {
             var t;
-            if (Dk(this, pk, "f") != e)
-                if (Nk(this, pk, e, "f"),
-                Dk(this, uk, "f").forEach((t => {
+            if (zk(this, vk, "f") != e)
+                if (Ok(this, vk, e, "f"),
+                zk(this, gk, "f").forEach((t => {
                     t.category == e ? (t.button.classList.add("selected"),
                     t.partPanel.classList.remove("hidden")) : (t.button.classList.remove("selected"),
                     t.partPanel.classList.add("hidden"))
                 }
                 )),
                 null == e)
-                    Dk(this, $x, "m", xk).call(this, 0);
+                    zk(this, i_, "m", Sk).call(this, 0);
                 else {
-                    let n = null === (t = Dk(this, uk, "f").find((t => t.category == e))) || void 0 === t ? void 0 : t.selectedIndex;
-                    if (null == n && (n = Dk(this, hk, "f").findIndex((t => t.category == e)),
+                    let n = null === (t = zk(this, gk, "f").find((t => t.category == e))) || void 0 === t ? void 0 : t.selectedIndex;
+                    if (null == n && (n = zk(this, fk, "f").findIndex((t => t.category == e)),
                     n < 0))
                         throw "Empty category";
-                    Dk(this, $x, "m", xk).call(this, n)
+                    zk(this, i_, "m", Sk).call(this, n)
                 }
         }
         ,
-        xk = function(e) {
-            Dk(this, hk, "f").forEach(( ({button: t}, n) => {
+        Sk = function(e) {
+            zk(this, fk, "f").forEach(( ({button: t}, n) => {
                 t.className = n == e ? "selected" : ""
             }
             )),
-            Nk(this, dk, e, "f");
-            const t = Dk(this, uk, "f").find((e => e.category == Dk(this, pk, "f")));
+            Ok(this, mk, e, "f");
+            const t = zk(this, gk, "f").find((e => e.category == zk(this, vk, "f")));
             null != t && (t.selectedIndex = e);
-            const n = Dk(this, hk, "f")[e];
-            null != n && n.isCheckpoint ? Dk(this, E_, "f").show() : Dk(this, E_, "f").hide()
+            const n = zk(this, fk, "f")[e];
+            null != n && n.isCheckpoint ? zk(this, A_, "f").show() : zk(this, A_, "f").hide()
         }
         ,
-        Sk = function(e) {
-            if (null == Dk(this, _k, "f") || null == Dk(this, kk, "f") || null == Dk(this, Ek, "f")) {
+        Ck = function(e) {
+            if (null == zk(this, Mk, "f") || null == zk(this, Tk, "f") || null == zk(this, Ak, "f")) {
                 const e = document.createElement("canvas");
                 e.width = 128,
                 e.height = 128,
-                Nk(this, _k, new Zs({
+                Ok(this, Mk, new Zs({
                     canvas: e,
                     alpha: !0,
                     preserveDrawingBuffer: !0,
                     antialias: !0
                 }), "f"),
-                Dk(this, _k, "f").outputColorSpace = Ct,
-                Nk(this, Ek, new Qs, "f"),
-                Nk(this, kk, new _a(-1,1,1,-1,.1,1e4), "f"),
-                Dk(this, kk, "f").position.set(1e3, 1e3, 1e3),
-                Dk(this, kk, "f").lookAt(0, 0, 0),
-                Dk(this, Ek, "f").add(Dk(this, kk, "f"));
+                zk(this, Mk, "f").outputColorSpace = Ct,
+                Ok(this, Ak, new Qs, "f"),
+                Ok(this, Tk, new _a(-1,1,1,-1,.1,1e4), "f"),
+                zk(this, Tk, "f").position.set(1e3, 1e3, 1e3),
+                zk(this, Tk, "f").lookAt(0, 0, 0),
+                zk(this, Ak, "f").add(zk(this, Tk, "f"));
                 const t = new Nh(16777215,4.7);
                 t.position.set(8, 10, 10),
-                Dk(this, Ek, "f").add(t)
+                zk(this, Ak, "f").add(t)
             }
             e.geometry.computeBoundingSphere();
             const t = (new ii).copy(e.geometry.boundingSphere);
-            return Dk(this, kk, "f").zoom = 1 / t.radius * .9,
-            Dk(this, kk, "f").position.copy(t.center),
-            Dk(this, kk, "f").position.addScalar(1e3),
-            Dk(this, kk, "f").updateProjectionMatrix(),
-            Dk(this, _k, "f").clear(),
-            Dk(this, Ek, "f").add(e),
-            Dk(this, _k, "f").render(Dk(this, Ek, "f"), Dk(this, kk, "f")),
-            Dk(this, Ek, "f").remove(e),
-            Dk(this, _k, "f").domElement.toDataURL()
+            return zk(this, Tk, "f").zoom = 1 / t.radius * .9,
+            zk(this, Tk, "f").position.copy(t.center),
+            zk(this, Tk, "f").position.addScalar(1e3),
+            zk(this, Tk, "f").updateProjectionMatrix(),
+            zk(this, Mk, "f").clear(),
+            zk(this, Ak, "f").add(e),
+            zk(this, Mk, "f").render(zk(this, Ak, "f"), zk(this, Tk, "f")),
+            zk(this, Ak, "f").remove(e),
+            zk(this, Mk, "f").domElement.toDataURL()
         }
         ,
-        Mk = function() {
-            return Math.floor(Dk(this, J_, "f").position.y / 5)
+        Pk = function() {
+            return Math.floor(zk(this, tk, "f").position.y / 5)
         }
         ,
-        Tk = function(e) {
-            const t = Dk(this, $x, "a", Mk);
-            Dk(this, J_, "f").position.y = 5 * e,
-            Dk(this, F_, "f").position.y += 5 * (e - t),
-            Dk(this, W_, "f").target.y = 5 * e,
-            Dk(this, k_, "f").refresh(e),
-            Dk(this, J_, "f").updateWorldMatrix(!0, !0),
-            Dk(this, W_, "f").update()
+        Rk = function(e) {
+            const t = zk(this, i_, "a", Pk);
+            zk(this, tk, "f").position.y = 5 * e,
+            zk(this, G_, "f").position.y += 5 * (e - t),
+            zk(this, j_, "f").target.y = 5 * e,
+            zk(this, T_, "f").refresh(e),
+            zk(this, tk, "f").updateWorldMatrix(!0, !0),
+            zk(this, j_, "f").update()
         }
         ,
-        Ak = function() {
+        Lk = function() {
             const e = performance.now();
-            if (e - Dk(this, t_, "f") > 35) {
-                const t = Dk(this, e_, "f").getBuffer("editor_edit");
-                if (null != t && null != Dk(this, e_, "f").context && null != Dk(this, e_, "f").destinationSfx) {
-                    const e = Dk(this, e_, "f").context.createBufferSource();
+            if (e - zk(this, a_, "f") > 35) {
+                const t = zk(this, r_, "f").getBuffer("editor_edit");
+                if (null != t && null != zk(this, r_, "f").context && null != zk(this, r_, "f").destinationSfx) {
+                    const e = zk(this, r_, "f").context.createBufferSource();
                     e.buffer = t,
                     e.playbackRate.value = .7;
-                    const n = Dk(this, e_, "f").context.createGain();
+                    const n = zk(this, r_, "f").context.createGain();
                     n.gain.value = .05,
                     e.connect(n),
-                    n.connect(Dk(this, e_, "f").destinationSfx),
+                    n.connect(zk(this, r_, "f").destinationSfx),
                     e.start(0)
                 }
-                Nk(this, t_, e, "f")
+                Ok(this, a_, e, "f")
             }
         }
         ,
-        Ck = function() {
-            if (Dk(this, u_, "f").touchEnabled)
-                return new Un(Math.round(Dk(this, W_, "f").target.x / Ky.partWidth),Math.round(Dk(this, W_, "f").target.y / Ky.partHeight),Math.round(Dk(this, W_, "f").target.z / Ky.partLength));
+        Ik = function() {
+            if (zk(this, g_, "f").touchEnabled)
+                return new Un(Math.round(zk(this, j_, "f").target.x / $y.partWidth),Math.round(zk(this, j_, "f").target.y / $y.partHeight),Math.round(zk(this, j_, "f").target.z / $y.partLength));
             let e;
-            if (null != Dk(this, nk, "f") ? (Dk(this, Z_, "f").setFromCamera(Dk(this, nk, "f"), Dk(this, i_, "f").camera),
-            e = Dk(this, Z_, "f").intersectObjects([Dk(this, J_, "f")])) : e = [],
+            if (null != zk(this, ok, "f") ? (zk(this, ek, "f").setFromCamera(zk(this, ok, "f"), zk(this, s_, "f").camera),
+            e = zk(this, ek, "f").intersectObjects([zk(this, tk, "f")])) : e = [],
             e.length > 0) {
                 const t = e[0]
-                  , n = new Un(Math.round(t.point.x / Ky.partWidth),Math.floor(Dk(this, J_, "f").position.y / Ky.partHeight),Math.round(t.point.z / Ky.partLength));
-                return t.point.distanceToSquared(Dk(this, W_, "f").target) <= Dk(this, lk, "f") * Dk(this, lk, "f") ? n : null
+                  , n = new Un(Math.round(t.point.x / $y.partWidth),Math.floor(zk(this, tk, "f").position.y / $y.partHeight),Math.round(t.point.z / $y.partLength));
+                return t.point.distanceToSquared(zk(this, j_, "f").target) <= zk(this, uk, "f") * zk(this, uk, "f") ? n : null
             }
             return null
         }
         ,
-        Pk = function(e, t) {
+        Nk = function(e, t) {
             const n = [];
-            return t.rotated(Dk(this, ok, "f")).forEach(( (t, i, r) => {
+            return t.rotated(zk(this, hk, "f")).forEach(( (t, i, r) => {
                 const a = e.x + t
                   , o = e.y + i
                   , s = e.z + r;
-                Dk(this, a_, "f").hasPartAt(a, o, s) && n.push({
+                zk(this, c_, "f").hasPartAt(a, o, s) && n.push({
                     x: a,
                     y: o,
                     z: s
@@ -31895,62 +31901,58 @@
             n
         }
         ,
-        Rk = function(e) {
+        Dk = function(e) {
             var t;
             let n = !1;
             e.forEach(( ({x: e, y: t, z: i}) => {
-                Dk(this, a_, "f").hasPartAt(e, t, i) && (Dk(this, a_, "f").deletePart(e, t, i),
+                zk(this, c_, "f").hasPartAt(e, t, i) && (zk(this, c_, "f").deletePart(e, t, i),
                 n = !0)
             }
             )),
-            n && (Dk(this, $x, "m", Ak).call(this),
-            Dk(this, a_, "f").generateMeshes(),
-            null === (t = Dk(this, ck, "f")) || void 0 === t || t.refresh(Dk(this, a_, "f")),
-            Dk(this, E_, "f").setFromExistingCheckpoints(Dk(this, a_, "f")),
-            Nk(this, K_, !1, "f"))
+            n && (zk(this, i_, "m", Lk).call(this),
+            zk(this, c_, "f").generateMeshes(),
+            null === (t = zk(this, pk, "f")) || void 0 === t || t.refresh(zk(this, c_, "f")),
+            zk(this, A_, "f").setFromExistingCheckpoints(zk(this, c_, "f")),
+            Ok(this, $_, !1, "f"))
         }
         ,
-        Lk = function(e) {
-            const t = 4 * Dk(this, W_, "f").getDistance();
-            if (Dk(this, m_, "f") && Dk(this, $x, "m", Ik).call(this)) {
+        Uk = function(e) {
+            const t = 4 * zk(this, j_, "f").getDistance();
+            if (zk(this, y_, "f") && zk(this, i_, "m", Bk).call(this)) {
                 const n = new Un;
-                if (Dk(this, V_, "f") && (n.z = -1),
-                Dk(this, G_, "f") && (n.x = 1),
-                Dk(this, j_, "f") && (n.z = 1),
-                Dk(this, q_, "f") && (n.x = -1),
+                if (zk(this, X_, "f") && (n.z = -1),
+                zk(this, Y_, "f") && (n.x = 1),
+                zk(this, K_, "f") && (n.z = 1),
+                zk(this, Z_, "f") && (n.x = -1),
                 0 != n.x || 0 != n.z) {
-                    const i = n.applyQuaternion(Dk(this, F_, "f").quaternion)
+                    const i = n.applyQuaternion(zk(this, G_, "f").quaternion)
                       , r = new ln(i.x,i.z).normalize()
                       , a = new Un(r.x,0,r.y).multiplyScalar(t * e);
-                    Dk(this, F_, "f").position.add(a),
-                    Dk(this, W_, "f").target.add(a)
+                    zk(this, G_, "f").position.add(a),
+                    zk(this, j_, "f").target.add(a)
                 }
                 let i = 0;
-                if (Dk(this, X_, "f") && (i += 1.5 * Math.PI * e),
-                Dk(this, Y_, "f") && (i -= 1.5 * Math.PI * e),
+                if (zk(this, J_, "f") && (i += 1.5 * Math.PI * e),
+                zk(this, Q_, "f") && (i -= 1.5 * Math.PI * e),
                 0 != i) {
-                    const e = new ln(Dk(this, F_, "f").position.x,Dk(this, F_, "f").position.z).distanceTo(new ln(Dk(this, W_, "f").target.x,Dk(this, W_, "f").target.z))
-                      , t = Math.atan2(Dk(this, F_, "f").position.z - Dk(this, W_, "f").target.z, Dk(this, F_, "f").position.x - Dk(this, W_, "f").target.x) + i;
-                    Dk(this, F_, "f").position.x = Dk(this, W_, "f").target.x + Math.cos(t) * e,
-                    Dk(this, F_, "f").position.z = Dk(this, W_, "f").target.z + Math.sin(t) * e,
-                    Dk(this, W_, "f").update()
+                    const e = new ln(zk(this, G_, "f").position.x,zk(this, G_, "f").position.z).distanceTo(new ln(zk(this, j_, "f").target.x,zk(this, j_, "f").target.z))
+                      , t = Math.atan2(zk(this, G_, "f").position.z - zk(this, j_, "f").target.z, zk(this, G_, "f").position.x - zk(this, j_, "f").target.x) + i;
+                    zk(this, G_, "f").position.x = zk(this, j_, "f").target.x + Math.cos(t) * e,
+                    zk(this, G_, "f").position.z = zk(this, j_, "f").target.z + Math.sin(t) * e,
+                    zk(this, j_, "f").update()
                 }
             }
         }
         ,
-        Ik = function() {
-            return !!Dk(this, m_, "f") && (document.activeElement != Dk(this, w_, "f") && (!Dk(this, d_, "f").isOpen && null == Dk(this, M_, "f") && !Dk(this, S_, "f").isOpen && null == Dk(this, A_, "f")))
+        Bk = function() {
+            return !!zk(this, y_, "f") && (document.activeElement != zk(this, __, "f") && (!zk(this, m_, "f").isOpen && null == zk(this, P_, "f") && !zk(this, C_, "f").isOpen && null == zk(this, L_, "f")))
         }
         ;
-        const Uk = class {
+        const Fk = class {
             constructor(e, t, n, i, r, a, o, s, l, c, h, d, u, p) {
-                $x.add(this),
-                e_.set(this, void 0),
-                t_.set(this, performance.now()),
-                n_.set(this, void 0),
-                i_.set(this, void 0),
+                i_.add(this),
                 r_.set(this, void 0),
-                a_.set(this, void 0),
+                a_.set(this, performance.now()),
                 o_.set(this, void 0),
                 s_.set(this, void 0),
                 l_.set(this, void 0),
@@ -31959,25 +31961,25 @@
                 d_.set(this, void 0),
                 u_.set(this, void 0),
                 p_.set(this, void 0),
-                f_.set(this, null),
-                m_.set(this, !1),
+                f_.set(this, void 0),
+                m_.set(this, void 0),
                 g_.set(this, void 0),
                 v_.set(this, void 0),
-                w_.set(this, void 0),
-                y_.set(this, void 0),
-                b_.set(this, null),
+                w_.set(this, null),
+                y_.set(this, !1),
+                b_.set(this, void 0),
                 x_.set(this, void 0),
                 __.set(this, void 0),
                 k_.set(this, void 0),
-                E_.set(this, void 0),
+                E_.set(this, null),
                 S_.set(this, void 0),
-                M_.set(this, null),
+                M_.set(this, void 0),
                 T_.set(this, void 0),
-                A_.set(this, null),
+                A_.set(this, void 0),
                 C_.set(this, void 0),
-                P_.set(this, void 0),
+                P_.set(this, null),
                 R_.set(this, void 0),
-                L_.set(this, void 0),
+                L_.set(this, null),
                 I_.set(this, void 0),
                 N_.set(this, void 0),
                 D_.set(this, void 0),
@@ -31987,300 +31989,304 @@
                 z_.set(this, void 0),
                 F_.set(this, void 0),
                 W_.set(this, void 0),
-                H_.set(this, !1),
-                V_.set(this, !1),
-                G_.set(this, !1),
-                j_.set(this, !1),
+                H_.set(this, void 0),
+                V_.set(this, void 0),
+                G_.set(this, void 0),
+                j_.set(this, void 0),
                 q_.set(this, !1),
                 X_.set(this, !1),
                 Y_.set(this, !1),
-                K_.set(this, !0),
-                Z_.set(this, void 0),
-                J_.set(this, void 0),
-                Q_.set(this, void 0),
-                $_.set(this, void 0),
-                ek.set(this, !1),
-                tk.set(this, !1),
-                nk.set(this, null),
-                ik.set(this, null),
+                K_.set(this, !1),
+                Z_.set(this, !1),
+                J_.set(this, !1),
+                Q_.set(this, !1),
+                $_.set(this, !0),
+                ek.set(this, void 0),
+                tk.set(this, void 0),
+                nk.set(this, void 0),
+                ik.set(this, void 0),
                 rk.set(this, !1),
-                ak.set(this, null),
-                ok.set(this, 0),
+                ak.set(this, !1),
+                ok.set(this, null),
                 sk.set(this, null),
-                lk.set(this, 1e3),
+                lk.set(this, !1),
                 ck.set(this, null),
-                hk.set(this, []),
-                dk.set(this, 1),
-                uk.set(this, []),
+                hk.set(this, 0),
+                dk.set(this, null),
+                uk.set(this, 1e3),
                 pk.set(this, null),
-                _k.set(this, null),
-                kk.set(this, null),
-                Ek.set(this, null),
-                Nk(this, n_, e, "f"),
-                Nk(this, e_, t, "f"),
-                Nk(this, i_, n, "f"),
-                Nk(this, r_, i, "f"),
-                Nk(this, a_, r, "f"),
-                Nk(this, o_, a, "f"),
-                Nk(this, h_, o, "f"),
-                Nk(this, s_, s, "f"),
-                Nk(this, l_, l, "f"),
-                Nk(this, c_, c, "f"),
-                Nk(this, d_, h, "f"),
-                Nk(this, u_, d, "f"),
-                Nk(this, p_, u, "f"),
-                Nk(this, F_, new Kr(70,1,.1,1e4), "f"),
-                Dk(this, F_, "f").position.set(40, 40, -40),
-                n.scene.add(Dk(this, F_, "f")),
-                Nk(this, W_, new ay(Dk(this, F_, "f"),n.canvas), "f"),
-                Dk(this, W_, "f").mouseButtons = {
+                fk.set(this, []),
+                mk.set(this, 1),
+                gk.set(this, []),
+                vk.set(this, null),
+                Mk.set(this, null),
+                Tk.set(this, null),
+                Ak.set(this, null),
+                Ok(this, o_, e, "f"),
+                Ok(this, r_, t, "f"),
+                Ok(this, s_, n, "f"),
+                Ok(this, l_, i, "f"),
+                Ok(this, c_, r, "f"),
+                Ok(this, h_, a, "f"),
+                Ok(this, f_, o, "f"),
+                Ok(this, d_, s, "f"),
+                Ok(this, u_, l, "f"),
+                Ok(this, p_, c, "f"),
+                Ok(this, m_, h, "f"),
+                Ok(this, g_, d, "f"),
+                Ok(this, v_, u, "f"),
+                Ok(this, G_, new Kr(70,1,.1,1e4), "f"),
+                zk(this, G_, "f").position.set(40, 40, -40),
+                n.scene.add(zk(this, G_, "f")),
+                Ok(this, j_, new cy(zk(this, G_, "f"),n.canvas), "f"),
+                zk(this, j_, "f").mouseButtons = {
                     MIDDLE: g,
                     RIGHT: w
                 },
-                Dk(this, W_, "f").minDistance = 4,
-                Dk(this, W_, "f").maxDistance = 600,
-                Nk(this, Z_, new jh, "f"),
-                Nk(this, $_, new jc({
+                zk(this, j_, "f").minDistance = 4,
+                zk(this, j_, "f").maxDistance = 600,
+                Ok(this, ek, new jh, "f"),
+                Ok(this, ik, new jc({
                     transparent: !0,
                     opacity: .3,
                     polygonOffset: !0,
                     polygonOffsetFactor: -.3,
                     depthWrite: !1
                 }), "f"),
-                Nk(this, Q_, new Ws, "f"),
-                Dk(this, Q_, "f").visible = !1,
-                n.scene.add(Dk(this, Q_, "f")),
-                Nk(this, J_, new Br(new ca(1e6,1e6),new ar({
+                Ok(this, nk, new Ws, "f"),
+                zk(this, nk, "f").visible = !1,
+                n.scene.add(zk(this, nk, "f")),
+                Ok(this, tk, new Br(new ca(1e6,1e6),new ar({
                     side: 2
                 })), "f"),
-                Dk(this, J_, "f").rotation.x = -Math.PI / 2,
-                Dk(this, J_, "f").updateWorldMatrix(!0, !0),
-                n.canvas.addEventListener("mousemove", Nk(this, C_, (e => {
+                zk(this, tk, "f").rotation.x = -Math.PI / 2,
+                zk(this, tk, "f").updateWorldMatrix(!0, !0),
+                n.canvas.addEventListener("mousemove", Ok(this, I_, (e => {
                     const t = e.clientX / window.innerWidth * 2 - 1
                       , n = -e.clientY / window.innerHeight * 2 + 1;
-                    null == Dk(this, nk, "f") ? Nk(this, nk, new ln(t,n), "f") : Dk(this, nk, "f").set(t, n)
+                    null == zk(this, ok, "f") ? Ok(this, ok, new ln(t,n), "f") : zk(this, ok, "f").set(t, n)
                 }
                 ), "f")),
-                n.canvas.addEventListener("mousedown", Nk(this, P_, (e => {
-                    0 == e.button && Nk(this, tk, !0, "f"),
+                n.canvas.addEventListener("mousedown", Ok(this, N_, (e => {
+                    0 == e.button && Ok(this, ak, !0, "f"),
                     1 == e.button && e.preventDefault()
                 }
                 ), "f")),
-                window.addEventListener("mouseup", Nk(this, R_, (e => {
-                    0 == e.button && (Nk(this, tk, !1, "f"),
-                    Nk(this, sk, null, "f"))
+                window.addEventListener("mouseup", Ok(this, D_, (e => {
+                    0 == e.button && (Ok(this, ak, !1, "f"),
+                    Ok(this, dk, null, "f"))
                 }
                 ), "f")),
-                n.canvas.addEventListener("mouseout", Nk(this, L_, ( () => {
-                    Nk(this, nk, null, "f")
+                n.canvas.addEventListener("mouseout", Ok(this, U_, ( () => {
+                    Ok(this, ok, null, "f")
                 }
                 ), "f")),
-                n.canvas.addEventListener("touchstart", Nk(this, I_, ( () => {
-                    Dk(this, u_, "f").touchEnabled && Nk(this, ik, Date.now(), "f")
+                n.canvas.addEventListener("touchstart", Ok(this, B_, ( () => {
+                    zk(this, g_, "f").touchEnabled && Ok(this, sk, Date.now(), "f")
                 }
                 ), "f")),
-                n.canvas.addEventListener("click", Nk(this, N_, ( () => {
-                    Dk(this, u_, "f").touchEnabled && null != Dk(this, ik, "f") && Date.now() - Dk(this, ik, "f") < 200 && (Nk(this, ik, null, "f"),
-                    Nk(this, rk, !0, "f"))
+                n.canvas.addEventListener("click", Ok(this, O_, ( () => {
+                    zk(this, g_, "f").touchEnabled && null != zk(this, sk, "f") && Date.now() - zk(this, sk, "f") < 200 && (Ok(this, sk, null, "f"),
+                    Ok(this, lk, !0, "f"))
                 }
                 ), "f")),
-                window.addEventListener("keydown", Nk(this, D_, (e => {
-                    Dk(this, $x, "m", Ik).call(this) && (Dk(this, d_, "f").isOpen || Dk(this, S_, "f").isOpen || null != Dk(this, M_, "f") || null != Dk(this, A_, "f") || "Escape" == e.code && (Dk(this, $x, "m", mk).call(this, p),
+                window.addEventListener("keydown", Ok(this, z_, (e => {
+                    zk(this, i_, "m", Bk).call(this) && (zk(this, m_, "f").isOpen || zk(this, C_, "f").isOpen || null != zk(this, P_, "f") || null != zk(this, L_, "f") || "Escape" == e.code && (zk(this, i_, "m", yk).call(this, p),
                     e.preventDefault()),
-                    u.checkKeyBinding(e, Lb.EditorRotate) && (Nk(this, ok, (Dk(this, ok, "f") + 1) % 4, "f"),
+                    u.checkKeyBinding(e, Ub.EditorRotate) && (Ok(this, hk, (zk(this, hk, "f") + 1) % 4, "f"),
                     e.preventDefault()),
-                    u.checkKeyBinding(e, Lb.EditorHeightModifier) && (Nk(this, H_, !0, "f"),
-                    Dk(this, W_, "f").enableZoom = !1,
+                    u.checkKeyBinding(e, Ub.EditorHeightModifier) && (Ok(this, q_, !0, "f"),
+                    zk(this, j_, "f").enableZoom = !1,
                     e.preventDefault()),
-                    u.checkKeyBinding(e, Lb.EditorDelete) && (Nk(this, ek, !0, "f"),
+                    u.checkKeyBinding(e, Ub.EditorDelete) && (Ok(this, rk, !0, "f"),
                     e.preventDefault()),
-                    u.checkKeyBinding(e, Lb.EditorMoveForwards) && (Nk(this, V_, !0, "f"),
+                    u.checkKeyBinding(e, Ub.EditorMoveForwards) && (Ok(this, X_, !0, "f"),
                     e.preventDefault()),
-                    u.checkKeyBinding(e, Lb.EditorMoveRight) && (Nk(this, G_, !0, "f"),
+                    u.checkKeyBinding(e, Ub.EditorMoveRight) && (Ok(this, Y_, !0, "f"),
                     e.preventDefault()),
-                    u.checkKeyBinding(e, Lb.EditorMoveBackwards) && (Nk(this, j_, !0, "f"),
+                    u.checkKeyBinding(e, Ub.EditorMoveBackwards) && (Ok(this, K_, !0, "f"),
                     e.preventDefault()),
-                    u.checkKeyBinding(e, Lb.EditorMoveLeft) && (Nk(this, q_, !0, "f"),
+                    u.checkKeyBinding(e, Ub.EditorMoveLeft) && (Ok(this, Z_, !0, "f"),
                     e.preventDefault()),
-                    u.checkKeyBinding(e, Lb.EditorRotateLeft) && (Nk(this, X_, !0, "f"),
+                    u.checkKeyBinding(e, Ub.EditorRotateLeft) && (Ok(this, J_, !0, "f"),
                     e.preventDefault()),
-                    u.checkKeyBinding(e, Lb.EditorRotateRight) && (Nk(this, Y_, !0, "f"),
+                    u.checkKeyBinding(e, Ub.EditorRotateRight) && (Ok(this, Q_, !0, "f"),
                     e.preventDefault()),
-                    u.checkKeyBinding(e, Lb.EditorMoveDown) && (Nk(this, $x, Math.max(0, Dk(this, $x, "a", Mk) - 1), "a", Tk),
+                    u.checkKeyBinding(e, Ub.EditorMoveDown) && (Ok(this, i_, Math.max(0, zk(this, i_, "a", Pk) - 1), "a", Rk),
                     e.preventDefault()),
-                    u.checkKeyBinding(e, Lb.EditorMoveUp) && (Nk(this, $x, Dk(this, $x, "a", Mk) + 1, "a", Tk),
+                    u.checkKeyBinding(e, Ub.EditorMoveUp) && (Ok(this, i_, zk(this, i_, "a", Pk) + 1, "a", Rk),
                     e.preventDefault()),
-                    u.checkKeyBinding(e, Lb.EditorTest) && (Dk(this, $x, "m", gk).call(this),
+                    u.checkKeyBinding(e, Ub.EditorTest) && (zk(this, i_, "m", bk).call(this),
                     e.preventDefault()),
-                    u.checkKeyBinding(e, Lb.EditorPick) && (Dk(this, $x, "m", vk).call(this),
+                    u.checkKeyBinding(e, Ub.EditorPick) && (zk(this, i_, "m", xk).call(this),
                     e.preventDefault()))
                 }
                 ), "f")),
-                window.addEventListener("keyup", Nk(this, U_, (e => {
-                    u.checkKeyBinding(e, Lb.EditorHeightModifier) && (Nk(this, H_, !1, "f"),
-                    Dk(this, W_, "f").enableZoom = !0),
-                    u.checkKeyBinding(e, Lb.EditorDelete) && Nk(this, ek, !1, "f"),
-                    u.checkKeyBinding(e, Lb.EditorMoveForwards) && Nk(this, V_, !1, "f"),
-                    u.checkKeyBinding(e, Lb.EditorMoveRight) && Nk(this, G_, !1, "f"),
-                    u.checkKeyBinding(e, Lb.EditorMoveBackwards) && Nk(this, j_, !1, "f"),
-                    u.checkKeyBinding(e, Lb.EditorMoveLeft) && Nk(this, q_, !1, "f"),
-                    u.checkKeyBinding(e, Lb.EditorRotateLeft) && Nk(this, X_, !1, "f"),
-                    u.checkKeyBinding(e, Lb.EditorRotateRight) && Nk(this, Y_, !1, "f")
+                window.addEventListener("keyup", Ok(this, F_, (e => {
+                    u.checkKeyBinding(e, Ub.EditorHeightModifier) && (Ok(this, q_, !1, "f"),
+                    zk(this, j_, "f").enableZoom = !0),
+                    u.checkKeyBinding(e, Ub.EditorDelete) && Ok(this, rk, !1, "f"),
+                    u.checkKeyBinding(e, Ub.EditorMoveForwards) && Ok(this, X_, !1, "f"),
+                    u.checkKeyBinding(e, Ub.EditorMoveRight) && Ok(this, Y_, !1, "f"),
+                    u.checkKeyBinding(e, Ub.EditorMoveBackwards) && Ok(this, K_, !1, "f"),
+                    u.checkKeyBinding(e, Ub.EditorMoveLeft) && Ok(this, Z_, !1, "f"),
+                    u.checkKeyBinding(e, Ub.EditorRotateLeft) && Ok(this, J_, !1, "f"),
+                    u.checkKeyBinding(e, Ub.EditorRotateRight) && Ok(this, Q_, !1, "f")
                 }
                 ), "f")),
-                window.addEventListener("wheel", Nk(this, B_, (e => {
-                    Dk(this, H_, "f") && Dk(this, m_, "f") && (e.deltaY > 0 ? Nk(this, $x, Dk(this, $x, "a", Mk) + 1, "a", Tk) : e.deltaY < 0 && Nk(this, $x, Math.max(0, Dk(this, $x, "a", Mk) - 1), "a", Tk))
+                window.addEventListener("wheel", Ok(this, W_, (e => {
+                    zk(this, q_, "f") && zk(this, y_, "f") && (e.deltaY > 0 ? Ok(this, i_, zk(this, i_, "a", Pk) + 1, "a", Rk) : e.deltaY < 0 && Ok(this, i_, Math.max(0, zk(this, i_, "a", Pk) - 1), "a", Rk))
                 }
                 ), "f")),
-                window.addEventListener("beforeunload", Nk(this, O_, (e => !Dk(this, K_, "f") && (e.preventDefault(),
+                window.addEventListener("beforeunload", Ok(this, H_, (e => !zk(this, $_, "f") && (e.preventDefault(),
                 e.returnValue = !0,
                 !0)), "f")),
-                Dk(this, $x, "m", fk).call(this, p),
-                d.addChangeListener(Nk(this, z_, (e => {
-                    Dk(this, T_, "f").setEnabled(e)
+                zk(this, i_, "m", wk).call(this, p),
+                d.addChangeListener(Ok(this, V_, (e => {
+                    zk(this, R_, "f").setEnabled(e)
                 }
                 ), "f"))
             }
             dispose() {
                 var e, t, n;
-                Nk(this, m_, !1, "f"),
-                null === (e = Dk(this, ck, "f")) || void 0 === e || e.dispose(),
-                Dk(this, k_, "f").dispose(),
-                Dk(this, E_, "f").dispose(),
-                null === (t = Dk(this, M_, "f")) || void 0 === t || t.dispose(),
-                Nk(this, M_, null, "f"),
-                Dk(this, S_, "f").dispose(),
-                Dk(this, T_, "f").dispose(),
-                null === (n = Dk(this, A_, "f")) || void 0 === n || n.dispose(),
-                Nk(this, A_, null, "f");
-                document.getElementById("ui").removeChild(Dk(this, g_, "f")),
-                Dk(this, i_, "f").scene.remove(Dk(this, F_, "f")),
-                Dk(this, W_, "f").dispose(),
-                Dk(this, $_, "f").dispose(),
-                Dk(this, Q_, "f").children.forEach((e => {
+                Ok(this, y_, !1, "f"),
+                null === (e = zk(this, pk, "f")) || void 0 === e || e.dispose(),
+                zk(this, T_, "f").dispose(),
+                zk(this, A_, "f").dispose(),
+                null === (t = zk(this, P_, "f")) || void 0 === t || t.dispose(),
+                Ok(this, P_, null, "f"),
+                zk(this, C_, "f").dispose(),
+                zk(this, R_, "f").dispose(),
+                null === (n = zk(this, L_, "f")) || void 0 === n || n.dispose(),
+                Ok(this, L_, null, "f");
+                document.getElementById("ui").removeChild(zk(this, b_, "f")),
+                zk(this, s_, "f").scene.remove(zk(this, G_, "f")),
+                zk(this, j_, "f").dispose(),
+                zk(this, ik, "f").dispose(),
+                zk(this, nk, "f").children.forEach((e => {
                     const t = e;
                     t.geometry.dispose(),
                     Array.isArray(t.material) ? t.material.forEach((e => e.dispose())) : t.material.dispose()
                 }
                 )),
-                Dk(this, i_, "f").scene.remove(Dk(this, Q_, "f")),
-                Dk(this, J_, "f").geometry.dispose(),
-                Array.isArray(Dk(this, J_, "f").material) ? Dk(this, J_, "f").material.forEach((e => e.dispose())) : Dk(this, J_, "f").material.dispose(),
-                Dk(this, i_, "f").canvas.removeEventListener("mousemove", Dk(this, C_, "f")),
-                Dk(this, i_, "f").canvas.removeEventListener("mousedown", Dk(this, P_, "f")),
-                window.removeEventListener("mouseup", Dk(this, R_, "f")),
-                Dk(this, i_, "f").canvas.removeEventListener("mouseout", Dk(this, L_, "f")),
-                Dk(this, i_, "f").canvas.removeEventListener("touchstart", Dk(this, I_, "f")),
-                Dk(this, i_, "f").canvas.removeEventListener("click", Dk(this, N_, "f")),
-                window.removeEventListener("keydown", Dk(this, D_, "f")),
-                window.removeEventListener("keyup", Dk(this, U_, "f")),
-                window.removeEventListener("wheel", Dk(this, B_, "f")),
-                window.removeEventListener("beforeunload", Dk(this, O_, "f")),
-                Dk(this, u_, "f").removeChangeListener(Dk(this, z_, "f"))
+                zk(this, s_, "f").scene.remove(zk(this, nk, "f")),
+                zk(this, tk, "f").geometry.dispose(),
+                Array.isArray(zk(this, tk, "f").material) ? zk(this, tk, "f").material.forEach((e => e.dispose())) : zk(this, tk, "f").material.dispose(),
+                zk(this, s_, "f").canvas.removeEventListener("mousemove", zk(this, I_, "f")),
+                zk(this, s_, "f").canvas.removeEventListener("mousedown", zk(this, N_, "f")),
+                window.removeEventListener("mouseup", zk(this, D_, "f")),
+                zk(this, s_, "f").canvas.removeEventListener("mouseout", zk(this, U_, "f")),
+                zk(this, s_, "f").canvas.removeEventListener("touchstart", zk(this, B_, "f")),
+                zk(this, s_, "f").canvas.removeEventListener("click", zk(this, O_, "f")),
+                window.removeEventListener("keydown", zk(this, z_, "f")),
+                window.removeEventListener("keyup", zk(this, F_, "f")),
+                window.removeEventListener("wheel", zk(this, W_, "f")),
+                window.removeEventListener("beforeunload", zk(this, H_, "f")),
+                zk(this, g_, "f").removeChangeListener(zk(this, V_, "f"))
             }
             getTrackName() {
-                return "" == Dk(this, w_, "f").value.trim() ? null : Dk(this, w_, "f").value
+                return "" == zk(this, __, "f").value.trim() ? null : zk(this, __, "f").value
             }
             setTestCallback(e) {
-                Nk(this, f_, e, "f")
+                Ok(this, w_, e, "f")
             }
             reset() {
-                Nk(this, ok, 0, "f"),
-                Dk(this, $x, "m", xk).call(this, 1),
-                Dk(this, E_, "f").reset(),
+                Ok(this, hk, 0, "f"),
+                zk(this, i_, "m", Sk).call(this, 1),
+                zk(this, A_, "f").reset(),
                 this.resetView()
             }
             enable() {
                 var e;
-                Nk(this, m_, !0, "f"),
-                Dk(this, W_, "f").enabled = !0,
-                1 == Dk(this, hk, "f").length && Dk(this, $x, "m", yk).call(this),
-                null === (e = Dk(this, ck, "f")) || void 0 === e || e.dispose(),
-                Nk(this, ck, new rb(Dk(this, i_, "f")), "f"),
-                Dk(this, ck, "f").refresh(Dk(this, a_, "f")),
-                Dk(this, T_, "f").show(),
-                Dk(this, g_, "f").className = "editor"
+                Ok(this, y_, !0, "f"),
+                zk(this, j_, "f").enabled = !0,
+                1 == zk(this, fk, "f").length && zk(this, i_, "m", kk).call(this),
+                null === (e = zk(this, pk, "f")) || void 0 === e || e.dispose(),
+                Ok(this, pk, new lb(zk(this, s_, "f")), "f"),
+                zk(this, pk, "f").refresh(zk(this, c_, "f")),
+                zk(this, R_, "f").show(),
+                zk(this, b_, "f").className = "editor"
             }
             disable() {
                 var e, t, n;
-                Nk(this, m_, !1, "f"),
-                Dk(this, W_, "f").enabled = !1,
-                Dk(this, Q_, "f").visible = !1,
-                null === (e = Dk(this, ck, "f")) || void 0 === e || e.dispose(),
-                Dk(this, g_, "f").className = "hidden",
-                null === (t = Dk(this, M_, "f")) || void 0 === t || t.dispose(),
-                Nk(this, M_, null, "f"),
-                Dk(this, S_, "f").hide(),
-                Dk(this, T_, "f").hide(),
-                null === (n = Dk(this, A_, "f")) || void 0 === n || n.dispose(),
-                Nk(this, A_, null, "f")
+                Ok(this, y_, !1, "f"),
+                zk(this, j_, "f").enabled = !1,
+                zk(this, nk, "f").visible = !1,
+                null === (e = zk(this, pk, "f")) || void 0 === e || e.dispose(),
+                zk(this, b_, "f").className = "hidden",
+                null === (t = zk(this, P_, "f")) || void 0 === t || t.dispose(),
+                Ok(this, P_, null, "f"),
+                zk(this, C_, "f").hide(),
+                zk(this, R_, "f").hide(),
+                null === (n = zk(this, L_, "f")) || void 0 === n || n.dispose(),
+                Ok(this, L_, null, "f")
             }
             isEnabled() {
-                return Dk(this, m_, "f")
+                return zk(this, y_, "f")
             }
             resetView() {
-                Nk(this, $x, 0, "a", Tk),
-                Dk(this, F_, "f").position.set(40, 40, -40),
-                Dk(this, W_, "f").target.set(0, 0, 0),
-                Dk(this, W_, "f").update()
+                Ok(this, i_, 0, "a", Rk),
+                zk(this, G_, "f").position.set(40, 40, -40),
+                zk(this, j_, "f").target.set(0, 0, 0),
+                zk(this, j_, "f").update()
             }
             get camera() {
-                return Dk(this, F_, "f")
+                return zk(this, G_, "f")
             }
             update(e) {
                 var t;
-                if (Dk(this, m_, "f")) {
-                    Dk(this, F_, "f").position.y < .5 && (Dk(this, F_, "f").position.y = .5,
-                    Dk(this, W_, "f").update()),
-                    Nk(this, ak, Dk(this, $x, "m", Ck).call(this), "f"),
-                    null != Dk(this, ak, "f") ? Dk(this, Q_, "f").position.set(Dk(this, ak, "f").x * Ky.partWidth, Dk(this, ak, "f").y * Ky.partHeight, Dk(this, ak, "f").z * Ky.partLength) : Dk(this, Q_, "f").position.set(-1e6, -1e6, -1e6),
-                    Dk(this, Q_, "f").rotation.y = Dk(this, ok, "f") * Math.PI / 2;
-                    for (let e = 0; e < Dk(this, hk, "f").length; ++e) {
-                        const t = Dk(this, hk, "f")[e];
-                        e == Dk(this, dk, "f") ? t.mesh.visible = !0 : t.mesh.visible = !1
+                if (zk(this, y_, "f")) {
+                    zk(this, G_, "f").position.y < .5 && (zk(this, G_, "f").position.y = .5,
+                    zk(this, j_, "f").update()),
+                    Ok(this, ck, zk(this, i_, "m", Ik).call(this), "f"),
+                    null != zk(this, ck, "f") ? zk(this, nk, "f").position.set(zk(this, ck, "f").x * $y.partWidth, zk(this, ck, "f").y * $y.partHeight, zk(this, ck, "f").z * $y.partLength) : zk(this, nk, "f").position.set(-1e6, -1e6, -1e6),
+                    zk(this, nk, "f").rotation.y = zk(this, hk, "f") * Math.PI / 2;
+                    for (let e = 0; e < zk(this, fk, "f").length; ++e) {
+                        const t = zk(this, fk, "f")[e];
+                        e == zk(this, mk, "f") ? t.mesh.visible = !0 : t.mesh.visible = !1
                     }
-                    const e = Dk(this, ak, "f");
+                    const e = zk(this, ck, "f");
                     if (null != e) {
-                        const n = Dk(this, hk, "f")[Dk(this, dk, "f")]
-                          , i = Dk(this, $x, "m", Pk).call(this, e, n.tiles);
-                        if (null == n.id || Dk(this, ek, "f") ? i.length > 0 ? Dk(this, $_, "f").color.set(12255232) : Dk(this, $_, "f").color.set(12263970) : i.length > 0 ? Dk(this, $_, "f").color.set(12303104) : Dk(this, $_, "f").color.set(187),
-                        Dk(this, ek, "f"))
-                            Dk(this, $x, "m", Rk).call(this, i);
-                        else if (Dk(this, tk, "f") || Dk(this, rk, "f")) {
+                        const n = zk(this, fk, "f")[zk(this, mk, "f")]
+                          , i = zk(this, i_, "m", Nk).call(this, e, n.tiles);
+                        if (null == n.id || zk(this, rk, "f") ? i.length > 0 ? zk(this, ik, "f").color.set(12255232) : zk(this, ik, "f").color.set(12263970) : i.length > 0 ? zk(this, ik, "f").color.set(12303104) : zk(this, ik, "f").color.set(187),
+                        zk(this, rk, "f"))
+                            zk(this, i_, "m", Dk).call(this, i);
+                        else if (zk(this, ak, "f") || zk(this, lk, "f")) {
                             if (null == n.id)
-                                Dk(this, $x, "m", Rk).call(this, i);
-                            else if (null == Dk(this, sk, "f") || Dk(this, sk, "f").x != e.x || Dk(this, sk, "f").y != e.y || Dk(this, sk, "f").z != e.z || Dk(this, sk, "f").id != n.id || Dk(this, sk, "f").rotation != Dk(this, ok, "f")) {
+                                zk(this, i_, "m", Dk).call(this, i);
+                            else if (null == zk(this, dk, "f") || zk(this, dk, "f").x != e.x || zk(this, dk, "f").y != e.y || zk(this, dk, "f").z != e.z || zk(this, dk, "f").id != n.id || zk(this, dk, "f").rotation != zk(this, hk, "f")) {
                                 i.forEach(( ({x: e, y: t, z: n}) => {
-                                    Dk(this, a_, "f").hasPartAt(e, t, n) && Dk(this, a_, "f").deletePart(e, t, n)
+                                    zk(this, c_, "f").hasPartAt(e, t, n) && zk(this, c_, "f").deletePart(e, t, n)
                                 }
                                 ));
                                 let r = null;
-                                n.isCheckpoint && (r = Dk(this, E_, "f").checkpointOrder),
-                                Dk(this, a_, "f").setPart(e.x, e.y, e.z, n.id, Dk(this, ok, "f"), r),
-                                Dk(this, $x, "m", Ak).call(this),
-                                Nk(this, sk, {
+                                n.isCheckpoint && (r = zk(this, A_, "f").checkpointOrder),
+                                zk(this, c_, "f").setPart(e.x, e.y, e.z, n.id, zk(this, hk, "f"), r),
+                                zk(this, i_, "m", Lk).call(this),
+                                Ok(this, dk, {
                                     x: e.x,
                                     y: e.y,
                                     z: e.z,
                                     id: n.id,
-                                    rotation: Dk(this, ok, "f")
+                                    rotation: zk(this, hk, "f")
                                 }, "f"),
-                                Dk(this, a_, "f").generateMeshes(),
-                                null === (t = Dk(this, ck, "f")) || void 0 === t || t.refresh(Dk(this, a_, "f")),
-                                Dk(this, E_, "f").setFromExistingCheckpoints(Dk(this, a_, "f")),
-                                Nk(this, K_, !1, "f")
+                                zk(this, c_, "f").generateMeshes(),
+                                null === (t = zk(this, pk, "f")) || void 0 === t || t.refresh(zk(this, c_, "f")),
+                                zk(this, A_, "f").setFromExistingCheckpoints(zk(this, c_, "f")),
+                                Ok(this, $_, !1, "f")
                             }
-                            Nk(this, rk, !1, "f")
+                            Ok(this, lk, !1, "f")
                         }
-                        Dk(this, Q_, "f").visible = !0
+                        zk(this, nk, "f").visible = !0
                     } else
-                        Dk(this, Q_, "f").visible = !1
+                        zk(this, nk, "f").visible = !1
                 }
-                Dk(this, $x, "m", Lk).call(this, e)
+                zk(this, i_, "m", Uk).call(this, e)
             }
         }
         ;
-        var Bk, Ok, zk, Fk, Wk, Hk = function(e, t, n, i, r) {
+        var Wk, Hk, Vk, Gk, jk, qk = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -32289,71 +32295,71 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, Vk = function(e, t, n, i) {
+        }, Xk = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        Bk = new WeakMap,
-        Ok = new WeakMap,
-        zk = new WeakMap,
-        Fk = new WeakMap,
-        Wk = new WeakMap;
-        const Gk = class {
+        Wk = new WeakMap,
+        Hk = new WeakMap,
+        Vk = new WeakMap,
+        Gk = new WeakMap,
+        jk = new WeakMap;
+        const Yk = class {
             constructor(e, t, n, i, r, a, o, s, l, c, h, d, u, p, f) {
-                Bk.set(this, void 0),
-                Ok.set(this, void 0),
-                zk.set(this, void 0),
-                Fk.set(this, void 0),
                 Wk.set(this, void 0),
+                Hk.set(this, void 0),
+                Vk.set(this, void 0),
+                Gk.set(this, void 0),
+                jk.set(this, void 0),
                 this.isPaused = !1,
-                Hk(this, Bk, e, "f"),
-                Hk(this, Ok, i, "f"),
-                Hk(this, zk, r, "f"),
-                Hk(this, Fk, a, "f"),
-                Hk(this, Wk, new Uk(n,i,r,o,e,t,s,l,c,h,d,u,a,p), "f"),
-                Vk(this, Wk, "f").reset(),
-                Vk(this, Wk, "f").enable(),
-                Vk(this, Bk, "f").clear(),
-                Vk(this, Bk, "f").setPart(0, 0, 0, Bw.Start, 0, null),
-                Vk(this, Bk, "f").generateMeshes(),
-                r.setCamera(Vk(this, Wk, "f").camera),
-                Vk(this, Wk, "f").setTestCallback(( () => {
+                qk(this, Wk, e, "f"),
+                qk(this, Hk, i, "f"),
+                qk(this, Vk, r, "f"),
+                qk(this, Gk, a, "f"),
+                qk(this, jk, new Fk(n,i,r,o,e,t,s,l,c,h,d,u,a,p), "f"),
+                Xk(this, jk, "f").reset(),
+                Xk(this, jk, "f").enable(),
+                Xk(this, Wk, "f").clear(),
+                Xk(this, Wk, "f").setPart(0, 0, 0, Ww.Start, 0, null),
+                Xk(this, Wk, "f").generateMeshes(),
+                r.setCamera(Xk(this, jk, "f").camera),
+                Xk(this, jk, "f").setTestCallback(( () => {
                     var e;
-                    Vk(this, Wk, "f").disable();
-                    const t = null !== (e = Vk(this, Wk, "f").getTrackName()) && void 0 !== e ? e : "Unnamed track";
-                    f(t, Vk(this, Bk, "f").getTrackData(), ( () => {
-                        Vk(this, Wk, "f").enable(),
-                        r.setCamera(Vk(this, Wk, "f").camera)
+                    Xk(this, jk, "f").disable();
+                    const t = null !== (e = Xk(this, jk, "f").getTrackName()) && void 0 !== e ? e : "Unnamed track";
+                    f(t, Xk(this, Wk, "f").getTrackData(), ( () => {
+                        Xk(this, jk, "f").enable(),
+                        r.setCamera(Xk(this, jk, "f").camera)
                     }
                     ))
                 }
                 ))
             }
             dispose() {
-                Vk(this, Wk, "f").dispose(),
-                Vk(this, Wk, "f").resetView(),
-                Vk(this, Bk, "f").clear()
+                Xk(this, jk, "f").dispose(),
+                Xk(this, jk, "f").resetView(),
+                Xk(this, Wk, "f").clear()
             }
             update(e) {
-                this.isPaused || Vk(this, Wk, "f").update(e),
-                Vk(this, zk, "f").update(),
-                Vk(this, Ok, "f").update(e, !1, Vk(this, zk, "f"), Vk(this, Fk, "f"))
+                this.isPaused || Xk(this, jk, "f").update(e),
+                Xk(this, Vk, "f").update(),
+                Xk(this, Hk, "f").update(e, !1, Xk(this, Vk, "f"), Xk(this, Gk, "f"))
             }
         }
         ;
-        var jk = n(811)
-          , qk = {};
-        qk.styleTagTransform = u(),
-        qk.setAttributes = l(),
-        qk.insert = o().bind(null, "head"),
-        qk.domAPI = r(),
-        qk.insertStyleElement = h();
-        t()(jk.A, qk);
-        jk.A && jk.A.locals && jk.A.locals;
-        var Xk, Yk, Kk, Zk, Jk, Qk, $k = function(e, t, n, i, r) {
+        var Kk = n(811)
+          , Zk = {};
+        Zk.styleTagTransform = u(),
+        Zk.setAttributes = l(),
+        Zk.insert = o().bind(null, "head"),
+        Zk.domAPI = r(),
+        Zk.insertStyleElement = h();
+        t()(Kk.A, Zk);
+        Kk.A && Kk.A.locals && Kk.A.locals;
+        var Jk, Qk, $k, eE, tE, nE, iE = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -32362,64 +32368,64 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, eE = function(e, t, n, i) {
+        }, rE = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        Xk = new WeakMap,
-        Yk = new WeakMap,
-        Kk = new WeakMap,
-        Zk = new WeakMap,
         Jk = new WeakMap,
-        Qk = new WeakMap;
-        const tE = class {
+        Qk = new WeakMap,
+        $k = new WeakMap,
+        eE = new WeakMap,
+        tE = new WeakMap,
+        nE = new WeakMap;
+        const aE = class {
             constructor(e, t) {
-                Xk.set(this, void 0),
-                Yk.set(this, void 0),
-                Kk.set(this, void 0),
-                Zk.set(this, void 0),
                 Jk.set(this, void 0),
-                Qk.set(this, null),
-                $k(this, Xk, t, "f"),
-                $k(this, Yk, e, "f"),
-                $k(this, Kk, document.getElementById("ui"), "f"),
-                $k(this, Zk, document.createElement("div"), "f"),
-                eE(this, Yk, "f") > 0 ? t.getSettingBoolean(Jh.CheckpointsPosition) ? eE(this, Zk, "f").className = "checkpoint up" : eE(this, Zk, "f").className = "checkpoint" : eE(this, Zk, "f").className = "hidden",
-                eE(this, Kk, "f").appendChild(eE(this, Zk, "f"));
+                Qk.set(this, void 0),
+                $k.set(this, void 0),
+                eE.set(this, void 0),
+                tE.set(this, void 0),
+                nE.set(this, null),
+                iE(this, Jk, t, "f"),
+                iE(this, Qk, e, "f"),
+                iE(this, $k, document.getElementById("ui"), "f"),
+                iE(this, eE, document.createElement("div"), "f"),
+                rE(this, Qk, "f") > 0 ? t.getSettingBoolean(Jh.CheckpointsPosition) ? rE(this, eE, "f").className = "checkpoint up" : rE(this, eE, "f").className = "checkpoint" : rE(this, eE, "f").className = "hidden",
+                rE(this, $k, "f").appendChild(rE(this, eE, "f"));
                 const n = document.createElement("div");
-                eE(this, Zk, "f").appendChild(n);
+                rE(this, eE, "f").appendChild(n);
                 const i = document.createElement("img");
                 i.src = "images/checkpoint.svg",
                 n.appendChild(i),
-                $k(this, Jk, document.createElement("span"), "f"),
-                n.appendChild(eE(this, Jk, "f"))
+                iE(this, tE, document.createElement("span"), "f"),
+                n.appendChild(rE(this, tE, "f"))
             }
             dispose() {
-                eE(this, Kk, "f").removeChild(eE(this, Zk, "f"))
+                rE(this, $k, "f").removeChild(rE(this, eE, "f"))
             }
             setOverridePosition(e) {
-                eE(this, Yk, "f") > 0 ? (null != e ? e : eE(this, Xk, "f").getSettingBoolean(Jh.CheckpointsPosition)) ? eE(this, Zk, "f").className = "checkpoint up" : eE(this, Zk, "f").className = "checkpoint" : eE(this, Zk, "f").className = "hidden"
+                rE(this, Qk, "f") > 0 ? (null != e ? e : rE(this, Jk, "f").getSettingBoolean(Jh.CheckpointsPosition)) ? rE(this, eE, "f").className = "checkpoint up" : rE(this, eE, "f").className = "checkpoint" : rE(this, eE, "f").className = "hidden"
             }
             update(e) {
-                const t = e.getNextCheckpointIndex() + "/" + eE(this, Yk, "f");
-                t != eE(this, Qk, "f") && (eE(this, Jk, "f").textContent = t,
-                $k(this, Qk, t, "f"))
+                const t = e.getNextCheckpointIndex() + "/" + rE(this, Qk, "f");
+                t != rE(this, nE, "f") && (rE(this, tE, "f").textContent = t,
+                iE(this, nE, t, "f"))
             }
         }
         ;
-        var nE = n(229)
-          , iE = {};
-        iE.styleTagTransform = u(),
-        iE.setAttributes = l(),
-        iE.insert = o().bind(null, "head"),
-        iE.domAPI = r(),
-        iE.insertStyleElement = h();
-        t()(nE.A, iE);
-        nE.A && nE.A.locals && nE.A.locals;
-        var rE, aE, oE, sE, lE, cE, hE, dE, uE, pE, fE = function(e, t, n, i, r) {
+        var oE = n(229)
+          , sE = {};
+        sE.styleTagTransform = u(),
+        sE.setAttributes = l(),
+        sE.insert = o().bind(null, "head"),
+        sE.domAPI = r(),
+        sE.insertStyleElement = h();
+        t()(oE.A, sE);
+        oE.A && oE.A.locals && oE.A.locals;
+        var lE, cE, hE, dE, uE, pE, fE, mE, gE, vE, wE = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -32428,81 +32434,81 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, mE = function(e, t, n, i) {
+        }, yE = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        aE = new WeakMap,
-        oE = new WeakMap,
-        sE = new WeakMap,
-        lE = new WeakMap,
         cE = new WeakMap,
         hE = new WeakMap,
-        rE = new WeakSet,
-        dE = function(e) {
-            mE(this, cE, "f").textContent = e,
-            mE(this, cE, "f").className = "hint show"
+        dE = new WeakMap,
+        uE = new WeakMap,
+        pE = new WeakMap,
+        fE = new WeakMap,
+        lE = new WeakSet,
+        mE = function(e) {
+            yE(this, pE, "f").textContent = e,
+            yE(this, pE, "f").className = "hint show"
         }
         ,
-        uE = function() {
-            fE(this, hE, 2.5, "f"),
-            mE(this, cE, "f").className = "hint hide"
+        gE = function() {
+            wE(this, fE, 2.5, "f"),
+            yE(this, pE, "f").className = "hint hide"
         }
         ,
-        pE = function() {
-            fE(this, hE, 2.5, "f"),
-            mE(this, cE, "f").className = "hint"
+        vE = function() {
+            wE(this, fE, 2.5, "f"),
+            yE(this, pE, "f").className = "hint"
         }
         ;
-        const gE = class {
+        const bE = class {
             constructor(e, t, n) {
-                rE.add(this),
-                aE.set(this, void 0),
-                oE.set(this, void 0),
-                sE.set(this, void 0),
-                lE.set(this, void 0),
+                lE.add(this),
                 cE.set(this, void 0),
-                hE.set(this, 2.5),
-                fE(this, aE, e, "f"),
-                fE(this, oE, t, "f"),
-                fE(this, sE, n, "f"),
-                fE(this, lE, document.getElementById("ui"), "f"),
-                fE(this, cE, document.createElement("div"), "f"),
-                mE(this, cE, "f").className = "hint",
-                mE(this, lE, "f").appendChild(mE(this, cE, "f"))
+                hE.set(this, void 0),
+                dE.set(this, void 0),
+                uE.set(this, void 0),
+                pE.set(this, void 0),
+                fE.set(this, 2.5),
+                wE(this, cE, e, "f"),
+                wE(this, hE, t, "f"),
+                wE(this, dE, n, "f"),
+                wE(this, uE, document.getElementById("ui"), "f"),
+                wE(this, pE, document.createElement("div"), "f"),
+                yE(this, pE, "f").className = "hint",
+                yE(this, uE, "f").appendChild(yE(this, pE, "f"))
             }
             dispose() {
-                mE(this, lE, "f").removeChild(mE(this, cE, "f"))
+                yE(this, uE, "f").removeChild(yE(this, pE, "f"))
             }
             update(e, t) {
-                if (e.hasStarted() && !mE(this, oE, "f").touchEnabled && mE(this, sE, "f").getSettingBoolean(Jh.ResetHintEnabled))
+                if (e.hasStarted() && !yE(this, hE, "f").touchEnabled && yE(this, dE, "f").getSettingBoolean(Jh.ResetHintEnabled))
                     if (e.getSpeedKmh() < 50 || e.hasFinished()) {
-                        if (0 != mE(this, hE, "f") && (fE(this, hE, mE(this, hE, "f") - t, "f"),
-                        mE(this, hE, "f") <= 0)) {
-                            const e = mE(this, sE, "f").getKeyBindings(Lb.VehicleReset);
-                            null != e[0] && null != e[1] ? mE(this, rE, "m", dE).call(this, mE(this, aE, "f").get("Press [{0}] or [{1}] to restart", [e[0], e[1]])) : null != e[0] ? mE(this, rE, "m", dE).call(this, mE(this, aE, "f").get("Press [{0}] to restart", [e[0]])) : null != e[1] && mE(this, rE, "m", dE).call(this, mE(this, aE, "f").get("Press [{0}] to restart", [e[1]])),
-                            fE(this, hE, 0, "f")
+                        if (0 != yE(this, fE, "f") && (wE(this, fE, yE(this, fE, "f") - t, "f"),
+                        yE(this, fE, "f") <= 0)) {
+                            const e = yE(this, dE, "f").getKeyBindings(Ub.VehicleReset);
+                            null != e[0] && null != e[1] ? yE(this, lE, "m", mE).call(this, yE(this, cE, "f").get("Press [{0}] or [{1}] to restart", [e[0], e[1]])) : null != e[0] ? yE(this, lE, "m", mE).call(this, yE(this, cE, "f").get("Press [{0}] to restart", [e[0]])) : null != e[1] && yE(this, lE, "m", mE).call(this, yE(this, cE, "f").get("Press [{0}] to restart", [e[1]])),
+                            wE(this, fE, 0, "f")
                         }
                     } else
-                        mE(this, rE, "m", uE).call(this);
+                        yE(this, lE, "m", gE).call(this);
                 else
-                    mE(this, rE, "m", pE).call(this)
+                    yE(this, lE, "m", vE).call(this)
             }
         }
         ;
-        var vE = n(151)
-          , wE = {};
-        wE.styleTagTransform = u(),
-        wE.setAttributes = l(),
-        wE.insert = o().bind(null, "head"),
-        wE.domAPI = r(),
-        wE.insertStyleElement = h();
-        t()(vE.A, wE);
-        vE.A && vE.A.locals && vE.A.locals;
-        var yE, bE, xE, _E, kE, EE, SE, ME = function(e, t, n, i, r) {
+        var xE = n(151)
+          , _E = {};
+        _E.styleTagTransform = u(),
+        _E.setAttributes = l(),
+        _E.insert = o().bind(null, "head"),
+        _E.domAPI = r(),
+        _E.insertStyleElement = h();
+        t()(xE.A, _E);
+        xE.A && xE.A.locals && xE.A.locals;
+        var kE, EE, SE, ME, TE, AE, CE, PE = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -32511,77 +32517,77 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, TE = function(e, t, n, i) {
+        }, RE = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        yE = new WeakMap,
-        bE = new WeakMap,
-        xE = new WeakMap,
-        _E = new WeakMap,
         kE = new WeakMap,
         EE = new WeakMap,
-        SE = new WeakMap;
-        const AE = class {
+        SE = new WeakMap,
+        ME = new WeakMap,
+        TE = new WeakMap,
+        AE = new WeakMap,
+        CE = new WeakMap;
+        const LE = class {
             constructor(e) {
-                yE.set(this, void 0),
-                bE.set(this, void 0),
-                xE.set(this, void 0),
-                _E.set(this, void 0),
                 kE.set(this, void 0),
-                EE.set(this, null),
+                EE.set(this, void 0),
                 SE.set(this, void 0),
-                ME(this, yE, e, "f"),
-                ME(this, SE, e.getSettingBoolean(Jh.ImperialUnitsEnabled), "f"),
-                ME(this, bE, document.getElementById("ui"), "f"),
-                ME(this, xE, document.createElement("div"), "f"),
-                e.getSettingBoolean(Jh.SpeedometerPosition) ? TE(this, xE, "f").className = "speedometer up" : TE(this, xE, "f").className = "speedometer",
-                TE(this, bE, "f").appendChild(TE(this, xE, "f"));
+                ME.set(this, void 0),
+                TE.set(this, void 0),
+                AE.set(this, null),
+                CE.set(this, void 0),
+                PE(this, kE, e, "f"),
+                PE(this, CE, e.getSettingBoolean(Jh.ImperialUnitsEnabled), "f"),
+                PE(this, EE, document.getElementById("ui"), "f"),
+                PE(this, SE, document.createElement("div"), "f"),
+                e.getSettingBoolean(Jh.SpeedometerPosition) ? RE(this, SE, "f").className = "speedometer up" : RE(this, SE, "f").className = "speedometer",
+                RE(this, EE, "f").appendChild(RE(this, SE, "f"));
                 const t = document.createElement("div");
-                TE(this, xE, "f").appendChild(t),
-                ME(this, _E, document.createElement("span"), "f"),
-                TE(this, _E, "f").textContent = "0",
-                t.appendChild(TE(this, _E, "f")),
-                ME(this, kE, document.createElement("span"), "f"),
-                TE(this, SE, "f") ? TE(this, kE, "f").textContent = "mph" : TE(this, kE, "f").textContent = "km/h",
-                t.appendChild(TE(this, kE, "f"))
+                RE(this, SE, "f").appendChild(t),
+                PE(this, ME, document.createElement("span"), "f"),
+                RE(this, ME, "f").textContent = "0",
+                t.appendChild(RE(this, ME, "f")),
+                PE(this, TE, document.createElement("span"), "f"),
+                RE(this, CE, "f") ? RE(this, TE, "f").textContent = "mph" : RE(this, TE, "f").textContent = "km/h",
+                t.appendChild(RE(this, TE, "f"))
             }
             dispose() {
-                TE(this, bE, "f").removeChild(TE(this, xE, "f"))
+                RE(this, EE, "f").removeChild(RE(this, SE, "f"))
             }
             setOverridePosition(e) {
-                (null != e ? e : TE(this, yE, "f").getSettingBoolean(Jh.SpeedometerPosition)) ? TE(this, xE, "f").className = "speedometer up" : TE(this, xE, "f").className = "speedometer"
+                (null != e ? e : RE(this, kE, "f").getSettingBoolean(Jh.SpeedometerPosition)) ? RE(this, SE, "f").className = "speedometer up" : RE(this, SE, "f").className = "speedometer"
             }
             update(e) {
                 const t = Math.abs(e.getSpeedKmh());
                 let n;
-                n = TE(this, SE, "f") ? t / 1.609344 : t;
+                n = RE(this, CE, "f") ? t / 1.609344 : t;
                 const i = Math.trunc(n).toString();
-                if (i != TE(this, EE, "f")) {
-                    TE(this, _E, "f").innerHTML = "";
+                if (i != RE(this, AE, "f")) {
+                    RE(this, ME, "f").innerHTML = "";
                     for (let e = 0; e < i.length; ++e) {
                         const t = document.createElement("span");
                         t.textContent = i[e],
-                        TE(this, _E, "f").appendChild(t)
+                        RE(this, ME, "f").appendChild(t)
                     }
-                    ME(this, EE, i, "f")
+                    PE(this, AE, i, "f")
                 }
             }
         }
         ;
-        var CE = n(817)
-          , PE = {};
-        PE.styleTagTransform = u(),
-        PE.setAttributes = l(),
-        PE.insert = o().bind(null, "head"),
-        PE.domAPI = r(),
-        PE.insertStyleElement = h();
-        t()(CE.A, PE);
-        CE.A && CE.A.locals && CE.A.locals;
-        var RE, LE, IE, NE, DE, UE, BE, OE, zE, FE, WE = function(e, t, n, i, r) {
+        var IE = n(817)
+          , NE = {};
+        NE.styleTagTransform = u(),
+        NE.setAttributes = l(),
+        NE.insert = o().bind(null, "head"),
+        NE.domAPI = r(),
+        NE.insertStyleElement = h();
+        t()(IE.A, NE);
+        IE.A && IE.A.locals && IE.A.locals;
+        var DE, UE, BE, OE, zE, FE, WE, HE, VE, GE, jE = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -32590,98 +32596,98 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, HE = function(e, t, n, i) {
+        }, qE = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        RE = new WeakMap,
-        LE = new WeakMap,
-        IE = new WeakMap,
-        NE = new WeakMap,
         DE = new WeakMap,
         UE = new WeakMap,
         BE = new WeakMap,
         OE = new WeakMap,
         zE = new WeakMap,
-        FE = new WeakMap;
-        const VE = class {
+        FE = new WeakMap,
+        WE = new WeakMap,
+        HE = new WeakMap,
+        VE = new WeakMap,
+        GE = new WeakMap;
+        const XE = class {
             constructor(e, t, n, i, r) {
-                if (RE.set(this, void 0),
-                LE.set(this, void 0),
-                IE.set(this, void 0),
-                NE.set(this, void 0),
-                DE.set(this, void 0),
+                if (DE.set(this, void 0),
                 UE.set(this, void 0),
                 BE.set(this, void 0),
                 OE.set(this, void 0),
                 zE.set(this, void 0),
                 FE.set(this, void 0),
-                WE(this, RE, document.getElementById("ui"), "f"),
-                WE(this, LE, document.createElement("div"), "f"),
-                HE(this, LE, "f").className = "time-announcer",
-                WE(this, IE, document.createElement("div"), "f"),
-                HE(this, IE, "f").className = "hidden",
-                HE(this, IE, "f").textContent = e.get("New record"),
-                HE(this, LE, "f").appendChild(HE(this, IE, "f")),
-                WE(this, NE, document.createElement("div"), "f"),
-                HE(this, NE, "f").className = "track-name",
-                HE(this, NE, "f").textContent = t,
-                HE(this, LE, "f").appendChild(HE(this, NE, "f")),
-                WE(this, DE, document.createElement("div"), "f"),
-                HE(this, DE, "f").className = "current",
-                HE(this, LE, "f").appendChild(HE(this, DE, "f")),
-                WE(this, UE, document.createElement("div"), "f"),
-                HE(this, LE, "f").appendChild(HE(this, UE, "f")),
-                WE(this, BE, document.createElement("p"), "f"),
-                HE(this, UE, "f").appendChild(HE(this, BE, "f")),
-                WE(this, OE, document.createElement("div"), "f"),
-                HE(this, LE, "f").appendChild(HE(this, OE, "f")),
-                WE(this, zE, document.createElement("p"), "f"),
-                HE(this, zE, "f").className = "title",
-                HE(this, OE, "f").appendChild(HE(this, zE, "f")),
-                WE(this, FE, document.createElement("p"), "f"),
-                HE(this, OE, "f").appendChild(HE(this, FE, "f")),
-                HE(this, RE, "f").appendChild(HE(this, LE, "f")),
-                HE(this, DE, "f").textContent = sx.formatTimeString(n),
+                WE.set(this, void 0),
+                HE.set(this, void 0),
+                VE.set(this, void 0),
+                GE.set(this, void 0),
+                jE(this, DE, document.getElementById("ui"), "f"),
+                jE(this, UE, document.createElement("div"), "f"),
+                qE(this, UE, "f").className = "time-announcer",
+                jE(this, BE, document.createElement("div"), "f"),
+                qE(this, BE, "f").className = "hidden",
+                qE(this, BE, "f").textContent = e.get("New record"),
+                qE(this, UE, "f").appendChild(qE(this, BE, "f")),
+                jE(this, OE, document.createElement("div"), "f"),
+                qE(this, OE, "f").className = "track-name",
+                qE(this, OE, "f").textContent = t,
+                qE(this, UE, "f").appendChild(qE(this, OE, "f")),
+                jE(this, zE, document.createElement("div"), "f"),
+                qE(this, zE, "f").className = "current",
+                qE(this, UE, "f").appendChild(qE(this, zE, "f")),
+                jE(this, FE, document.createElement("div"), "f"),
+                qE(this, UE, "f").appendChild(qE(this, FE, "f")),
+                jE(this, WE, document.createElement("p"), "f"),
+                qE(this, FE, "f").appendChild(qE(this, WE, "f")),
+                jE(this, HE, document.createElement("div"), "f"),
+                qE(this, UE, "f").appendChild(qE(this, HE, "f")),
+                jE(this, VE, document.createElement("p"), "f"),
+                qE(this, VE, "f").className = "title",
+                qE(this, HE, "f").appendChild(qE(this, VE, "f")),
+                jE(this, GE, document.createElement("p"), "f"),
+                qE(this, HE, "f").appendChild(qE(this, GE, "f")),
+                qE(this, DE, "f").appendChild(qE(this, UE, "f")),
+                qE(this, zE, "f").textContent = dx.formatTimeString(n),
                 null == i)
-                    HE(this, IE, "f").className = "record",
-                    HE(this, UE, "f").className = "hidden";
+                    qE(this, BE, "f").className = "record",
+                    qE(this, FE, "f").className = "hidden";
                 else {
                     const e = n.difference(i);
-                    HE(this, BE, "f").textContent = sx.formatTimeString(e, !0),
-                    e.isNegative() ? (HE(this, IE, "f").className = "record",
-                    HE(this, UE, "f").className = "difference") : (HE(this, IE, "f").className = "hidden",
-                    HE(this, UE, "f").className = "difference red")
+                    qE(this, WE, "f").textContent = dx.formatTimeString(e, !0),
+                    e.isNegative() ? (qE(this, BE, "f").className = "record",
+                    qE(this, FE, "f").className = "difference") : (qE(this, BE, "f").className = "hidden",
+                    qE(this, FE, "f").className = "difference red")
                 }
                 if (null == r)
-                    HE(this, OE, "f").className = "hidden";
+                    qE(this, HE, "f").className = "hidden";
                 else {
                     const e = n.difference(r.record);
-                    HE(this, zE, "f").textContent = r.name,
-                    HE(this, FE, "f").textContent = sx.formatTimeString(e, !0),
-                    e.isNegative() ? HE(this, OE, "f").className = "difference" : HE(this, OE, "f").className = "difference red"
+                    qE(this, VE, "f").textContent = r.name,
+                    qE(this, GE, "f").textContent = dx.formatTimeString(e, !0),
+                    e.isNegative() ? qE(this, HE, "f").className = "difference" : qE(this, HE, "f").className = "difference red"
                 }
             }
             dispose() {
-                HE(this, RE, "f").removeChild(HE(this, LE, "f"))
+                qE(this, DE, "f").removeChild(qE(this, UE, "f"))
             }
         }
-          , GE = new _i(0,0,0,"YXZ")
-          , jE = new Un
-          , qE = {
+          , YE = new _i(0,0,0,"YXZ")
+          , KE = new Un
+          , ZE = {
             type: "change"
         }
-          , XE = {
+          , JE = {
             type: "lock"
         }
-          , YE = {
+          , QE = {
             type: "unlock"
         }
-          , KE = Math.PI / 2;
-        class ZE extends Kt {
+          , $E = Math.PI / 2;
+        class eS extends Kt {
             constructor(e, t) {
                 super(),
                 this.camera = e,
@@ -32690,9 +32696,9 @@
                 this.minPolarAngle = 0,
                 this.maxPolarAngle = Math.PI,
                 this.pointerSpeed = 1,
-                this._onMouseMove = JE.bind(this),
-                this._onPointerlockChange = QE.bind(this),
-                this._onPointerlockError = $E.bind(this),
+                this._onMouseMove = tS.bind(this),
+                this._onPointerlockChange = nS.bind(this),
+                this._onPointerlockError = iS.bind(this),
                 this.connect()
             }
             connect() {
@@ -32716,14 +32722,14 @@
             }
             moveForward(e) {
                 const t = this.camera;
-                jE.setFromMatrixColumn(t.matrix, 0),
-                jE.crossVectors(t.up, jE),
-                t.position.addScaledVector(jE, e)
+                KE.setFromMatrixColumn(t.matrix, 0),
+                KE.crossVectors(t.up, KE),
+                t.position.addScaledVector(KE, e)
             }
             moveRight(e) {
                 const t = this.camera;
-                jE.setFromMatrixColumn(t.matrix, 0),
-                t.position.addScaledVector(jE, e)
+                KE.setFromMatrixColumn(t.matrix, 0),
+                t.position.addScaledVector(KE, e)
             }
             lock() {
                 this.domElement.requestPointerLock()
@@ -32732,28 +32738,28 @@
                 this.domElement.ownerDocument.exitPointerLock()
             }
         }
-        function JE(e) {
+        function tS(e) {
             if (!1 === this.isLocked)
                 return;
             const t = e.movementX || e.mozMovementX || e.webkitMovementX || 0
               , n = e.movementY || e.mozMovementY || e.webkitMovementY || 0
               , i = this.camera;
-            GE.setFromQuaternion(i.quaternion),
-            GE.y -= .002 * t * this.pointerSpeed,
-            GE.x -= .002 * n * this.pointerSpeed,
-            GE.x = Math.max(KE - this.maxPolarAngle, Math.min(KE - this.minPolarAngle, GE.x)),
-            i.quaternion.setFromEuler(GE),
-            this.dispatchEvent(qE)
+            YE.setFromQuaternion(i.quaternion),
+            YE.y -= .002 * t * this.pointerSpeed,
+            YE.x -= .002 * n * this.pointerSpeed,
+            YE.x = Math.max($E - this.maxPolarAngle, Math.min($E - this.minPolarAngle, YE.x)),
+            i.quaternion.setFromEuler(YE),
+            this.dispatchEvent(ZE)
         }
-        function QE() {
-            this.domElement.ownerDocument.pointerLockElement === this.domElement ? (this.dispatchEvent(XE),
-            this.isLocked = !0) : (this.dispatchEvent(YE),
+        function nS() {
+            this.domElement.ownerDocument.pointerLockElement === this.domElement ? (this.dispatchEvent(JE),
+            this.isLocked = !0) : (this.dispatchEvent(QE),
             this.isLocked = !1)
         }
-        function $E() {
+        function iS() {
             console.error("THREE.PointerLockControls: Unable to use Pointer Lock API")
         }
-        var eS, tS, nS, iS, rS, aS, oS, sS, lS, cS, hS, dS = function(e, t, n, i, r) {
+        var rS, aS, oS, sS, lS, cS, hS, dS, uS, pS, fS, mS = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -32762,131 +32768,131 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, uS = function(e, t, n, i) {
+        }, gS = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        eS = new WeakMap,
-        tS = new WeakMap,
-        nS = new WeakMap,
-        iS = new WeakMap,
         rS = new WeakMap,
         aS = new WeakMap,
         oS = new WeakMap,
         sS = new WeakMap,
         lS = new WeakMap,
         cS = new WeakMap,
-        hS = new WeakMap;
-        const pS = class {
+        hS = new WeakMap,
+        dS = new WeakMap,
+        uS = new WeakMap,
+        pS = new WeakMap,
+        fS = new WeakMap;
+        const vS = class {
             constructor(e) {
-                eS.set(this, void 0),
-                tS.set(this, void 0),
-                nS.set(this, !1),
-                iS.set(this, []),
                 rS.set(this, void 0),
                 aS.set(this, void 0),
                 oS.set(this, !1),
-                sS.set(this, !1),
-                lS.set(this, !1),
-                cS.set(this, !1),
+                sS.set(this, []),
+                lS.set(this, void 0),
+                cS.set(this, void 0),
                 hS.set(this, !1),
-                dS(this, eS, new Kr(70,1,.1,1e4), "f"),
-                uS(this, eS, "f").position.set(0, 20, 0),
-                dS(this, tS, new ZE(uS(this, eS, "f"),document.documentElement), "f"),
-                uS(this, tS, "f").addEventListener("lock", ( () => {
-                    dS(this, nS, !0, "f"),
-                    uS(this, iS, "f").forEach((e => {
+                dS.set(this, !1),
+                uS.set(this, !1),
+                pS.set(this, !1),
+                fS.set(this, !1),
+                mS(this, rS, new Kr(70,1,.1,1e4), "f"),
+                gS(this, rS, "f").position.set(0, 20, 0),
+                mS(this, aS, new eS(gS(this, rS, "f"),document.documentElement), "f"),
+                gS(this, aS, "f").addEventListener("lock", ( () => {
+                    mS(this, oS, !0, "f"),
+                    gS(this, sS, "f").forEach((e => {
                         e(!0)
                     }
                     ))
                 }
                 )),
-                uS(this, tS, "f").addEventListener("unlock", ( () => {
-                    dS(this, nS, !1, "f"),
-                    uS(this, iS, "f").forEach((e => {
+                gS(this, aS, "f").addEventListener("unlock", ( () => {
+                    mS(this, oS, !1, "f"),
+                    gS(this, sS, "f").forEach((e => {
                         e(!1)
                     }
                     ))
                 }
                 )),
-                window.addEventListener("keydown", dS(this, rS, (t => {
-                    e.checkKeyBinding(t, Lb.SpectatorMoveForwards) ? (dS(this, oS, !0, "f"),
-                    t.preventDefault()) : e.checkKeyBinding(t, Lb.SpectatorMoveRight) ? (dS(this, sS, !0, "f"),
-                    t.preventDefault()) : e.checkKeyBinding(t, Lb.SpectatorMoveBackwards) ? (dS(this, lS, !0, "f"),
-                    t.preventDefault()) : e.checkKeyBinding(t, Lb.SpectatorMoveLeft) ? (dS(this, cS, !0, "f"),
-                    t.preventDefault()) : e.checkKeyBinding(t, Lb.SpectatorSpeedModifier) && (dS(this, hS, !0, "f"),
+                window.addEventListener("keydown", mS(this, lS, (t => {
+                    e.checkKeyBinding(t, Ub.SpectatorMoveForwards) ? (mS(this, hS, !0, "f"),
+                    t.preventDefault()) : e.checkKeyBinding(t, Ub.SpectatorMoveRight) ? (mS(this, dS, !0, "f"),
+                    t.preventDefault()) : e.checkKeyBinding(t, Ub.SpectatorMoveBackwards) ? (mS(this, uS, !0, "f"),
+                    t.preventDefault()) : e.checkKeyBinding(t, Ub.SpectatorMoveLeft) ? (mS(this, pS, !0, "f"),
+                    t.preventDefault()) : e.checkKeyBinding(t, Ub.SpectatorSpeedModifier) && (mS(this, fS, !0, "f"),
                     t.preventDefault())
                 }
                 ), "f")),
-                window.addEventListener("keyup", dS(this, aS, (t => {
-                    e.checkKeyBinding(t, Lb.SpectatorMoveForwards) ? dS(this, oS, !1, "f") : e.checkKeyBinding(t, Lb.SpectatorMoveRight) ? dS(this, sS, !1, "f") : e.checkKeyBinding(t, Lb.SpectatorMoveBackwards) ? dS(this, lS, !1, "f") : e.checkKeyBinding(t, Lb.SpectatorMoveLeft) ? dS(this, cS, !1, "f") : e.checkKeyBinding(t, Lb.SpectatorSpeedModifier) && dS(this, hS, !1, "f")
+                window.addEventListener("keyup", mS(this, cS, (t => {
+                    e.checkKeyBinding(t, Ub.SpectatorMoveForwards) ? mS(this, hS, !1, "f") : e.checkKeyBinding(t, Ub.SpectatorMoveRight) ? mS(this, dS, !1, "f") : e.checkKeyBinding(t, Ub.SpectatorMoveBackwards) ? mS(this, uS, !1, "f") : e.checkKeyBinding(t, Ub.SpectatorMoveLeft) ? mS(this, pS, !1, "f") : e.checkKeyBinding(t, Ub.SpectatorSpeedModifier) && mS(this, fS, !1, "f")
                 }
                 ), "f"))
             }
             dispose() {
-                uS(this, tS, "f").dispose(),
-                window.removeEventListener("keydown", uS(this, rS, "f")),
-                window.removeEventListener("keyup", uS(this, aS, "f"))
+                gS(this, aS, "f").dispose(),
+                window.removeEventListener("keydown", gS(this, lS, "f")),
+                window.removeEventListener("keyup", gS(this, cS, "f"))
             }
             addToggleListener(e) {
-                uS(this, iS, "f").push(e)
+                gS(this, sS, "f").push(e)
             }
             enable() {
                 try {
-                    uS(this, tS, "f").lock()
+                    gS(this, aS, "f").lock()
                 } catch (e) {}
             }
             disable() {
                 try {
-                    uS(this, tS, "f").unlock()
+                    gS(this, aS, "f").unlock()
                 } catch (e) {}
             }
             toggle() {
-                uS(this, nS, "f") ? this.disable() : this.enable()
+                gS(this, oS, "f") ? this.disable() : this.enable()
             }
             update(e) {
-                if (uS(this, nS, "f")) {
+                if (gS(this, oS, "f")) {
                     let t;
-                    if (t = uS(this, hS, "f") ? 400 * e : 50 * e,
-                    uS(this, oS, "f")) {
-                        const e = new Un(0,0,-1).applyQuaternion(uS(this, eS, "f").quaternion);
-                        uS(this, eS, "f").position.add(e.multiplyScalar(t))
+                    if (t = gS(this, fS, "f") ? 400 * e : 50 * e,
+                    gS(this, hS, "f")) {
+                        const e = new Un(0,0,-1).applyQuaternion(gS(this, rS, "f").quaternion);
+                        gS(this, rS, "f").position.add(e.multiplyScalar(t))
                     }
-                    if (uS(this, sS, "f")) {
-                        const e = new Un(1,0,0).applyQuaternion(uS(this, eS, "f").quaternion);
-                        uS(this, eS, "f").position.add(e.multiplyScalar(t))
+                    if (gS(this, dS, "f")) {
+                        const e = new Un(1,0,0).applyQuaternion(gS(this, rS, "f").quaternion);
+                        gS(this, rS, "f").position.add(e.multiplyScalar(t))
                     }
-                    if (uS(this, lS, "f")) {
-                        const e = new Un(0,0,1).applyQuaternion(uS(this, eS, "f").quaternion);
-                        uS(this, eS, "f").position.add(e.multiplyScalar(t))
+                    if (gS(this, uS, "f")) {
+                        const e = new Un(0,0,1).applyQuaternion(gS(this, rS, "f").quaternion);
+                        gS(this, rS, "f").position.add(e.multiplyScalar(t))
                     }
-                    if (uS(this, cS, "f")) {
-                        const e = new Un(-1,0,0).applyQuaternion(uS(this, eS, "f").quaternion);
-                        uS(this, eS, "f").position.add(e.multiplyScalar(t))
+                    if (gS(this, pS, "f")) {
+                        const e = new Un(-1,0,0).applyQuaternion(gS(this, rS, "f").quaternion);
+                        gS(this, rS, "f").position.add(e.multiplyScalar(t))
                     }
                 }
             }
             get camera() {
-                return uS(this, eS, "f")
+                return gS(this, rS, "f")
             }
             get enabled() {
-                return uS(this, nS, "f")
+                return gS(this, oS, "f")
             }
         }
         ;
-        var fS = n(571)
-          , mS = {};
-        mS.styleTagTransform = u(),
-        mS.setAttributes = l(),
-        mS.insert = o().bind(null, "head"),
-        mS.domAPI = r(),
-        mS.insertStyleElement = h();
-        t()(fS.A, mS);
-        fS.A && fS.A.locals && fS.A.locals;
-        var gS, vS, wS, yS = function(e, t, n, i, r) {
+        var wS = n(571)
+          , yS = {};
+        yS.styleTagTransform = u(),
+        yS.setAttributes = l(),
+        yS.insert = o().bind(null, "head"),
+        yS.domAPI = r(),
+        yS.insertStyleElement = h();
+        t()(wS.A, yS);
+        wS.A && wS.A.locals && wS.A.locals;
+        var bS, xS, _S, kS = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -32895,25 +32901,25 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, bS = function(e, t, n, i) {
+        }, ES = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        gS = new WeakMap,
-        vS = new WeakMap,
-        wS = new WeakMap;
-        const xS = class {
+        bS = new WeakMap,
+        xS = new WeakMap,
+        _S = new WeakMap;
+        const SS = class {
             constructor(e, t, n, i) {
-                gS.set(this, void 0),
-                vS.set(this, void 0),
-                wS.set(this, void 0),
-                yS(this, gS, document.getElementById("ui"), "f"),
-                yS(this, vS, document.createElement("div"), "f"),
-                bS(this, vS, "f").className = "hidden",
-                bS(this, gS, "f").appendChild(bS(this, vS, "f"));
+                bS.set(this, void 0),
+                xS.set(this, void 0),
+                _S.set(this, void 0),
+                kS(this, bS, document.getElementById("ui"), "f"),
+                kS(this, xS, document.createElement("div"), "f"),
+                ES(this, xS, "f").className = "hidden",
+                ES(this, bS, "f").appendChild(ES(this, xS, "f"));
                 const r = document.createElement("button");
                 r.className = "quit",
                 r.innerHTML = '<img src="images/quit.svg">',
@@ -32931,7 +32937,7 @@
                     i()
                 }
                 )),
-                bS(this, vS, "f").appendChild(r);
+                ES(this, xS, "f").appendChild(r);
                 const a = document.createElement("button");
                 a.className = "reset",
                 a.innerHTML = '<img src="images/reset.svg">',
@@ -32949,10 +32955,10 @@
                     n()
                 }
                 )),
-                bS(this, vS, "f").appendChild(a);
+                ES(this, xS, "f").appendChild(a);
                 const o = document.createElement("div");
                 o.className = "left-container",
-                bS(this, vS, "f").appendChild(o);
+                ES(this, xS, "f").appendChild(o);
                 const s = document.createElement("div");
                 s.innerHTML = '<img src="images/arrow_up.svg">',
                 o.appendChild(s);
@@ -32961,14 +32967,14 @@
                 o.appendChild(l);
                 const c = document.createElement("div");
                 c.className = "right-container",
-                bS(this, vS, "f").appendChild(c);
+                ES(this, xS, "f").appendChild(c);
                 const h = document.createElement("div");
                 h.innerHTML = '<img src="images/arrow_left.svg">',
                 c.appendChild(h);
                 const d = document.createElement("div");
                 d.innerHTML = '<img src="images/arrow_right.svg">',
                 c.appendChild(d),
-                yS(this, wS, (t => {
+                kS(this, _S, (t => {
                     let n = !1
                       , i = !1
                       , r = !1
@@ -33002,28 +33008,28 @@
                     t.preventDefault()
                 }
                 ), "f"),
-                window.addEventListener("touchstart", bS(this, wS, "f"), {
+                window.addEventListener("touchstart", ES(this, _S, "f"), {
                     passive: !1
                 }),
-                window.addEventListener("touchmove", bS(this, wS, "f"), {
+                window.addEventListener("touchmove", ES(this, _S, "f"), {
                     passive: !1
                 }),
-                window.addEventListener("touchend", bS(this, wS, "f"), {
+                window.addEventListener("touchend", ES(this, _S, "f"), {
                     passive: !1
                 })
             }
             setEnabled(e) {
-                bS(this, vS, "f").className = e ? "touch-controls" : "hidden"
+                ES(this, xS, "f").className = e ? "touch-controls" : "hidden"
             }
             dispose() {
-                bS(this, gS, "f").removeChild(bS(this, vS, "f")),
-                window.removeEventListener("touchstart", bS(this, wS, "f")),
-                window.removeEventListener("touchmove", bS(this, wS, "f")),
-                window.removeEventListener("touchend", bS(this, wS, "f"))
+                ES(this, bS, "f").removeChild(ES(this, xS, "f")),
+                window.removeEventListener("touchstart", ES(this, _S, "f")),
+                window.removeEventListener("touchmove", ES(this, _S, "f")),
+                window.removeEventListener("touchend", ES(this, _S, "f"))
             }
         }
         ;
-        var _S, kS, ES, SS, MS, TS, AS, CS = function(e, t, n, i, r) {
+        var MS, TS, AS, CS, PS, RS, LS, IS = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -33032,92 +33038,92 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, PS = function(e, t, n, i) {
+        }, NS = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        _S = new WeakMap,
-        kS = new WeakMap,
-        ES = new WeakMap,
-        SS = new WeakMap,
         MS = new WeakMap,
         TS = new WeakMap,
-        AS = new WeakMap;
-        const RS = class {
+        AS = new WeakMap,
+        CS = new WeakMap,
+        PS = new WeakMap,
+        RS = new WeakMap,
+        LS = new WeakMap;
+        const DS = class {
             constructor(e) {
-                _S.set(this, !1),
-                kS.set(this, !1),
-                ES.set(this, !1),
-                SS.set(this, !1),
-                MS.set(this, void 0),
-                TS.set(this, void 0),
-                AS.set(this, []),
-                window.addEventListener("keydown", CS(this, MS, (t => {
-                    e.checkKeyBinding(t, Lb.VehicleAccelerate) ? (this.up = !0,
-                    t.preventDefault()) : e.checkKeyBinding(t, Lb.VehicleTurnRight) ? (this.right = !0,
-                    t.preventDefault()) : e.checkKeyBinding(t, Lb.VehicleBrake) ? (this.down = !0,
-                    t.preventDefault()) : e.checkKeyBinding(t, Lb.VehicleTurnLeft) && (this.left = !0,
+                MS.set(this, !1),
+                TS.set(this, !1),
+                AS.set(this, !1),
+                CS.set(this, !1),
+                PS.set(this, void 0),
+                RS.set(this, void 0),
+                LS.set(this, []),
+                window.addEventListener("keydown", IS(this, PS, (t => {
+                    e.checkKeyBinding(t, Ub.VehicleAccelerate) ? (this.up = !0,
+                    t.preventDefault()) : e.checkKeyBinding(t, Ub.VehicleTurnRight) ? (this.right = !0,
+                    t.preventDefault()) : e.checkKeyBinding(t, Ub.VehicleBrake) ? (this.down = !0,
+                    t.preventDefault()) : e.checkKeyBinding(t, Ub.VehicleTurnLeft) && (this.left = !0,
                     t.preventDefault())
                 }
                 ), "f")),
-                window.addEventListener("keyup", CS(this, TS, (t => {
-                    e.checkKeyBinding(t, Lb.VehicleAccelerate) ? this.up = !1 : e.checkKeyBinding(t, Lb.VehicleTurnRight) ? this.right = !1 : e.checkKeyBinding(t, Lb.VehicleBrake) ? this.down = !1 : e.checkKeyBinding(t, Lb.VehicleTurnLeft) && (this.left = !1)
+                window.addEventListener("keyup", IS(this, RS, (t => {
+                    e.checkKeyBinding(t, Ub.VehicleAccelerate) ? this.up = !1 : e.checkKeyBinding(t, Ub.VehicleTurnRight) ? this.right = !1 : e.checkKeyBinding(t, Ub.VehicleBrake) ? this.down = !1 : e.checkKeyBinding(t, Ub.VehicleTurnLeft) && (this.left = !1)
                 }
                 ), "f"))
             }
             get up() {
-                return PS(this, _S, "f")
+                return NS(this, MS, "f")
             }
             get right() {
-                return PS(this, kS, "f")
+                return NS(this, TS, "f")
             }
             get down() {
-                return PS(this, ES, "f")
+                return NS(this, AS, "f")
             }
             get left() {
-                return PS(this, SS, "f")
+                return NS(this, CS, "f")
             }
             set up(e) {
-                PS(this, _S, "f") != e && (CS(this, _S, e, "f"),
-                PS(this, AS, "f").forEach((e => {
+                NS(this, MS, "f") != e && (IS(this, MS, e, "f"),
+                NS(this, LS, "f").forEach((e => {
                     e(this)
                 }
                 )))
             }
             set right(e) {
-                PS(this, kS, "f") != e && (CS(this, kS, e, "f"),
-                PS(this, AS, "f").forEach((e => {
+                NS(this, TS, "f") != e && (IS(this, TS, e, "f"),
+                NS(this, LS, "f").forEach((e => {
                     e(this)
                 }
                 )))
             }
             set down(e) {
-                PS(this, ES, "f") != e && (CS(this, ES, e, "f"),
-                PS(this, AS, "f").forEach((e => {
+                NS(this, AS, "f") != e && (IS(this, AS, e, "f"),
+                NS(this, LS, "f").forEach((e => {
                     e(this)
                 }
                 )))
             }
             set left(e) {
-                PS(this, SS, "f") != e && (CS(this, SS, e, "f"),
-                PS(this, AS, "f").forEach((e => {
+                NS(this, CS, "f") != e && (IS(this, CS, e, "f"),
+                NS(this, LS, "f").forEach((e => {
                     e(this)
                 }
                 )))
             }
             addChangeCallback(e) {
-                PS(this, AS, "f").push(e)
+                NS(this, LS, "f").push(e)
             }
             removeChangeCallback(e) {
-                const t = PS(this, AS, "f").indexOf(e);
-                t >= 0 && PS(this, AS, "f").splice(t, 1)
+                const t = NS(this, LS, "f").indexOf(e);
+                t >= 0 && NS(this, LS, "f").splice(t, 1)
             }
             dispose() {
-                window.removeEventListener("keydown", PS(this, MS, "f")),
-                window.removeEventListener("keyup", PS(this, TS, "f"))
+                window.removeEventListener("keydown", NS(this, PS, "f")),
+                window.removeEventListener("keyup", NS(this, RS, "f"))
             }
             getControls() {
                 return {
@@ -33129,44 +33135,44 @@
             }
         }
         ;
-        var LS, IS = function(e, t, n, i) {
+        var US, BS = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        LS = new WeakMap;
-        const NS = class {
+        US = new WeakMap;
+        const OS = class {
             constructor() {
-                LS.set(this, [])
+                US.set(this, [])
             }
             push(e) {
-                if (IS(this, LS, "f").length > 0) {
-                    if (e.totalFrames != IS(this, LS, "f")[IS(this, LS, "f").length - 1].totalFrames + 1)
+                if (BS(this, US, "f").length > 0) {
+                    if (e.totalFrames != BS(this, US, "f")[BS(this, US, "f").length - 1].totalFrames + 1)
                         throw "Car states are not continuous"
                 } else if (e.totalFrames > 0)
                     throw "First frame must be zero";
-                IS(this, LS, "f").push(e)
+                BS(this, US, "f").push(e)
             }
             getFrame(e) {
-                return e >= 0 && e < IS(this, LS, "f").length ? IS(this, LS, "f")[e] : null
+                return e >= 0 && e < BS(this, US, "f").length ? BS(this, US, "f")[e] : null
             }
             getLastFrame() {
-                return 0 == IS(this, LS, "f").length ? new rp(0) : new rp(IS(this, LS, "f")[IS(this, LS, "f").length - 1].totalFrames)
+                return 0 == BS(this, US, "f").length ? new rp(0) : new rp(BS(this, US, "f")[BS(this, US, "f").length - 1].totalFrames)
             }
         }
         ;
-        var DS = n(804)
-          , US = {};
-        US.styleTagTransform = u(),
-        US.setAttributes = l(),
-        US.insert = o().bind(null, "head"),
-        US.domAPI = r(),
-        US.insertStyleElement = h();
-        t()(DS.A, US);
-        DS.A && DS.A.locals && DS.A.locals;
-        var BS, OS, zS, FS = function(e, t, n, i, r) {
+        var zS = n(804)
+          , FS = {};
+        FS.styleTagTransform = u(),
+        FS.setAttributes = l(),
+        FS.insert = o().bind(null, "head"),
+        FS.domAPI = r(),
+        FS.insertStyleElement = h();
+        t()(zS.A, FS);
+        zS.A && zS.A.locals && zS.A.locals;
+        var WS, HS, VS, GS = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -33175,24 +33181,24 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, WS = function(e, t, n, i) {
+        }, jS = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        BS = new WeakMap,
-        OS = new WeakMap,
-        zS = new WeakMap;
-        const HS = class {
+        WS = new WeakMap,
+        HS = new WeakMap,
+        VS = new WeakMap;
+        const qS = class {
             constructor(e, t, n, i) {
-                BS.set(this, void 0),
-                OS.set(this, void 0),
-                zS.set(this, !0),
-                FS(this, BS, document.getElementById("ui"), "f"),
-                FS(this, OS, document.createElement("div"), "f"),
-                n.getSettingBoolean(Jh.CheckpointsPosition) ? WS(this, OS, "f").className = "game-toolbar visible" : WS(this, OS, "f").className = "game-toolbar visible up";
+                WS.set(this, void 0),
+                HS.set(this, void 0),
+                VS.set(this, !0),
+                GS(this, WS, document.getElementById("ui"), "f"),
+                GS(this, HS, document.createElement("div"), "f"),
+                n.getSettingBoolean(Jh.CheckpointsPosition) ? jS(this, HS, "f").className = "game-toolbar visible" : jS(this, HS, "f").className = "game-toolbar visible up";
                 const r = document.createElement("button");
                 r.className = "button",
                 r.innerHTML = '<img class="button-icon" src="images/quit.svg"> ',
@@ -33202,19 +33208,19 @@
                     i()
                 }
                 )),
-                WS(this, OS, "f").appendChild(r),
-                WS(this, BS, "f").appendChild(WS(this, OS, "f"))
+                jS(this, HS, "f").appendChild(r),
+                jS(this, WS, "f").appendChild(jS(this, HS, "f"))
             }
             dispose() {
-                WS(this, BS, "f").removeChild(WS(this, OS, "f"))
+                jS(this, WS, "f").removeChild(jS(this, HS, "f"))
             }
             setVisible(e) {
-                WS(this, zS, "f") != e && (e ? WS(this, OS, "f").classList.add("visible") : WS(this, OS, "f").classList.remove("visible"),
-                FS(this, zS, e, "f"))
+                jS(this, VS, "f") != e && (e ? jS(this, HS, "f").classList.add("visible") : jS(this, HS, "f").classList.remove("visible"),
+                GS(this, VS, e, "f"))
             }
         }
         ;
-        var VS, GS, jS, qS, XS, YS, KS, ZS, JS, QS, $S, eM, tM, nM, iM, rM, aM, oM, sM, lM, cM, hM, dM, uM, pM, fM, mM, gM, vM, wM, yM, bM, xM, _M, kM, EM, SM, MM, TM, AM = function(e, t, n, i, r) {
+        var XS, YS, KS, ZS, JS, QS, $S, eM, tM, nM, iM, rM, aM, oM, sM, lM, cM, hM, dM, uM, pM, fM, mM, gM, vM, wM, yM, bM, xM, _M, kM, EM, SM, MM, TM, AM, CM, PM, RM, LM = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -33223,17 +33229,13 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, CM = function(e, t, n, i) {
+        }, IM = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        GS = new WeakMap,
-        jS = new WeakMap,
-        qS = new WeakMap,
-        XS = new WeakMap,
         YS = new WeakMap,
         KS = new WeakMap,
         ZS = new WeakMap,
@@ -33262,125 +33264,125 @@
         yM = new WeakMap,
         bM = new WeakMap,
         xM = new WeakMap,
-        VS = new WeakSet,
-        _M = function(e) {
+        _M = new WeakMap,
+        kM = new WeakMap,
+        EM = new WeakMap,
+        SM = new WeakMap,
+        XS = new WeakSet,
+        MM = function(e) {
             var t, n, i, r, a, o, s, l, c;
-            e ? (AM(this, aM, new gE(CM(this, YS, "f"),CM(this, eM, "f"),CM(this, QS, "f")), "f"),
-            AM(this, oM, new tE(CM(this, qS, "f").getTotalNumberOfCheckpointIndices(),CM(this, QS, "f")), "f"),
-            AM(this, sM, new AE(CM(this, QS, "f")), "f"),
-            AM(this, lM, new sx(CM(this, YS, "f"),CM(this, QS, "f"),null === (t = CM(this, vM, "f")) || void 0 === t ? void 0 : t.name), "f"),
-            CM(this, eM, "f").touchEnabled ? (CM(this, oM, "f").setOverridePosition(!0),
-            CM(this, lM, "f").setOverridePosition(!0),
-            CM(this, sM, "f").setOverridePosition(!0)) : (CM(this, oM, "f").setOverridePosition(null),
-            CM(this, lM, "f").setOverridePosition(null),
-            CM(this, sM, "f").setOverridePosition(null),
-            AM(this, hM, new HS(CM(this, ZS, "f"),CM(this, YS, "f"),CM(this, QS, "f"),CM(this, nM, "f")), "f"),
-            CM(this, hM, "f").setVisible(!(null !== (i = null === (n = CM(this, fM, "f")) || void 0 === n ? void 0 : n.hasStarted()) && void 0 !== i && i))),
-            CM(this, dM, "f").setEnabled(CM(this, eM, "f").touchEnabled),
-            CM(this, VS, "m", TM).call(this)) : (null === (r = CM(this, aM, "f")) || void 0 === r || r.dispose(),
-            AM(this, aM, null, "f"),
-            null === (a = CM(this, oM, "f")) || void 0 === a || a.dispose(),
-            AM(this, oM, null, "f"),
-            null === (o = CM(this, sM, "f")) || void 0 === o || o.dispose(),
-            AM(this, sM, null, "f"),
-            null === (s = CM(this, lM, "f")) || void 0 === s || s.dispose(),
-            AM(this, lM, null, "f"),
-            null === (l = CM(this, cM, "f")) || void 0 === l || l.dispose(),
-            AM(this, cM, null, "f"),
-            null === (c = CM(this, hM, "f")) || void 0 === c || c.dispose(),
-            AM(this, hM, null, "f"))
+            e ? (LM(this, cM, new bE(IM(this, QS, "f"),IM(this, rM, "f"),IM(this, nM, "f")), "f"),
+            LM(this, hM, new aE(IM(this, ZS, "f").getTotalNumberOfCheckpointIndices(),IM(this, nM, "f")), "f"),
+            LM(this, dM, new LE(IM(this, nM, "f")), "f"),
+            LM(this, uM, new dx(IM(this, QS, "f"),IM(this, nM, "f"),null === (t = IM(this, xM, "f")) || void 0 === t ? void 0 : t.name), "f"),
+            IM(this, rM, "f").touchEnabled ? (IM(this, hM, "f").setOverridePosition(!0),
+            IM(this, uM, "f").setOverridePosition(!0),
+            IM(this, dM, "f").setOverridePosition(!0)) : (IM(this, hM, "f").setOverridePosition(null),
+            IM(this, uM, "f").setOverridePosition(null),
+            IM(this, dM, "f").setOverridePosition(null),
+            LM(this, fM, new qS(IM(this, eM, "f"),IM(this, QS, "f"),IM(this, nM, "f"),IM(this, oM, "f")), "f"),
+            IM(this, fM, "f").setVisible(!(null !== (i = null === (n = IM(this, wM, "f")) || void 0 === n ? void 0 : n.hasStarted()) && void 0 !== i && i))),
+            IM(this, mM, "f").setEnabled(IM(this, rM, "f").touchEnabled),
+            IM(this, XS, "m", RM).call(this)) : (null === (r = IM(this, cM, "f")) || void 0 === r || r.dispose(),
+            LM(this, cM, null, "f"),
+            null === (a = IM(this, hM, "f")) || void 0 === a || a.dispose(),
+            LM(this, hM, null, "f"),
+            null === (o = IM(this, dM, "f")) || void 0 === o || o.dispose(),
+            LM(this, dM, null, "f"),
+            null === (s = IM(this, uM, "f")) || void 0 === s || s.dispose(),
+            LM(this, uM, null, "f"),
+            null === (l = IM(this, pM, "f")) || void 0 === l || l.dispose(),
+            LM(this, pM, null, "f"),
+            null === (c = IM(this, fM, "f")) || void 0 === c || c.dispose(),
+            LM(this, fM, null, "f"))
         }
         ,
-        kM = function() {
-            CM(this, VS, "m", EM).call(this, CM(this, JS, "f").getCarColors()),
-            CM(this, VS, "m", SM).call(this)
+        TM = function() {
+            IM(this, XS, "m", AM).call(this, IM(this, tM, "f").getCarColors()),
+            IM(this, XS, "m", CM).call(this)
         }
         ,
-        EM = function(e) {
+        AM = function(e) {
             var t, n;
-            null != CM(this, fM, "f") && (null != CM(this, lM, "f") && CM(this, vM, "f").isSelf && CM(this, fM, "f").hasFinished() && (null == CM(this, lM, "f").record || CM(this, fM, "f").getTime().lessThan(null === (t = CM(this, lM, "f")) || void 0 === t ? void 0 : t.record)) && (CM(this, lM, "f").record = CM(this, fM, "f").getTime()),
-            CM(this, fM, "f").dispose(),
-            AM(this, fM, null, "f")),
-            AM(this, fM, new Uv(CM(this, GS, "f"),CM(this, qS, "f").getStartTransform(),null,CM(this, pM, "f"),!0,CM(this, KS, "f"),CM(this, ZS, "f"),CM(this, XS, "f"),CM(this, qS, "f"),CM(this, QS, "f")), "f"),
-            CM(this, fM, "f").addFinishCallback((e => {
+            null != IM(this, wM, "f") && (null != IM(this, uM, "f") && IM(this, xM, "f").isSelf && IM(this, wM, "f").hasFinished() && (null == IM(this, uM, "f").record || IM(this, wM, "f").getTime().lessThan(null === (t = IM(this, uM, "f")) || void 0 === t ? void 0 : t.record)) && (IM(this, uM, "f").record = IM(this, wM, "f").getTime()),
+            IM(this, wM, "f").dispose(),
+            LM(this, wM, null, "f")),
+            LM(this, wM, new Fv(IM(this, YS, "f"),IM(this, ZS, "f").getStartTransform(),null,IM(this, vM, "f"),!0,IM(this, $S, "f"),IM(this, eM, "f"),IM(this, JS, "f"),IM(this, ZS, "f"),IM(this, nM, "f")), "f"),
+            IM(this, wM, "f").addFinishCallback((e => {
                 const t = e.getTime()
                   , n = e.getRecording()
                   , i = e.getColors()
-                  , r = CM(this, wM, "f");
-                (null == CM(this, wM, "f") || t.lessThan(CM(this, wM, "f"))) && (CM(this, tM, "f").call(this, CM(this, qS, "f").getID(), n, t, i),
-                CM(this, vM, "f").isSelf && (CM(this, vM, "f").recording = n,
-                CM(this, vM, "f").time = t),
-                AM(this, wM, t, "f"));
+                  , r = IM(this, _M, "f");
+                (null == IM(this, _M, "f") || t.lessThan(IM(this, _M, "f"))) && (IM(this, aM, "f").call(this, IM(this, ZS, "f").getID(), n, t, i),
+                IM(this, xM, "f").isSelf && (IM(this, xM, "f").recording = n,
+                IM(this, xM, "f").time = t),
+                LM(this, _M, t, "f"));
                 let a = null;
-                CM(this, vM, "f").isSelf || null == CM(this, vM, "f").time || null == CM(this, vM, "f").name || (a = {
-                    record: CM(this, vM, "f").time,
-                    name: CM(this, vM, "f").name
+                IM(this, xM, "f").isSelf || null == IM(this, xM, "f").time || null == IM(this, xM, "f").name || (a = {
+                    record: IM(this, xM, "f").time,
+                    name: IM(this, xM, "f").name
                 }),
-                AM(this, cM, new VE(CM(this, YS, "f"),CM(this, iM, "f"),t,r,a), "f")
+                LM(this, pM, new XE(IM(this, QS, "f"),IM(this, sM, "f"),t,r,a), "f")
             }
             )),
-            CM(this, fM, "f").setColors(e),
-            CM(this, KS, "f").setCamera(CM(this, fM, "f").cameraOrbit),
-            CM(this, xM, "f").disable(),
-            null === (n = CM(this, cM, "f")) || void 0 === n || n.dispose(),
-            AM(this, cM, null, "f")
+            IM(this, wM, "f").setColors(e),
+            IM(this, $S, "f").setCamera(IM(this, wM, "f").cameraOrbit),
+            IM(this, SM, "f").disable(),
+            null === (n = IM(this, pM, "f")) || void 0 === n || n.dispose(),
+            LM(this, pM, null, "f")
         }
         ,
-        SM = function() {
+        CM = function() {
             var e, t, n;
-            if (CM(this, QS, "f").getSettingBoolean(Jh.GhostCarEnabled) && (null != CM(this, mM, "f") && (null === (e = CM(this, mM, "f")) || void 0 === e || e.dispose(),
-            AM(this, mM, null, "f")),
-            null != CM(this, vM, "f").time && null != CM(this, vM, "f").recording)) {
-                const e = CM(this, qS, "f").getStartTransform();
-                if (null != CM(this, gM, "f") && CM(this, vM, "f").recording != (null === (t = CM(this, gM, "f")) || void 0 === t ? void 0 : t.recording) && (null != CM(this, gM, "f").carId && (CM(this, jS, "f").deleteCar(CM(this, gM, "f").carId),
-                CM(this, gM, "f").carId = null),
-                AM(this, gM, null, "f")),
-                null == CM(this, gM, "f")) {
-                    const t = CM(this, vM, "f").time.numberOfFrames + 1e4
-                      , n = new NS
-                      , i = CM(this, jS, "f").createCar(e, CM(this, XS, "f").getMountainVertices(), CM(this, XS, "f").getMountainOffset(), CM(this, qS, "f").getTrackData(), CM(this, vM, "f").recording, (e => {
+            if (IM(this, nM, "f").getSettingBoolean(Jh.GhostCarEnabled) && (null != IM(this, yM, "f") && (null === (e = IM(this, yM, "f")) || void 0 === e || e.dispose(),
+            LM(this, yM, null, "f")),
+            null != IM(this, xM, "f").time && null != IM(this, xM, "f").recording)) {
+                const e = IM(this, ZS, "f").getStartTransform();
+                if (null != IM(this, bM, "f") && IM(this, xM, "f").recording != (null === (t = IM(this, bM, "f")) || void 0 === t ? void 0 : t.recording) && (null != IM(this, bM, "f").carId && (IM(this, KS, "f").deleteCar(IM(this, bM, "f").carId),
+                IM(this, bM, "f").carId = null),
+                LM(this, bM, null, "f")),
+                null == IM(this, bM, "f")) {
+                    const t = IM(this, xM, "f").time.numberOfFrames + 1e4
+                      , n = new OS
+                      , i = IM(this, KS, "f").createCar(e, IM(this, JS, "f").getMountainVertices(), IM(this, JS, "f").getMountainOffset(), IM(this, ZS, "f").getTrackData(), IM(this, xM, "f").recording, (e => {
                         n.push(e),
-                        e.frames >= t && null != r.carId && (CM(this, jS, "f").deleteCar(r.carId),
+                        e.frames >= t && null != r.carId && (IM(this, KS, "f").deleteCar(r.carId),
                         r.carId = null)
                     }
                     ));
                     n.push(i),
-                    CM(this, jS, "f").startCar(i.id, new rp(t));
+                    IM(this, KS, "f").startCar(i.id, new rp(t));
                     const r = {
                         carId: i.id,
-                        recording: CM(this, vM, "f").recording,
+                        recording: IM(this, xM, "f").recording,
                         replay: n
                     };
-                    AM(this, gM, r, "f")
+                    LM(this, bM, r, "f")
                 }
-                const i = new Uv(null,e,CM(this, vM, "f").recording,null,!1,CM(this, KS, "f"),CM(this, ZS, "f"),CM(this, XS, "f"),CM(this, qS, "f"),CM(this, QS, "f"));
-                i.setColors(null !== (n = CM(this, vM, "f").carColors) && void 0 !== n ? n : CM(this, JS, "f").getCarColors()),
+                const i = new Fv(null,e,IM(this, xM, "f").recording,null,!1,IM(this, $S, "f"),IM(this, eM, "f"),IM(this, JS, "f"),IM(this, ZS, "f"),IM(this, nM, "f"));
+                i.setColors(null !== (n = IM(this, xM, "f").carColors) && void 0 !== n ? n : IM(this, tM, "f").getCarColors()),
                 i.audioVolume = .35,
-                CM(this, VS, "m", MM).call(this),
-                AM(this, mM, i, "f")
+                IM(this, XS, "m", PM).call(this),
+                LM(this, yM, i, "f")
             }
         }
         ,
-        MM = function() {
-            if (null != CM(this, mM, "f") && null != CM(this, fM, "f")) {
-                const e = CM(this, mM, "f").getPosition().distanceTo(CM(this, fM, "f").getPosition())
+        PM = function() {
+            if (null != IM(this, yM, "f") && null != IM(this, wM, "f")) {
+                const e = IM(this, yM, "f").getPosition().distanceTo(IM(this, wM, "f").getPosition())
                   , t = Math.max(0, Math.min(1, e / 5));
-                CM(this, mM, "f").setOpacity(t)
+                IM(this, yM, "f").setOpacity(t)
             }
         }
         ,
-        TM = function() {
+        RM = function() {
             var e, t;
-            null != CM(this, lM, "f") && (CM(this, lM, "f").record = null !== (t = null === (e = CM(this, vM, "f")) || void 0 === e ? void 0 : e.time) && void 0 !== t ? t : null)
+            null != IM(this, uM, "f") && (IM(this, uM, "f").record = null !== (t = null === (e = IM(this, xM, "f")) || void 0 === e ? void 0 : e.time) && void 0 !== t ? t : null)
         }
         ;
-        const PM = class {
+        const NM = class {
             constructor(e, t, n, i, r, a, o, s, l, c, h, d, u, p, f, m, g) {
-                VS.add(this),
-                GS.set(this, void 0),
-                jS.set(this, void 0),
-                qS.set(this, void 0),
-                XS.set(this, void 0),
+                XS.add(this),
                 YS.set(this, void 0),
                 KS.set(this, void 0),
                 ZS.set(this, void 0),
@@ -33391,164 +33393,168 @@
                 tM.set(this, void 0),
                 nM.set(this, void 0),
                 iM.set(this, void 0),
-                rM.set(this, !0),
+                rM.set(this, void 0),
                 aM.set(this, void 0),
                 oM.set(this, void 0),
                 sM.set(this, void 0),
-                lM.set(this, void 0),
+                lM.set(this, !0),
                 cM.set(this, void 0),
                 hM.set(this, void 0),
                 dM.set(this, void 0),
                 uM.set(this, void 0),
                 pM.set(this, void 0),
-                fM.set(this, null),
-                mM.set(this, null),
-                gM.set(this, null),
+                fM.set(this, void 0),
+                mM.set(this, void 0),
+                gM.set(this, void 0),
                 vM.set(this, void 0),
-                wM.set(this, void 0),
-                yM.set(this, void 0),
-                bM.set(this, void 0),
+                wM.set(this, null),
+                yM.set(this, null),
+                bM.set(this, null),
                 xM.set(this, void 0),
+                _M.set(this, void 0),
+                kM.set(this, void 0),
+                EM.set(this, void 0),
+                SM.set(this, void 0),
                 this.isPaused = !1,
-                AM(this, GS, e, "f"),
-                AM(this, jS, t, "f"),
-                AM(this, qS, n, "f"),
-                AM(this, XS, i, "f"),
-                AM(this, YS, r, "f"),
-                AM(this, KS, a, "f"),
-                AM(this, ZS, o, "f"),
-                AM(this, JS, s, "f"),
-                AM(this, QS, l, "f"),
-                AM(this, $S, c, "f"),
-                AM(this, eM, h, "f"),
-                AM(this, tM, m, "f"),
-                AM(this, nM, g, "f"),
-                AM(this, vM, p, "f"),
-                AM(this, wM, f, "f"),
-                AM(this, iM, d, "f"),
+                LM(this, YS, e, "f"),
+                LM(this, KS, t, "f"),
+                LM(this, ZS, n, "f"),
+                LM(this, JS, i, "f"),
+                LM(this, QS, r, "f"),
+                LM(this, $S, a, "f"),
+                LM(this, eM, o, "f"),
+                LM(this, tM, s, "f"),
+                LM(this, nM, l, "f"),
+                LM(this, iM, c, "f"),
+                LM(this, rM, h, "f"),
+                LM(this, aM, m, "f"),
+                LM(this, oM, g, "f"),
+                LM(this, xM, p, "f"),
+                LM(this, _M, f, "f"),
+                LM(this, sM, d, "f"),
                 n.loadTrackData(u),
                 n.generateMeshes(),
                 i.generateMountains(n.getBounds()),
-                AM(this, pM, new RS(l), "f"),
+                LM(this, vM, new DS(l), "f"),
                 c.setCursorHiddenWhenInactive(!0),
-                AM(this, dM, new xS(CM(this, pM, "f"),CM(this, ZS, "f"),( () => {
-                    CM(this, VS, "m", kM).call(this)
+                LM(this, mM, new SS(IM(this, vM, "f"),IM(this, eM, "f"),( () => {
+                    IM(this, XS, "m", TM).call(this)
                 }
                 ),g), "f"),
-                CM(this, dM, "f").setEnabled(CM(this, eM, "f").touchEnabled),
-                CM(this, VS, "m", _M).call(this, !0),
-                CM(this, VS, "m", TM).call(this),
-                AM(this, xM, new pS(l), "f"),
-                CM(this, xM, "f").addToggleListener((e => {
-                    e ? (null != CM(this, fM, "f") && (CM(this, fM, "f").audioVolume = 0),
-                    null != CM(this, mM, "f") && (CM(this, mM, "f").audioVolume = 0),
-                    CM(this, VS, "m", _M).call(this, !1),
-                    a.setCamera(CM(this, xM, "f").camera)) : null != CM(this, fM, "f") && (null != CM(this, fM, "f") && (CM(this, fM, "f").audioVolume = 1),
-                    null != CM(this, mM, "f") && (CM(this, mM, "f").audioVolume = .35),
-                    CM(this, VS, "m", _M).call(this, CM(this, rM, "f")),
-                    a.setCamera(CM(this, fM, "f").cameraOrbit))
+                IM(this, mM, "f").setEnabled(IM(this, rM, "f").touchEnabled),
+                IM(this, XS, "m", MM).call(this, !0),
+                IM(this, XS, "m", RM).call(this),
+                LM(this, SM, new vS(l), "f"),
+                IM(this, SM, "f").addToggleListener((e => {
+                    e ? (null != IM(this, wM, "f") && (IM(this, wM, "f").audioVolume = 0),
+                    null != IM(this, yM, "f") && (IM(this, yM, "f").audioVolume = 0),
+                    IM(this, XS, "m", MM).call(this, !1),
+                    a.setCamera(IM(this, SM, "f").camera)) : null != IM(this, wM, "f") && (null != IM(this, wM, "f") && (IM(this, wM, "f").audioVolume = 1),
+                    null != IM(this, yM, "f") && (IM(this, yM, "f").audioVolume = .35),
+                    IM(this, XS, "m", MM).call(this, IM(this, lM, "f")),
+                    a.setCamera(IM(this, wM, "f").cameraOrbit))
                 }
                 )),
-                CM(this, eM, "f").addChangeListener(AM(this, uM, (e => {
+                IM(this, rM, "f").addChangeListener(LM(this, gM, (e => {
                     var t, n, i, r, a, o, s, l, c;
-                    e ? (null === (t = CM(this, oM, "f")) || void 0 === t || t.setOverridePosition(!0),
-                    null === (n = CM(this, lM, "f")) || void 0 === n || n.setOverridePosition(!0),
-                    null === (i = CM(this, sM, "f")) || void 0 === i || i.setOverridePosition(!0),
-                    null === (r = CM(this, hM, "f")) || void 0 === r || r.dispose(),
-                    AM(this, hM, null, "f")) : (null === (a = CM(this, oM, "f")) || void 0 === a || a.setOverridePosition(null),
-                    null === (o = CM(this, lM, "f")) || void 0 === o || o.setOverridePosition(null),
-                    null === (s = CM(this, sM, "f")) || void 0 === s || s.setOverridePosition(null),
-                    CM(this, rM, "f") && !CM(this, xM, "f").enabled && null == CM(this, hM, "f") && (AM(this, hM, new HS(CM(this, ZS, "f"),CM(this, YS, "f"),CM(this, QS, "f"),CM(this, nM, "f")), "f"),
-                    CM(this, hM, "f").setVisible(!(null !== (c = null === (l = CM(this, fM, "f")) || void 0 === l ? void 0 : l.hasStarted()) && void 0 !== c && c)))),
-                    CM(this, dM, "f").setEnabled(e)
+                    e ? (null === (t = IM(this, hM, "f")) || void 0 === t || t.setOverridePosition(!0),
+                    null === (n = IM(this, uM, "f")) || void 0 === n || n.setOverridePosition(!0),
+                    null === (i = IM(this, dM, "f")) || void 0 === i || i.setOverridePosition(!0),
+                    null === (r = IM(this, fM, "f")) || void 0 === r || r.dispose(),
+                    LM(this, fM, null, "f")) : (null === (a = IM(this, hM, "f")) || void 0 === a || a.setOverridePosition(null),
+                    null === (o = IM(this, uM, "f")) || void 0 === o || o.setOverridePosition(null),
+                    null === (s = IM(this, dM, "f")) || void 0 === s || s.setOverridePosition(null),
+                    IM(this, lM, "f") && !IM(this, SM, "f").enabled && null == IM(this, fM, "f") && (LM(this, fM, new qS(IM(this, eM, "f"),IM(this, QS, "f"),IM(this, nM, "f"),IM(this, oM, "f")), "f"),
+                    IM(this, fM, "f").setVisible(!(null !== (c = null === (l = IM(this, wM, "f")) || void 0 === l ? void 0 : l.hasStarted()) && void 0 !== c && c)))),
+                    IM(this, mM, "f").setEnabled(e)
                 }
                 ), "f")),
-                CM(this, VS, "m", EM).call(this, s.getCarColors()),
-                CM(this, VS, "m", SM).call(this),
-                window.addEventListener("keydown", AM(this, yM, (e => {
+                IM(this, XS, "m", AM).call(this, s.getCarColors()),
+                IM(this, XS, "m", CM).call(this),
+                window.addEventListener("keydown", LM(this, kM, (e => {
                     var t;
-                    if (CM(this, xM, "f").enabled || (CM(this, QS, "f").checkKeyBinding(e, Lb.VehicleReset) ? ((null === (t = CM(this, fM, "f")) || void 0 === t ? void 0 : t.hasStarted()) && CM(this, VS, "m", kM).call(this),
-                    e.preventDefault()) : CM(this, QS, "f").checkKeyBinding(e, Lb.VehicleCockpitCamera) ? (e.repeat || null == CM(this, fM, "f") || CM(this, fM, "f").hasFinished() || (CM(this, QS, "f").getSettingBoolean(Jh.CockpitCameraToggle) ? CM(this, KS, "f").camera == CM(this, fM, "f").cameraOrbit ? CM(this, KS, "f").setCamera(CM(this, fM, "f").cameraCockpit) : CM(this, KS, "f").setCamera(CM(this, fM, "f").cameraOrbit) : CM(this, KS, "f").setCamera(CM(this, fM, "f").cameraCockpit)),
-                    e.preventDefault()) : l.checkKeyBinding(e, Lb.ToggleUI) ? (AM(this, rM, !CM(this, rM, "f"), "f"),
-                    CM(this, VS, "m", _M).call(this, CM(this, rM, "f")),
+                    if (IM(this, SM, "f").enabled || (IM(this, nM, "f").checkKeyBinding(e, Ub.VehicleReset) ? ((null === (t = IM(this, wM, "f")) || void 0 === t ? void 0 : t.hasStarted()) && IM(this, XS, "m", TM).call(this),
+                    e.preventDefault()) : IM(this, nM, "f").checkKeyBinding(e, Ub.VehicleCockpitCamera) ? (e.repeat || null == IM(this, wM, "f") || IM(this, wM, "f").hasFinished() || (IM(this, nM, "f").getSettingBoolean(Jh.CockpitCameraToggle) ? IM(this, $S, "f").camera == IM(this, wM, "f").cameraOrbit ? IM(this, $S, "f").setCamera(IM(this, wM, "f").cameraCockpit) : IM(this, $S, "f").setCamera(IM(this, wM, "f").cameraOrbit) : IM(this, $S, "f").setCamera(IM(this, wM, "f").cameraCockpit)),
+                    e.preventDefault()) : l.checkKeyBinding(e, Ub.ToggleUI) ? (LM(this, lM, !IM(this, lM, "f"), "f"),
+                    IM(this, XS, "m", MM).call(this, IM(this, lM, "f")),
                     e.preventDefault()) : "Escape" == e.code && (g(),
                     e.preventDefault())),
-                    l.checkKeyBinding(e, Lb.ToggleSpectatorCamera) && null != CM(this, fM, "f")) {
-                        CM(this, xM, "f").camera.position.copy(CM(this, KS, "f").camera.position);
-                        const t = new _i(0,0,0,"YXZ").setFromQuaternion(CM(this, KS, "f").camera.quaternion);
+                    l.checkKeyBinding(e, Ub.ToggleSpectatorCamera) && null != IM(this, wM, "f")) {
+                        IM(this, SM, "f").camera.position.copy(IM(this, $S, "f").camera.position);
+                        const t = new _i(0,0,0,"YXZ").setFromQuaternion(IM(this, $S, "f").camera.quaternion);
                         t.z = 0,
-                        CM(this, xM, "f").camera.quaternion.setFromEuler(t),
-                        CM(this, xM, "f").toggle(),
+                        IM(this, SM, "f").camera.quaternion.setFromEuler(t),
+                        IM(this, SM, "f").toggle(),
                         e.preventDefault()
                     }
                 }
                 ), "f")),
-                window.addEventListener("keyup", AM(this, bM, (e => {
-                    CM(this, xM, "f").enabled || CM(this, QS, "f").checkKeyBinding(e, Lb.VehicleCockpitCamera) && (null == CM(this, fM, "f") || CM(this, fM, "f").hasFinished() || CM(this, QS, "f").getSettingBoolean(Jh.CockpitCameraToggle) || CM(this, KS, "f").setCamera(CM(this, fM, "f").cameraOrbit))
+                window.addEventListener("keyup", LM(this, EM, (e => {
+                    IM(this, SM, "f").enabled || IM(this, nM, "f").checkKeyBinding(e, Ub.VehicleCockpitCamera) && (null == IM(this, wM, "f") || IM(this, wM, "f").hasFinished() || IM(this, nM, "f").getSettingBoolean(Jh.CockpitCameraToggle) || IM(this, $S, "f").setCamera(IM(this, wM, "f").cameraOrbit))
                 }
                 ), "f"))
             }
             dispose(e=!0) {
                 var t, n;
-                CM(this, $S, "f").setCursorHiddenWhenInactive(!1),
-                CM(this, VS, "m", _M).call(this, !1),
-                CM(this, dM, "f").dispose(),
-                CM(this, eM, "f").removeChangeListener(CM(this, uM, "f")),
-                e && CM(this, qS, "f").clear(),
-                CM(this, XS, "f").clearMountains(),
-                CM(this, pM, "f").dispose(),
-                null === (t = CM(this, fM, "f")) || void 0 === t || t.dispose(),
-                null != (null === (n = CM(this, gM, "f")) || void 0 === n ? void 0 : n.carId) && (CM(this, jS, "f").deleteCar(CM(this, gM, "f").carId),
-                CM(this, gM, "f").carId = null,
-                AM(this, gM, null, "f")),
-                null != CM(this, mM, "f") && (CM(this, mM, "f").dispose(),
-                AM(this, mM, null, "f")),
-                window.removeEventListener("keydown", CM(this, yM, "f")),
-                window.removeEventListener("keyup", CM(this, bM, "f")),
-                CM(this, xM, "f").dispose()
+                IM(this, iM, "f").setCursorHiddenWhenInactive(!1),
+                IM(this, XS, "m", MM).call(this, !1),
+                IM(this, mM, "f").dispose(),
+                IM(this, rM, "f").removeChangeListener(IM(this, gM, "f")),
+                e && IM(this, ZS, "f").clear(),
+                IM(this, JS, "f").clearMountains(),
+                IM(this, vM, "f").dispose(),
+                null === (t = IM(this, wM, "f")) || void 0 === t || t.dispose(),
+                null != (null === (n = IM(this, bM, "f")) || void 0 === n ? void 0 : n.carId) && (IM(this, KS, "f").deleteCar(IM(this, bM, "f").carId),
+                IM(this, bM, "f").carId = null,
+                LM(this, bM, null, "f")),
+                null != IM(this, yM, "f") && (IM(this, yM, "f").dispose(),
+                LM(this, yM, null, "f")),
+                window.removeEventListener("keydown", IM(this, kM, "f")),
+                window.removeEventListener("keyup", IM(this, EM, "f")),
+                IM(this, SM, "f").dispose()
             }
             update(e) {
                 var t, n, i, r, a, o, s, l, c, h;
                 if (!this.isPaused) {
                     let h;
-                    if (h = null == CM(this, fM, "f") || CM(this, xM, "f").enabled ? 0 : e,
-                    null === (t = CM(this, fM, "f")) || void 0 === t || t.update(h),
-                    null == CM(this, fM, "f") || CM(this, xM, "f").enabled)
-                        null != CM(this, fM, "f") && (CM(this, fM, "f").isPaused = !0);
+                    if (h = null == IM(this, wM, "f") || IM(this, SM, "f").enabled ? 0 : e,
+                    null === (t = IM(this, wM, "f")) || void 0 === t || t.update(h),
+                    null == IM(this, wM, "f") || IM(this, SM, "f").enabled)
+                        null != IM(this, wM, "f") && (IM(this, wM, "f").isPaused = !0);
                     else {
-                        CM(this, fM, "f").isPaused = !1;
-                        const t = CM(this, pM, "f").getControls();
-                        (t.up || t.down) && (CM(this, fM, "f").hasStarted() || CM(this, fM, "f").start()),
-                        null === (n = CM(this, aM, "f")) || void 0 === n || n.update(CM(this, fM, "f"), e),
-                        null === (i = CM(this, sM, "f")) || void 0 === i || i.update(CM(this, fM, "f")),
-                        null === (r = CM(this, lM, "f")) || void 0 === r || r.update(CM(this, fM, "f")),
-                        null === (a = CM(this, oM, "f")) || void 0 === a || a.update(CM(this, fM, "f")),
-                        null === (o = CM(this, hM, "f")) || void 0 === o || o.setVisible(!CM(this, fM, "f").hasStarted())
+                        IM(this, wM, "f").isPaused = !1;
+                        const t = IM(this, vM, "f").getControls();
+                        (t.up || t.down) && (IM(this, wM, "f").hasStarted() || IM(this, wM, "f").start()),
+                        null === (n = IM(this, cM, "f")) || void 0 === n || n.update(IM(this, wM, "f"), e),
+                        null === (i = IM(this, dM, "f")) || void 0 === i || i.update(IM(this, wM, "f")),
+                        null === (r = IM(this, uM, "f")) || void 0 === r || r.update(IM(this, wM, "f")),
+                        null === (a = IM(this, hM, "f")) || void 0 === a || a.update(IM(this, wM, "f")),
+                        null === (o = IM(this, fM, "f")) || void 0 === o || o.setVisible(!IM(this, wM, "f").hasStarted())
                     }
-                    if (null != CM(this, mM, "f")) {
-                        const e = null === (s = CM(this, fM, "f")) || void 0 === s ? void 0 : s.getTotalTime().numberOfFrames;
+                    if (null != IM(this, yM, "f")) {
+                        const e = null === (s = IM(this, wM, "f")) || void 0 === s ? void 0 : s.getTotalTime().numberOfFrames;
                         if (null != e) {
-                            for (let t = CM(this, mM, "f").getTotalTime().numberOfFrames + 1; t <= e; t++) {
-                                const e = null === (l = CM(this, gM, "f")) || void 0 === l ? void 0 : l.replay.getFrame(t);
+                            for (let t = IM(this, yM, "f").getTotalTime().numberOfFrames + 1; t <= e; t++) {
+                                const e = null === (l = IM(this, bM, "f")) || void 0 === l ? void 0 : l.replay.getFrame(t);
                                 if (null == e) {
-                                    CM(this, mM, "f").dispose(),
-                                    AM(this, mM, null, "f");
+                                    IM(this, yM, "f").dispose(),
+                                    LM(this, yM, null, "f");
                                     break
                                 }
-                                CM(this, mM, "f").setCarState(e)
+                                IM(this, yM, "f").setCarState(e)
                             }
                         }
-                        null === (c = CM(this, mM, "f")) || void 0 === c || c.update(h)
+                        null === (c = IM(this, yM, "f")) || void 0 === c || c.update(h)
                     }
-                    CM(this, VS, "m", MM).call(this),
-                    CM(this, xM, "f").update(e)
+                    IM(this, XS, "m", PM).call(this),
+                    IM(this, SM, "f").update(e)
                 }
-                CM(this, KS, "f").update(null === (h = CM(this, fM, "f")) || void 0 === h ? void 0 : h.getPosition()),
-                CM(this, ZS, "f").update(e, !1, CM(this, KS, "f"), CM(this, QS, "f"))
+                IM(this, $S, "f").update(null === (h = IM(this, wM, "f")) || void 0 === h ? void 0 : h.getPosition()),
+                IM(this, eM, "f").update(e, !1, IM(this, $S, "f"), IM(this, nM, "f"))
             }
         }
         ;
-        var RM, LM, IM, NM, DM, UM, BM, OM, zM, FM = function(e, t, n, i, r) {
+        var DM, UM, BM, OM, zM, FM, WM, HM, VM, GM = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -33557,130 +33563,132 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, WM = function(e, t, n, i) {
+        }, jM = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        LM = new WeakMap,
-        IM = new WeakMap,
-        NM = new WeakMap,
-        DM = new WeakMap,
         UM = new WeakMap,
         BM = new WeakMap,
         OM = new WeakMap,
-        RM = new WeakSet,
-        zM = function() {
+        zM = new WeakMap,
+        FM = new WeakMap,
+        WM = new WeakMap,
+        HM = new WeakMap,
+        DM = new WeakSet,
+        VM = function() {
             var e, t;
-            if (WM(this, UM, "f")instanceof Kr) {
-                const e = window.innerWidth / window.innerHeight;
-                WM(this, LM, "f").width == window.innerWidth && WM(this, LM, "f").height == window.innerHeight && WM(this, UM, "f").aspect == e || (WM(this, NM, "f").setSize(window.innerWidth, window.innerHeight),
-                WM(this, UM, "f").aspect = e,
-                WM(this, UM, "f").updateProjectionMatrix())
-            }
-            let n = null !== (t = null === (e = WM(this, IM, "f")) || void 0 === e ? void 0 : e.getSettingFloat(Jh.RenderScale)) && void 0 !== t ? t : 1;
+            let n = null !== (t = null === (e = jM(this, BM, "f")) || void 0 === e ? void 0 : e.getSettingFloat(Jh.RenderScale)) && void 0 !== t ? t : 1;
             n = Number.isFinite(n) ? Math.min(Math.max(n, .25), 2) : 1;
             const i = window.devicePixelRatio * n;
-            WM(this, NM, "f").pixelRatio != i && WM(this, NM, "f").setPixelRatio(i)
+            if (jM(this, OM, "f").getPixelRatio() != i && jM(this, OM, "f").setPixelRatio(i),
+            jM(this, FM, "f")instanceof Kr) {
+                const e = window.innerWidth / window.innerHeight
+                  , t = new ln;
+                jM(this, OM, "f").getSize(t),
+                t.width == window.innerWidth && t.height == window.innerHeight && jM(this, FM, "f").aspect == e || (jM(this, OM, "f").setSize(window.innerWidth, window.innerHeight),
+                jM(this, FM, "f").aspect = e,
+                jM(this, FM, "f").updateProjectionMatrix())
+            }
         }
         ;
-        const HM = class {
+        const qM = class {
             constructor(e, t, n=!0, i=!1) {
                 var r;
-                RM.add(this),
-                LM.set(this, void 0),
-                IM.set(this, void 0),
-                NM.set(this, void 0),
-                DM.set(this, void 0),
-                UM.set(this, new Kr),
+                DM.add(this),
+                UM.set(this, void 0),
                 BM.set(this, void 0),
-                OM.set(this, {
+                OM.set(this, void 0),
+                zM.set(this, void 0),
+                FM.set(this, new Kr),
+                WM.set(this, void 0),
+                HM.set(this, {
                     x: 8,
                     y: 10,
                     z: 10
                 }),
-                FM(this, LM, e, "f"),
-                FM(this, IM, t, "f"),
-                FM(this, NM, new Zs({
+                GM(this, UM, e, "f"),
+                GM(this, BM, t, "f"),
+                GM(this, OM, new Zs({
                     antialias: null === (r = null == t ? void 0 : t.getSettingBoolean(Jh.Antialiasing)) || void 0 === r || r,
                     powerPreference: "high-performance",
                     canvas: e,
                     alpha: i
                 }), "f"),
-                WM(this, NM, "f").outputColorSpace = Ct,
-                WM(this, NM, "f").shadowMap.enabled = !0,
-                FM(this, DM, new Qs, "f"),
-                n && (WM(this, DM, "f").fog = new Js(6793641,.001)),
-                WM(this, DM, "f").add(new xh(3891597,11714755,4.7)),
-                FM(this, BM, new Nh(16777215,4.7), "f"),
-                WM(this, BM, "f").position.set(WM(this, OM, "f").x, WM(this, OM, "f").y, WM(this, OM, "f").z),
-                WM(this, BM, "f").castShadow = !0,
-                WM(this, BM, "f").shadow.camera.top = 10,
-                WM(this, BM, "f").shadow.camera.right = 10,
-                WM(this, BM, "f").shadow.camera.bottom = -10,
-                WM(this, BM, "f").shadow.camera.left = -10,
-                WM(this, BM, "f").shadow.camera.near = 1,
-                WM(this, BM, "f").shadow.camera.far = 50,
-                WM(this, BM, "f").shadow.mapSize.width = 2048,
-                WM(this, BM, "f").shadow.mapSize.height = 2048,
-                WM(this, DM, "f").add(WM(this, BM, "f")),
-                WM(this, DM, "f").add(WM(this, BM, "f").target)
+                jM(this, OM, "f").outputColorSpace = Ct,
+                jM(this, OM, "f").shadowMap.enabled = !0,
+                GM(this, zM, new Qs, "f"),
+                n && (jM(this, zM, "f").fog = new Js(6793641,.001)),
+                jM(this, zM, "f").add(new xh(3891597,11714755,4.7)),
+                GM(this, WM, new Nh(16777215,4.7), "f"),
+                jM(this, WM, "f").position.set(jM(this, HM, "f").x, jM(this, HM, "f").y, jM(this, HM, "f").z),
+                jM(this, WM, "f").castShadow = !0,
+                jM(this, WM, "f").shadow.camera.top = 10,
+                jM(this, WM, "f").shadow.camera.right = 10,
+                jM(this, WM, "f").shadow.camera.bottom = -10,
+                jM(this, WM, "f").shadow.camera.left = -10,
+                jM(this, WM, "f").shadow.camera.near = 1,
+                jM(this, WM, "f").shadow.camera.far = 50,
+                jM(this, WM, "f").shadow.mapSize.width = 2048,
+                jM(this, WM, "f").shadow.mapSize.height = 2048,
+                jM(this, zM, "f").add(jM(this, WM, "f")),
+                jM(this, zM, "f").add(jM(this, WM, "f").target)
             }
             clear() {
-                WM(this, NM, "f").clear()
+                jM(this, OM, "f").clear()
             }
             update(e) {
                 var t, n, i;
-                const r = null !== (n = null === (t = WM(this, IM, "f")) || void 0 === t ? void 0 : t.getSettingInteger(Jh.CarShadowQuality)) && void 0 !== n ? n : 0;
+                const r = null !== (n = null === (t = jM(this, BM, "f")) || void 0 === t ? void 0 : t.getSettingInteger(Jh.CarShadowQuality)) && void 0 !== n ? n : 0;
                 if (!Number.isFinite(r) || r <= 0)
-                    WM(this, BM, "f").castShadow = !1;
+                    jM(this, WM, "f").castShadow = !1;
                 else {
-                    WM(this, BM, "f").castShadow = !0;
-                    const e = Math.min(r, WM(this, NM, "f").capabilities.maxTextureSize);
-                    WM(this, BM, "f").shadow.mapSize.width == e && WM(this, BM, "f").shadow.mapSize.height == e || (WM(this, BM, "f").shadow.mapSize.setScalar(e),
-                    null === (i = WM(this, BM, "f").shadow.map) || void 0 === i || i.dispose(),
-                    WM(this, BM, "f").shadow.map = null)
+                    jM(this, WM, "f").castShadow = !0;
+                    const e = Math.min(r, jM(this, OM, "f").capabilities.maxTextureSize);
+                    jM(this, WM, "f").shadow.mapSize.width == e && jM(this, WM, "f").shadow.mapSize.height == e || (jM(this, WM, "f").shadow.mapSize.setScalar(e),
+                    null === (i = jM(this, WM, "f").shadow.map) || void 0 === i || i.dispose(),
+                    jM(this, WM, "f").shadow.map = null)
                 }
-                null != e && (WM(this, BM, "f").position.set(e.x + WM(this, OM, "f").x, e.y + WM(this, OM, "f").y, e.z + WM(this, OM, "f").z),
-                WM(this, BM, "f").target.position.copy(e)),
-                WM(this, RM, "m", zM).call(this),
-                WM(this, NM, "f").render(WM(this, DM, "f"), WM(this, UM, "f"))
+                null != e && (jM(this, WM, "f").position.set(e.x + jM(this, HM, "f").x, e.y + jM(this, HM, "f").y, e.z + jM(this, HM, "f").z),
+                jM(this, WM, "f").target.position.copy(e)),
+                jM(this, DM, "m", VM).call(this),
+                jM(this, OM, "f").render(jM(this, zM, "f"), jM(this, FM, "f"))
             }
             getShadowDirection() {
-                return (new Un).subVectors(WM(this, BM, "f").position, WM(this, BM, "f").target.position).normalize()
+                return (new Un).subVectors(jM(this, WM, "f").position, jM(this, WM, "f").target.position).normalize()
             }
             getLightTarget() {
-                return WM(this, BM, "f").target.position
+                return jM(this, WM, "f").target.position
             }
             getMaxAnisotropy() {
-                return WM(this, NM, "f").capabilities.getMaxAnisotropy()
+                return jM(this, OM, "f").capabilities.getMaxAnisotropy()
             }
             setCamera(e) {
-                FM(this, UM, e, "f")
+                GM(this, FM, e, "f")
             }
             get camera() {
-                return WM(this, UM, "f")
+                return jM(this, FM, "f")
             }
             get canvas() {
-                return WM(this, LM, "f")
+                return jM(this, UM, "f")
             }
             setAnimationLoop(e) {
-                WM(this, NM, "f").setAnimationLoop(e)
+                jM(this, OM, "f").setAnimationLoop(e)
             }
             get scene() {
-                return WM(this, DM, "f")
+                return jM(this, zM, "f")
             }
         }
         ;
-        var VM, GM, jM, qM = function(e, t, n, i) {
+        var XM, YM, KM, ZM = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
-        }, XM = function(e, t, n, i, r) {
+        }, JM = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -33690,31 +33698,31 @@
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
         };
-        class YM {
+        class QM {
             constructor(e) {
-                if (GM.set(this, void 0),
+                if (YM.set(this, void 0),
                 null != e) {
                     if (!Number.isInteger(e))
                         throw "Seed must be an integer";
-                    XM(this, GM, e % qM(VM, VM, "f", jM).length, "f")
+                    JM(this, YM, e % ZM(XM, XM, "f", KM).length, "f")
                 } else
-                    XM(this, GM, 0, "f")
+                    JM(this, YM, 0, "f")
             }
             next() {
                 var e;
-                return XM(this, GM, (e = qM(this, GM, "f"),
+                return JM(this, YM, (e = ZM(this, YM, "f"),
                 ++e), "f"),
-                qM(this, GM, "f") >= qM(VM, VM, "f", jM).length && XM(this, GM, 0, "f"),
-                qM(VM, VM, "f", jM)[qM(this, GM, "f")]
+                ZM(this, YM, "f") >= ZM(XM, XM, "f", KM).length && JM(this, YM, 0, "f"),
+                ZM(XM, XM, "f", KM)[ZM(this, YM, "f")]
             }
         }
-        VM = YM,
-        GM = new WeakMap,
-        jM = {
+        XM = QM,
+        YM = new WeakMap,
+        KM = {
             value: [.12047764760664692, .19645762332790628, .5525629082262744, .41272626379209965, .7795036003541387, .13367266027110114, .7999601557377349, .9519714253374205, .1735048382917752, .7513367084489158, .6531386724839523, .9026427867068505, .8543272738216994, .11176849958868162, .6705698284858437, .26628732081296946, .31140322993719605, .45170300835470933, .12615515120247944, .0610638094525735, .291990923385425, .4613983868623317, .6615759832726253, .4373182881232056, .7432890501246443, .39316710322388837, .49444122821563297, .5994296685114344, .060050119050233386, .4165885432422003, .43974364800990084, .1628314496954224, .05787972729968116, .225388541259955, .6075775236386991, .8908354370882479, .47072983115144584, .7662003453186828, .20651036895645647, .03724062137286044, .17110277274376795, .7626426077793496, .8372112804261309, .8761690804447455, .13887024930406633, .8287513367412203, .9794446290917873, .807658524448803, .8465629116398186, .5187285629536083, .33962953580139277, .9798419666114342, .6777071959103609, .5388899884934379, .7863389168762325, .4274591420924474, .25631366937500566, .5695289062505289, .026841382754547727, .18267938207996903, .9853642975717878, .24428485895234409, .5322028747608949, .9655065842019517, .043810183244384016, .541216190236913, .05897981610006209, .2849168541804703, .5349823008832073, .9655676144971486, .22831812764497283, .7698701658704175, .4103995069939841, .25782763124411856, .8490222628872495, .39280879489916987, .31999467883347554, .2860820872456349, .9684928577493004, .9973831481899462, .2930912094664657, .4847128131859766, .7218400909709828, .40407009594106236, .7059298060123587, .45362146566562744, .4640974655488792, .16076769483252273, .5989453525750241, .585759299589679, .9417035568973537, .20117930667657413, .5777873180244959, .1991854396549344, .8743781441651348, .624666386634513, .38720573630932886, .9967931526923675, .49817894572849486, .24585267823751833, .8639168275132305, .2865624029759799, .6163605496913385, .5864748073339972, .8781049154377354, .7497547608938613, .7864098057445887, .0334170452332867, .4875588105294657, .6737395339380896, .21851121231639659, .2923739650597854, .6073797612662293, .41823228947229896, .8531029420136382, .3260916332061783, .6306262204574675, .5268576689601923, .3516570914484707, .8659366375222706, .8447448461834428, .3794548980890986, .9832775904115916, .8442256760399809, .3006550591973338, .9718660619781394, .5103245035851833, .794319831388071]
         };
-        const KM = YM;
-        var ZM, JM, QM, $M, eT = function(e, t, n, i, r) {
+        const $M = QM;
+        var eT, tT, nT, iT, rT = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -33723,45 +33731,45 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, tT = function(e, t, n, i) {
+        }, aT = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        class nT {
+        class oT {
             constructor(e) {
-                ZM.set(this, void 0),
-                JM.set(this, void 0),
-                QM.set(this, void 0),
-                $M.set(this, null),
-                eT(this, ZM, e, "f"),
-                eT(this, JM, new Br(new dc(9e3,32),new jc({
+                eT.set(this, void 0),
+                tT.set(this, void 0),
+                nT.set(this, void 0),
+                iT.set(this, null),
+                rT(this, eT, e, "f"),
+                rT(this, tT, new Br(new dc(9e3,32),new jc({
                     color: 3495480,
                     depthWrite: !1
                 })), "f"),
-                tT(this, JM, "f").rotation.x = -Math.PI / 2,
-                tT(this, JM, "f").renderOrder = -3,
-                e.scene.add(tT(this, JM, "f")),
-                eT(this, QM, new Br(new ca(120,120),new jc({
+                aT(this, tT, "f").rotation.x = -Math.PI / 2,
+                aT(this, tT, "f").renderOrder = -3,
+                e.scene.add(aT(this, tT, "f")),
+                rT(this, nT, new Br(new ca(120,120),new jc({
                     color: 3495480,
                     depthWrite: !1
                 })), "f"),
-                tT(this, QM, "f").rotation.x = -Math.PI / 2,
-                tT(this, QM, "f").receiveShadow = !0,
-                tT(this, QM, "f").renderOrder = -2,
-                e.scene.add(tT(this, QM, "f"))
+                aT(this, nT, "f").rotation.x = -Math.PI / 2,
+                aT(this, nT, "f").receiveShadow = !0,
+                aT(this, nT, "f").renderOrder = -2,
+                e.scene.add(aT(this, nT, "f"))
             }
             clearMountains() {
-                null != tT(this, $M, "f") && (tT(this, $M, "f").material.dispose(),
-                tT(this, $M, "f").geometry.dispose(),
-                tT(this, ZM, "f").scene.remove(tT(this, $M, "f")),
-                eT(this, $M, null, "f"))
+                null != aT(this, iT, "f") && (aT(this, iT, "f").material.dispose(),
+                aT(this, iT, "f").geometry.dispose(),
+                aT(this, eT, "f").scene.remove(aT(this, iT, "f")),
+                rT(this, iT, null, "f"))
             }
             generateMountains(e) {
                 this.clearMountains();
-                const {vertices: t, offset: n} = nT.createMountainVertices(e)
+                const {vertices: t, offset: n} = oT.createMountainVertices(e)
                   , i = new yr;
                 i.setAttribute("position", new lr(new Float32Array(t),3)),
                 i.computeVertexNormals();
@@ -33770,13 +33778,13 @@
                 }));
                 r.position.copy(n),
                 r.receiveShadow = !0,
-                tT(this, ZM, "f").scene.add(r),
-                eT(this, $M, r, "f")
+                aT(this, eT, "f").scene.add(r),
+                rT(this, iT, r, "f")
             }
             static createMountainVertices(e) {
-                const t = new KM
-                  , n = Math.max(200, 160 + Math.max(Math.abs(e.max.x - e.min.x) * Ky.partWidth / 2 * Math.SQRT2, Math.abs(e.max.y - e.min.y) * Ky.partLength / 2 * Math.SQRT2))
-                  , i = new ln((e.min.x + (e.max.x - e.min.x) / 2) * Ky.partWidth,(e.min.y + (e.max.y - e.min.y) / 2) * Ky.partLength);
+                const t = new $M
+                  , n = Math.max(200, 160 + Math.max(Math.abs(e.max.x - e.min.x) * $y.partWidth / 2 * Math.SQRT2, Math.abs(e.max.y - e.min.y) * $y.partLength / 2 * Math.SQRT2))
+                  , i = new ln((e.min.x + (e.max.x - e.min.x) / 2) * $y.partWidth,(e.min.y + (e.max.y - e.min.y) / 2) * $y.partLength);
                 if (n > 4500)
                     return {
                         vertices: [],
@@ -33815,22 +33823,22 @@
                 }
             }
             getMountainVertices() {
-                if (null == tT(this, $M, "f"))
+                if (null == aT(this, iT, "f"))
                     return [];
-                const e = tT(this, $M, "f").geometry;
+                const e = aT(this, iT, "f").geometry;
                 if (!(e.attributes.position instanceof lr))
                     throw "Vertices must use BufferAttribute";
                 return Array.from(e.attributes.position.array)
             }
             getMountainOffset() {
-                return null == tT(this, $M, "f") ? new Un : tT(this, $M, "f").position.clone()
+                return null == aT(this, iT, "f") ? new Un : aT(this, iT, "f").position.clone()
             }
             raycast(e) {
-                const t = e.intersectObject(tT(this, QM, "f"));
+                const t = e.intersectObject(aT(this, nT, "f"));
                 if (t.length > 0)
                     return t[0];
-                if (null != tT(this, $M, "f")) {
-                    const t = e.intersectObject(tT(this, $M, "f"));
+                if (null != aT(this, iT, "f")) {
+                    const t = e.intersectObject(aT(this, iT, "f"));
                     if (t.length > 0)
                         return t[0]
                 }
@@ -33840,37 +33848,37 @@
                 const e = new Un
                   , t = new Dn
                   , n = new Un;
-                tT(this, ZM, "f").camera.matrix.decompose(e, t, n),
-                tT(this, JM, "f").position.set(e.x, 0, e.z);
-                const i = tT(this, ZM, "f").getLightTarget();
-                tT(this, QM, "f").position.set(i.x, 0, i.z),
-                tT(this, QM, "f").visible = tT(this, QM, "f").position.manhattanDistanceTo(tT(this, JM, "f").position) < 8e3
+                aT(this, eT, "f").camera.matrix.decompose(e, t, n),
+                aT(this, tT, "f").position.set(e.x, 0, e.z);
+                const i = aT(this, eT, "f").getLightTarget();
+                aT(this, nT, "f").position.set(i.x, 0, i.z),
+                aT(this, nT, "f").visible = aT(this, nT, "f").position.manhattanDistanceTo(aT(this, tT, "f").position) < 8e3
             }
         }
-        ZM = new WeakMap,
-        JM = new WeakMap,
-        QM = new WeakMap,
-        $M = new WeakMap;
-        const iT = nT;
-        var rT = n(915)
-          , aT = {};
-        aT.styleTagTransform = u(),
-        aT.setAttributes = l(),
-        aT.insert = o().bind(null, "head"),
-        aT.domAPI = r(),
-        aT.insertStyleElement = h();
-        t()(rT.A, aT);
-        rT.A && rT.A.locals && rT.A.locals;
-        var oT = n(927)
-          , sT = {};
-        sT.styleTagTransform = u(),
-        sT.setAttributes = l(),
-        sT.insert = o().bind(null, "head"),
-        sT.domAPI = r(),
-        sT.insertStyleElement = h();
-        t()(oT.A, sT);
-        oT.A && oT.A.locals && oT.A.locals;
-        var lT, cT, hT = function(e, t, n, i, r) {
+        eT = new WeakMap,
+        tT = new WeakMap,
+        nT = new WeakMap,
+        iT = new WeakMap;
+        const sT = oT;
+        var lT = n(915)
+          , cT = {};
+        cT.styleTagTransform = u(),
+        cT.setAttributes = l(),
+        cT.insert = o().bind(null, "head"),
+        cT.domAPI = r(),
+        cT.insertStyleElement = h();
+        t()(lT.A, cT);
+        lT.A && lT.A.locals && lT.A.locals;
+        var hT = n(927)
+          , dT = {};
+        dT.styleTagTransform = u(),
+        dT.setAttributes = l(),
+        dT.insert = o().bind(null, "head"),
+        dT.domAPI = r(),
+        dT.insertStyleElement = h();
+        t()(hT.A, dT);
+        hT.A && hT.A.locals && hT.A.locals;
+        var uT, pT, fT = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -33879,28 +33887,28 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, dT = function(e, t, n, i) {
+        }, mT = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        lT = new WeakMap,
-        cT = new WeakMap;
-        const uT = class {
+        uT = new WeakMap,
+        pT = new WeakMap;
+        const gT = class {
             constructor(e, t, n) {
-                lT.set(this, void 0),
-                cT.set(this, void 0),
-                hT(this, lT, e, "f"),
-                hT(this, cT, document.createElement("div"), "f"),
-                dT(this, cT, "f").className = "loading",
-                e.appendChild(dT(this, cT, "f"));
+                uT.set(this, void 0),
+                pT.set(this, void 0),
+                fT(this, uT, e, "f"),
+                fT(this, pT, document.createElement("div"), "f"),
+                mT(this, pT, "f").className = "loading",
+                e.appendChild(mT(this, pT, "f"));
                 const i = document.createElement("p");
                 i.textContent = t.get("Loading") + "...",
-                dT(this, cT, "f").appendChild(i);
+                mT(this, pT, "f").appendChild(i);
                 const r = document.createElement("div");
-                dT(this, cT, "f").appendChild(r);
+                mT(this, pT, "f").appendChild(r);
                 const a = document.createElement("div");
                 r.appendChild(a);
                 const o = document.createElement("div");
@@ -33911,20 +33919,20 @@
                 ))
             }
             dispose() {
-                dT(this, lT, "f").removeChild(dT(this, cT, "f"))
+                mT(this, uT, "f").removeChild(mT(this, pT, "f"))
             }
         }
         ;
-        var pT = n(643)
-          , fT = {};
-        fT.styleTagTransform = u(),
-        fT.setAttributes = l(),
-        fT.insert = o().bind(null, "head"),
-        fT.domAPI = r(),
-        fT.insertStyleElement = h();
-        t()(pT.A, fT);
-        pT.A && pT.A.locals && pT.A.locals;
-        var mT, gT, vT, wT, yT, bT, xT, _T, kT, ET, ST, MT, TT, AT, CT, PT, RT, LT, IT, NT, DT = function(e, t, n, i, r) {
+        var vT = n(643)
+          , wT = {};
+        wT.styleTagTransform = u(),
+        wT.setAttributes = l(),
+        wT.insert = o().bind(null, "head"),
+        wT.domAPI = r(),
+        wT.insertStyleElement = h();
+        t()(vT.A, wT);
+        vT.A && vT.A.locals && vT.A.locals;
+        var yT, bT, xT, _T, kT, ET, ST, MT, TT, AT, CT, PT, RT, LT, IT, NT, DT, UT, BT, OT, zT = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -33933,17 +33941,13 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, UT = function(e, t, n, i) {
+        }, FT = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        gT = new WeakMap,
-        vT = new WeakMap,
-        wT = new WeakMap,
-        yT = new WeakMap,
         bT = new WeakMap,
         xT = new WeakMap,
         _T = new WeakMap,
@@ -33952,69 +33956,73 @@
         ST = new WeakMap,
         MT = new WeakMap,
         TT = new WeakMap,
-        mT = new WeakSet,
-        AT = function() {
-            UT(this, _T, "f").className = "hidden"
+        AT = new WeakMap,
+        CT = new WeakMap,
+        PT = new WeakMap,
+        RT = new WeakMap,
+        yT = new WeakSet,
+        LT = function() {
+            FT(this, MT, "f").className = "hidden"
         }
         ,
-        CT = function() {
-            UT(this, _T, "f").className = "settings-menu"
+        IT = function() {
+            FT(this, MT, "f").className = "settings-menu"
         }
         ,
-        PT = function() {
-            UT(this, kT, "f").innerHTML = "",
-            UT(this, mT, "m", RT).call(this, UT(this, vT, "f").get("Gameplay")),
-            UT(this, mT, "m", LT).call(this, UT(this, vT, "f").get("Units"), [{
-                title: UT(this, vT, "f").get("Metric"),
+        NT = function() {
+            FT(this, TT, "f").innerHTML = "",
+            FT(this, yT, "m", DT).call(this, FT(this, xT, "f").get("Gameplay")),
+            FT(this, yT, "m", UT).call(this, FT(this, xT, "f").get("Units"), [{
+                title: FT(this, xT, "f").get("Metric"),
                 value: "false"
             }, {
-                title: UT(this, vT, "f").get("Imperial"),
+                title: FT(this, xT, "f").get("Imperial"),
                 value: "true"
             }], Jh.ImperialUnitsEnabled),
-            UT(this, mT, "m", LT).call(this, UT(this, vT, "f").get("Reset hint"), [{
-                title: UT(this, vT, "f").get("Disabled"),
+            FT(this, yT, "m", UT).call(this, FT(this, xT, "f").get("Reset hint"), [{
+                title: FT(this, xT, "f").get("Disabled"),
                 value: "false"
             }, {
-                title: UT(this, vT, "f").get("Enabled"),
+                title: FT(this, xT, "f").get("Enabled"),
                 value: "true"
             }], Jh.ResetHintEnabled),
-            UT(this, mT, "m", LT).call(this, UT(this, vT, "f").get("Ghost car"), [{
-                title: UT(this, vT, "f").get("Disabled"),
+            FT(this, yT, "m", UT).call(this, FT(this, xT, "f").get("Ghost car"), [{
+                title: FT(this, xT, "f").get("Disabled"),
                 value: "false"
             }, {
-                title: UT(this, vT, "f").get("Enabled"),
+                title: FT(this, xT, "f").get("Enabled"),
                 value: "true"
             }], Jh.GhostCarEnabled),
-            UT(this, mT, "m", LT).call(this, UT(this, vT, "f").get("Cockpit camera mode"), [{
-                title: UT(this, vT, "f").get("Hold"),
+            FT(this, yT, "m", UT).call(this, FT(this, xT, "f").get("Cockpit camera mode"), [{
+                title: FT(this, xT, "f").get("Hold"),
                 value: "false"
             }, {
-                title: UT(this, vT, "f").get("Toggle"),
+                title: FT(this, xT, "f").get("Toggle"),
                 value: "true"
             }], Jh.CockpitCameraToggle),
-            UT(this, mT, "m", LT).call(this, UT(this, vT, "f").get("Checkpoints position"), [{
-                title: UT(this, vT, "f").get("Bottom"),
+            FT(this, yT, "m", UT).call(this, FT(this, xT, "f").get("Checkpoints position"), [{
+                title: FT(this, xT, "f").get("Bottom"),
                 value: "false"
             }, {
-                title: UT(this, vT, "f").get("Top"),
+                title: FT(this, xT, "f").get("Top"),
                 value: "true"
             }], Jh.CheckpointsPosition),
-            UT(this, mT, "m", LT).call(this, UT(this, vT, "f").get("Timer position"), [{
-                title: UT(this, vT, "f").get("Bottom"),
+            FT(this, yT, "m", UT).call(this, FT(this, xT, "f").get("Timer position"), [{
+                title: FT(this, xT, "f").get("Bottom"),
                 value: "false"
             }, {
-                title: UT(this, vT, "f").get("Top"),
+                title: FT(this, xT, "f").get("Top"),
                 value: "true"
             }], Jh.TimerPosition),
-            UT(this, mT, "m", LT).call(this, UT(this, vT, "f").get("Speedometer position"), [{
-                title: UT(this, vT, "f").get("Bottom"),
+            FT(this, yT, "m", UT).call(this, FT(this, xT, "f").get("Speedometer position"), [{
+                title: FT(this, xT, "f").get("Bottom"),
                 value: "false"
             }, {
-                title: UT(this, vT, "f").get("Top"),
+                title: FT(this, xT, "f").get("Top"),
                 value: "true"
             }], Jh.SpeedometerPosition),
-            UT(this, mT, "m", RT).call(this, UT(this, vT, "f").get("Language")),
-            UT(this, mT, "m", LT).call(this, null, [{
+            FT(this, yT, "m", DT).call(this, FT(this, xT, "f").get("Language")),
+            FT(this, yT, "m", UT).call(this, null, [{
                 title: "العربية",
                 value: "ar"
             }, {
@@ -34063,52 +34071,52 @@
                 title: "繁體中文",
                 value: "zh-TW"
             }], Jh.Language),
-            UT(this, mT, "m", RT).call(this, UT(this, vT, "f").get("Graphics")),
-            UT(this, mT, "m", LT).call(this, UT(this, vT, "f").get("Car shadow"), [{
-                title: UT(this, vT, "f").get("Off"),
+            FT(this, yT, "m", DT).call(this, FT(this, xT, "f").get("Graphics")),
+            FT(this, yT, "m", UT).call(this, FT(this, xT, "f").get("Car shadow"), [{
+                title: FT(this, xT, "f").get("Off"),
                 value: "0"
             }, {
-                title: UT(this, vT, "f").get("Low"),
+                title: FT(this, xT, "f").get("Low"),
                 value: "1024"
             }, {
-                title: UT(this, vT, "f").get("Medium"),
+                title: FT(this, xT, "f").get("Medium"),
                 value: "2048"
             }, {
-                title: UT(this, vT, "f").get("High"),
+                title: FT(this, xT, "f").get("High"),
                 value: "4096"
             }], Jh.CarShadowQuality),
-            UT(this, mT, "m", LT).call(this, UT(this, vT, "f").get("Track shadow"), [{
-                title: UT(this, vT, "f").get("Off"),
+            FT(this, yT, "m", UT).call(this, FT(this, xT, "f").get("Track shadow"), [{
+                title: FT(this, xT, "f").get("Off"),
                 value: "false"
             }, {
-                title: UT(this, vT, "f").get("On"),
+                title: FT(this, xT, "f").get("On"),
                 value: "true"
             }], Jh.TrackShadowEnabled, ( () => {
-                UT(this, bT, "f").generateMeshes()
+                FT(this, ET, "f").generateMeshes()
             }
             )),
-            UT(this, mT, "m", LT).call(this, UT(this, vT, "f").get("Clouds"), [{
-                title: UT(this, vT, "f").get("Off"),
+            FT(this, yT, "m", UT).call(this, FT(this, xT, "f").get("Clouds"), [{
+                title: FT(this, xT, "f").get("Off"),
                 value: "false"
             }, {
-                title: UT(this, vT, "f").get("On"),
+                title: FT(this, xT, "f").get("On"),
                 value: "true"
             }], Jh.CloudsEnabled),
-            UT(this, mT, "m", LT).call(this, UT(this, vT, "f").get("Particles"), [{
-                title: UT(this, vT, "f").get("Off"),
+            FT(this, yT, "m", UT).call(this, FT(this, xT, "f").get("Particles"), [{
+                title: FT(this, xT, "f").get("Off"),
                 value: "false"
             }, {
-                title: UT(this, vT, "f").get("On"),
+                title: FT(this, xT, "f").get("On"),
                 value: "true"
             }], Jh.ParticlesEnabled),
-            UT(this, mT, "m", LT).call(this, UT(this, vT, "f").get("Skidmarks"), [{
-                title: UT(this, vT, "f").get("Off"),
+            FT(this, yT, "m", UT).call(this, FT(this, xT, "f").get("Skidmarks"), [{
+                title: FT(this, xT, "f").get("Off"),
                 value: "false"
             }, {
-                title: UT(this, vT, "f").get("On"),
+                title: FT(this, xT, "f").get("On"),
                 value: "true"
             }], Jh.SkidmarksEnabled),
-            UT(this, mT, "m", LT).call(this, UT(this, vT, "f").get("Render scale"), [{
+            FT(this, yT, "m", UT).call(this, FT(this, xT, "f").get("Render scale"), [{
                 title: "25%",
                 value: "0.25"
             }, {
@@ -34124,56 +34132,56 @@
                 title: "200%",
                 value: "2"
             }], Jh.RenderScale),
-            UT(this, mT, "m", LT).call(this, UT(this, vT, "f").get("Anti-aliasing (requires restart)"), [{
-                title: UT(this, vT, "f").get("Off"),
+            FT(this, yT, "m", UT).call(this, FT(this, xT, "f").get("Anti-aliasing (requires restart)"), [{
+                title: FT(this, xT, "f").get("Off"),
                 value: "false"
             }, {
-                title: UT(this, vT, "f").get("On"),
+                title: FT(this, xT, "f").get("On"),
                 value: "true"
             }], Jh.Antialiasing),
-            UT(this, mT, "m", RT).call(this, UT(this, vT, "f").get("Audio")),
-            UT(this, mT, "m", IT).call(this, UT(this, vT, "f").get("Sound effect volume"), Jh.SoundEffectVolume),
-            UT(this, mT, "m", IT).call(this, UT(this, vT, "f").get("Music volume"), Jh.MusicVolume),
-            UT(this, mT, "m", IT).call(this, UT(this, vT, "f").get("Checkpoint volume"), Jh.CheckpointVolume),
-            UT(this, mT, "m", RT).call(this, UT(this, vT, "f").get("Controls")),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Vehicle accelerate"), Lb.VehicleAccelerate),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Vehicle brake"), Lb.VehicleBrake),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Vehicle turn left"), Lb.VehicleTurnLeft),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Vehicle turn right"), Lb.VehicleTurnRight),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Vehicle reset"), Lb.VehicleReset),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Vehicle cockpit camera"), Lb.VehicleCockpitCamera),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Hide UI"), Lb.ToggleUI),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Editor rotate part"), Lb.EditorRotate),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Editor height modifier"), Lb.EditorHeightModifier),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Editor delete part"), Lb.EditorDelete),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Editor forwards"), Lb.EditorMoveForwards),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Editor backwards"), Lb.EditorMoveBackwards),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Editor left"), Lb.EditorMoveLeft),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Editor right"), Lb.EditorMoveRight),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Editor rotate left"), Lb.EditorRotateLeft),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Editor rotate right"), Lb.EditorRotateRight),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Editor move down"), Lb.EditorMoveDown),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Editor move up"), Lb.EditorMoveUp),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Editor test"), Lb.EditorTest),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Editor pick"), Lb.EditorPick),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Toggle FPS counter"), Lb.ToggleFpsCounter),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Toggle spectator camera"), Lb.ToggleSpectatorCamera),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Spectator forwards"), Lb.SpectatorMoveForwards),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Spectator backwards"), Lb.SpectatorMoveBackwards),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Spectator left"), Lb.SpectatorMoveLeft),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Spectator right"), Lb.SpectatorMoveRight),
-            UT(this, mT, "m", NT).call(this, UT(this, vT, "f").get("Spectator speed modifier"), Lb.SpectatorSpeedModifier)
+            FT(this, yT, "m", DT).call(this, FT(this, xT, "f").get("Audio")),
+            FT(this, yT, "m", BT).call(this, FT(this, xT, "f").get("Sound effect volume"), Jh.SoundEffectVolume),
+            FT(this, yT, "m", BT).call(this, FT(this, xT, "f").get("Music volume"), Jh.MusicVolume),
+            FT(this, yT, "m", BT).call(this, FT(this, xT, "f").get("Checkpoint volume"), Jh.CheckpointVolume),
+            FT(this, yT, "m", DT).call(this, FT(this, xT, "f").get("Controls")),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Vehicle accelerate"), Ub.VehicleAccelerate),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Vehicle brake"), Ub.VehicleBrake),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Vehicle turn left"), Ub.VehicleTurnLeft),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Vehicle turn right"), Ub.VehicleTurnRight),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Vehicle reset"), Ub.VehicleReset),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Vehicle cockpit camera"), Ub.VehicleCockpitCamera),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Hide UI"), Ub.ToggleUI),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Editor rotate part"), Ub.EditorRotate),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Editor height modifier"), Ub.EditorHeightModifier),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Editor delete part"), Ub.EditorDelete),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Editor forwards"), Ub.EditorMoveForwards),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Editor backwards"), Ub.EditorMoveBackwards),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Editor left"), Ub.EditorMoveLeft),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Editor right"), Ub.EditorMoveRight),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Editor rotate left"), Ub.EditorRotateLeft),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Editor rotate right"), Ub.EditorRotateRight),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Editor move down"), Ub.EditorMoveDown),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Editor move up"), Ub.EditorMoveUp),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Editor test"), Ub.EditorTest),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Editor pick"), Ub.EditorPick),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Toggle FPS counter"), Ub.ToggleFpsCounter),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Toggle spectator camera"), Ub.ToggleSpectatorCamera),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Spectator forwards"), Ub.SpectatorMoveForwards),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Spectator backwards"), Ub.SpectatorMoveBackwards),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Spectator left"), Ub.SpectatorMoveLeft),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Spectator right"), Ub.SpectatorMoveRight),
+            FT(this, yT, "m", OT).call(this, FT(this, xT, "f").get("Spectator speed modifier"), Ub.SpectatorSpeedModifier)
         }
         ,
-        RT = function(e) {
+        DT = function(e) {
             const t = document.createElement("h2");
             t.textContent = e,
-            UT(this, kT, "f").appendChild(t)
+            FT(this, TT, "f").appendChild(t)
         }
         ,
-        LT = function(e, t, n, i) {
+        UT = function(e, t, n, i) {
             var r;
-            const a = null !== (r = UT(this, MT, "f").get(n)) && void 0 !== r ? r : UT(this, yT, "f").getSetting(n)
+            const a = null !== (r = FT(this, PT, "f").get(n)) && void 0 !== r ? r : FT(this, kT, "f").getSetting(n)
               , o = document.createElement("div");
             if (o.className = "setting",
             null != e) {
@@ -34191,14 +34199,14 @@
                 r.className = t == a ? "button selected" : "button",
                 r.textContent = e,
                 r.addEventListener("click", ( () => {
-                    UT(this, wT, "f").playUIClick(),
+                    FT(this, _T, "f").playUIClick(),
                     l.forEach((e => {
                         e.className = "button"
                     }
                     )),
                     r.className = "button selected",
-                    UT(this, MT, "f").set(n, t),
-                    UT(this, yT, "f").updateSettings(Array.from(UT(this, MT, "f"))),
+                    FT(this, PT, "f").set(n, t),
+                    FT(this, kT, "f").updateSettings(Array.from(FT(this, PT, "f"))),
                     null != i && i()
                 }
                 )),
@@ -34206,12 +34214,12 @@
                 l.push(r)
             }
             )),
-            UT(this, kT, "f").appendChild(o)
+            FT(this, TT, "f").appendChild(o)
         }
         ,
-        IT = function(e, t, n=0, i=1) {
+        BT = function(e, t, n=0, i=1) {
             var r;
-            let a = parseFloat(null !== (r = UT(this, MT, "f").get(t)) && void 0 !== r ? r : UT(this, yT, "f").getSetting(t));
+            let a = parseFloat(null !== (r = FT(this, PT, "f").get(t)) && void 0 !== r ? r : FT(this, kT, "f").getSetting(t));
             Number.isNaN(a) && (a = 0);
             const o = document.createElement("div");
             o.className = "setting";
@@ -34225,15 +34233,15 @@
             l.value = (20 * a).toString(),
             l.addEventListener("input", ( () => {
                 const e = parseFloat(l.value) / 20;
-                UT(this, MT, "f").set(t, e.toString()),
-                UT(this, yT, "f").updateSettings(Array.from(UT(this, MT, "f")))
+                FT(this, PT, "f").set(t, e.toString()),
+                FT(this, kT, "f").updateSettings(Array.from(FT(this, PT, "f")))
             }
             )),
             o.appendChild(l),
-            UT(this, kT, "f").appendChild(o)
+            FT(this, TT, "f").appendChild(o)
         }
         ,
-        NT = function(e, t) {
+        OT = function(e, t) {
             var n, i, r;
             const a = document.createElement("div");
             a.className = "setting";
@@ -34243,32 +34251,32 @@
             const s = document.createElement("div");
             s.className = "button-wrapper",
             a.appendChild(s);
-            const l = null !== (n = UT(this, TT, "f").get(t)) && void 0 !== n ? n : UT(this, yT, "f").getKeyBindings(t)
+            const l = null !== (n = FT(this, RT, "f").get(t)) && void 0 !== n ? n : FT(this, kT, "f").getKeyBindings(t)
               , c = document.createElement("button");
             c.className = "button key-binding",
             c.textContent = null !== (i = l[0]) && void 0 !== i ? i : "",
             c.addEventListener("click", ( () => {
-                UT(this, wT, "f").playUIClick(),
-                UT(this, mT, "m", AT).call(this);
+                FT(this, _T, "f").playUIClick(),
+                FT(this, yT, "m", LT).call(this);
                 const e = t => {
-                    "Escape" == t.code || "Tab" == t.code || "Enter" == t.code && null != document.activeElement && document.activeElement != document.body || (UT(this, xT, "f").hide(),
+                    "Escape" == t.code || "Tab" == t.code || "Enter" == t.code && null != document.activeElement && document.activeElement != document.body || (FT(this, ST, "f").hide(),
                     l[0] = t.code,
                     c.textContent = t.code,
-                    UT(this, mT, "m", CT).call(this),
+                    FT(this, yT, "m", IT).call(this),
                     window.removeEventListener("keydown", e),
                     t.preventDefault())
                 }
                 ;
                 window.addEventListener("keydown", e),
-                UT(this, xT, "f").showConfirm(UT(this, vT, "f").get("Press any key...\n\nPress [Escape] to cancel."), UT(this, vT, "f").get("Cancel"), UT(this, vT, "f").get("Clear"), ( () => {
-                    UT(this, mT, "m", CT).call(this),
+                FT(this, ST, "f").showConfirm(FT(this, xT, "f").get("Press any key...\n\nPress [Escape] to cancel."), FT(this, xT, "f").get("Cancel"), FT(this, xT, "f").get("Clear"), ( () => {
+                    FT(this, yT, "m", IT).call(this),
                     window.removeEventListener("keydown", e)
                 }
                 ), ( () => {
                     c.textContent = "",
                     l[0] = null,
                     window.removeEventListener("keydown", e),
-                    UT(this, mT, "m", CT).call(this)
+                    FT(this, yT, "m", IT).call(this)
                 }
                 ))
             }
@@ -34278,77 +34286,77 @@
             h.className = "button key-binding",
             h.textContent = null !== (r = l[1]) && void 0 !== r ? r : "",
             h.addEventListener("click", ( () => {
-                UT(this, wT, "f").playUIClick(),
-                UT(this, mT, "m", AT).call(this);
+                FT(this, _T, "f").playUIClick(),
+                FT(this, yT, "m", LT).call(this);
                 const e = t => {
-                    "Escape" == t.code || "Tab" == t.code || "Enter" == t.code && null != document.activeElement && document.activeElement != document.body || (UT(this, xT, "f").hide(),
+                    "Escape" == t.code || "Tab" == t.code || "Enter" == t.code && null != document.activeElement && document.activeElement != document.body || (FT(this, ST, "f").hide(),
                     l[1] = t.code,
                     h.textContent = t.code,
-                    UT(this, mT, "m", CT).call(this),
+                    FT(this, yT, "m", IT).call(this),
                     window.removeEventListener("keydown", e),
                     t.preventDefault())
                 }
                 ;
                 window.addEventListener("keydown", e),
-                UT(this, xT, "f").showConfirm(UT(this, vT, "f").get("Press any key...\n\nPress [Escape] to cancel."), UT(this, vT, "f").get("Cancel"), UT(this, vT, "f").get("Clear"), ( () => {
-                    UT(this, mT, "m", CT).call(this),
+                FT(this, ST, "f").showConfirm(FT(this, xT, "f").get("Press any key...\n\nPress [Escape] to cancel."), FT(this, xT, "f").get("Cancel"), FT(this, xT, "f").get("Clear"), ( () => {
+                    FT(this, yT, "m", IT).call(this),
                     window.removeEventListener("keydown", e)
                 }
                 ), ( () => {
                     h.textContent = "",
                     l[1] = null,
                     window.removeEventListener("keydown", e),
-                    UT(this, mT, "m", CT).call(this)
+                    FT(this, yT, "m", IT).call(this)
                 }
                 ))
             }
             )),
             s.appendChild(h),
-            UT(this, kT, "f").appendChild(a)
+            FT(this, TT, "f").appendChild(a)
         }
         ;
-        const BT = class {
+        const WT = class {
             constructor(e, t, n, i, r, a, o) {
-                mT.add(this),
-                gT.set(this, void 0),
-                vT.set(this, void 0),
-                wT.set(this, void 0),
-                yT.set(this, void 0),
+                yT.add(this),
                 bT.set(this, void 0),
                 xT.set(this, void 0),
                 _T.set(this, void 0),
                 kT.set(this, void 0),
                 ET.set(this, void 0),
-                ST.set(this, new Map),
-                MT.set(this, new Map),
-                TT.set(this, new Map),
-                DT(this, gT, e, "f"),
-                DT(this, vT, t, "f"),
-                DT(this, wT, n, "f"),
-                DT(this, yT, i, "f"),
-                DT(this, bT, r, "f"),
-                DT(this, xT, a, "f"),
-                DT(this, _T, document.createElement("div"), "f"),
-                UT(this, _T, "f").className = "settings-menu",
-                e.appendChild(UT(this, _T, "f"));
+                ST.set(this, void 0),
+                MT.set(this, void 0),
+                TT.set(this, void 0),
+                AT.set(this, void 0),
+                CT.set(this, new Map),
+                PT.set(this, new Map),
+                RT.set(this, new Map),
+                zT(this, bT, e, "f"),
+                zT(this, xT, t, "f"),
+                zT(this, _T, n, "f"),
+                zT(this, kT, i, "f"),
+                zT(this, ET, r, "f"),
+                zT(this, ST, a, "f"),
+                zT(this, MT, document.createElement("div"), "f"),
+                FT(this, MT, "f").className = "settings-menu",
+                e.appendChild(FT(this, MT, "f"));
                 const s = document.createElement("h2");
                 s.textContent = t.get("Settings"),
-                UT(this, _T, "f").appendChild(s),
-                DT(this, kT, document.createElement("div"), "f"),
-                UT(this, kT, "f").className = "container",
-                UT(this, _T, "f").appendChild(UT(this, kT, "f")),
-                DT(this, ST, new Map(i.getSettings()), "f"),
-                UT(this, mT, "m", PT).call(this);
+                FT(this, MT, "f").appendChild(s),
+                zT(this, TT, document.createElement("div"), "f"),
+                FT(this, TT, "f").className = "container",
+                FT(this, MT, "f").appendChild(FT(this, TT, "f")),
+                zT(this, CT, new Map(i.getSettings()), "f"),
+                FT(this, yT, "m", NT).call(this);
                 const l = document.createElement("div");
                 l.className = "button-wrapper",
-                UT(this, _T, "f").appendChild(l);
+                FT(this, MT, "f").appendChild(l);
                 const c = document.createElement("button");
                 c.className = "button cancel",
                 c.innerHTML = '<img class="button-icon" src="images/cancel.svg"> ',
                 c.append(document.createTextNode(t.get("Cancel"))),
                 c.addEventListener("click", ( () => {
                     n.playUIClick(),
-                    i.updateSettings(Array.from(UT(this, ST, "f"))),
+                    i.updateSettings(Array.from(FT(this, CT, "f"))),
                     r.generateMeshes(),
                     o()
                 }
@@ -34360,11 +34368,11 @@
                 h.append(document.createTextNode(t.get("Reset"))),
                 h.addEventListener("click", ( () => {
                     n.playUIClick(),
-                    DT(this, MT, UT(this, yT, "f").defaultSettings(), "f"),
-                    i.updateSettings(Array.from(UT(this, MT, "f"))),
-                    DT(this, TT, UT(this, yT, "f").defaultKeyBindings(), "f"),
+                    zT(this, PT, FT(this, kT, "f").defaultSettings(), "f"),
+                    i.updateSettings(Array.from(FT(this, PT, "f"))),
+                    zT(this, RT, FT(this, kT, "f").defaultKeyBindings(), "f"),
                     r.generateMeshes(),
-                    UT(this, mT, "m", PT).call(this)
+                    FT(this, yT, "m", NT).call(this)
                 }
                 )),
                 l.appendChild(h);
@@ -34374,46 +34382,28 @@
                 d.innerHTML += ' <img class="button-icon" src="images/apply.svg">',
                 d.addEventListener("click", ( () => {
                     n.playUIClick(),
-                    i.updateSettings(Array.from(UT(this, MT, "f"))),
+                    i.updateSettings(Array.from(FT(this, PT, "f"))),
                     i.saveSettings(),
-                    i.setKeyBindings(Array.from(UT(this, TT, "f"))),
+                    i.setKeyBindings(Array.from(FT(this, RT, "f"))),
                     r.generateMeshes(),
                     t.language = i.getSetting(Jh.Language),
                     o()
                 }
                 )),
                 l.appendChild(d),
-                window.addEventListener("keydown", DT(this, ET, (e => {
+                window.addEventListener("keydown", zT(this, AT, (e => {
                     "Escape" == e.code && (o(),
                     e.preventDefault())
                 }
                 ), "f"))
             }
             dispose() {
-                UT(this, gT, "f").removeChild(UT(this, _T, "f")),
-                window.removeEventListener("keydown", UT(this, ET, "f"))
+                FT(this, bT, "f").removeChild(FT(this, MT, "f")),
+                window.removeEventListener("keydown", FT(this, AT, "f"))
             }
         }
         ;
-        var OT = n(586)
-          , zT = {};
-        zT.styleTagTransform = u(),
-        zT.setAttributes = l(),
-        zT.insert = o().bind(null, "head"),
-        zT.domAPI = r(),
-        zT.insertStyleElement = h();
-        t()(OT.A, zT);
-        OT.A && OT.A.locals && OT.A.locals;
-        var FT = n(657)
-          , WT = {};
-        WT.styleTagTransform = u(),
-        WT.setAttributes = l(),
-        WT.insert = o().bind(null, "head"),
-        WT.domAPI = r(),
-        WT.insertStyleElement = h();
-        t()(FT.A, WT);
-        FT.A && FT.A.locals && FT.A.locals;
-        var HT = n(86)
+        var HT = n(586)
           , VT = {};
         VT.styleTagTransform = u(),
         VT.setAttributes = l(),
@@ -34422,33 +34412,51 @@
         VT.insertStyleElement = h();
         t()(HT.A, VT);
         HT.A && HT.A.locals && HT.A.locals;
-        let GT = null
-          , jT = null
-          , qT = null
-          , XT = null;
-        function YT(e) {
-            return null != GT && null != jT && null != qT && null != XT || (jT = document.createElement("canvas"),
-            jT.width = 100,
-            jT.height = 100,
-            qT = new HM(jT,null,!1,!0),
-            XT = new _a(-1,1,1,-1,.1,1e4),
-            XT.position.set(1e3, 1e3, 1e3),
-            XT.lookAt(0, 0, 0),
-            XT.zoom = .5,
-            XT.position.add(new Un(.1,.3,0)),
-            XT.updateProjectionMatrix(),
-            qT.scene.add(XT),
-            qT.setCamera(XT),
-            GT = new Uv(null,{
+        var GT = n(657)
+          , jT = {};
+        jT.styleTagTransform = u(),
+        jT.setAttributes = l(),
+        jT.insert = o().bind(null, "head"),
+        jT.domAPI = r(),
+        jT.insertStyleElement = h();
+        t()(GT.A, jT);
+        GT.A && GT.A.locals && GT.A.locals;
+        var qT = n(86)
+          , XT = {};
+        XT.styleTagTransform = u(),
+        XT.setAttributes = l(),
+        XT.insert = o().bind(null, "head"),
+        XT.domAPI = r(),
+        XT.insertStyleElement = h();
+        t()(qT.A, XT);
+        qT.A && qT.A.locals && qT.A.locals;
+        let YT = null
+          , KT = null
+          , ZT = null
+          , JT = null;
+        function QT(e) {
+            return null != YT && null != KT && null != ZT && null != JT || (KT = document.createElement("canvas"),
+            KT.width = 100,
+            KT.height = 100,
+            ZT = new qM(KT,null,!1,!0),
+            JT = new _a(-1,1,1,-1,.1,1e4),
+            JT.position.set(1e3, 1e3, 1e3),
+            JT.lookAt(0, 0, 0),
+            JT.zoom = .5,
+            JT.position.add(new Un(.1,.3,0)),
+            JT.updateProjectionMatrix(),
+            ZT.scene.add(JT),
+            ZT.setCamera(JT),
+            YT = new Fv(null,{
                 position: new Un,
                 quaternion: new Dn
-            },null,null,!1,qT,null,null,null,null),
-            GT.update(0)),
-            GT.setColors(e),
-            qT.update(new Un),
-            jT.toDataURL()
+            },null,null,!1,ZT,null,null,null,null),
+            YT.update(0)),
+            YT.setColors(e),
+            ZT.update(new Un),
+            KT.toDataURL()
         }
-        var KT, ZT, JT, QT, $T, eA, tA, nA, iA, rA, aA, oA, sA, lA, cA, hA, dA, uA, pA, fA, mA, gA, vA, wA, yA, bA, xA, _A, kA = function(e, t, n, i, r) {
+        var $T, eA, tA, nA, iA, rA, aA, oA, sA, lA, cA, hA, dA, uA, pA, fA, mA, gA, vA, wA, yA, bA, xA, _A, kA, EA, SA, MA, TA = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -34457,20 +34465,16 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, EA = function(e, t, n, i) {
+        }, AA = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        class SA {
+        class CA {
             constructor(e, t, n, i, r, a, o, s, l, c, h) {
-                KT.add(this),
-                JT.set(this, void 0),
-                QT.set(this, void 0),
-                $T.set(this, void 0),
-                eA.set(this, void 0),
+                $T.add(this),
                 tA.set(this, void 0),
                 nA.set(this, void 0),
                 iA.set(this, void 0),
@@ -34483,43 +34487,47 @@
                 hA.set(this, void 0),
                 dA.set(this, void 0),
                 uA.set(this, void 0),
-                pA.set(this, null),
-                fA.set(this, !1),
-                mA.set(this, !1),
-                gA.set(this, 0),
-                vA.set(this, 0),
-                wA.set(this, null),
-                yA.set(this, null),
-                kA(this, JT, t, "f"),
-                kA(this, QT, n, "f"),
-                kA(this, $T, i, "f"),
-                kA(this, eA, r, "f"),
-                kA(this, tA, a, "f"),
-                kA(this, nA, o, "f"),
-                kA(this, iA, l, "f"),
-                kA(this, rA, c, "f"),
-                kA(this, aA, h, "f"),
-                kA(this, oA, e, "f"),
-                kA(this, sA, document.createElement("div"), "f"),
-                EA(this, sA, "f").className = "leaderboard",
-                e.appendChild(EA(this, sA, "f"));
+                pA.set(this, void 0),
+                fA.set(this, void 0),
+                mA.set(this, void 0),
+                gA.set(this, void 0),
+                vA.set(this, null),
+                wA.set(this, !1),
+                yA.set(this, !1),
+                bA.set(this, 0),
+                xA.set(this, 0),
+                _A.set(this, null),
+                kA.set(this, null),
+                TA(this, tA, t, "f"),
+                TA(this, nA, n, "f"),
+                TA(this, iA, i, "f"),
+                TA(this, rA, r, "f"),
+                TA(this, aA, a, "f"),
+                TA(this, oA, o, "f"),
+                TA(this, sA, l, "f"),
+                TA(this, lA, c, "f"),
+                TA(this, cA, h, "f"),
+                TA(this, hA, e, "f"),
+                TA(this, dA, document.createElement("div"), "f"),
+                AA(this, dA, "f").className = "leaderboard",
+                e.appendChild(AA(this, dA, "f"));
                 const d = document.createElement("h2");
                 d.textContent = n.get("Leaderboard"),
-                EA(this, sA, "f").appendChild(d),
-                kA(this, lA, document.createElement("div"), "f"),
-                EA(this, lA, "f").className = "container",
-                EA(this, sA, "f").appendChild(EA(this, lA, "f")),
-                kA(this, cA, document.createElement("div"), "f"),
-                EA(this, cA, "f").className = "loading-spinner",
-                EA(this, lA, "f").appendChild(EA(this, cA, "f")),
-                EA(this, KT, "m", bA).call(this, !1),
-                kA(this, uA, document.createElement("div"), "f"),
-                EA(this, uA, "f").className = "pages",
-                EA(this, sA, "f").appendChild(EA(this, uA, "f")),
-                EA(this, KT, "m", _A).call(this);
+                AA(this, dA, "f").appendChild(d),
+                TA(this, uA, document.createElement("div"), "f"),
+                AA(this, uA, "f").className = "container",
+                AA(this, dA, "f").appendChild(AA(this, uA, "f")),
+                TA(this, pA, document.createElement("div"), "f"),
+                AA(this, pA, "f").className = "loading-spinner",
+                AA(this, uA, "f").appendChild(AA(this, pA, "f")),
+                AA(this, $T, "m", EA).call(this, !1),
+                TA(this, gA, document.createElement("div"), "f"),
+                AA(this, gA, "f").className = "pages",
+                AA(this, dA, "f").appendChild(AA(this, gA, "f")),
+                AA(this, $T, "m", MA).call(this);
                 const u = document.createElement("div");
                 u.className = "button-wrapper",
-                EA(this, sA, "f").appendChild(u);
+                AA(this, dA, "f").appendChild(u);
                 const p = document.createElement("button");
                 p.className = "button back",
                 p.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
@@ -34530,34 +34538,34 @@
                 }
                 )),
                 u.appendChild(p),
-                kA(this, hA, document.createElement("button"), "f"),
-                EA(this, hA, "f").className = "button icon-button first",
-                EA(this, hA, "f").innerHTML = '<img class="button-icon" src="images/pin.svg">',
-                EA(this, hA, "f").disabled = !0,
-                EA(this, hA, "f").addEventListener("click", ( () => {
+                TA(this, fA, document.createElement("button"), "f"),
+                AA(this, fA, "f").className = "button icon-button first",
+                AA(this, fA, "f").innerHTML = '<img class="button-icon" src="images/pin.svg">',
+                AA(this, fA, "f").disabled = !0,
+                AA(this, fA, "f").addEventListener("click", ( () => {
                     r.playUIClick(),
-                    null != EA(this, yA, "f") ? EA(this, yA, "f").scrollIntoView({
+                    null != AA(this, kA, "f") ? AA(this, kA, "f").scrollIntoView({
                         behavior: "smooth"
-                    }) : null != EA(this, wA, "f") && (kA(this, gA, EA(this, wA, "f"), "f"),
-                    EA(this, KT, "m", _A).call(this),
-                    EA(this, KT, "m", bA).call(this, !0))
+                    }) : null != AA(this, _A, "f") && (TA(this, bA, AA(this, _A, "f"), "f"),
+                    AA(this, $T, "m", MA).call(this),
+                    AA(this, $T, "m", EA).call(this, !0))
                 }
                 )),
-                u.appendChild(EA(this, hA, "f")),
-                kA(this, dA, document.createElement("button"), "f"),
-                EA(this, dA, "f").className = "button icon-button disabled",
-                EA(this, dA, "f").innerHTML = '<img class="button-icon" src="images/verified.svg">',
-                EA(this, dA, "f").addEventListener("click", ( () => {
+                u.appendChild(AA(this, fA, "f")),
+                TA(this, mA, document.createElement("button"), "f"),
+                AA(this, mA, "f").className = "button icon-button disabled",
+                AA(this, mA, "f").innerHTML = '<img class="button-icon" src="images/verified.svg">',
+                AA(this, mA, "f").addEventListener("click", ( () => {
                     r.playUIClick(),
-                    kA(this, mA, !EA(this, mA, "f"), "f"),
-                    EA(this, mA, "f") ? EA(this, dA, "f").classList.remove("disabled") : EA(this, dA, "f").classList.add("disabled"),
-                    EA(this, KT, "m", bA).call(this, !1)
+                    TA(this, yA, !AA(this, yA, "f"), "f"),
+                    AA(this, yA, "f") ? AA(this, mA, "f").classList.remove("disabled") : AA(this, mA, "f").classList.add("disabled"),
+                    AA(this, $T, "m", EA).call(this, !1)
                 }
                 )),
-                u.appendChild(EA(this, dA, "f"))
+                u.appendChild(AA(this, mA, "f"))
             }
             dispose() {
-                EA(this, oA, "f").removeChild(EA(this, sA, "f"))
+                AA(this, hA, "f").removeChild(AA(this, dA, "f"))
             }
             static getPositionSuffix(e) {
                 if (e <= 0 || !Number.isInteger(e))
@@ -34577,11 +34585,7 @@
                 }
             }
         }
-        ZT = SA,
-        JT = new WeakMap,
-        QT = new WeakMap,
-        $T = new WeakMap,
-        eA = new WeakMap,
+        eA = CA,
         tA = new WeakMap,
         nA = new WeakMap,
         iA = new WeakMap,
@@ -34601,43 +34605,47 @@
         vA = new WeakMap,
         wA = new WeakMap,
         yA = new WeakMap,
-        KT = new WeakSet,
-        bA = function e(t) {
-            null != EA(this, pA, "f") && (EA(this, pA, "f").isCancelled = !0);
+        bA = new WeakMap,
+        xA = new WeakMap,
+        _A = new WeakMap,
+        kA = new WeakMap,
+        $T = new WeakSet,
+        EA = function e(t) {
+            null != AA(this, vA, "f") && (AA(this, vA, "f").isCancelled = !0);
             const n = {
                 isCancelled: !1
             };
-            kA(this, pA, n, "f"),
-            EA(this, lA, "f").innerHTML = "",
-            EA(this, lA, "f").appendChild(EA(this, cA, "f")),
-            kA(this, yA, null, "f"),
+            TA(this, vA, n, "f"),
+            AA(this, uA, "f").innerHTML = "",
+            AA(this, uA, "f").appendChild(AA(this, pA, "f")),
+            TA(this, kA, null, "f"),
             setTimeout(( () => {
                 if (!n.isCancelled) {
                     const i = 20
-                      , r = EA(this, gA, "f") * i;
-                    EA(this, $T, "f").getLeaderboard(EA(this, JT, "f"), r, i, EA(this, mA, "f")).then(( ({total: a, entries: o, userEntry: s}) => {
-                        if (!n.isCancelled && (kA(this, vA, Math.ceil(a / i), "f"),
-                        EA(this, KT, "m", _A).call(this),
+                      , r = AA(this, bA, "f") * i;
+                    AA(this, iA, "f").getLeaderboard(AA(this, tA, "f"), r, i, AA(this, yA, "f")).then(( ({total: a, entries: o, userEntry: s}) => {
+                        if (!n.isCancelled && (TA(this, xA, Math.ceil(a / i), "f"),
+                        AA(this, $T, "m", MA).call(this),
                         o.forEach(( ({id: e, name: t, time: n, carColors: i, verifiedState: a, isSelf: o}, s) => {
                             const l = r + s + 1;
-                            EA(this, KT, "m", xA).call(this, l, t, n, i, a, o, e)
+                            AA(this, $T, "m", SA).call(this, l, t, n, i, a, o, e)
                         }
                         )),
-                        null != s ? (kA(this, wA, Math.floor((s.position - 1) / i), "f"),
-                        EA(this, hA, "f").disabled = !1,
-                        t && null != EA(this, yA, "f") && EA(this, yA, "f").scrollIntoView(),
-                        EA(this, aA, "f").call(this, s)) : (kA(this, wA, null, "f"),
-                        EA(this, hA, "f").disabled = !0,
-                        EA(this, aA, "f").call(this, null)),
-                        !EA(this, fA, "f"))) {
-                            kA(this, fA, !0, "f");
+                        null != s ? (TA(this, _A, Math.floor((s.position - 1) / i), "f"),
+                        AA(this, fA, "f").disabled = !1,
+                        t && null != AA(this, kA, "f") && AA(this, kA, "f").scrollIntoView(),
+                        AA(this, cA, "f").call(this, s)) : (TA(this, _A, null, "f"),
+                        AA(this, fA, "f").disabled = !0,
+                        AA(this, cA, "f").call(this, null)),
+                        !AA(this, wA, "f"))) {
+                            TA(this, wA, !0, "f");
                             let n = null;
                             null != s && (n = {
                                 time: s.time,
                                 recordingId: s.id
                             }),
-                            EA(this, nA, "f").syncRecord(EA(this, tA, "f").profileSlot, EA(this, JT, "f"), n, EA(this, tA, "f").getCarColors()).then((n => {
-                                "Upload" == n && EA(this, KT, "m", e).call(this, t)
+                            AA(this, oA, "f").syncRecord(AA(this, aA, "f").profileSlot, AA(this, tA, "f"), n, AA(this, aA, "f").getCarColors()).then((n => {
+                                "Upload" == n && AA(this, $T, "m", e).call(this, t)
                             }
                             ))
                         }
@@ -34646,13 +34654,13 @@
                         if (!n.isCancelled) {
                             const e = document.createElement("p");
                             e.className = "error-message",
-                            e.textContent = EA(this, QT, "f").get("Error: Failed to load leaderboard"),
-                            EA(this, lA, "f").appendChild(e)
+                            e.textContent = AA(this, nA, "f").get("Error: Failed to load leaderboard"),
+                            AA(this, uA, "f").appendChild(e)
                         }
                         console.error(e)
                     }
                     )).finally(( () => {
-                        n.isCancelled || EA(this, lA, "f").removeChild(EA(this, cA, "f"))
+                        n.isCancelled || AA(this, uA, "f").removeChild(AA(this, pA, "f"))
                     }
                     ))
                 }
@@ -34660,18 +34668,18 @@
             ), 500)
         }
         ,
-        xA = function(e, t, n, i, r, a, o) {
+        SA = function(e, t, n, i, r, a, o) {
             const s = document.createElement("div");
             s.className = "buttons",
-            EA(this, lA, "f").appendChild(s);
+            AA(this, uA, "f").appendChild(s);
             const l = document.createElement("button");
-            a ? (kA(this, yA, l, "f"),
+            a ? (TA(this, kA, l, "f"),
             l.className = "button main",
             l.disabled = !0) : (l.className = "button main",
             l.addEventListener("click", ( () => {
-                EA(this, eA, "f").playUIClick(),
-                EA(this, iA, "f").call(this, new Promise(( (e, i) => {
-                    EA(this, $T, "f").getRecording(o).then(( ({recording: i, carColors: r}) => {
+                AA(this, rA, "f").playUIClick(),
+                AA(this, sA, "f").call(this, new Promise(( (e, i) => {
+                    AA(this, iA, "f").getRecording(o).then(( ({recording: i, carColors: r}) => {
                         e({
                             recording: i,
                             carColors: r,
@@ -34690,9 +34698,9 @@
             c.className = "button preview",
             c.innerHTML = '<img src="images/preview.svg">',
             c.addEventListener("click", ( () => {
-                EA(this, eA, "f").playUIClick(),
-                EA(this, rA, "f").call(this, new Promise(( (e, i) => {
-                    EA(this, $T, "f").getRecording(o).then(( ({recording: i, carColors: r}) => {
+                AA(this, rA, "f").playUIClick(),
+                AA(this, lA, "f").call(this, new Promise(( (e, i) => {
+                    AA(this, iA, "f").getRecording(o).then(( ({recording: i, carColors: r}) => {
                         e({
                             recording: i,
                             carColors: r,
@@ -34707,16 +34715,16 @@
             )),
             s.appendChild(c);
             const h = document.createElement("img");
-            h.src = YT(i),
+            h.src = QT(i),
             l.appendChild(h);
             const d = document.createElement("div");
             d.className = "left",
             l.appendChild(d);
             const u = document.createElement("p");
-            u.textContent = e + ZT.getPositionSuffix(e),
+            u.textContent = e + eA.getPositionSuffix(e),
             d.appendChild(u);
             const p = document.createElement("p");
-            p.textContent = sx.formatTimeString(n),
+            p.textContent = dx.formatTimeString(n),
             d.appendChild(p);
             const f = document.createElement("div");
             f.className = "right",
@@ -34727,58 +34735,58 @@
             f.appendChild(m);
             const g = document.createElement("p");
             1 == r ? (g.innerHTML = '<img src="images/state_verified.svg">',
-            g.prepend(document.createTextNode(EA(this, QT, "f").get("Verified"))),
+            g.prepend(document.createTextNode(AA(this, nA, "f").get("Verified"))),
             g.className = "verified-state verified") : 0 == r ? (g.innerHTML = '<img src="images/state_invalid.svg">',
-            g.prepend(document.createTextNode(EA(this, QT, "f").get("Invalid"))),
+            g.prepend(document.createTextNode(AA(this, nA, "f").get("Invalid"))),
             g.className = "verified-state invalid") : (g.innerHTML = '<img src="images/state_pending.svg">',
-            g.prepend(document.createTextNode(EA(this, QT, "f").get("Pending"))),
+            g.prepend(document.createTextNode(AA(this, nA, "f").get("Pending"))),
             g.className = "verified-state pending"),
             f.appendChild(g)
         }
         ,
-        _A = function e() {
-            EA(this, uA, "f").innerHTML = "";
+        MA = function e() {
+            AA(this, gA, "f").innerHTML = "";
             const t = document.createElement("button");
             t.className = "button",
             t.textContent = "<",
-            EA(this, gA, "f") > 0 ? t.addEventListener("click", ( () => {
-                EA(this, eA, "f").playUIClick(),
-                kA(this, gA, EA(this, gA, "f") - 1, "f"),
-                EA(this, KT, "m", e).call(this),
-                EA(this, KT, "m", bA).call(this, !1)
+            AA(this, bA, "f") > 0 ? t.addEventListener("click", ( () => {
+                AA(this, rA, "f").playUIClick(),
+                TA(this, bA, AA(this, bA, "f") - 1, "f"),
+                AA(this, $T, "m", e).call(this),
+                AA(this, $T, "m", EA).call(this, !1)
             }
             )) : t.disabled = !0,
-            EA(this, uA, "f").appendChild(t);
-            const n = Math.max(0, EA(this, gA, "f") - Math.floor(3.5));
+            AA(this, gA, "f").appendChild(t);
+            const n = Math.max(0, AA(this, bA, "f") - Math.floor(3.5));
             for (let t = n; t < n + 7; ++t) {
                 const n = document.createElement("button");
                 n.textContent = (t + 1).toString(),
-                t >= EA(this, vA, "f") ? (n.className = "button page",
-                n.disabled = !0) : t == EA(this, gA, "f") ? n.className = "button page selected" : (n.className = "button page",
+                t >= AA(this, xA, "f") ? (n.className = "button page",
+                n.disabled = !0) : t == AA(this, bA, "f") ? n.className = "button page selected" : (n.className = "button page",
                 n.addEventListener("click", ( () => {
-                    EA(this, eA, "f").playUIClick(),
-                    kA(this, gA, t, "f"),
-                    EA(this, KT, "m", e).call(this),
-                    EA(this, KT, "m", bA).call(this, !1)
+                    AA(this, rA, "f").playUIClick(),
+                    TA(this, bA, t, "f"),
+                    AA(this, $T, "m", e).call(this),
+                    AA(this, $T, "m", EA).call(this, !1)
                 }
                 ))),
-                EA(this, uA, "f").appendChild(n)
+                AA(this, gA, "f").appendChild(n)
             }
             const i = document.createElement("button");
             i.className = "button",
             i.textContent = ">",
-            EA(this, gA, "f") + 1 >= EA(this, vA, "f") ? i.disabled = !0 : i.addEventListener("click", ( () => {
-                EA(this, eA, "f").playUIClick(),
-                kA(this, gA, EA(this, gA, "f") + 1, "f"),
-                EA(this, KT, "m", e).call(this),
-                EA(this, KT, "m", bA).call(this, !1)
+            AA(this, bA, "f") + 1 >= AA(this, xA, "f") ? i.disabled = !0 : i.addEventListener("click", ( () => {
+                AA(this, rA, "f").playUIClick(),
+                TA(this, bA, AA(this, bA, "f") + 1, "f"),
+                AA(this, $T, "m", e).call(this),
+                AA(this, $T, "m", EA).call(this, !1)
             }
             )),
-            EA(this, uA, "f").appendChild(i)
+            AA(this, gA, "f").appendChild(i)
         }
         ;
-        const MA = SA;
-        var TA, AA, CA, PA, RA, LA, IA = function(e, t, n, i, r) {
+        const PA = CA;
+        var RA, LA, IA, NA, DA, UA, BA = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -34787,54 +34795,54 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, NA = function(e, t, n, i) {
+        }, OA = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        TA = new WeakMap,
-        AA = new WeakMap,
-        CA = new WeakMap,
-        PA = new WeakMap,
         RA = new WeakMap,
-        LA = new WeakMap;
-        const DA = class {
+        LA = new WeakMap,
+        IA = new WeakMap,
+        NA = new WeakMap,
+        DA = new WeakMap,
+        UA = new WeakMap;
+        const zA = class {
             constructor(e, t, n, i, r, a, o, s, l, c, h, d, u) {
                 var p;
-                TA.set(this, void 0),
-                AA.set(this, void 0),
-                CA.set(this, void 0),
-                PA.set(this, void 0),
                 RA.set(this, void 0),
                 LA.set(this, void 0),
-                IA(this, TA, e, "f"),
-                IA(this, AA, u, "f"),
-                IA(this, CA, document.createElement("div"), "f"),
-                NA(this, CA, "f").className = "track-info",
-                e.appendChild(NA(this, CA, "f"));
+                IA.set(this, void 0),
+                NA.set(this, void 0),
+                DA.set(this, void 0),
+                UA.set(this, void 0),
+                BA(this, RA, e, "f"),
+                BA(this, LA, u, "f"),
+                BA(this, IA, document.createElement("div"), "f"),
+                OA(this, IA, "f").className = "track-info",
+                e.appendChild(OA(this, IA, "f"));
                 const f = r.getRecord(i.profileSlot, s);
-                IA(this, RA, new MA(NA(this, CA, "f"),s,t,n,a,i,r,c,h,d,(e => {
-                    null == e || null != f && !e.time.lessOrEqual(f.time) ? w.textContent = t.get("Rank") + ": ---" : (v.textContent = t.get("Record") + ": " + sx.formatTimeString(e.time),
-                    w.textContent = t.get("Rank") + ": " + e.position + MA.getPositionSuffix(e.position))
+                BA(this, DA, new PA(OA(this, IA, "f"),s,t,n,a,i,r,c,h,d,(e => {
+                    null == e || null != f && !e.time.lessOrEqual(f.time) ? w.textContent = t.get("Rank") + ": ---" : (v.textContent = t.get("Record") + ": " + dx.formatTimeString(e.time),
+                    w.textContent = t.get("Rank") + ": " + e.position + PA.getPositionSuffix(e.position))
                 }
                 )), "f"),
-                IA(this, PA, document.createElement("div"), "f"),
-                NA(this, PA, "f").className = "side-panel",
-                NA(this, CA, "f").appendChild(NA(this, PA, "f"));
+                BA(this, NA, document.createElement("div"), "f"),
+                OA(this, NA, "f").className = "side-panel",
+                OA(this, IA, "f").appendChild(OA(this, NA, "f"));
                 const m = document.createElement("h2");
                 m.textContent = o,
-                NA(this, PA, "f").appendChild(m);
+                OA(this, NA, "f").appendChild(m);
                 const g = document.createElement("div");
                 g.className = "thumbnail",
                 g.appendChild(l),
-                NA(this, PA, "f").appendChild(g);
+                OA(this, NA, "f").appendChild(g);
                 const v = document.createElement("p");
-                v.textContent = t.get("Record") + ": " + sx.formatTimeString(null !== (p = null == f ? void 0 : f.time) && void 0 !== p ? p : null),
-                NA(this, PA, "f").appendChild(v);
+                v.textContent = t.get("Record") + ": " + dx.formatTimeString(null !== (p = null == f ? void 0 : f.time) && void 0 !== p ? p : null),
+                OA(this, NA, "f").appendChild(v);
                 const w = document.createElement("p");
-                NA(this, PA, "f").appendChild(w);
+                OA(this, NA, "f").appendChild(w);
                 const y = document.createElement("button");
                 y.className = "button play",
                 y.innerHTML = '<img src="images/play.svg">',
@@ -34843,7 +34851,7 @@
                     var e, t;
                     a.playUIClick();
                     const n = r.getRecord(i.profileSlot, s);
-                    NA(this, AA, "f").call(this, {
+                    OA(this, LA, "f").call(this, {
                         recording: null !== (e = null == n ? void 0 : n.recording) && void 0 !== e ? e : null,
                         carColors: null,
                         name: null,
@@ -34852,30 +34860,30 @@
                     })
                 }
                 )),
-                NA(this, PA, "f").appendChild(y),
-                window.addEventListener("keydown", IA(this, LA, (e => {
+                OA(this, NA, "f").appendChild(y),
+                window.addEventListener("keydown", BA(this, UA, (e => {
                     "Escape" == e.code && (c(),
                     e.preventDefault())
                 }
                 ), "f"))
             }
             dispose() {
-                NA(this, RA, "f").dispose(),
-                NA(this, TA, "f").removeChild(NA(this, CA, "f")),
-                window.removeEventListener("keydown", NA(this, LA, "f"))
+                OA(this, DA, "f").dispose(),
+                OA(this, RA, "f").removeChild(OA(this, IA, "f")),
+                window.removeEventListener("keydown", OA(this, UA, "f"))
             }
         }
         ;
-        var UA = n(140)
-          , BA = {};
-        BA.styleTagTransform = u(),
-        BA.setAttributes = l(),
-        BA.insert = o().bind(null, "head"),
-        BA.domAPI = r(),
-        BA.insertStyleElement = h();
-        t()(UA.A, BA);
-        UA.A && UA.A.locals && UA.A.locals;
-        var OA, zA, FA, WA, HA, VA, GA, jA, qA = function(e, t, n, i, r) {
+        var FA = n(140)
+          , WA = {};
+        WA.styleTagTransform = u(),
+        WA.setAttributes = l(),
+        WA.insert = o().bind(null, "head"),
+        WA.domAPI = r(),
+        WA.insertStyleElement = h();
+        t()(FA.A, WA);
+        FA.A && FA.A.locals && FA.A.locals;
+        var HA, VA, GA, jA, qA, XA, YA, KA, ZA = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -34884,30 +34892,30 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, XA = function(e, t, n, i) {
+        }, JA = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        zA = new WeakMap,
-        FA = new WeakMap,
-        WA = new WeakMap,
-        HA = new WeakMap,
         VA = new WeakMap,
         GA = new WeakMap,
-        OA = new WeakSet,
-        jA = function(e, t) {
-            const n = XA(this, WA, "f").getUserProfile(e)
+        jA = new WeakMap,
+        qA = new WeakMap,
+        XA = new WeakMap,
+        YA = new WeakMap,
+        HA = new WeakSet,
+        KA = function(e, t) {
+            const n = JA(this, jA, "f").getUserProfile(e)
               , i = document.createElement("div");
             i.className = "slot";
             const r = document.createElement("button");
             if (r.className = "button main",
-            e == XA(this, WA, "f").profileSlot && r.classList.add("selected"),
+            e == JA(this, jA, "f").profileSlot && r.classList.add("selected"),
             r.addEventListener("click", ( () => {
-                XA(this, FA, "f").playUIClick(),
-                XA(this, VA, "f").forEach((e => {
+                JA(this, GA, "f").playUIClick(),
+                JA(this, XA, "f").forEach((e => {
                     e.classList.remove("selected")
                 }
                 )),
@@ -34916,45 +34924,45 @@
             }
             )),
             i.appendChild(r),
-            XA(this, VA, "f").push(r),
+            JA(this, XA, "f").push(r),
             null != n) {
                 const e = document.createElement("img");
-                e.src = YT(n.carColors),
+                e.src = QT(n.carColors),
                 r.appendChild(e);
                 const t = document.createElement("p");
                 t.className = "name",
                 t.textContent = n.nickname,
                 r.appendChild(t)
             }
-            XA(this, HA, "f").appendChild(i)
+            JA(this, qA, "f").appendChild(i)
         }
         ;
-        const YA = class {
+        const QA = class {
             constructor(e, t, n, i, r, a) {
-                OA.add(this),
-                zA.set(this, void 0),
-                FA.set(this, void 0),
-                WA.set(this, void 0),
-                HA.set(this, void 0),
-                VA.set(this, []),
+                HA.add(this),
+                VA.set(this, void 0),
                 GA.set(this, void 0),
-                qA(this, zA, document.getElementById("ui"), "f"),
-                qA(this, FA, t, "f"),
-                qA(this, WA, n, "f"),
-                qA(this, HA, document.createElement("div"), "f"),
-                XA(this, HA, "f").className = "profile-selection",
-                XA(this, zA, "f").appendChild(XA(this, HA, "f"));
+                jA.set(this, void 0),
+                qA.set(this, void 0),
+                XA.set(this, []),
+                YA.set(this, void 0),
+                ZA(this, VA, document.getElementById("ui"), "f"),
+                ZA(this, GA, t, "f"),
+                ZA(this, jA, n, "f"),
+                ZA(this, qA, document.createElement("div"), "f"),
+                JA(this, qA, "f").className = "profile-selection",
+                JA(this, VA, "f").appendChild(JA(this, qA, "f"));
                 const o = document.createElement("div");
                 o.className = "top-bar",
-                XA(this, HA, "f").appendChild(o);
+                JA(this, qA, "f").appendChild(o);
                 const s = document.createElement("h2");
                 s.textContent = e.get("Profiles"),
                 o.appendChild(s);
                 for (let e = 0; e < 3; e++)
-                    XA(this, OA, "m", jA).call(this, e, a);
+                    JA(this, HA, "m", KA).call(this, e, a);
                 const l = document.createElement("div");
                 l.className = "bottom-bar",
-                XA(this, HA, "f").appendChild(l);
+                JA(this, qA, "f").appendChild(l);
                 const c = document.createElement("button");
                 c.className = "button",
                 c.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
@@ -34975,31 +34983,31 @@
                 }
                 )),
                 l.appendChild(h),
-                window.addEventListener("keydown", qA(this, GA, (e => {
+                window.addEventListener("keydown", ZA(this, YA, (e => {
                     "Escape" == e.code && (i(),
                     e.preventDefault())
                 }
                 ), "f"))
             }
             dispose() {
-                XA(this, zA, "f").removeChild(XA(this, HA, "f")),
-                window.removeEventListener("keydown", XA(this, GA, "f"))
+                JA(this, VA, "f").removeChild(JA(this, qA, "f")),
+                window.removeEventListener("keydown", JA(this, YA, "f"))
             }
         }
         ;
-        var KA = n(474)
-          , ZA = {};
-        ZA.styleTagTransform = u(),
-        ZA.setAttributes = l(),
-        ZA.insert = o().bind(null, "head"),
-        ZA.domAPI = r(),
-        ZA.insertStyleElement = h();
-        t()(KA.A, ZA);
-        KA.A && KA.A.locals && KA.A.locals;
-        function JA(e) {
+        var $A = n(474)
+          , eC = {};
+        eC.styleTagTransform = u(),
+        eC.setAttributes = l(),
+        eC.insert = o().bind(null, "head"),
+        eC.domAPI = r(),
+        eC.insertStyleElement = h();
+        t()($A.A, eC);
+        $A.A && $A.A.locals && $A.A.locals;
+        function tC(e) {
             return new Blob([e]).size
         }
-        var QA, $A, eC, tC, nC, iC, rC, aC, oC, sC = function(e, t, n, i, r) {
+        var nC, iC, rC, aC, oC, sC, lC, cC, hC, dC = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -35008,140 +35016,140 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, lC = function(e, t, n, i) {
+        }, uC = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        $A = new WeakMap,
-        eC = new WeakMap,
-        tC = new WeakMap,
-        nC = new WeakMap,
         iC = new WeakMap,
         rC = new WeakMap,
         aC = new WeakMap,
-        QA = new WeakSet,
-        oC = function() {
-            let e = lC(this, nC, "f").value;
+        oC = new WeakMap,
+        sC = new WeakMap,
+        lC = new WeakMap,
+        cC = new WeakMap,
+        nC = new WeakSet,
+        hC = function() {
+            let e = uC(this, oC, "f").value;
             return /\S/.test(e) || (e = "Anonymous"),
             e
         }
         ;
-        const cC = class {
+        const pC = class {
             constructor(e, t, n, i, r, a, o, s, l, c) {
-                QA.add(this),
-                $A.set(this, void 0),
-                eC.set(this, !1),
-                tC.set(this, void 0),
-                nC.set(this, void 0),
-                iC.set(this, null),
-                rC.set(this, null),
+                nC.add(this),
+                iC.set(this, void 0),
+                rC.set(this, !1),
                 aC.set(this, void 0),
-                sC(this, $A, document.getElementById("ui"), "f"),
-                sC(this, tC, document.createElement("div"), "f"),
-                lC(this, tC, "f").className = "nickname",
-                lC(this, $A, "f").appendChild(lC(this, tC, "f"));
+                oC.set(this, void 0),
+                sC.set(this, null),
+                lC.set(this, null),
+                cC.set(this, void 0),
+                dC(this, iC, document.getElementById("ui"), "f"),
+                dC(this, aC, document.createElement("div"), "f"),
+                uC(this, aC, "f").className = "nickname",
+                uC(this, iC, "f").appendChild(uC(this, aC, "f"));
                 const h = document.createElement("h1");
                 h.textContent = e.get("Nickname"),
-                lC(this, tC, "f").appendChild(h),
-                sC(this, nC, document.createElement("input"), "f"),
-                lC(this, nC, "f").type = "text",
-                lC(this, nC, "f").placeholder = "Anonymous",
-                lC(this, nC, "f").spellcheck = !1,
-                "Anonymous" != i && (lC(this, nC, "f").value = i),
-                lC(this, tC, "f").appendChild(lC(this, nC, "f")),
-                lC(this, nC, "f").focus(),
-                lC(this, nC, "f").addEventListener("input", ( () => {
-                    let e = lC(this, nC, "f").value;
-                    for (; JA(e) >= 50; )
+                uC(this, aC, "f").appendChild(h),
+                dC(this, oC, document.createElement("input"), "f"),
+                uC(this, oC, "f").type = "text",
+                uC(this, oC, "f").placeholder = "Anonymous",
+                uC(this, oC, "f").spellcheck = !1,
+                "Anonymous" != i && (uC(this, oC, "f").value = i),
+                uC(this, aC, "f").appendChild(uC(this, oC, "f")),
+                uC(this, oC, "f").focus(),
+                uC(this, oC, "f").addEventListener("input", ( () => {
+                    let e = uC(this, oC, "f").value;
+                    for (; tC(e) >= 50; )
                         e = e.substring(0, e.length - 1);
-                    lC(this, nC, "f").value = e
+                    uC(this, oC, "f").value = e
                 }
                 )),
-                lC(this, nC, "f").addEventListener("keydown", (e => {
-                    "Enter" == e.code && (l(lC(this, QA, "m", oC).call(this)),
+                uC(this, oC, "f").addEventListener("keydown", (e => {
+                    "Enter" == e.code && (l(uC(this, nC, "m", hC).call(this)),
                     e.preventDefault())
                 }
                 ));
                 const d = document.createElement("p");
                 d.textContent = e.get("Choose a nickname to be shown in the leaderboard. Your nickname can be changed at any time."),
-                lC(this, tC, "f").appendChild(d);
+                uC(this, aC, "f").appendChild(d);
                 const u = document.createElement("button");
                 u.className = "button delete",
                 u.innerHTML = ' <img class="button-icon" src="images/delete.svg"> ',
                 u.append(e.get("Delete")),
                 u.addEventListener("click", ( () => {
                     t.playUIClick(),
-                    o(lC(this, QA, "m", oC).call(this))
+                    o(uC(this, nC, "m", hC).call(this))
                 }
                 )),
-                lC(this, tC, "f").appendChild(u);
+                uC(this, aC, "f").appendChild(u);
                 const p = document.createElement("button");
                 p.className = "button",
                 p.innerHTML = '<img class="button-icon" src="images/export.svg"> ',
                 p.append(e.get("Export")),
                 p.addEventListener("click", ( () => {
                     t.playUIClick(),
-                    s(lC(this, QA, "m", oC).call(this))
+                    s(uC(this, nC, "m", hC).call(this))
                 }
                 )),
-                lC(this, tC, "f").appendChild(p);
+                uC(this, aC, "f").appendChild(p);
                 const f = document.createElement("button");
                 f.className = "button",
                 f.textContent = e.get("Ok"),
                 f.addEventListener("click", ( () => {
                     t.playUIClick(),
-                    l(lC(this, QA, "m", oC).call(this))
+                    l(uC(this, nC, "m", hC).call(this))
                 }
                 )),
-                lC(this, tC, "f").appendChild(f),
+                uC(this, aC, "f").appendChild(f),
                 null != r && n.getUser(r).then((n => {
                     const i = 1 == (null == n ? void 0 : n.isVerifier);
-                    !lC(this, eC, "f") && i && (sC(this, iC, document.createElement("button"), "f"),
-                    lC(this, iC, "f").className = "button nickname-verifier-button",
-                    lC(this, iC, "f").textContent = e.get("Verifier"),
-                    lC(this, iC, "f").addEventListener("click", ( () => {
+                    !uC(this, rC, "f") && i && (dC(this, sC, document.createElement("button"), "f"),
+                    uC(this, sC, "f").className = "button nickname-verifier-button",
+                    uC(this, sC, "f").textContent = e.get("Verifier"),
+                    uC(this, sC, "f").addEventListener("click", ( () => {
                         t.playUIClick(),
                         c()
                     }
                     )),
-                    lC(this, $A, "f").appendChild(lC(this, iC, "f")))
+                    uC(this, iC, "f").appendChild(uC(this, sC, "f")))
                 }
                 )).catch((e => {
                     console.error(e)
                 }
                 )),
-                null != a && (sC(this, rC, document.createElement("p"), "f"),
-                lC(this, rC, "f").className = "nickname-user-token",
-                lC(this, rC, "f").textContent = e.get("User ID") + ": " + a,
-                lC(this, $A, "f").appendChild(lC(this, rC, "f"))),
-                window.addEventListener("keydown", sC(this, aC, (e => {
-                    "Escape" == e.code && (l(lC(this, QA, "m", oC).call(this)),
+                null != a && (dC(this, lC, document.createElement("p"), "f"),
+                uC(this, lC, "f").className = "nickname-user-token",
+                uC(this, lC, "f").textContent = e.get("User ID") + ": " + a,
+                uC(this, iC, "f").appendChild(uC(this, lC, "f"))),
+                window.addEventListener("keydown", dC(this, cC, (e => {
+                    "Escape" == e.code && (l(uC(this, nC, "m", hC).call(this)),
                     e.preventDefault())
                 }
                 ), "f"))
             }
             dispose() {
-                lC(this, $A, "f").removeChild(lC(this, tC, "f")),
-                null != lC(this, iC, "f") && lC(this, $A, "f").removeChild(lC(this, iC, "f")),
-                null != lC(this, rC, "f") && lC(this, $A, "f").removeChild(lC(this, rC, "f")),
-                window.removeEventListener("keydown", lC(this, aC, "f")),
-                sC(this, eC, !0, "f")
+                uC(this, iC, "f").removeChild(uC(this, aC, "f")),
+                null != uC(this, sC, "f") && uC(this, iC, "f").removeChild(uC(this, sC, "f")),
+                null != uC(this, lC, "f") && uC(this, iC, "f").removeChild(uC(this, lC, "f")),
+                window.removeEventListener("keydown", uC(this, cC, "f")),
+                dC(this, rC, !0, "f")
             }
         }
         ;
-        var hC = n(818)
-          , dC = {};
-        dC.styleTagTransform = u(),
-        dC.setAttributes = l(),
-        dC.insert = o().bind(null, "head"),
-        dC.domAPI = r(),
-        dC.insertStyleElement = h();
-        t()(hC.A, dC);
-        hC.A && hC.A.locals && hC.A.locals;
-        var uC, pC, fC, mC = function(e, t, n, i, r) {
+        var fC = n(818)
+          , mC = {};
+        mC.styleTagTransform = u(),
+        mC.setAttributes = l(),
+        mC.insert = o().bind(null, "head"),
+        mC.domAPI = r(),
+        mC.insertStyleElement = h();
+        t()(fC.A, mC);
+        fC.A && fC.A.locals && fC.A.locals;
+        var gC, vC, wC, yC = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -35150,33 +35158,33 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, gC = function(e, t, n, i) {
+        }, bC = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        uC = new WeakMap,
-        pC = new WeakMap,
-        fC = new WeakMap;
-        const vC = class {
+        gC = new WeakMap,
+        vC = new WeakMap,
+        wC = new WeakMap;
+        const xC = class {
             constructor(e, t, n, i, r) {
-                uC.set(this, void 0),
-                pC.set(this, void 0),
-                fC.set(this, void 0),
-                mC(this, uC, document.getElementById("ui"), "f"),
-                mC(this, pC, document.createElement("div"), "f"),
-                gC(this, pC, "f").className = "user-export",
-                gC(this, uC, "f").appendChild(gC(this, pC, "f"));
+                gC.set(this, void 0),
+                vC.set(this, void 0),
+                wC.set(this, void 0),
+                yC(this, gC, document.getElementById("ui"), "f"),
+                yC(this, vC, document.createElement("div"), "f"),
+                bC(this, vC, "f").className = "user-export",
+                bC(this, gC, "f").appendChild(bC(this, vC, "f"));
                 const a = document.createElement("textarea");
                 a.value = n,
                 a.readOnly = null == r,
                 a.placeholder = "Paste user token here...",
-                gC(this, pC, "f").appendChild(a);
+                bC(this, vC, "f").appendChild(a);
                 const o = document.createElement("div");
                 o.className = "bar",
-                gC(this, pC, "f").appendChild(o);
+                bC(this, vC, "f").appendChild(o);
                 const s = document.createElement("button");
                 if (s.className = "button",
                 s.innerHTML = '<img class="button-icon" src="images/back.svg"> ',
@@ -35214,21 +35222,21 @@
                     )),
                     o.appendChild(n)
                 }
-                window.addEventListener("keydown", mC(this, fC, (e => {
+                window.addEventListener("keydown", yC(this, wC, (e => {
                     "Escape" == e.code && (i(),
                     e.preventDefault())
                 }
                 ), "f"))
             }
             dispose() {
-                gC(this, uC, "f").removeChild(gC(this, pC, "f")),
-                window.removeEventListener("keydown", gC(this, fC, "f"))
+                bC(this, gC, "f").removeChild(bC(this, vC, "f")),
+                window.removeEventListener("keydown", bC(this, wC, "f"))
             }
         }
-          , wC = {
-            rE: "0.4.1"
+          , _C = {
+            rE: "0.4.2"
         };
-        var yC, bC, xC, _C, kC, EC, SC, MC, TC, AC, CC, PC, RC, LC, IC, NC, DC, UC, BC, OC, zC, FC, WC, HC, VC = function(e, t, n, i, r) {
+        var kC, EC, SC, MC, TC, AC, CC, PC, RC, LC, IC, NC, DC, UC, BC, OC, zC, FC, WC, HC, VC, GC, jC, qC, XC = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -35237,17 +35245,13 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, GC = function(e, t, n, i) {
+        }, YC = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        bC = new WeakMap,
-        xC = new WeakMap,
-        _C = new WeakMap,
-        kC = new WeakMap,
         EC = new WeakMap,
         SC = new WeakMap,
         MC = new WeakMap,
@@ -35261,43 +35265,47 @@
         NC = new WeakMap,
         DC = new WeakMap,
         UC = new WeakMap,
-        yC = new WeakSet,
-        BC = function e(t, n, i, r, a, o, s, l, c, h, d, u, p, f, m, g, v) {
-            GC(this, _C, "f").innerHTML = "",
-            VC(this, kC, document.createElement("img"), "f"),
-            GC(this, kC, "f").src = "images/logo.svg",
-            GC(this, kC, "f").className = "logo",
-            GC(this, _C, "f").appendChild(GC(this, kC, "f")),
-            VC(this, TC, new Ax(GC(this, _C, "f"),t,n,s,l,h,a,o,u,!1,( () => {
-                GC(this, TC, "f").hide(),
-                GC(this, yC, "m", zC).call(this),
-                GC(this, yC, "m", WC).call(this)
+        BC = new WeakMap,
+        OC = new WeakMap,
+        zC = new WeakMap,
+        FC = new WeakMap,
+        kC = new WeakSet,
+        WC = function e(t, n, i, r, a, o, s, l, c, h, d, u, p, f, m, g, v) {
+            YC(this, MC, "f").innerHTML = "",
+            XC(this, TC, document.createElement("img"), "f"),
+            YC(this, TC, "f").src = "images/logo.svg",
+            YC(this, TC, "f").className = "logo",
+            YC(this, MC, "f").appendChild(YC(this, TC, "f")),
+            XC(this, RC, new Lx(YC(this, MC, "f"),t,n,s,l,h,a,o,u,!1,( () => {
+                YC(this, RC, "f").hide(),
+                YC(this, kC, "m", VC).call(this),
+                YC(this, kC, "m", jC).call(this)
             }
             ),( (e, i, r, a) => {
                 if (e.hasStartingPoint()) {
-                    GC(this, TC, "f").hide();
+                    YC(this, RC, "f").hide();
                     const l = () => {
                         var e;
-                        GC(this, TC, "f").show(),
-                        null === (e = GC(this, AC, "f")) || void 0 === e || e.dispose(),
-                        VC(this, AC, null, "f")
+                        YC(this, RC, "f").show(),
+                        null === (e = YC(this, LC, "f")) || void 0 === e || e.dispose(),
+                        XC(this, LC, null, "f")
                     }
                       , h = t => {
                         var n;
-                        null === (n = GC(this, AC, "f")) || void 0 === n || n.dispose(),
-                        VC(this, AC, null, "f"),
+                        null === (n = YC(this, LC, "f")) || void 0 === n || n.dispose(),
+                        XC(this, LC, null, "f"),
                         m(i, e, t)
                     }
                       , d = f => {
                         var g;
-                        null === (g = GC(this, AC, "f")) || void 0 === g || g.dispose(),
-                        VC(this, AC, null, "f"),
+                        null === (g = YC(this, LC, "f")) || void 0 === g || g.dispose(),
+                        XC(this, LC, null, "f"),
                         f.then((t => {
                             m(i, e, t)
                         }
                         )).catch(( () => {
                             u.show(t.get("Failed to load recording"), t.get("Ok"), ( () => {
-                                VC(this, AC, new DA(GC(this, _C, "f"),t,c,o,s,n,i,r,a,l,d,p,h), "f")
+                                XC(this, LC, new zA(YC(this, MC, "f"),t,c,o,s,n,i,r,a,l,d,p,h), "f")
                             }
                             ))
                         }
@@ -35305,26 +35313,26 @@
                     }
                       , p = f => {
                         var m;
-                        null === (m = GC(this, AC, "f")) || void 0 === m || m.dispose(),
-                        VC(this, AC, null, "f"),
+                        null === (m = YC(this, LC, "f")) || void 0 === m || m.dispose(),
+                        XC(this, LC, null, "f"),
                         f.then((t => {
                             g(e, t)
                         }
                         )).catch(( () => {
                             u.show(t.get("Failed to load recording"), t.get("Ok"), ( () => {
-                                VC(this, AC, new DA(GC(this, _C, "f"),t,c,o,s,n,i,r,a,l,d,p,h), "f")
+                                XC(this, LC, new zA(YC(this, MC, "f"),t,c,o,s,n,i,r,a,l,d,p,h), "f")
                             }
                             ))
                         }
                         ))
                     }
                     ;
-                    VC(this, AC, new DA(GC(this, _C, "f"),t,c,o,s,n,i,r,a,l,d,p,h), "f"),
-                    GC(this, yC, "m", FC).call(this)
+                    XC(this, LC, new zA(YC(this, MC, "f"),t,c,o,s,n,i,r,a,l,d,p,h), "f"),
+                    YC(this, kC, "m", GC).call(this)
                 } else
-                    GC(this, TC, "f").hide(),
+                    YC(this, RC, "f").hide(),
                     u.show(t.get("Track is missing starting point"), t.get("Ok"), ( () => {
-                        GC(this, TC, "f").show()
+                        YC(this, RC, "f").show()
                     }
                     ))
             }
@@ -35340,8 +35348,8 @@
             const y = document.createElement("p");
             y.textContent = t.get("Customize"),
             w.appendChild(y),
-            GC(this, _C, "f").appendChild(w),
-            GC(this, IC, "f").push(w);
+            YC(this, MC, "f").appendChild(w),
+            YC(this, BC, "f").push(w);
             const b = document.createElement("button");
             b.className = "hidden",
             b.innerHTML = '<img src="images/editor.svg">',
@@ -35353,20 +35361,20 @@
             const x = document.createElement("p");
             x.textContent = t.get("Editor"),
             b.appendChild(x),
-            GC(this, _C, "f").appendChild(b),
-            GC(this, IC, "f").push(b);
+            YC(this, MC, "f").appendChild(b),
+            YC(this, BC, "f").push(b);
             const _ = document.createElement("button");
             _.className = "hidden",
             _.innerHTML = '<img src="images/settings.svg">',
             _.addEventListener("click", ( () => {
                 n.playUIClick(),
-                GC(this, yC, "m", OC).call(this),
-                GC(this, yC, "m", FC).call(this),
-                VC(this, CC, new BT(GC(this, _C, "f"),t,n,d,r,u,( () => {
+                YC(this, kC, "m", HC).call(this),
+                YC(this, kC, "m", GC).call(this),
+                XC(this, IC, new WT(YC(this, MC, "f"),t,n,d,r,u,( () => {
                     var w;
-                    null === (w = GC(this, CC, "f")) || void 0 === w || w.dispose(),
-                    VC(this, CC, null, "f"),
-                    GC(this, yC, "m", e).call(this, t, n, i, r, a, o, s, l, c, h, d, u, p, f, m, g, v)
+                    null === (w = YC(this, IC, "f")) || void 0 === w || w.dispose(),
+                    XC(this, IC, null, "f"),
+                    YC(this, kC, "m", e).call(this, t, n, i, r, a, o, s, l, c, h, d, u, p, f, m, g, v)
                 }
                 )), "f")
             }
@@ -35374,25 +35382,25 @@
             const k = document.createElement("p");
             k.textContent = t.get("Settings"),
             _.appendChild(k),
-            GC(this, _C, "f").appendChild(_),
-            GC(this, IC, "f").push(_);
+            YC(this, MC, "f").appendChild(_),
+            YC(this, BC, "f").push(_);
             const E = document.createElement("button");
             E.className = "hidden",
             E.innerHTML = '<img src="images/helmet.svg">',
             E.addEventListener("click", ( () => {
                 n.playUIClick(),
-                GC(this, yC, "m", OC).call(this);
+                YC(this, kC, "m", HC).call(this);
                 const e = (i, a) => {
-                    VC(this, LC, new vC(n,t,a,( () => {
+                    XC(this, UC, new xC(n,t,a,( () => {
                         var e;
-                        null === (e = GC(this, LC, "f")) || void 0 === e || e.dispose(),
-                        VC(this, LC, null, "f"),
+                        null === (e = YC(this, UC, "f")) || void 0 === e || e.dispose(),
+                        XC(this, UC, null, "f"),
                         r()
                     }
                     ),(n => {
                         var a;
-                        null === (a = GC(this, LC, "f")) || void 0 === a || a.dispose(),
-                        VC(this, LC, null, "f"),
+                        null === (a = YC(this, UC, "f")) || void 0 === a || a.dispose(),
+                        XC(this, UC, null, "f"),
                         o.hasDuplicateToken(n) ? u.show(t.get("You cannot have duplicate user profiles"), t.get("Ok"), ( () => {
                             e(i, n)
                         }
@@ -35422,13 +35430,13 @@
                 }
                   , i = (e, a) => {
                     var s;
-                    null === (s = GC(this, PC, "f")) || void 0 === s || s.dispose(),
-                    VC(this, PC, null, "f"),
+                    null === (s = YC(this, NC, "f")) || void 0 === s || s.dispose(),
+                    XC(this, NC, null, "f"),
                     null != a || (a = o.getNickname(e)),
-                    VC(this, RC, new cC(t,n,c,a,o.getToken(e),o.getTokenHash(e),(n => {
+                    XC(this, DC, new pC(t,n,c,a,o.getToken(e),o.getTokenHash(e),(n => {
                         var a;
-                        null === (a = GC(this, RC, "f")) || void 0 === a || a.dispose(),
-                        VC(this, RC, null, "f"),
+                        null === (a = YC(this, DC, "f")) || void 0 === a || a.dispose(),
+                        XC(this, DC, null, "f"),
                         u.showConfirm(t.get('Are you sure you would like to delete "{0}"?', [n]), t.get("Cancel"), t.get("Confirm"), ( () => {
                             i(e, n)
                         }
@@ -35442,17 +35450,17 @@
                     }
                     ),(r => {
                         var a;
-                        null === (a = GC(this, RC, "f")) || void 0 === a || a.dispose(),
-                        VC(this, RC, null, "f"),
+                        null === (a = YC(this, DC, "f")) || void 0 === a || a.dispose(),
+                        XC(this, DC, null, "f"),
                         u.showConfirm(t.get("Are you sure you want to display your private key?") + "\n\n" + t.get("DO NOT SHARE THIS KEY WITH ANYONE."), t.get("Cancel"), t.get("Confirm"), ( () => {
                             i(e, r)
                         }
                         ), ( () => {
                             var a;
-                            VC(this, LC, new vC(n,t,null !== (a = o.getToken(e)) && void 0 !== a ? a : "",( () => {
+                            XC(this, UC, new xC(n,t,null !== (a = o.getToken(e)) && void 0 !== a ? a : "",( () => {
                                 var t;
-                                null === (t = GC(this, LC, "f")) || void 0 === t || t.dispose(),
-                                VC(this, LC, null, "f"),
+                                null === (t = YC(this, UC, "f")) || void 0 === t || t.dispose(),
+                                XC(this, UC, null, "f"),
                                 i(e, r)
                             }
                             ),null), "f")
@@ -35461,8 +35469,8 @@
                     }
                     ),(t => {
                         var n;
-                        null === (n = GC(this, RC, "f")) || void 0 === n || n.dispose(),
-                        VC(this, RC, null, "f"),
+                        null === (n = YC(this, DC, "f")) || void 0 === n || n.dispose(),
+                        XC(this, DC, null, "f"),
                         o.setNickname(t, e),
                         c.submitUserProfile(o.getToken(e), t, o.getCarColors(e)),
                         o.setProfileSlot(e),
@@ -35470,24 +35478,24 @@
                     }
                     ),( () => {
                         var t;
-                        null === (t = GC(this, RC, "f")) || void 0 === t || t.dispose(),
-                        VC(this, RC, null, "f"),
+                        null === (t = YC(this, DC, "f")) || void 0 === t || t.dispose(),
+                        XC(this, DC, null, "f"),
                         v(o.getToken(e)),
-                        GC(this, yC, "m", zC).call(this)
+                        YC(this, kC, "m", VC).call(this)
                     }
                     )), "f")
                 }
                   , r = () => {
-                    VC(this, PC, new YA(t,n,o,( () => {
+                    XC(this, NC, new QA(t,n,o,( () => {
                         var e;
-                        null === (e = GC(this, PC, "f")) || void 0 === e || e.dispose(),
-                        VC(this, PC, null, "f"),
-                        GC(this, yC, "m", zC).call(this)
+                        null === (e = YC(this, NC, "f")) || void 0 === e || e.dispose(),
+                        XC(this, NC, null, "f"),
+                        YC(this, kC, "m", VC).call(this)
                     }
                     ),( () => {
                         var n;
-                        null === (n = GC(this, PC, "f")) || void 0 === n || n.dispose(),
-                        VC(this, PC, null, "f");
+                        null === (n = YC(this, NC, "f")) || void 0 === n || n.dispose(),
+                        XC(this, NC, null, "f");
                         const i = o.firstFreeProfileSlot();
                         null == i ? u.show(t.get("You need a free user profile slot to import a new user profile"), t.get("Ok"), ( () => {
                             r()
@@ -35503,26 +35511,26 @@
             const S = document.createElement("p");
             S.textContent = t.get("Profile"),
             E.appendChild(S),
-            GC(this, _C, "f").appendChild(E),
-            GC(this, IC, "f").push(E);
+            YC(this, MC, "f").appendChild(E),
+            YC(this, BC, "f").push(E);
             const M = document.createElement("button");
             M.className = "hidden",
             M.innerHTML = '<img src="images/play.svg">',
             M.addEventListener("click", ( () => {
                 n.playUIClick(),
-                GC(this, yC, "m", OC).call(this),
-                GC(this, yC, "m", FC).call(this),
-                GC(this, TC, "f").show()
+                YC(this, kC, "m", HC).call(this),
+                YC(this, kC, "m", GC).call(this),
+                YC(this, RC, "f").show()
             }
             ));
             const T = document.createElement("p");
             T.textContent = t.get("Play"),
             M.appendChild(T),
-            GC(this, _C, "f").appendChild(M),
-            GC(this, IC, "f").push(M);
+            YC(this, MC, "f").appendChild(M),
+            YC(this, BC, "f").push(M);
             const A = document.createElement("div");
             if (A.className = "bottom-buttons",
-            GC(this, _C, "f").appendChild(A),
+            YC(this, MC, "f").appendChild(A),
             window.electron) {
                 const e = document.createElement("button");
                 e.className = "button small",
@@ -35534,137 +35542,143 @@
                 }
                 )),
                 A.appendChild(e),
-                GC(this, NC, "f").push(e)
+                YC(this, OC, "f").push(e)
             }
-            VC(this, EC, document.createElement("a"), "f"),
-            GC(this, EC, "f").className = "discord-link",
-            GC(this, EC, "f").href = "https://www.kodub.com/discord/polytrack",
-            GC(this, EC, "f").target = "_blank",
-            GC(this, EC, "f").innerHTML = '<img src="images/discord.svg">',
-            GC(this, _C, "f").appendChild(GC(this, EC, "f")),
-            VC(this, SC, document.createElement("div"), "f"),
-            GC(this, SC, "f").className = "info",
-            GC(this, _C, "f").appendChild(GC(this, SC, "f"));
+            XC(this, AC, document.createElement("a"), "f"),
+            YC(this, AC, "f").className = "discord-link",
+            YC(this, AC, "f").href = "https://www.kodub.com/discord/polytrack",
+            YC(this, AC, "f").target = "_blank",
+            YC(this, AC, "f").innerHTML = '<img src="images/discord.svg">',
+            YC(this, MC, "f").appendChild(YC(this, AC, "f")),
+            XC(this, CC, document.createElement("div"), "f"),
+            YC(this, CC, "f").className = "info",
+            YC(this, MC, "f").appendChild(YC(this, CC, "f"));
             const C = document.createElement("a");
             C.href = "https://www.kodub.com",
             C.target = "_blank",
-            C.textContent = "kodub.com - " + t.get("Version") + " " + wC.rE,
-            GC(this, SC, "f").appendChild(C);
+            C.textContent = "kodub.com - " + t.get("Version") + " " + _C.rE,
+            YC(this, CC, "f").appendChild(C);
             const P = document.createElement("a");
             P.href = "https://opengameart.org/content/sci-fi-theme-1",
             P.target = "_blank",
-            P.textContent = '"Sci-fi Theme" by Maou (CC-BY 4.0)',
-            GC(this, SC, "f").appendChild(P),
-            i.hasLoaded() ? GC(this, yC, "m", zC).call(this) : (VC(this, MC, new uT(GC(this, _C, "f"),t,i), "f"),
+            P.textContent = 'OpenGameArt.org "Sci-fi Theme" by Maou (CC-BY 4.0)',
+            YC(this, CC, "f").appendChild(P),
+            YC(this, CC, "f").appendChild(document.createElement("br"));
+            const R = document.createElement("a");
+            R.href = "https://www.kodub.com/privacy/polytrack",
+            R.target = "_blank",
+            R.textContent = "Privacy Policy",
+            YC(this, CC, "f").appendChild(R),
+            i.hasLoaded() ? YC(this, kC, "m", VC).call(this) : (XC(this, PC, new gT(YC(this, MC, "f"),t,i), "f"),
             i.addCompleteListener(( () => {
                 var e;
-                null === (e = GC(this, MC, "f")) || void 0 === e || e.dispose(),
-                VC(this, MC, null, "f");
+                null === (e = YC(this, PC, "f")) || void 0 === e || e.dispose(),
+                XC(this, PC, null, "f");
                 null == o.getToken() ? (E.disabled = !0,
-                GC(this, yC, "m", FC).call(this),
+                YC(this, kC, "m", GC).call(this),
                 u.show(t.get("Failed to create user token.") + " " + t.get("Leaderboard is disabled.") + "\n\n" + t.get("Please try another browser or device."), t.get("Ok"), ( () => {
-                    GC(this, yC, "m", WC).call(this),
-                    GC(this, yC, "m", zC).call(this)
+                    YC(this, kC, "m", jC).call(this),
+                    YC(this, kC, "m", VC).call(this)
                 }
                 ))) : c.submitAllowed ? (E.disabled = !1,
-                GC(this, yC, "m", zC).call(this)) : (E.disabled = !0,
-                GC(this, yC, "m", FC).call(this),
+                YC(this, kC, "m", VC).call(this)) : (E.disabled = !0,
+                YC(this, kC, "m", GC).call(this),
                 u.show(t.get("Computer determinism check failed.") + " " + t.get("Leaderboard is disabled.") + "\n\n" + t.get("Please try another browser or device."), t.get("Ok"), ( () => {
-                    GC(this, yC, "m", WC).call(this),
-                    GC(this, yC, "m", zC).call(this)
+                    YC(this, kC, "m", jC).call(this),
+                    YC(this, kC, "m", VC).call(this)
                 }
                 )))
             }
             )))
         }
         ,
-        OC = function() {
-            GC(this, IC, "f").forEach((e => {
+        HC = function() {
+            YC(this, BC, "f").forEach((e => {
                 e.className = "hidden"
             }
             )),
-            GC(this, NC, "f").forEach((e => {
+            YC(this, OC, "f").forEach((e => {
                 e.classList.add("hidden")
             }
             )),
-            GC(this, EC, "f").className = "hidden",
-            GC(this, SC, "f").className = "hidden"
+            YC(this, AC, "f").className = "hidden",
+            YC(this, CC, "f").className = "hidden"
         }
         ,
-        zC = function() {
-            GC(this, IC, "f").forEach((e => {
+        VC = function() {
+            YC(this, BC, "f").forEach((e => {
                 e.className = "button-image button"
             }
             )),
-            GC(this, NC, "f").forEach((e => {
+            YC(this, OC, "f").forEach((e => {
                 e.classList.remove("hidden")
             }
             )),
-            GC(this, EC, "f").className = "discord-link",
-            GC(this, SC, "f").className = "info"
+            YC(this, AC, "f").className = "discord-link",
+            YC(this, CC, "f").className = "info"
         }
         ,
-        FC = function() {
-            GC(this, kC, "f").className = "hidden"
+        GC = function() {
+            YC(this, TC, "f").className = "hidden"
         }
         ,
-        WC = function() {
-            GC(this, kC, "f").className = "logo"
+        jC = function() {
+            YC(this, TC, "f").className = "logo"
         }
         ,
-        HC = function() {
-            const e = GC(this, bC, "f").getBounds()
-              , t = new ln((e.min.x + (e.max.x - e.min.x) / 2) * Ky.partWidth,(e.min.y + (e.max.y - e.min.y) / 2) * Ky.partLength);
-            GC(this, DC, "f").position.set(t.x + 250 * Math.cos(GC(this, UC, "f")), 100, t.y - 250 * Math.sin(GC(this, UC, "f"))),
-            GC(this, DC, "f").rotation.y = GC(this, UC, "f") + Math.PI / 2
+        qC = function() {
+            const e = YC(this, EC, "f").getBounds()
+              , t = new ln((e.min.x + (e.max.x - e.min.x) / 2) * $y.partWidth,(e.min.y + (e.max.y - e.min.y) / 2) * $y.partLength);
+            YC(this, zC, "f").position.set(t.x + 250 * Math.cos(YC(this, FC, "f")), 100, t.y - 250 * Math.sin(YC(this, FC, "f"))),
+            YC(this, zC, "f").rotation.y = YC(this, FC, "f") + Math.PI / 2
         }
         ;
-        const jC = class {
+        const KC = class {
             constructor(e, t, n, i, r, a, o, s, l, c, h, d, u, p, f, m, g, v) {
-                yC.add(this),
-                bC.set(this, void 0),
-                xC.set(this, void 0),
-                _C.set(this, void 0),
-                kC.set(this, void 0),
+                kC.add(this),
                 EC.set(this, void 0),
                 SC.set(this, void 0),
-                MC.set(this, null),
+                MC.set(this, void 0),
                 TC.set(this, void 0),
-                AC.set(this, null),
-                CC.set(this, null),
+                AC.set(this, void 0),
+                CC.set(this, void 0),
                 PC.set(this, null),
-                RC.set(this, null),
+                RC.set(this, void 0),
                 LC.set(this, null),
-                IC.set(this, []),
-                NC.set(this, []),
-                DC.set(this, void 0),
-                UC.set(this, Math.random() * Math.PI * 2),
-                VC(this, bC, r, "f"),
-                VC(this, xC, document.getElementById("ui"), "f"),
-                VC(this, _C, document.createElement("div"), "f"),
-                GC(this, _C, "f").className = "menu",
-                GC(this, yC, "m", BC).call(this, e, t, i, r, a, o, s, l, c, h, d, u, p, f, m, g, v),
-                GC(this, xC, "f").appendChild(GC(this, _C, "f")),
-                VC(this, DC, new Kr(70,1,.1,1e4), "f"),
-                n.scene.add(GC(this, DC, "f")),
-                GC(this, yC, "m", HC).call(this)
+                IC.set(this, null),
+                NC.set(this, null),
+                DC.set(this, null),
+                UC.set(this, null),
+                BC.set(this, []),
+                OC.set(this, []),
+                zC.set(this, void 0),
+                FC.set(this, Math.random() * Math.PI * 2),
+                XC(this, EC, r, "f"),
+                XC(this, SC, document.getElementById("ui"), "f"),
+                XC(this, MC, document.createElement("div"), "f"),
+                YC(this, MC, "f").className = "menu",
+                YC(this, kC, "m", WC).call(this, e, t, i, r, a, o, s, l, c, h, d, u, p, f, m, g, v),
+                YC(this, SC, "f").appendChild(YC(this, MC, "f")),
+                XC(this, zC, new Kr(70,1,.1,1e4), "f"),
+                n.scene.add(YC(this, zC, "f")),
+                YC(this, kC, "m", qC).call(this)
             }
             dispose() {
                 var e;
-                GC(this, xC, "f").removeChild(GC(this, _C, "f")),
-                null === (e = GC(this, AC, "f")) || void 0 === e || e.dispose(),
-                VC(this, AC, null, "f")
+                YC(this, SC, "f").removeChild(YC(this, MC, "f")),
+                null === (e = YC(this, LC, "f")) || void 0 === e || e.dispose(),
+                XC(this, LC, null, "f")
             }
             get camera() {
-                return GC(this, DC, "f")
+                return YC(this, zC, "f")
             }
             update(e) {
-                VC(this, UC, GC(this, UC, "f") + .05 * e, "f"),
-                GC(this, yC, "m", HC).call(this)
+                XC(this, FC, YC(this, FC, "f") + .05 * e, "f"),
+                YC(this, kC, "m", qC).call(this)
             }
         }
         ;
-        var qC, XC, YC, KC, ZC, JC, QC, $C, eP, tP, nP, iP, rP, aP = function(e, t, n, i, r) {
+        var ZC, JC, QC, $C, eP, tP, nP, iP, rP, aP, oP, sP, lP, cP = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -35673,17 +35687,13 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, oP = function(e, t, n, i) {
+        }, hP = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        XC = new WeakMap,
-        YC = new WeakMap,
-        KC = new WeakMap,
-        ZC = new WeakMap,
         JC = new WeakMap,
         QC = new WeakMap,
         $C = new WeakMap,
@@ -35691,78 +35701,82 @@
         tP = new WeakMap,
         nP = new WeakMap,
         iP = new WeakMap,
-        qC = new WeakSet,
-        rP = function() {
-            oP(this, YC, "f").loadTrackData(oP(this, ZC, "f").getRandomTrackData(!1)),
-            oP(this, YC, "f").generateMeshes(),
-            oP(this, KC, "f").generateMountains(oP(this, YC, "f").getBounds());
+        rP = new WeakMap,
+        aP = new WeakMap,
+        oP = new WeakMap,
+        sP = new WeakMap,
+        ZC = new WeakSet,
+        lP = function() {
+            hP(this, QC, "f").loadTrackData(hP(this, eP, "f").getRandomTrackData(!1)),
+            hP(this, QC, "f").generateMeshes(),
+            hP(this, $C, "f").generateMountains(hP(this, QC, "f").getBounds());
             let e = null;
-            const t = oP(this, YC, "f").getID();
+            const t = hP(this, QC, "f").getID();
             if (null != t) {
-                const n = oP(this, JC, "f").getRecord(oP(this, tP, "f").profileSlot, t);
+                const n = hP(this, tP, "f").getRecord(hP(this, aP, "f").profileSlot, t);
                 null != n && (e = n.recording)
             }
-            null != e && (aP(this, iP, new Uv(oP(this, XC, "f"),oP(this, YC, "f").getStartTransform(),e,null,!1,oP(this, $C, "f"),oP(this, eP, "f"),oP(this, KC, "f"),oP(this, YC, "f"),oP(this, QC, "f")), "f"),
-            oP(this, iP, "f").audioVolume = 0,
-            oP(this, iP, "f").start())
+            null != e && (cP(this, sP, new Fv(hP(this, JC, "f"),hP(this, QC, "f").getStartTransform(),e,null,!1,hP(this, iP, "f"),hP(this, rP, "f"),hP(this, $C, "f"),hP(this, QC, "f"),hP(this, nP, "f")), "f"),
+            hP(this, sP, "f").audioVolume = 0,
+            hP(this, sP, "f").start())
         }
         ;
-        const sP = class {
+        const dP = class {
             constructor(e, t, n, i, r, a, o, s, l, c, h, d, u, p, f, m, g, v, w, y) {
-                qC.add(this),
-                XC.set(this, void 0),
-                YC.set(this, void 0),
-                KC.set(this, void 0),
-                ZC.set(this, void 0),
+                ZC.add(this),
                 JC.set(this, void 0),
                 QC.set(this, void 0),
                 $C.set(this, void 0),
                 eP.set(this, void 0),
                 tP.set(this, void 0),
                 nP.set(this, void 0),
-                iP.set(this, null),
-                aP(this, XC, e, "f"),
-                aP(this, YC, t, "f"),
-                aP(this, KC, i, "f"),
-                aP(this, ZC, r, "f"),
-                aP(this, JC, l, "f"),
-                aP(this, QC, u, "f"),
-                aP(this, $C, c, "f"),
-                aP(this, eP, h, "f"),
-                aP(this, tP, s, "f"),
-                aP(this, nP, new jC(a,h,c,f,t,n,s,l,d,p,r,u,o,m,g,v,w,y), "f"),
-                c.setCamera(oP(this, nP, "f").camera),
-                f.hasLoaded() ? oP(this, qC, "m", rP).call(this) : f.addCompleteListener(( () => {
-                    oP(this, qC, "m", rP).call(this)
+                iP.set(this, void 0),
+                rP.set(this, void 0),
+                aP.set(this, void 0),
+                oP.set(this, void 0),
+                sP.set(this, null),
+                cP(this, JC, e, "f"),
+                cP(this, QC, t, "f"),
+                cP(this, $C, i, "f"),
+                cP(this, eP, r, "f"),
+                cP(this, tP, l, "f"),
+                cP(this, nP, u, "f"),
+                cP(this, iP, c, "f"),
+                cP(this, rP, h, "f"),
+                cP(this, aP, s, "f"),
+                cP(this, oP, new KC(a,h,c,f,t,n,s,l,d,p,r,u,o,m,g,v,w,y), "f"),
+                c.setCamera(hP(this, oP, "f").camera),
+                f.hasLoaded() ? hP(this, ZC, "m", lP).call(this) : f.addCompleteListener(( () => {
+                    hP(this, ZC, "m", lP).call(this)
                 }
                 ))
             }
             dispose() {
                 var e;
-                null === (e = oP(this, iP, "f")) || void 0 === e || e.dispose(),
-                oP(this, nP, "f").dispose(),
-                oP(this, YC, "f").clear(),
-                oP(this, KC, "f").clearMountains()
+                null === (e = hP(this, sP, "f")) || void 0 === e || e.dispose(),
+                hP(this, oP, "f").dispose(),
+                hP(this, QC, "f").clear(),
+                hP(this, $C, "f").clearMountains()
             }
             update(e) {
                 var t, n;
-                null === (t = oP(this, iP, "f")) || void 0 === t || t.update(e),
-                oP(this, nP, "f").update(e),
-                oP(this, $C, "f").update(null === (n = oP(this, iP, "f")) || void 0 === n ? void 0 : n.getPosition()),
-                oP(this, eP, "f").update(e, !0, oP(this, $C, "f"), oP(this, QC, "f"))
+                null === (t = hP(this, sP, "f")) || void 0 === t || t.update(e),
+                hP(this, oP, "f").update(e),
+                hP(this, iP, "f").update(null === (n = hP(this, sP, "f")) || void 0 === n ? void 0 : n.getPosition()),
+                hP(this, rP, "f").update(e, !0, hP(this, iP, "f"), hP(this, nP, "f"))
             }
         }
         ;
-        var lP = n(437)
-          , cP = {};
-        cP.styleTagTransform = u(),
-        cP.setAttributes = l(),
-        cP.insert = o().bind(null, "head"),
-        cP.domAPI = r(),
-        cP.insertStyleElement = h();
-        t()(lP.A, cP);
-        lP.A && lP.A.locals && lP.A.locals;
-        var hP, dP, uP, pP, fP, mP, gP, vP, wP, yP = function(e, t, n, i, r) {
+        var uP = n(437)
+          , pP = {};
+        pP.styleTagTransform = u(),
+        pP.setAttributes = l(),
+        pP.insert = o().bind(null, "head"),
+        pP.domAPI = r(),
+        pP.insertStyleElement = h();
+        t()(uP.A, pP);
+        uP.A && uP.A.locals && uP.A.locals;
+        var fP, mP, gP, vP, wP, yP, bP, xP, _P, kP = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -35771,67 +35785,67 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, bP = function(e, t, n, i) {
+        }, EP = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        hP = new WeakMap,
-        dP = new WeakMap,
-        uP = new WeakMap,
-        pP = new WeakMap,
         fP = new WeakMap,
         mP = new WeakMap,
         gP = new WeakMap,
         vP = new WeakMap,
-        wP = new WeakMap;
-        const xP = class {
+        wP = new WeakMap,
+        yP = new WeakMap,
+        bP = new WeakMap,
+        xP = new WeakMap,
+        _P = new WeakMap;
+        const SP = class {
             constructor(e) {
-                hP.set(this, !1),
-                dP.set(this, void 0),
-                uP.set(this, void 0),
-                pP.set(this, void 0),
-                fP.set(this, void 0),
+                fP.set(this, !1),
                 mP.set(this, void 0),
                 gP.set(this, void 0),
-                vP.set(this, null),
-                wP.set(this, null);
+                vP.set(this, void 0),
+                wP.set(this, void 0),
+                yP.set(this, void 0),
+                bP.set(this, void 0),
+                xP.set(this, null),
+                _P.set(this, null);
                 const t = document.getElementById("ui");
-                yP(this, dP, document.createElement("div"), "f"),
-                bP(this, dP, "f").className = "hidden",
-                t.appendChild(bP(this, dP, "f")),
-                yP(this, uP, document.createElement("div"), "f"),
-                bP(this, uP, "f").className = "background",
-                bP(this, dP, "f").appendChild(bP(this, uP, "f")),
-                yP(this, pP, document.createElement("div"), "f"),
-                bP(this, pP, "f").className = "box",
-                bP(this, dP, "f").appendChild(bP(this, pP, "f")),
-                yP(this, fP, document.createElement("p"), "f"),
-                bP(this, pP, "f").appendChild(bP(this, fP, "f")),
-                yP(this, mP, document.createElement("button"), "f"),
-                bP(this, mP, "f").className = "button",
-                bP(this, mP, "f").addEventListener("click", ( () => {
+                kP(this, mP, document.createElement("div"), "f"),
+                EP(this, mP, "f").className = "hidden",
+                t.appendChild(EP(this, mP, "f")),
+                kP(this, gP, document.createElement("div"), "f"),
+                EP(this, gP, "f").className = "background",
+                EP(this, mP, "f").appendChild(EP(this, gP, "f")),
+                kP(this, vP, document.createElement("div"), "f"),
+                EP(this, vP, "f").className = "box",
+                EP(this, mP, "f").appendChild(EP(this, vP, "f")),
+                kP(this, wP, document.createElement("p"), "f"),
+                EP(this, vP, "f").appendChild(EP(this, wP, "f")),
+                kP(this, yP, document.createElement("button"), "f"),
+                EP(this, yP, "f").className = "button",
+                EP(this, yP, "f").addEventListener("click", ( () => {
                     e.playUIClick(),
-                    yP(this, hP, !1, "f"),
-                    null != bP(this, vP, "f") && bP(this, vP, "f").call(this),
-                    bP(this, hP, "f") || this.hide()
+                    kP(this, fP, !1, "f"),
+                    null != EP(this, xP, "f") && EP(this, xP, "f").call(this),
+                    EP(this, fP, "f") || this.hide()
                 }
                 )),
-                bP(this, pP, "f").appendChild(bP(this, mP, "f")),
-                yP(this, gP, document.createElement("button"), "f"),
-                bP(this, gP, "f").className = "button",
-                bP(this, gP, "f").addEventListener("click", ( () => {
+                EP(this, vP, "f").appendChild(EP(this, yP, "f")),
+                kP(this, bP, document.createElement("button"), "f"),
+                EP(this, bP, "f").className = "button",
+                EP(this, bP, "f").addEventListener("click", ( () => {
                     e.playUIClick(),
-                    yP(this, hP, !1, "f"),
-                    null != bP(this, wP, "f") && bP(this, wP, "f").call(this),
-                    bP(this, hP, "f") || this.hide()
+                    kP(this, fP, !1, "f"),
+                    null != EP(this, _P, "f") && EP(this, _P, "f").call(this),
+                    EP(this, fP, "f") || this.hide()
                 }
                 )),
-                bP(this, pP, "f").appendChild(bP(this, gP, "f")),
+                EP(this, vP, "f").appendChild(EP(this, bP, "f")),
                 window.addEventListener("keydown", (e => {
-                    this.isOpen && "Escape" == e.code && (null != bP(this, vP, "f") && bP(this, vP, "f").call(this),
+                    this.isOpen && "Escape" == e.code && (null != EP(this, xP, "f") && EP(this, xP, "f").call(this),
                     this.hide(),
                     e.stopImmediatePropagation(),
                     e.preventDefault())
@@ -35839,44 +35853,44 @@
                 ))
             }
             get isOpen() {
-                return bP(this, hP, "f")
+                return EP(this, fP, "f")
             }
             show(e, t, n) {
-                yP(this, hP, !0, "f"),
-                bP(this, dP, "f").className = "message-box message",
-                bP(this, fP, "f").textContent = e,
-                bP(this, mP, "f").textContent = "",
-                bP(this, gP, "f").textContent = t,
-                yP(this, vP, n, "f"),
-                yP(this, wP, n, "f")
+                kP(this, fP, !0, "f"),
+                EP(this, mP, "f").className = "message-box message",
+                EP(this, wP, "f").textContent = e,
+                EP(this, yP, "f").textContent = "",
+                EP(this, bP, "f").textContent = t,
+                kP(this, xP, n, "f"),
+                kP(this, _P, n, "f")
             }
             showConfirm(e, t, n, i, r) {
-                yP(this, hP, !0, "f"),
-                bP(this, dP, "f").className = "message-box confirm",
-                bP(this, fP, "f").textContent = e,
-                bP(this, mP, "f").textContent = t,
-                bP(this, gP, "f").textContent = n,
-                yP(this, vP, i, "f"),
-                yP(this, wP, r, "f")
+                kP(this, fP, !0, "f"),
+                EP(this, mP, "f").className = "message-box confirm",
+                EP(this, wP, "f").textContent = e,
+                EP(this, yP, "f").textContent = t,
+                EP(this, bP, "f").textContent = n,
+                kP(this, xP, i, "f"),
+                kP(this, _P, r, "f")
             }
             hide() {
-                yP(this, hP, !1, "f"),
-                bP(this, dP, "f").className = "hidden",
-                bP(this, fP, "f").textContent = "",
-                bP(this, mP, "f").textContent = "",
-                bP(this, gP, "f").textContent = "",
-                yP(this, vP, null, "f"),
-                yP(this, wP, null, "f")
+                kP(this, fP, !1, "f"),
+                EP(this, mP, "f").className = "hidden",
+                EP(this, wP, "f").textContent = "",
+                EP(this, yP, "f").textContent = "",
+                EP(this, bP, "f").textContent = "",
+                kP(this, xP, null, "f"),
+                kP(this, _P, null, "f")
             }
         }
         ;
-        var _P, kP, EP, SP, MP = function(e, t, n, i) {
+        var MP, TP, AP, CP, PP = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
-        }, TP = function(e, t, n, i, r) {
+        }, RP = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -35886,43 +35900,43 @@
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
         };
-        _P = new WeakMap,
-        kP = new WeakMap,
-        EP = new WeakMap,
-        SP = new WeakMap;
-        const AP = class {
+        MP = new WeakMap,
+        TP = new WeakMap,
+        AP = new WeakMap,
+        CP = new WeakMap;
+        const LP = class {
             constructor() {
-                _P.set(this, 0),
-                kP.set(this, 0),
-                EP.set(this, []),
-                SP.set(this, [])
+                MP.set(this, 0),
+                TP.set(this, 0),
+                AP.set(this, []),
+                CP.set(this, [])
             }
             hasLoaded() {
-                return MP(this, kP, "f") == MP(this, _P, "f")
+                return PP(this, TP, "f") == PP(this, MP, "f")
             }
             getProgress() {
-                return MP(this, kP, "f") / MP(this, _P, "f")
+                return PP(this, TP, "f") / PP(this, MP, "f")
             }
             addResource() {
                 var e;
-                TP(this, _P, (e = MP(this, _P, "f"),
+                RP(this, MP, (e = PP(this, MP, "f"),
                 ++e), "f")
             }
             loadedResource() {
                 var e;
-                TP(this, kP, (e = MP(this, kP, "f"),
+                RP(this, TP, (e = PP(this, TP, "f"),
                 ++e), "f");
-                for (let e = 0; e < MP(this, EP, "f").length; ++e)
-                    MP(this, EP, "f")[e](this.getProgress());
+                for (let e = 0; e < PP(this, AP, "f").length; ++e)
+                    PP(this, AP, "f")[e](this.getProgress());
                 if (this.hasLoaded())
-                    for (let e = 0; e < MP(this, SP, "f").length; ++e)
-                        MP(this, SP, "f")[e]()
+                    for (let e = 0; e < PP(this, CP, "f").length; ++e)
+                        PP(this, CP, "f")[e]()
             }
             addProgressListener(e) {
-                MP(this, EP, "f").push(e)
+                PP(this, AP, "f").push(e)
             }
             addCompleteListener(e) {
-                MP(this, SP, "f").push(e)
+                PP(this, CP, "f").push(e)
             }
             preloadImage(e) {
                 this.addResource();
@@ -35935,7 +35949,7 @@
             }
         }
         ;
-        var CP, PP, RP, LP, IP, NP, DP, UP = function(e, t, n, i, r) {
+        var IP, NP, DP, UP, BP, OP, zP, FP = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -35944,64 +35958,64 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, BP = function(e, t, n, i) {
+        }, WP = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        PP = new WeakMap,
-        RP = new WeakMap,
-        LP = new WeakMap,
-        IP = new WeakMap,
-        CP = new WeakSet,
-        NP = function(e, t, n, i, r) {
+        NP = new WeakMap,
+        DP = new WeakMap,
+        UP = new WeakMap,
+        BP = new WeakMap,
+        IP = new WeakSet,
+        OP = function(e, t, n, i, r) {
             var a;
-            const o = BP(this, LP, "f").getToken(e)
+            const o = WP(this, UP, "f").getToken(e)
               , s = e + "_" + t
-              , l = (null !== (a = BP(this, IP, "f").get(s)) && void 0 !== a ? a : 0) + 1;
-            return BP(this, IP, "f").set(s, l),
-            BP(this, RP, "f").submitLeaderboard(t, n, i, r).then(( ({uploadId: r}) => {
-                null != o && BP(this, IP, "f").get(s) == l && BP(this, LP, "f").getToken(e) == o && BP(this, PP, "f").saveRecord(e, t, r, n, i)
+              , l = (null !== (a = WP(this, BP, "f").get(s)) && void 0 !== a ? a : 0) + 1;
+            return WP(this, BP, "f").set(s, l),
+            WP(this, DP, "f").submitLeaderboard(t, n, i, r).then(( ({uploadId: r}) => {
+                null != o && WP(this, BP, "f").get(s) == l && WP(this, UP, "f").getToken(e) == o && WP(this, NP, "f").saveRecord(e, t, r, n, i)
             }
             ))
         }
         ,
-        DP = function(e, t, n) {
+        zP = function(e, t, n) {
             var i;
-            const r = BP(this, LP, "f").getToken(e)
+            const r = WP(this, UP, "f").getToken(e)
               , a = e + "_" + t
-              , o = (null !== (i = BP(this, IP, "f").get(a)) && void 0 !== i ? i : 0) + 1;
-            return BP(this, IP, "f").set(a, o),
-            BP(this, RP, "f").getRecording(n).then(( ({recording: i, time: s}) => {
-                if (null != r && BP(this, IP, "f").get(a) == o && BP(this, LP, "f").getToken(e) == r) {
+              , o = (null !== (i = WP(this, BP, "f").get(a)) && void 0 !== i ? i : 0) + 1;
+            return WP(this, BP, "f").set(a, o),
+            WP(this, DP, "f").getRecording(n).then(( ({recording: i, time: s}) => {
+                if (null != r && WP(this, BP, "f").get(a) == o && WP(this, UP, "f").getToken(e) == r) {
                     const r = this.getRecordTime(e, t);
-                    (null == r || s.lessThan(r)) && BP(this, PP, "f").saveRecord(e, t, n, s, i)
+                    (null == r || s.lessThan(r)) && WP(this, NP, "f").saveRecord(e, t, n, s, i)
                 }
             }
             ))
         }
         ;
-        const OP = class {
+        const HP = class {
             constructor(e, t, n) {
-                CP.add(this),
-                PP.set(this, void 0),
-                RP.set(this, void 0),
-                LP.set(this, void 0),
-                IP.set(this, new Map),
-                UP(this, PP, e, "f"),
-                UP(this, RP, t, "f"),
-                UP(this, LP, n, "f")
+                IP.add(this),
+                NP.set(this, void 0),
+                DP.set(this, void 0),
+                UP.set(this, void 0),
+                BP.set(this, new Map),
+                FP(this, NP, e, "f"),
+                FP(this, DP, t, "f"),
+                FP(this, UP, n, "f")
             }
             setRecord(e, t, n, i, r) {
-                BP(this, PP, "f").saveRecord(e, t, null, n, i),
-                BP(this, CP, "m", NP).call(this, e, t, n, i, r)
+                WP(this, NP, "f").saveRecord(e, t, null, n, i),
+                WP(this, IP, "m", OP).call(this, e, t, n, i, r)
             }
             syncRecord(e, t, n, i) {
                 return new Promise(( (r, a) => {
                     const o = this.getRecord(e, t);
-                    null != o && (null == n || o.uploadId != n.recordingId && o.time.lessThan(n.time)) ? BP(this, CP, "m", NP).call(this, e, t, o.time, o.recording, i).then(( () => r("Upload"))).catch(a) : null != n && (null == o || o.uploadId != n.recordingId && n.time.lessThan(o.time)) ? BP(this, CP, "m", DP).call(this, e, t, n.recordingId).then(( () => r("Download"))).catch(a) : r(null)
+                    null != o && (null == n || o.uploadId != n.recordingId && o.time.lessThan(n.time)) ? WP(this, IP, "m", OP).call(this, e, t, o.time, o.recording, i).then(( () => r("Upload"))).catch(a) : null != n && (null == o || o.uploadId != n.recordingId && n.time.lessThan(o.time)) ? WP(this, IP, "m", zP).call(this, e, t, n.recordingId).then(( () => r("Download"))).catch(a) : r(null)
                 }
                 ))
             }
@@ -36010,11 +36024,11 @@
                 return null == n ? null : n.time
             }
             getRecord(e, t) {
-                return BP(this, PP, "f").loadRecord(e, t)
+                return WP(this, NP, "f").loadRecord(e, t)
             }
         }
         ;
-        var zP, FP, WP, HP, VP, GP, jP, qP = function(e, t, n, i, r) {
+        var VP, GP, jP, qP, XP, YP, KP, ZP = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -36023,19 +36037,19 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, XP = function(e, t, n, i) {
+        }, JP = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        FP = new WeakMap,
-        WP = new WeakMap,
-        HP = new WeakMap,
-        VP = new WeakMap,
-        zP = new WeakSet,
-        GP = function(e, t) {
+        GP = new WeakMap,
+        jP = new WeakMap,
+        qP = new WeakMap,
+        XP = new WeakMap,
+        VP = new WeakSet,
+        YP = function(e, t) {
             return t.addResource(),
             new Promise((n => {
                 const i = new XMLHttpRequest;
@@ -36043,15 +36057,15 @@
                 i.onreadystatechange = () => {
                     if (4 == i.readyState && 200 == i.status) {
                         t.loadedResource();
-                        const e = Py.fromExportString(i.responseText, XP(this, VP, "f"));
+                        const e = Ny.fromExportString(i.responseText, JP(this, XP, "f"));
                         if (null == e)
                             throw "Failed to load standard track";
                         const {trackName: r, trackData: a} = e;
                         n({
-                            id: a.getId(XP(this, VP, "f")),
+                            id: a.getId(JP(this, XP, "f")),
                             name: r,
                             trackData: a,
-                            thumbnail: a.createThumbnail(XP(this, VP, "f")),
+                            thumbnail: a.createThumbnail(JP(this, XP, "f")),
                             saveTime: null
                         })
                     }
@@ -36063,75 +36077,75 @@
             ))
         }
         ,
-        jP = function(e) {
+        KP = function(e) {
             var t;
-            const n = XP(this, HP, "f").loadTrack(e, XP(this, VP, "f"));
+            const n = JP(this, qP, "f").loadTrack(e, JP(this, XP, "f"));
             if (null != n) {
                 const {trackData: i, saveTime: r} = n
                   , a = {
-                    id: i.getId(XP(this, VP, "f")),
+                    id: i.getId(JP(this, XP, "f")),
                     name: e,
                     trackData: i,
-                    thumbnail: i.createThumbnail(XP(this, VP, "f")),
+                    thumbnail: i.createThumbnail(JP(this, XP, "f")),
                     saveTime: r
                 };
-                for (let e = 0; e <= XP(this, WP, "f").length; e++)
-                    if (e == XP(this, WP, "f").length || (null !== (t = XP(this, WP, "f")[e].saveTime) && void 0 !== t ? t : -1 / 0) < r) {
-                        XP(this, WP, "f").splice(e, 0, a);
+                for (let e = 0; e <= JP(this, jP, "f").length; e++)
+                    if (e == JP(this, jP, "f").length || (null !== (t = JP(this, jP, "f")[e].saveTime) && void 0 !== t ? t : -1 / 0) < r) {
+                        JP(this, jP, "f").splice(e, 0, a);
                         break
                     }
             }
         }
         ;
-        const YP = class {
+        const QP = class {
             constructor(e, t, n) {
-                zP.add(this),
-                FP.set(this, []),
-                WP.set(this, []),
-                HP.set(this, void 0),
-                VP.set(this, void 0),
-                qP(this, HP, n, "f"),
-                qP(this, VP, t, "f"),
-                Promise.all([XP(this, zP, "m", GP).call(this, "tracks/track1.track", e), XP(this, zP, "m", GP).call(this, "tracks/track2.track", e), XP(this, zP, "m", GP).call(this, "tracks/track3.track", e), XP(this, zP, "m", GP).call(this, "tracks/track4.track", e), XP(this, zP, "m", GP).call(this, "tracks/track5.track", e), XP(this, zP, "m", GP).call(this, "tracks/track6.track", e), XP(this, zP, "m", GP).call(this, "tracks/track7.track", e), XP(this, zP, "m", GP).call(this, "tracks/track8.track", e), XP(this, zP, "m", GP).call(this, "tracks/track9.track", e), XP(this, zP, "m", GP).call(this, "tracks/track10.track", e), XP(this, zP, "m", GP).call(this, "tracks/track11.track", e), XP(this, zP, "m", GP).call(this, "tracks/track12.track", e), XP(this, zP, "m", GP).call(this, "tracks/track13.track", e)]).then((e => {
-                    qP(this, FP, e, "f")
+                VP.add(this),
+                GP.set(this, []),
+                jP.set(this, []),
+                qP.set(this, void 0),
+                XP.set(this, void 0),
+                ZP(this, qP, n, "f"),
+                ZP(this, XP, t, "f"),
+                Promise.all([JP(this, VP, "m", YP).call(this, "tracks/track1.track", e), JP(this, VP, "m", YP).call(this, "tracks/track2.track", e), JP(this, VP, "m", YP).call(this, "tracks/track3.track", e), JP(this, VP, "m", YP).call(this, "tracks/track4.track", e), JP(this, VP, "m", YP).call(this, "tracks/track5.track", e), JP(this, VP, "m", YP).call(this, "tracks/track6.track", e), JP(this, VP, "m", YP).call(this, "tracks/track7.track", e), JP(this, VP, "m", YP).call(this, "tracks/track8.track", e), JP(this, VP, "m", YP).call(this, "tracks/track9.track", e), JP(this, VP, "m", YP).call(this, "tracks/track10.track", e), JP(this, VP, "m", YP).call(this, "tracks/track11.track", e), JP(this, VP, "m", YP).call(this, "tracks/track12.track", e), JP(this, VP, "m", YP).call(this, "tracks/track13.track", e)]).then((e => {
+                    ZP(this, GP, e, "f")
                 }
                 ))
             }
             refreshCustomTracks() {
-                const e = XP(this, HP, "f").getAllTrackNames();
-                null != e && (XP(this, WP, "f").length = 0,
+                const e = JP(this, qP, "f").getAllTrackNames();
+                null != e && (JP(this, jP, "f").length = 0,
                 e.forEach((e => {
-                    XP(this, zP, "m", jP).call(this, e)
+                    JP(this, VP, "m", KP).call(this, e)
                 }
                 )))
             }
             isCustomTracksEmpty() {
-                return 0 == XP(this, WP, "f").length
+                return 0 == JP(this, jP, "f").length
             }
             forEach(e) {
                 this.forEachStandard(e),
                 this.forEachCustom(e)
             }
             forEachStandard(e) {
-                XP(this, FP, "f").forEach((t => {
+                JP(this, GP, "f").forEach((t => {
                     e(t.id, t.name, t.trackData, t.thumbnail)
                 }
                 ))
             }
             forEachCustom(e) {
-                XP(this, WP, "f").forEach((t => {
+                JP(this, jP, "f").forEach((t => {
                     e(t.id, t.name, t.trackData, t.thumbnail)
                 }
                 ))
             }
             getRandomTrackData(e) {
                 let t;
-                return t = e ? XP(this, FP, "f").concat(XP(this, WP, "f")) : XP(this, FP, "f"),
+                return t = e ? JP(this, GP, "f").concat(JP(this, jP, "f")) : JP(this, GP, "f"),
                 t[Math.floor(Math.random() * t.length)].trackData
             }
         }
         ;
-        var KP;
+        var $P;
         !function(e) {
             e[e.Special = 0] = "Special",
             e[e.Road = 1] = "Road",
@@ -36142,9 +36156,9 @@
             e[e.WallTrack = 6] = "WallTrack",
             e[e.Pillar = 7] = "Pillar",
             e[e.Sign = 8] = "Sign"
-        }(KP || (KP = {}));
-        const ZP = KP;
-        var JP, QP, $P, eR, tR = function(e, t, n, i) {
+        }($P || ($P = {}));
+        const eR = $P;
+        var tR, nR, iR, rR, aR = function(e, t, n, i) {
             return new (n || (n = Promise))((function(r, a) {
                 function o(e) {
                     try {
@@ -36171,7 +36185,7 @@
                 l((i = i.apply(e, t || [])).next())
             }
             ))
-        }, nR = function(e, t, n, i, r) {
+        }, oR = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -36180,24 +36194,24 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, iR = function(e, t, n, i) {
+        }, sR = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        class rR {
+        class lR {
             constructor(e) {
-                JP.add(this),
-                QP.set(this, void 0),
-                $P.set(this, new Map),
-                nR(this, QP, e, "f"),
-                iR(this, JP, "m", eR).call(this)
+                tR.add(this),
+                nR.set(this, void 0),
+                iR.set(this, new Map),
+                oR(this, nR, e, "f"),
+                sR(this, tR, "m", rR).call(this)
             }
             getPhysicsParts() {
                 const e = [];
-                return iR(this, $P, "f").forEach(( ({id: t, physicsShapeVertices: n, detector: i}) => {
+                return sR(this, iR, "f").forEach(( ({id: t, physicsShapeVertices: n, detector: i}) => {
                     e.push({
                         type: t,
                         vertices: n,
@@ -36208,31 +36222,31 @@
                 e
             }
             hasPart(e) {
-                return iR(this, $P, "f").has(e)
+                return sR(this, iR, "f").has(e)
             }
             getPart(e) {
-                const t = iR(this, $P, "f").get(e);
+                const t = sR(this, iR, "f").get(e);
                 if (null == t)
                     throw 'Track part with the id "' + e + '" does not exist';
                 return t
             }
             getAllParts() {
-                return Array.from(iR(this, $P, "f").values())
+                return Array.from(sR(this, iR, "f").values())
             }
             getPartTypesWithDetector(e) {
                 const t = [];
-                return iR(this, $P, "f").forEach(( (n, i) => {
+                return sR(this, iR, "f").forEach(( (n, i) => {
                     null != n.detector && n.detector.type == e && t.push(i)
                 }
                 )),
                 t
             }
         }
-        QP = new WeakMap,
-        $P = new WeakMap,
-        JP = new WeakSet,
-        eR = function() {
-            return tR(this, void 0, void 0, (function*() {
+        nR = new WeakMap,
+        iR = new WeakMap,
+        tR = new WeakSet,
+        rR = function() {
+            return aR(this, void 0, void 0, (function*() {
                 const e = (t = ["models/block.glb", "models/pillar.glb", "models/plane.glb", "models/road.glb", "models/road_wide.glb", "models/signs.glb", "models/wall_track.glb"],
                 Promise.all(t.map((e => {
                     return t = e,
@@ -36250,19 +36264,19 @@
                 const n = new jc({
                     vertexColors: !0
                 })
-                  , i = (t, i, r, ...a) => tR(this, [t, i, r, ...a], void 0, (function*(t, i, r, a=null, o=null, s=null) {
-                    if (iR(this, QP, "f").addResource(),
-                    iR(this, $P, "f").has(i))
+                  , i = (t, i, r, ...a) => aR(this, [t, i, r, ...a], void 0, (function*(t, i, r, a=null, o=null, s=null) {
+                    if (sR(this, nR, "f").addResource(),
+                    sR(this, iR, "f").has(i))
                         throw "Track part types have same Id";
                     const l = {
                         id: i,
                         mesh: null,
                         physicsShapeVertices: [],
-                        tiles: new Ix(null != a ? a : [[0, 0, 0]]),
+                        tiles: new Bx(null != a ? a : [[0, 0, 0]]),
                         detector: null != o ? o : null,
                         category: t
                     };
-                    iR(this, $P, "f").set(i, l);
+                    sR(this, iR, "f").set(i, l);
                     const c = yield e;
                     function h(e) {
                         const t = e.material;
@@ -36315,7 +36329,7 @@
                     l.mesh = f,
                     l.physicsShapeVertices = u,
                     null != s && s(l),
-                    iR(this, QP, "f").loadedResource()
+                    sR(this, nR, "f").loadedResource()
                 }
                 ));
                 function r(e, t, n, i) {
@@ -36339,230 +36353,230 @@
                 function s(e) {
                     return r(e, 0, 0, -.135)
                 }
-                i(ZP.Special, Bw.Start, [["Road", "Start"]]),
-                i(ZP.Special, Bw.Checkpoint, [["Road", "Checkpoint"]], [[0, 0, 0]], {
-                    type: yy.Checkpoint,
+                i(eR.Special, Ww.Start, [["Road", "Start"]]),
+                i(eR.Special, Ww.Checkpoint, [["Road", "Checkpoint"]], [[0, 0, 0]], {
+                    type: ky.Checkpoint,
                     center: [0, 2.2, 0],
                     size: [11, 3.8, 2]
                 }),
-                i(ZP.Special, Bw.CheckpointWide, [["RoadWide", "CheckpointWide"]], [[0, 0, 0], [1, 0, 0]], {
-                    type: yy.Checkpoint,
+                i(eR.Special, Ww.CheckpointWide, [["RoadWide", "CheckpointWide"]], [[0, 0, 0], [1, 0, 0]], {
+                    type: ky.Checkpoint,
                     center: [10, 2.2, 0],
                     size: [31.1, 3.8, 2]
                 }),
-                i(ZP.Special, Bw.PlaneCheckpoint, [["Planes", "PlaneCheckpoint"]], [[0, 0, 0]], {
-                    type: yy.Checkpoint,
+                i(eR.Special, Ww.PlaneCheckpoint, [["Planes", "PlaneCheckpoint"]], [[0, 0, 0]], {
+                    type: ky.Checkpoint,
                     center: [0, 2.2, 0],
                     size: [18.75, 3.8, 2]
                 }),
-                i(ZP.Special, Bw.PlaneCheckpointWide, [["Planes", "PlaneCheckpointWide"]], [[0, 0, 0], [1, 0, 0]], {
-                    type: yy.Checkpoint,
+                i(eR.Special, Ww.PlaneCheckpointWide, [["Planes", "PlaneCheckpointWide"]], [[0, 0, 0], [1, 0, 0]], {
+                    type: ky.Checkpoint,
                     center: [10, 2.2, 0],
                     size: [38.75, 3.8, 2]
                 }),
-                i(ZP.Special, Bw.Finish, [["Road", "Finish"]], [[0, 0, 0]], {
-                    type: yy.Finish,
+                i(eR.Special, Ww.Finish, [["Road", "Finish"]], [[0, 0, 0]], {
+                    type: ky.Finish,
                     center: [0, 2.2, 0],
                     size: [11, 3.8, 2]
                 }),
-                i(ZP.Special, Bw.FinishWide, [["RoadWide", "FinishWide"]], [[0, 0, 0], [1, 0, 0]], {
-                    type: yy.Finish,
+                i(eR.Special, Ww.FinishWide, [["RoadWide", "FinishWide"]], [[0, 0, 0], [1, 0, 0]], {
+                    type: ky.Finish,
                     center: [10, 2.2, 0],
                     size: [31.1, 3.8, 2]
                 }),
-                i(ZP.Special, Bw.PlaneFinish, [["Planes", "PlaneFinish"]], [[0, 0, 0]], {
-                    type: yy.Finish,
+                i(eR.Special, Ww.PlaneFinish, [["Planes", "PlaneFinish"]], [[0, 0, 0]], {
+                    type: ky.Finish,
                     center: [0, 2.2, 0],
                     size: [18.75, 3.8, 2]
                 }),
-                i(ZP.Special, Bw.PlaneFinishWide, [["Planes", "PlaneFinishWide"]], [[0, 0, 0], [1, 0, 0]], {
-                    type: yy.Finish,
+                i(eR.Special, Ww.PlaneFinishWide, [["Planes", "PlaneFinishWide"]], [[0, 0, 0], [1, 0, 0]], {
+                    type: ky.Finish,
                     center: [10, 2.2, 0],
                     size: [38.75, 3.8, 2]
                 }),
-                i(ZP.Road, Bw.Straight, [["Road", "Straight"]]),
-                i(ZP.Road, Bw.StraightPillarBottom, [["Road", "Straight"], ["Pillar", "SurfacePillarBottom"]]),
-                i(ZP.Road, Bw.StraightPillarShort, [["Road", "Straight"], ["Pillar", "SurfacePillarShort"]]),
-                i(ZP.Road, Bw.TurnSharp, [["Road", "TurnSharp"]]),
-                i(ZP.Road, Bw.TurnSharpPillarBottom, [["Road", "TurnSharp"], ["Pillar", "SurfacePillarBottom"]]),
-                i(ZP.Road, Bw.TurnSharpPillarShort, [["Road", "TurnSharp"], ["Pillar", "SurfacePillarShort"]]),
-                i(ZP.RoadTurns, Bw.TurnShort, [["Road", "TurnShort"]], [[0, 0, 0], [1, 0, 0], [0, 0, -1], [1, 0, -1]]),
-                i(ZP.RoadTurns, Bw.TurnLong, [["Road", "TurnLong"]], [[0, 0, 0], [1, 0, 0], [0, 0, -1], [1, 0, -1], [2, 0, -1], [1, 0, -2], [2, 0, -2]]),
-                i(ZP.RoadTurns, Bw.TurnLong2, [["Road", "TurnLong2"]], [[0, 0, 0], [0, 0, -1], [1, 0, -1], [0, 0, -2], [1, 0, -2], [2, 0, -2], [1, 0, -3], [2, 0, -3], [3, 0, -3]]),
-                i(ZP.RoadTurns, Bw.TurnLong3, [["Road", "TurnLong3"]], [[0, 0, 0], [0, 0, -1], [1, 0, -1], [0, 0, -2], [1, 0, -2], [2, 0, -2], [1, 0, -3], [2, 0, -3], [3, 0, -3], [2, 0, -4], [3, 0, -4], [4, 0, -4]]),
-                i(ZP.RoadTurns, Bw.TurnSLeft, [["Road", "TurnSLeft"]], [[0, 0, 0], [0, 0, -1], [0, 0, -2], [-1, 0, 0], [-1, 0, -1], [-1, 0, -2]]),
-                i(ZP.RoadTurns, Bw.TurnSRight, [["Road", "TurnSRight"]], [[0, 0, 0], [0, 0, -1], [0, 0, -2], [1, 0, 0], [1, 0, -1], [1, 0, -2]]),
-                i(ZP.Road, Bw.SlopeUp, [["Road", "SlopeUp"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.Road, Bw.SlopeUpBlock, [["Road", "SlopeUp"], ["Blocks", "BlockSlopeUp"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.Road, Bw.SlopeUpLong, [["Road", "SlopeUpLong"]], [[0, 0, 0], [0, 0, -1], [0, 1, -1], [0, 2, -1]]),
-                i(ZP.Road, Bw.SlopeDown, [["Road", "SlopeDown"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.Road, Bw.SlopeDownBlock, [["Road", "SlopeDown"], ["Blocks", "BlockSlopeDown"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.Road, Bw.SlopeDownLong, [["Road", "SlopeDownLong"]], [[0, 0, 0], [0, 1, 0], [0, 1, 1], [0, 2, 1]]),
-                i(ZP.Road, Bw.Slope, [["Road", "Slope"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
-                i(ZP.Road, Bw.SlopePillar, [["Road", "Slope"], ["Pillar", "PillarTopSlope"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
-                i(ZP.Road, Bw.SlopePillarShort, [["Road", "Slope"], ["Pillar", "PillarShortSlope"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
-                i(ZP.Road, Bw.SlopeBlock, [["Road", "Slope"], ["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
-                i(ZP.Road, Bw.IntersectionT, [["Road", "IntersectionT"]]),
-                i(ZP.Road, Bw.IntersectionTPillarBottom, [["Road", "IntersectionT"], ["Pillar", "SurfacePillarBottom"]]),
-                i(ZP.Road, Bw.IntersectionTPillarShort, [["Road", "IntersectionT"], ["Pillar", "SurfacePillarShort"]]),
-                i(ZP.Road, Bw.IntersectionCross, [["Road", "IntersectionCross"]]),
-                i(ZP.Road, Bw.IntersectionCrossPillarBottom, [["Road", "IntersectionCross"], ["Pillar", "SurfacePillarBottom"]]),
-                i(ZP.Road, Bw.IntersectionCrossPillarShort, [["Road", "IntersectionCross"], ["Pillar", "SurfacePillarShort"]]),
-                i(ZP.RoadWide, Bw.ToWideMiddle, [["RoadWide", "ToWideMiddle"]]),
-                i(ZP.RoadWide, Bw.ToWideLeft, [["RoadWide", "ToWideLeft"]]),
-                i(ZP.RoadWide, Bw.ToWideRight, [["RoadWide", "ToWideRight"]]),
-                i(ZP.RoadWide, Bw.ToWideDouble, [["RoadWide", "ToWideDouble"]]),
-                i(ZP.RoadWide, Bw.ToWideDiagonal, [["RoadWide", "ToWideDiagonal"]]),
-                i(ZP.RoadWide, Bw.StraightWide, [["RoadWide", "StraightWide"]]),
-                i(ZP.RoadWide, Bw.InnerCornerWide, [["RoadWide", "InnerCornerWide"]]),
-                i(ZP.RoadWide, Bw.OuterCornerWide, [["RoadWide", "OuterCornerWide"]]),
-                i(ZP.RoadWide, Bw.SlopeUpLeftWide, [["RoadWide", "SlopeUpLeftWide"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.RoadWide, Bw.SlopeUpLeftWideBlock, [["RoadWide", "SlopeUpLeftWide"], ["Blocks", "BlockSlopeUp"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.RoadWide, Bw.SlopeUpRightWide, [["RoadWide", "SlopeUpRightWide"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.RoadWide, Bw.SlopeUpRightWideBlock, [["RoadWide", "SlopeUpRightWide"], ["Blocks", "BlockSlopeUp"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.RoadWide, Bw.SlopeDownLeftWide, [["RoadWide", "SlopeDownLeftWide"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.RoadWide, Bw.SlopeDownLeftWideBlock, [["RoadWide", "SlopeDownLeftWide"], ["Blocks", "BlockSlopeDown"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.RoadWide, Bw.SlopeDownRightWide, [["RoadWide", "SlopeDownRightWide"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.RoadWide, Bw.SlopeDownRightWideBlock, [["RoadWide", "SlopeDownRightWide"], ["Blocks", "BlockSlopeDown"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.RoadWide, Bw.SlopeLeftWide, [["RoadWide", "SlopeLeftWide"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
-                i(ZP.RoadWide, Bw.SlopeLeftWideBlock, [["RoadWide", "SlopeLeftWide"], ["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
-                i(ZP.RoadWide, Bw.SlopeRightWide, [["RoadWide", "SlopeRightWide"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
-                i(ZP.RoadWide, Bw.SlopeRightWideBlock, [["RoadWide", "SlopeRightWide"], ["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
-                i(ZP.Plane, Bw.Plane, [["Planes", "Plane"]]),
-                i(ZP.Plane, Bw.PlanePillarBottom, [["Planes", "Plane"], ["Pillar", "SurfacePillarBottom"]]),
-                i(ZP.Plane, Bw.PlanePillarShort, [["Planes", "Plane"], ["Pillar", "SurfacePillarShort"]]),
-                i(ZP.Plane, Bw.HalfPlane, [["Planes", "HalfPlane"]]),
-                i(ZP.Plane, Bw.QuarterPlane, [["Planes", "QuarterPlane"]]),
-                i(ZP.Plane, Bw.PlaneSlopeUp, [["Planes", "PlaneSlopeUp"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.Plane, Bw.PlaneSlopeDown, [["Planes", "PlaneSlopeDown"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.Plane, Bw.PlaneSlope, [["Planes", "PlaneSlope"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
-                i(ZP.Plane, Bw.PlaneBridge, [["Planes", "PlaneBridge"]]),
-                i(ZP.Plane, Bw.PlaneBridgeCorner, [["Planes", "PlaneBridgeCorner"]]),
-                i(ZP.Plane, Bw.PlaneBridgeIntersectionT, [["Planes", "PlaneBridgeIntersectionT"]]),
-                i(ZP.Plane, Bw.PlaneBridgeIntersectionCross, [["Planes", "PlaneBridgeIntersectionCross"]]),
-                i(ZP.Plane, Bw.PlaneWall, [["Planes", "PlaneWall"]]),
-                i(ZP.Plane, Bw.PlaneWallCorner, [["Planes", "PlaneWallCorner"]]),
-                i(ZP.Plane, Bw.PlaneWallInnerCorner, [["Planes", "PlaneWallInnerCorner"]]),
-                i(ZP.Plane, Bw.PlaneSlopeUpBlock, [["Planes", "PlaneSlopeUp"], ["Blocks", "BlockSlopeUp"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.Plane, Bw.PlaneSlopeDownBlock, [["Planes", "PlaneSlopeDown"], ["Blocks", "BlockSlopeDown"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.Plane, Bw.PlaneSlopeBlock, [["Planes", "PlaneSlope"], ["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
-                i(ZP.Plane, Bw.PlaneSlopePillar, [["Planes", "PlaneSlope"], ["Pillar", "PillarTopSlope"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
-                i(ZP.Plane, Bw.PlaneSlopePillarShort, [["Planes", "PlaneSlope"], ["Pillar", "PillarShortSlope"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
-                i(ZP.Block, Bw.Block, [["Blocks", "Block"]]),
-                i(ZP.Block, Bw.HalfBlock, [["Blocks", "HalfBlock"]]),
-                i(ZP.Block, Bw.QuarterBlock, [["Blocks", "QuarterBlock"]]),
-                i(ZP.Block, Bw.BlockSlopedDown, [["Blocks", "BlockSlopedDown"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.Block, Bw.BlockSlopedDownInnerCorner, [["Blocks", "BlockSlopedDownInnerCorner"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.Block, Bw.BlockSlopedDownOuterCorner, [["Blocks", "BlockSlopedDownOuterCorner"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.Block, Bw.BlockSlopedUp, [["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.Block, Bw.BlockSlopedUpInnerCorner, [["Blocks", "BlockSlopedUpInnerCorner"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.Block, Bw.BlockSlopedUpOuterCorner, [["Blocks", "BlockSlopedUpOuterCorner"]], [[0, 0, 0], [0, 1, 0]]),
-                i(ZP.Block, Bw.BlockSlopeDown, [["Blocks", "BlockSlopeDown"]]),
-                i(ZP.Block, Bw.BlockSlopeUp, [["Blocks", "BlockSlopeUp"]]),
-                i(ZP.Block, Bw.BlockBridge, [["Blocks", "BlockBridge"]]),
-                i(ZP.Block, Bw.BlockBridgeCorner, [["Blocks", "BlockBridgeCorner"]]),
-                i(ZP.Block, Bw.BlockBridgeIntersectionT, [["Blocks", "BlockBridgeIntersectionT"]]),
-                i(ZP.Block, Bw.BlockBridgeIntersectionCross, [["Blocks", "BlockBridgeIntersectionCross"]]),
-                i(ZP.Block, Bw.RedBlock, [["Blocks", "Block"]], null, null, a),
-                i(ZP.Block, Bw.RedHalfBlock, [["Blocks", "HalfBlock"]], null, null, a),
-                i(ZP.Block, Bw.RedQuarterBlock, [["Blocks", "QuarterBlock"]], null, null, a),
-                i(ZP.Block, Bw.RedBlockSlopedDown, [["Blocks", "BlockSlopedDown"]], [[0, 0, 0], [0, 1, 0]], null, a),
-                i(ZP.Block, Bw.RedBlockSlopedDownInnerCorner, [["Blocks", "BlockSlopedDownInnerCorner"]], [[0, 0, 0], [0, 1, 0]], null, a),
-                i(ZP.Block, Bw.RedBlockSlopedDownOuterCorner, [["Blocks", "BlockSlopedDownOuterCorner"]], [[0, 0, 0], [0, 1, 0]], null, a),
-                i(ZP.Block, Bw.RedBlockSlopedUp, [["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0]], null, a),
-                i(ZP.Block, Bw.RedBlockSlopedUpInnerCorner, [["Blocks", "BlockSlopedUpInnerCorner"]], [[0, 0, 0], [0, 1, 0]], null, a),
-                i(ZP.Block, Bw.RedBlockSlopedUpOuterCorner, [["Blocks", "BlockSlopedUpOuterCorner"]], [[0, 0, 0], [0, 1, 0]], null, a),
-                i(ZP.Block, Bw.RedBlockSlopeDown, [["Blocks", "BlockSlopeDown"]], null, null, a),
-                i(ZP.Block, Bw.RedBlockSlopeUp, [["Blocks", "BlockSlopeUp"]], null, null, a),
-                i(ZP.Block, Bw.RedBlockBridge, [["Blocks", "BlockBridge"]], null, null, a),
-                i(ZP.Block, Bw.RedBlockBridgeCorner, [["Blocks", "BlockBridgeCorner"]], null, null, a),
-                i(ZP.Block, Bw.RedBlockBridgeIntersectionT, [["Blocks", "BlockBridgeIntersectionT"]], null, null, a),
-                i(ZP.Block, Bw.RedBlockBridgeIntersectionCross, [["Blocks", "BlockBridgeIntersectionCross"]], null, null, a),
-                i(ZP.Block, Bw.BlueBlock, [["Blocks", "Block"]], null, null, o),
-                i(ZP.Block, Bw.BlueHalfBlock, [["Blocks", "HalfBlock"]], null, null, o),
-                i(ZP.Block, Bw.BlueQuarterBlock, [["Blocks", "QuarterBlock"]], null, null, o),
-                i(ZP.Block, Bw.BlueBlockSlopedDown, [["Blocks", "BlockSlopedDown"]], [[0, 0, 0], [0, 1, 0]], null, o),
-                i(ZP.Block, Bw.BlueBlockSlopedDownInnerCorner, [["Blocks", "BlockSlopedDownInnerCorner"]], [[0, 0, 0], [0, 1, 0]], null, o),
-                i(ZP.Block, Bw.BlueBlockSlopedDownOuterCorner, [["Blocks", "BlockSlopedDownOuterCorner"]], [[0, 0, 0], [0, 1, 0]], null, o),
-                i(ZP.Block, Bw.BlueBlockSlopedUp, [["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0]], null, o),
-                i(ZP.Block, Bw.BlueBlockSlopedUpInnerCorner, [["Blocks", "BlockSlopedUpInnerCorner"]], [[0, 0, 0], [0, 1, 0]], null, o),
-                i(ZP.Block, Bw.BlueBlockSlopedUpOuterCorner, [["Blocks", "BlockSlopedUpOuterCorner"]], [[0, 0, 0], [0, 1, 0]], null, o),
-                i(ZP.Block, Bw.BlueBlockSlopeDown, [["Blocks", "BlockSlopeDown"]], null, null, o),
-                i(ZP.Block, Bw.BlueBlockSlopeUp, [["Blocks", "BlockSlopeUp"]], null, null, o),
-                i(ZP.Block, Bw.BlueBlockBridge, [["Blocks", "BlockBridge"]], null, null, o),
-                i(ZP.Block, Bw.BlueBlockBridgeCorner, [["Blocks", "BlockBridgeCorner"]], null, null, o),
-                i(ZP.Block, Bw.BlueBlockBridgeIntersectionT, [["Blocks", "BlockBridgeIntersectionT"]], null, null, o),
-                i(ZP.Block, Bw.BlueBlockBridgeIntersectionCross, [["Blocks", "BlockBridgeIntersectionCross"]], null, null, o),
-                i(ZP.Block, Bw.BlackBlock, [["Blocks", "Block"]], null, null, s),
-                i(ZP.Block, Bw.BlackHalfBlock, [["Blocks", "HalfBlock"]], null, null, s),
-                i(ZP.Block, Bw.BlackQuarterBlock, [["Blocks", "QuarterBlock"]], null, null, s),
-                i(ZP.Block, Bw.BlackBlockSlopedDown, [["Blocks", "BlockSlopedDown"]], [[0, 0, 0], [0, 1, 0]], null, s),
-                i(ZP.Block, Bw.BlackBlockSlopedDownInnerCorner, [["Blocks", "BlockSlopedDownInnerCorner"]], [[0, 0, 0], [0, 1, 0]], null, s),
-                i(ZP.Block, Bw.BlackBlockSlopedDownOuterCorner, [["Blocks", "BlockSlopedDownOuterCorner"]], [[0, 0, 0], [0, 1, 0]], null, s),
-                i(ZP.Block, Bw.BlackBlockSlopedUp, [["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0]], null, s),
-                i(ZP.Block, Bw.BlackBlockSlopedUpInnerCorner, [["Blocks", "BlockSlopedUpInnerCorner"]], [[0, 0, 0], [0, 1, 0]], null, s),
-                i(ZP.Block, Bw.BlackBlockSlopedUpOuterCorner, [["Blocks", "BlockSlopedUpOuterCorner"]], [[0, 0, 0], [0, 1, 0]], null, s),
-                i(ZP.Block, Bw.BlackBlockSlopeDown, [["Blocks", "BlockSlopeDown"]], null, null, s),
-                i(ZP.Block, Bw.BlackBlockSlopeUp, [["Blocks", "BlockSlopeUp"]], null, null, s),
-                i(ZP.Block, Bw.BlackBlockBridge, [["Blocks", "BlockBridge"]], null, null, s),
-                i(ZP.Block, Bw.BlackBlockBridgeCorner, [["Blocks", "BlockBridgeCorner"]], null, null, s),
-                i(ZP.Block, Bw.BlackBlockBridgeIntersectionT, [["Blocks", "BlockBridgeIntersectionT"]], null, null, s),
-                i(ZP.Block, Bw.BlackBlockBridgeIntersectionCross, [["Blocks", "BlockBridgeIntersectionCross"]], null, null, s),
-                i(ZP.WallTrack, Bw.WallTrackTop, [["WallTrack", "WallTrackTop"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0], [0, 3, 0]]),
-                i(ZP.WallTrack, Bw.WallTrackMiddle, [["WallTrack", "WallTrackMiddle"]]),
-                i(ZP.WallTrack, Bw.WallTrackBottom, [["WallTrack", "WallTrackBottom"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0], [0, 3, 0]]),
-                i(ZP.WallTrack, Bw.WallTrackTopCorner, [["WallTrack", "WallTrackTopCorner"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0], [0, 3, 0]]),
-                i(ZP.WallTrack, Bw.WallTrackMiddleCorner, [["WallTrack", "WallTrackMiddleCorner"]]),
-                i(ZP.WallTrack, Bw.WallTrackBottomCorner, [["WallTrack", "WallTrackBottomCorner"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0], [0, 3, 0]]),
-                i(ZP.WallTrack, Bw.WallTrackBottomInnerCorner, [["WallTrack", "WallTrackBottomInnerCorner"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0], [0, 3, 0]]),
-                i(ZP.WallTrack, Bw.WallTrackInnerCorner, [["WallTrack", "WallTrackInnerCorner"]]),
-                i(ZP.WallTrack, Bw.WallTrackTopInnerCorner, [["WallTrack", "WallTrackTopInnerCorner"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0], [0, 3, 0]]),
-                i(ZP.WallTrack, Bw.WallTrackCeiling, [["WallTrack", "WallTrackCeiling"]]),
-                i(ZP.WallTrack, Bw.WallTrackFloor, [["WallTrack", "WallTrackFloor"]]),
-                i(ZP.Pillar, Bw.PillarTop, [["Pillar", "PillarTop"]]),
-                i(ZP.Pillar, Bw.PillarMiddle, [["Pillar", "PillarMiddle"]]),
-                i(ZP.Pillar, Bw.PillarBottom, [["Pillar", "PillarBottom"]]),
-                i(ZP.Pillar, Bw.PillarShort, [["Pillar", "PillarShort"]]),
-                i(ZP.Pillar, Bw.PillarBranch1, [["Pillar", "PillarBranch1"]]),
-                i(ZP.Pillar, Bw.PillarBranch1Top, [["Pillar", "PillarBranch1Top"]]),
-                i(ZP.Pillar, Bw.PillarBranch1Middle, [["Pillar", "PillarBranch1Middle"]]),
-                i(ZP.Pillar, Bw.PillarBranch1Bottom, [["Pillar", "PillarBranch1Bottom"]]),
-                i(ZP.Pillar, Bw.PillarBranch2, [["Pillar", "PillarBranch2"]]),
-                i(ZP.Pillar, Bw.PillarBranch2Top, [["Pillar", "PillarBranch2Top"]]),
-                i(ZP.Pillar, Bw.PillarBranch2Middle, [["Pillar", "PillarBranch2Middle"]]),
-                i(ZP.Pillar, Bw.PillarBranch2Bottom, [["Pillar", "PillarBranch2Bottom"]]),
-                i(ZP.Pillar, Bw.PillarBranch3, [["Pillar", "PillarBranch3"]]),
-                i(ZP.Pillar, Bw.PillarBranch3Top, [["Pillar", "PillarBranch3Top"]]),
-                i(ZP.Pillar, Bw.PillarBranch3Middle, [["Pillar", "PillarBranch3Middle"]]),
-                i(ZP.Pillar, Bw.PillarBranch3Bottom, [["Pillar", "PillarBranch3Bottom"]]),
-                i(ZP.Pillar, Bw.PillarBranch4, [["Pillar", "PillarBranch4"]]),
-                i(ZP.Pillar, Bw.PillarBranch4Top, [["Pillar", "PillarBranch4Top"]]),
-                i(ZP.Pillar, Bw.PillarBranch4Middle, [["Pillar", "PillarBranch4Middle"]]),
-                i(ZP.Pillar, Bw.PillarBranch4Bottom, [["Pillar", "PillarBranch4Bottom"]]),
-                i(ZP.Pillar, Bw.PillarBranch5, [["Pillar", "PillarBranch5"]]),
-                i(ZP.Pillar, Bw.PillarBranch5Top, [["Pillar", "PillarBranch5Top"]]),
-                i(ZP.Pillar, Bw.PillarBranch5Middle, [["Pillar", "PillarBranch5Middle"]]),
-                i(ZP.Pillar, Bw.PillarBranch5Bottom, [["Pillar", "PillarBranch5Bottom"]]),
-                i(ZP.Sign, Bw.SignArrowLeft, [["Signs", "SignArrowLeft"]]),
-                i(ZP.Sign, Bw.SignArrowRight, [["Signs", "SignArrowRight"]]),
-                i(ZP.Sign, Bw.SignArrowUp, [["Signs", "SignArrowUp"]]),
-                i(ZP.Sign, Bw.SignArrowDown, [["Signs", "SignArrowDown"]]),
-                i(ZP.Sign, Bw.SignWarning, [["Signs", "SignWarning"]]),
-                i(ZP.Sign, Bw.SignWrongWay, [["Signs", "SignWrongWay"]])
+                i(eR.Road, Ww.Straight, [["Road", "Straight"]]),
+                i(eR.Road, Ww.StraightPillarBottom, [["Road", "Straight"], ["Pillar", "SurfacePillarBottom"]]),
+                i(eR.Road, Ww.StraightPillarShort, [["Road", "Straight"], ["Pillar", "SurfacePillarShort"]]),
+                i(eR.Road, Ww.TurnSharp, [["Road", "TurnSharp"]]),
+                i(eR.Road, Ww.TurnSharpPillarBottom, [["Road", "TurnSharp"], ["Pillar", "SurfacePillarBottom"]]),
+                i(eR.Road, Ww.TurnSharpPillarShort, [["Road", "TurnSharp"], ["Pillar", "SurfacePillarShort"]]),
+                i(eR.RoadTurns, Ww.TurnShort, [["Road", "TurnShort"]], [[0, 0, 0], [1, 0, 0], [0, 0, -1], [1, 0, -1]]),
+                i(eR.RoadTurns, Ww.TurnLong, [["Road", "TurnLong"]], [[0, 0, 0], [1, 0, 0], [0, 0, -1], [1, 0, -1], [2, 0, -1], [1, 0, -2], [2, 0, -2]]),
+                i(eR.RoadTurns, Ww.TurnLong2, [["Road", "TurnLong2"]], [[0, 0, 0], [0, 0, -1], [1, 0, -1], [0, 0, -2], [1, 0, -2], [2, 0, -2], [1, 0, -3], [2, 0, -3], [3, 0, -3]]),
+                i(eR.RoadTurns, Ww.TurnLong3, [["Road", "TurnLong3"]], [[0, 0, 0], [0, 0, -1], [1, 0, -1], [0, 0, -2], [1, 0, -2], [2, 0, -2], [1, 0, -3], [2, 0, -3], [3, 0, -3], [2, 0, -4], [3, 0, -4], [4, 0, -4]]),
+                i(eR.RoadTurns, Ww.TurnSLeft, [["Road", "TurnSLeft"]], [[0, 0, 0], [0, 0, -1], [0, 0, -2], [-1, 0, 0], [-1, 0, -1], [-1, 0, -2]]),
+                i(eR.RoadTurns, Ww.TurnSRight, [["Road", "TurnSRight"]], [[0, 0, 0], [0, 0, -1], [0, 0, -2], [1, 0, 0], [1, 0, -1], [1, 0, -2]]),
+                i(eR.Road, Ww.SlopeUp, [["Road", "SlopeUp"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.Road, Ww.SlopeUpBlock, [["Road", "SlopeUp"], ["Blocks", "BlockSlopeUp"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.Road, Ww.SlopeUpLong, [["Road", "SlopeUpLong"]], [[0, 0, 0], [0, 0, -1], [0, 1, -1], [0, 2, -1]]),
+                i(eR.Road, Ww.SlopeDown, [["Road", "SlopeDown"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.Road, Ww.SlopeDownBlock, [["Road", "SlopeDown"], ["Blocks", "BlockSlopeDown"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.Road, Ww.SlopeDownLong, [["Road", "SlopeDownLong"]], [[0, 0, 0], [0, 1, 0], [0, 1, 1], [0, 2, 1]]),
+                i(eR.Road, Ww.Slope, [["Road", "Slope"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
+                i(eR.Road, Ww.SlopePillar, [["Road", "Slope"], ["Pillar", "PillarTopSlope"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
+                i(eR.Road, Ww.SlopePillarShort, [["Road", "Slope"], ["Pillar", "PillarShortSlope"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
+                i(eR.Road, Ww.SlopeBlock, [["Road", "Slope"], ["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
+                i(eR.Road, Ww.IntersectionT, [["Road", "IntersectionT"]]),
+                i(eR.Road, Ww.IntersectionTPillarBottom, [["Road", "IntersectionT"], ["Pillar", "SurfacePillarBottom"]]),
+                i(eR.Road, Ww.IntersectionTPillarShort, [["Road", "IntersectionT"], ["Pillar", "SurfacePillarShort"]]),
+                i(eR.Road, Ww.IntersectionCross, [["Road", "IntersectionCross"]]),
+                i(eR.Road, Ww.IntersectionCrossPillarBottom, [["Road", "IntersectionCross"], ["Pillar", "SurfacePillarBottom"]]),
+                i(eR.Road, Ww.IntersectionCrossPillarShort, [["Road", "IntersectionCross"], ["Pillar", "SurfacePillarShort"]]),
+                i(eR.RoadWide, Ww.ToWideMiddle, [["RoadWide", "ToWideMiddle"]]),
+                i(eR.RoadWide, Ww.ToWideLeft, [["RoadWide", "ToWideLeft"]]),
+                i(eR.RoadWide, Ww.ToWideRight, [["RoadWide", "ToWideRight"]]),
+                i(eR.RoadWide, Ww.ToWideDouble, [["RoadWide", "ToWideDouble"]]),
+                i(eR.RoadWide, Ww.ToWideDiagonal, [["RoadWide", "ToWideDiagonal"]]),
+                i(eR.RoadWide, Ww.StraightWide, [["RoadWide", "StraightWide"]]),
+                i(eR.RoadWide, Ww.InnerCornerWide, [["RoadWide", "InnerCornerWide"]]),
+                i(eR.RoadWide, Ww.OuterCornerWide, [["RoadWide", "OuterCornerWide"]]),
+                i(eR.RoadWide, Ww.SlopeUpLeftWide, [["RoadWide", "SlopeUpLeftWide"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.RoadWide, Ww.SlopeUpLeftWideBlock, [["RoadWide", "SlopeUpLeftWide"], ["Blocks", "BlockSlopeUp"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.RoadWide, Ww.SlopeUpRightWide, [["RoadWide", "SlopeUpRightWide"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.RoadWide, Ww.SlopeUpRightWideBlock, [["RoadWide", "SlopeUpRightWide"], ["Blocks", "BlockSlopeUp"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.RoadWide, Ww.SlopeDownLeftWide, [["RoadWide", "SlopeDownLeftWide"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.RoadWide, Ww.SlopeDownLeftWideBlock, [["RoadWide", "SlopeDownLeftWide"], ["Blocks", "BlockSlopeDown"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.RoadWide, Ww.SlopeDownRightWide, [["RoadWide", "SlopeDownRightWide"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.RoadWide, Ww.SlopeDownRightWideBlock, [["RoadWide", "SlopeDownRightWide"], ["Blocks", "BlockSlopeDown"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.RoadWide, Ww.SlopeLeftWide, [["RoadWide", "SlopeLeftWide"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
+                i(eR.RoadWide, Ww.SlopeLeftWideBlock, [["RoadWide", "SlopeLeftWide"], ["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
+                i(eR.RoadWide, Ww.SlopeRightWide, [["RoadWide", "SlopeRightWide"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
+                i(eR.RoadWide, Ww.SlopeRightWideBlock, [["RoadWide", "SlopeRightWide"], ["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
+                i(eR.Plane, Ww.Plane, [["Planes", "Plane"]]),
+                i(eR.Plane, Ww.PlanePillarBottom, [["Planes", "Plane"], ["Pillar", "SurfacePillarBottom"]]),
+                i(eR.Plane, Ww.PlanePillarShort, [["Planes", "Plane"], ["Pillar", "SurfacePillarShort"]]),
+                i(eR.Plane, Ww.HalfPlane, [["Planes", "HalfPlane"]]),
+                i(eR.Plane, Ww.QuarterPlane, [["Planes", "QuarterPlane"]]),
+                i(eR.Plane, Ww.PlaneSlopeUp, [["Planes", "PlaneSlopeUp"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.Plane, Ww.PlaneSlopeDown, [["Planes", "PlaneSlopeDown"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.Plane, Ww.PlaneSlope, [["Planes", "PlaneSlope"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
+                i(eR.Plane, Ww.PlaneBridge, [["Planes", "PlaneBridge"]]),
+                i(eR.Plane, Ww.PlaneBridgeCorner, [["Planes", "PlaneBridgeCorner"]]),
+                i(eR.Plane, Ww.PlaneBridgeIntersectionT, [["Planes", "PlaneBridgeIntersectionT"]]),
+                i(eR.Plane, Ww.PlaneBridgeIntersectionCross, [["Planes", "PlaneBridgeIntersectionCross"]]),
+                i(eR.Plane, Ww.PlaneWall, [["Planes", "PlaneWall"]]),
+                i(eR.Plane, Ww.PlaneWallCorner, [["Planes", "PlaneWallCorner"]]),
+                i(eR.Plane, Ww.PlaneWallInnerCorner, [["Planes", "PlaneWallInnerCorner"]]),
+                i(eR.Plane, Ww.PlaneSlopeUpBlock, [["Planes", "PlaneSlopeUp"], ["Blocks", "BlockSlopeUp"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.Plane, Ww.PlaneSlopeDownBlock, [["Planes", "PlaneSlopeDown"], ["Blocks", "BlockSlopeDown"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.Plane, Ww.PlaneSlopeBlock, [["Planes", "PlaneSlope"], ["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
+                i(eR.Plane, Ww.PlaneSlopePillar, [["Planes", "PlaneSlope"], ["Pillar", "PillarTopSlope"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
+                i(eR.Plane, Ww.PlaneSlopePillarShort, [["Planes", "PlaneSlope"], ["Pillar", "PillarShortSlope"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0]]),
+                i(eR.Block, Ww.Block, [["Blocks", "Block"]]),
+                i(eR.Block, Ww.HalfBlock, [["Blocks", "HalfBlock"]]),
+                i(eR.Block, Ww.QuarterBlock, [["Blocks", "QuarterBlock"]]),
+                i(eR.Block, Ww.BlockSlopedDown, [["Blocks", "BlockSlopedDown"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.Block, Ww.BlockSlopedDownInnerCorner, [["Blocks", "BlockSlopedDownInnerCorner"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.Block, Ww.BlockSlopedDownOuterCorner, [["Blocks", "BlockSlopedDownOuterCorner"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.Block, Ww.BlockSlopedUp, [["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.Block, Ww.BlockSlopedUpInnerCorner, [["Blocks", "BlockSlopedUpInnerCorner"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.Block, Ww.BlockSlopedUpOuterCorner, [["Blocks", "BlockSlopedUpOuterCorner"]], [[0, 0, 0], [0, 1, 0]]),
+                i(eR.Block, Ww.BlockSlopeDown, [["Blocks", "BlockSlopeDown"]]),
+                i(eR.Block, Ww.BlockSlopeUp, [["Blocks", "BlockSlopeUp"]]),
+                i(eR.Block, Ww.BlockBridge, [["Blocks", "BlockBridge"]]),
+                i(eR.Block, Ww.BlockBridgeCorner, [["Blocks", "BlockBridgeCorner"]]),
+                i(eR.Block, Ww.BlockBridgeIntersectionT, [["Blocks", "BlockBridgeIntersectionT"]]),
+                i(eR.Block, Ww.BlockBridgeIntersectionCross, [["Blocks", "BlockBridgeIntersectionCross"]]),
+                i(eR.Block, Ww.RedBlock, [["Blocks", "Block"]], null, null, a),
+                i(eR.Block, Ww.RedHalfBlock, [["Blocks", "HalfBlock"]], null, null, a),
+                i(eR.Block, Ww.RedQuarterBlock, [["Blocks", "QuarterBlock"]], null, null, a),
+                i(eR.Block, Ww.RedBlockSlopedDown, [["Blocks", "BlockSlopedDown"]], [[0, 0, 0], [0, 1, 0]], null, a),
+                i(eR.Block, Ww.RedBlockSlopedDownInnerCorner, [["Blocks", "BlockSlopedDownInnerCorner"]], [[0, 0, 0], [0, 1, 0]], null, a),
+                i(eR.Block, Ww.RedBlockSlopedDownOuterCorner, [["Blocks", "BlockSlopedDownOuterCorner"]], [[0, 0, 0], [0, 1, 0]], null, a),
+                i(eR.Block, Ww.RedBlockSlopedUp, [["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0]], null, a),
+                i(eR.Block, Ww.RedBlockSlopedUpInnerCorner, [["Blocks", "BlockSlopedUpInnerCorner"]], [[0, 0, 0], [0, 1, 0]], null, a),
+                i(eR.Block, Ww.RedBlockSlopedUpOuterCorner, [["Blocks", "BlockSlopedUpOuterCorner"]], [[0, 0, 0], [0, 1, 0]], null, a),
+                i(eR.Block, Ww.RedBlockSlopeDown, [["Blocks", "BlockSlopeDown"]], null, null, a),
+                i(eR.Block, Ww.RedBlockSlopeUp, [["Blocks", "BlockSlopeUp"]], null, null, a),
+                i(eR.Block, Ww.RedBlockBridge, [["Blocks", "BlockBridge"]], null, null, a),
+                i(eR.Block, Ww.RedBlockBridgeCorner, [["Blocks", "BlockBridgeCorner"]], null, null, a),
+                i(eR.Block, Ww.RedBlockBridgeIntersectionT, [["Blocks", "BlockBridgeIntersectionT"]], null, null, a),
+                i(eR.Block, Ww.RedBlockBridgeIntersectionCross, [["Blocks", "BlockBridgeIntersectionCross"]], null, null, a),
+                i(eR.Block, Ww.BlueBlock, [["Blocks", "Block"]], null, null, o),
+                i(eR.Block, Ww.BlueHalfBlock, [["Blocks", "HalfBlock"]], null, null, o),
+                i(eR.Block, Ww.BlueQuarterBlock, [["Blocks", "QuarterBlock"]], null, null, o),
+                i(eR.Block, Ww.BlueBlockSlopedDown, [["Blocks", "BlockSlopedDown"]], [[0, 0, 0], [0, 1, 0]], null, o),
+                i(eR.Block, Ww.BlueBlockSlopedDownInnerCorner, [["Blocks", "BlockSlopedDownInnerCorner"]], [[0, 0, 0], [0, 1, 0]], null, o),
+                i(eR.Block, Ww.BlueBlockSlopedDownOuterCorner, [["Blocks", "BlockSlopedDownOuterCorner"]], [[0, 0, 0], [0, 1, 0]], null, o),
+                i(eR.Block, Ww.BlueBlockSlopedUp, [["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0]], null, o),
+                i(eR.Block, Ww.BlueBlockSlopedUpInnerCorner, [["Blocks", "BlockSlopedUpInnerCorner"]], [[0, 0, 0], [0, 1, 0]], null, o),
+                i(eR.Block, Ww.BlueBlockSlopedUpOuterCorner, [["Blocks", "BlockSlopedUpOuterCorner"]], [[0, 0, 0], [0, 1, 0]], null, o),
+                i(eR.Block, Ww.BlueBlockSlopeDown, [["Blocks", "BlockSlopeDown"]], null, null, o),
+                i(eR.Block, Ww.BlueBlockSlopeUp, [["Blocks", "BlockSlopeUp"]], null, null, o),
+                i(eR.Block, Ww.BlueBlockBridge, [["Blocks", "BlockBridge"]], null, null, o),
+                i(eR.Block, Ww.BlueBlockBridgeCorner, [["Blocks", "BlockBridgeCorner"]], null, null, o),
+                i(eR.Block, Ww.BlueBlockBridgeIntersectionT, [["Blocks", "BlockBridgeIntersectionT"]], null, null, o),
+                i(eR.Block, Ww.BlueBlockBridgeIntersectionCross, [["Blocks", "BlockBridgeIntersectionCross"]], null, null, o),
+                i(eR.Block, Ww.BlackBlock, [["Blocks", "Block"]], null, null, s),
+                i(eR.Block, Ww.BlackHalfBlock, [["Blocks", "HalfBlock"]], null, null, s),
+                i(eR.Block, Ww.BlackQuarterBlock, [["Blocks", "QuarterBlock"]], null, null, s),
+                i(eR.Block, Ww.BlackBlockSlopedDown, [["Blocks", "BlockSlopedDown"]], [[0, 0, 0], [0, 1, 0]], null, s),
+                i(eR.Block, Ww.BlackBlockSlopedDownInnerCorner, [["Blocks", "BlockSlopedDownInnerCorner"]], [[0, 0, 0], [0, 1, 0]], null, s),
+                i(eR.Block, Ww.BlackBlockSlopedDownOuterCorner, [["Blocks", "BlockSlopedDownOuterCorner"]], [[0, 0, 0], [0, 1, 0]], null, s),
+                i(eR.Block, Ww.BlackBlockSlopedUp, [["Blocks", "BlockSlopedUp"]], [[0, 0, 0], [0, 1, 0]], null, s),
+                i(eR.Block, Ww.BlackBlockSlopedUpInnerCorner, [["Blocks", "BlockSlopedUpInnerCorner"]], [[0, 0, 0], [0, 1, 0]], null, s),
+                i(eR.Block, Ww.BlackBlockSlopedUpOuterCorner, [["Blocks", "BlockSlopedUpOuterCorner"]], [[0, 0, 0], [0, 1, 0]], null, s),
+                i(eR.Block, Ww.BlackBlockSlopeDown, [["Blocks", "BlockSlopeDown"]], null, null, s),
+                i(eR.Block, Ww.BlackBlockSlopeUp, [["Blocks", "BlockSlopeUp"]], null, null, s),
+                i(eR.Block, Ww.BlackBlockBridge, [["Blocks", "BlockBridge"]], null, null, s),
+                i(eR.Block, Ww.BlackBlockBridgeCorner, [["Blocks", "BlockBridgeCorner"]], null, null, s),
+                i(eR.Block, Ww.BlackBlockBridgeIntersectionT, [["Blocks", "BlockBridgeIntersectionT"]], null, null, s),
+                i(eR.Block, Ww.BlackBlockBridgeIntersectionCross, [["Blocks", "BlockBridgeIntersectionCross"]], null, null, s),
+                i(eR.WallTrack, Ww.WallTrackTop, [["WallTrack", "WallTrackTop"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0], [0, 3, 0]]),
+                i(eR.WallTrack, Ww.WallTrackMiddle, [["WallTrack", "WallTrackMiddle"]]),
+                i(eR.WallTrack, Ww.WallTrackBottom, [["WallTrack", "WallTrackBottom"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0], [0, 3, 0]]),
+                i(eR.WallTrack, Ww.WallTrackTopCorner, [["WallTrack", "WallTrackTopCorner"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0], [0, 3, 0]]),
+                i(eR.WallTrack, Ww.WallTrackMiddleCorner, [["WallTrack", "WallTrackMiddleCorner"]]),
+                i(eR.WallTrack, Ww.WallTrackBottomCorner, [["WallTrack", "WallTrackBottomCorner"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0], [0, 3, 0]]),
+                i(eR.WallTrack, Ww.WallTrackBottomInnerCorner, [["WallTrack", "WallTrackBottomInnerCorner"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0], [0, 3, 0]]),
+                i(eR.WallTrack, Ww.WallTrackInnerCorner, [["WallTrack", "WallTrackInnerCorner"]]),
+                i(eR.WallTrack, Ww.WallTrackTopInnerCorner, [["WallTrack", "WallTrackTopInnerCorner"]], [[0, 0, 0], [0, 1, 0], [0, 2, 0], [0, 3, 0]]),
+                i(eR.WallTrack, Ww.WallTrackCeiling, [["WallTrack", "WallTrackCeiling"]]),
+                i(eR.WallTrack, Ww.WallTrackFloor, [["WallTrack", "WallTrackFloor"]]),
+                i(eR.Pillar, Ww.PillarTop, [["Pillar", "PillarTop"]]),
+                i(eR.Pillar, Ww.PillarMiddle, [["Pillar", "PillarMiddle"]]),
+                i(eR.Pillar, Ww.PillarBottom, [["Pillar", "PillarBottom"]]),
+                i(eR.Pillar, Ww.PillarShort, [["Pillar", "PillarShort"]]),
+                i(eR.Pillar, Ww.PillarBranch1, [["Pillar", "PillarBranch1"]]),
+                i(eR.Pillar, Ww.PillarBranch1Top, [["Pillar", "PillarBranch1Top"]]),
+                i(eR.Pillar, Ww.PillarBranch1Middle, [["Pillar", "PillarBranch1Middle"]]),
+                i(eR.Pillar, Ww.PillarBranch1Bottom, [["Pillar", "PillarBranch1Bottom"]]),
+                i(eR.Pillar, Ww.PillarBranch2, [["Pillar", "PillarBranch2"]]),
+                i(eR.Pillar, Ww.PillarBranch2Top, [["Pillar", "PillarBranch2Top"]]),
+                i(eR.Pillar, Ww.PillarBranch2Middle, [["Pillar", "PillarBranch2Middle"]]),
+                i(eR.Pillar, Ww.PillarBranch2Bottom, [["Pillar", "PillarBranch2Bottom"]]),
+                i(eR.Pillar, Ww.PillarBranch3, [["Pillar", "PillarBranch3"]]),
+                i(eR.Pillar, Ww.PillarBranch3Top, [["Pillar", "PillarBranch3Top"]]),
+                i(eR.Pillar, Ww.PillarBranch3Middle, [["Pillar", "PillarBranch3Middle"]]),
+                i(eR.Pillar, Ww.PillarBranch3Bottom, [["Pillar", "PillarBranch3Bottom"]]),
+                i(eR.Pillar, Ww.PillarBranch4, [["Pillar", "PillarBranch4"]]),
+                i(eR.Pillar, Ww.PillarBranch4Top, [["Pillar", "PillarBranch4Top"]]),
+                i(eR.Pillar, Ww.PillarBranch4Middle, [["Pillar", "PillarBranch4Middle"]]),
+                i(eR.Pillar, Ww.PillarBranch4Bottom, [["Pillar", "PillarBranch4Bottom"]]),
+                i(eR.Pillar, Ww.PillarBranch5, [["Pillar", "PillarBranch5"]]),
+                i(eR.Pillar, Ww.PillarBranch5Top, [["Pillar", "PillarBranch5Top"]]),
+                i(eR.Pillar, Ww.PillarBranch5Middle, [["Pillar", "PillarBranch5Middle"]]),
+                i(eR.Pillar, Ww.PillarBranch5Bottom, [["Pillar", "PillarBranch5Bottom"]]),
+                i(eR.Sign, Ww.SignArrowLeft, [["Signs", "SignArrowLeft"]]),
+                i(eR.Sign, Ww.SignArrowRight, [["Signs", "SignArrowRight"]]),
+                i(eR.Sign, Ww.SignArrowUp, [["Signs", "SignArrowUp"]]),
+                i(eR.Sign, Ww.SignArrowDown, [["Signs", "SignArrowDown"]]),
+                i(eR.Sign, Ww.SignWarning, [["Signs", "SignWarning"]]),
+                i(eR.Sign, Ww.SignWrongWay, [["Signs", "SignWrongWay"]])
             }
             ))
         }
         ;
-        var aR = n(207)
-          , oR = {};
-        oR.styleTagTransform = u(),
-        oR.setAttributes = l(),
-        oR.insert = o().bind(null, "head"),
-        oR.domAPI = r(),
-        oR.insertStyleElement = h();
-        t()(aR.A, oR);
-        aR.A && aR.A.locals && aR.A.locals;
-        const sR = class {
+        var cR = n(207)
+          , hR = {};
+        hR.styleTagTransform = u(),
+        hR.setAttributes = l(),
+        hR.insert = o().bind(null, "head"),
+        hR.domAPI = r(),
+        hR.insertStyleElement = h();
+        t()(cR.A, hR);
+        cR.A && cR.A.locals && cR.A.locals;
+        const dR = class {
             constructor() {
                 this.transitionLayer = document.getElementById("transition-layer"),
                 this.callback = null
@@ -36588,7 +36602,7 @@
             }
         }
         ;
-        var lR, cR, hR = function(e, t, n, i, r) {
+        var uR, pR, fR = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -36597,20 +36611,20 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, dR = function(e, t, n, i) {
+        }, mR = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        lR = new WeakMap,
-        cR = new WeakMap;
-        const uR = class {
+        uR = new WeakMap,
+        pR = new WeakMap;
+        const gR = class {
             constructor(e, t, n) {
-                lR.set(this, void 0),
-                cR.set(this, void 0),
-                hR(this, lR, t, "f");
+                uR.set(this, void 0),
+                pR.set(this, void 0),
+                fR(this, uR, t, "f");
                 const i = e.getShadowDirection().negate();
                 n.addResource();
                 const r = (new yh).load("images/clouds.jpg", ( () => {
@@ -36649,34 +36663,34 @@
                 });
                 o.side = T,
                 o.depthWrite = !1,
-                hR(this, cR, new Br(a,o), "f"),
-                dR(this, cR, "f").renderOrder = -3,
-                dR(this, cR, "f").matrixAutoUpdate = !1,
-                dR(this, cR, "f").updateMatrix(),
-                e.scene.add(dR(this, cR, "f"))
+                fR(this, pR, new Br(a,o), "f"),
+                mR(this, pR, "f").renderOrder = -3,
+                mR(this, pR, "f").matrixAutoUpdate = !1,
+                mR(this, pR, "f").updateMatrix(),
+                e.scene.add(mR(this, pR, "f"))
             }
             update(e, t) {
-                dR(this, lR, "f").getSettingBoolean(Jh.CloudsEnabled) ? (dR(this, cR, "f").material.uniforms.scrollA.value.x += .00226 * e,
-                dR(this, cR, "f").material.uniforms.scrollA.value.y += .001646 * e,
-                dR(this, cR, "f").material.uniforms.scrollB.value.x += .001752 * e,
-                dR(this, cR, "f").material.uniforms.scrollB.value.y += .001057 * e,
-                1 != dR(this, cR, "f").material.defines.CLOUDS_ENABLED && (dR(this, cR, "f").material.defines.CLOUDS_ENABLED = !0,
-                dR(this, cR, "f").material.needsUpdate = !0)) : 0 != dR(this, cR, "f").material.defines.CLOUDS_ENABLED && (dR(this, cR, "f").material.defines.CLOUDS_ENABLED = !1,
-                dR(this, cR, "f").material.needsUpdate = !0),
-                dR(this, cR, "f").position.copy(t.position),
-                dR(this, cR, "f").updateMatrix()
+                mR(this, uR, "f").getSettingBoolean(Jh.CloudsEnabled) ? (mR(this, pR, "f").material.uniforms.scrollA.value.x += .00226 * e,
+                mR(this, pR, "f").material.uniforms.scrollA.value.y += .001646 * e,
+                mR(this, pR, "f").material.uniforms.scrollB.value.x += .001752 * e,
+                mR(this, pR, "f").material.uniforms.scrollB.value.y += .001057 * e,
+                1 != mR(this, pR, "f").material.defines.CLOUDS_ENABLED && (mR(this, pR, "f").material.defines.CLOUDS_ENABLED = !0,
+                mR(this, pR, "f").material.needsUpdate = !0)) : 0 != mR(this, pR, "f").material.defines.CLOUDS_ENABLED && (mR(this, pR, "f").material.defines.CLOUDS_ENABLED = !1,
+                mR(this, pR, "f").material.needsUpdate = !0),
+                mR(this, pR, "f").position.copy(t.position),
+                mR(this, pR, "f").updateMatrix()
             }
         }
         ;
-        const pR = class {
+        const vR = class {
             constructor() {
                 this.token = null,
-                this.nickname = ER.defaultNickname,
+                this.nickname = AR.defaultNickname,
                 this.carColors = wu.random()
             }
         }
         ;
-        var fR, mR, gR, vR, wR, yR, bR, xR = function(e, t, n, i, r) {
+        var wR, yR, bR, xR, _R, kR, ER, SR = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -36685,27 +36699,27 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, _R = function(e, t, n, i) {
+        }, MR = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        class kR {
+        class TR {
             constructor(e) {
                 var t;
-                fR.add(this),
-                gR.set(this, void 0),
-                vR.set(this, void 0),
-                wR.set(this, void 0),
-                xR(this, gR, e, "f"),
-                xR(this, vR, null !== (t = _R(this, gR, "f").loadUserProfileSlot()) && void 0 !== t ? t : 0, "f"),
-                xR(this, wR, _R(this, fR, "m", bR).call(this, _R(this, vR, "f")), "f")
+                wR.add(this),
+                bR.set(this, void 0),
+                xR.set(this, void 0),
+                _R.set(this, void 0),
+                SR(this, bR, e, "f"),
+                SR(this, xR, null !== (t = MR(this, bR, "f").loadUserProfileSlot()) && void 0 !== t ? t : 0, "f"),
+                SR(this, _R, MR(this, wR, "m", ER).call(this, MR(this, xR, "f")), "f")
             }
             createProfile(e, t, n, i) {
-                return !!this.isValidToken(t) && (_R(this, gR, "f").saveUserProfile(e, t, n, i),
-                null != _R(this, gR, "f").loadUserProfile(e))
+                return !!this.isValidToken(t) && (MR(this, bR, "f").saveUserProfile(e, t, n, i),
+                null != MR(this, bR, "f").loadUserProfile(e))
             }
             isValidToken(e) {
                 return !(!/^[0-9a-f]*$/.test(e) || 64 != e.length)
@@ -36713,74 +36727,74 @@
             hasDuplicateToken(e) {
                 var t;
                 for (let n = 0; n < 3; n++)
-                    if ((null === (t = _R(this, gR, "f").loadUserProfile(n)) || void 0 === t ? void 0 : t.token) == e)
+                    if ((null === (t = MR(this, bR, "f").loadUserProfile(n)) || void 0 === t ? void 0 : t.token) == e)
                         return !0;
                 return !1
             }
             firstOccupiedProfileSlot() {
                 for (let e = 0; e < 3; e++)
-                    if (null != _R(this, gR, "f").loadUserProfile(e))
+                    if (null != MR(this, bR, "f").loadUserProfile(e))
                         return e;
                 return null
             }
             firstFreeProfileSlot() {
                 for (let e = 0; e < 3; e++)
-                    if (null == _R(this, gR, "f").loadUserProfile(e))
+                    if (null == MR(this, bR, "f").loadUserProfile(e))
                         return e;
                 return null
             }
             deleteProfileSlot(e) {
-                _R(this, gR, "f").deleteAllRecords(e),
-                _R(this, gR, "f").deleteUserProfile(e)
+                MR(this, bR, "f").deleteAllRecords(e),
+                MR(this, bR, "f").deleteUserProfile(e)
             }
             setProfileSlot(e) {
                 if (!Number.isSafeInteger(e) || e < 0)
                     throw "Profile slot is invalid";
-                xR(this, vR, e, "f"),
-                xR(this, wR, _R(this, fR, "m", bR).call(this, _R(this, vR, "f")), "f"),
-                _R(this, gR, "f").saveUserProfileSlot(_R(this, vR, "f"))
+                SR(this, xR, e, "f"),
+                SR(this, _R, MR(this, wR, "m", ER).call(this, MR(this, xR, "f")), "f"),
+                MR(this, bR, "f").saveUserProfileSlot(MR(this, xR, "f"))
             }
-            setNickname(e, t=_R(this, vR, "f")) {
+            setNickname(e, t=MR(this, xR, "f")) {
                 let n;
-                n = t == _R(this, vR, "f") ? _R(this, wR, "f") : _R(this, fR, "m", bR).call(this, t),
+                n = t == MR(this, xR, "f") ? MR(this, _R, "f") : MR(this, wR, "m", ER).call(this, t),
                 n.nickname = e,
-                _R(this, gR, "f").saveUserProfile(t, n.token, n.nickname, n.carColors)
+                MR(this, bR, "f").saveUserProfile(t, n.token, n.nickname, n.carColors)
             }
-            setCarColors(e, t=_R(this, vR, "f")) {
+            setCarColors(e, t=MR(this, xR, "f")) {
                 let n;
-                n = t == _R(this, vR, "f") ? _R(this, wR, "f") : _R(this, fR, "m", bR).call(this, t),
+                n = t == MR(this, xR, "f") ? MR(this, _R, "f") : MR(this, wR, "m", ER).call(this, t),
                 n.carColors = e,
-                _R(this, gR, "f").saveUserProfile(t, n.token, n.nickname, n.carColors)
+                MR(this, bR, "f").saveUserProfile(t, n.token, n.nickname, n.carColors)
             }
             get profileSlot() {
-                return _R(this, vR, "f")
+                return MR(this, xR, "f")
             }
-            getUserProfile(e=_R(this, vR, "f")) {
+            getUserProfile(e=MR(this, xR, "f")) {
                 var t;
-                return e == _R(this, vR, "f") ? {
-                    token: _R(this, wR, "f").token,
-                    nickname: _R(this, wR, "f").nickname,
-                    carColors: _R(this, wR, "f").carColors
-                } : null !== (t = _R(this, gR, "f").loadUserProfile(e)) && void 0 !== t ? t : null
+                return e == MR(this, xR, "f") ? {
+                    token: MR(this, _R, "f").token,
+                    nickname: MR(this, _R, "f").nickname,
+                    carColors: MR(this, _R, "f").carColors
+                } : null !== (t = MR(this, bR, "f").loadUserProfile(e)) && void 0 !== t ? t : null
             }
-            getToken(e=_R(this, vR, "f")) {
+            getToken(e=MR(this, xR, "f")) {
                 var t, n;
-                return e == _R(this, vR, "f") ? _R(this, wR, "f").token : null !== (n = null === (t = _R(this, gR, "f").loadUserProfile(e)) || void 0 === t ? void 0 : t.token) && void 0 !== n ? n : null
+                return e == MR(this, xR, "f") ? MR(this, _R, "f").token : null !== (n = null === (t = MR(this, bR, "f").loadUserProfile(e)) || void 0 === t ? void 0 : t.token) && void 0 !== n ? n : null
             }
-            getTokenHash(e=_R(this, vR, "f")) {
+            getTokenHash(e=MR(this, xR, "f")) {
                 var t, n;
                 let i;
-                return i = e == _R(this, vR, "f") ? _R(this, wR, "f").token : null !== (n = null === (t = _R(this, gR, "f").loadUserProfile(e)) || void 0 === t ? void 0 : t.token) && void 0 !== n ? n : null,
+                return i = e == MR(this, xR, "f") ? MR(this, _R, "f").token : null !== (n = null === (t = MR(this, bR, "f").loadUserProfile(e)) || void 0 === t ? void 0 : t.token) && void 0 !== n ? n : null,
                 null == i ? null : (0,
-                hy.sha256)(i)
+                fy.sha256)(i)
             }
-            getNickname(e=_R(this, vR, "f")) {
+            getNickname(e=MR(this, xR, "f")) {
                 var t, n;
-                return e == _R(this, vR, "f") ? _R(this, wR, "f").nickname : null !== (n = null === (t = _R(this, gR, "f").loadUserProfile(e)) || void 0 === t ? void 0 : t.nickname) && void 0 !== n ? n : mR.defaultNickname
+                return e == MR(this, xR, "f") ? MR(this, _R, "f").nickname : null !== (n = null === (t = MR(this, bR, "f").loadUserProfile(e)) || void 0 === t ? void 0 : t.nickname) && void 0 !== n ? n : yR.defaultNickname
             }
-            getCarColors(e=_R(this, vR, "f")) {
+            getCarColors(e=MR(this, xR, "f")) {
                 var t, n;
-                return e == _R(this, vR, "f") ? _R(this, wR, "f").carColors : null !== (n = null === (t = _R(this, gR, "f").loadUserProfile(e)) || void 0 === t ? void 0 : t.carColors) && void 0 !== n ? n : wu.random()
+                return e == MR(this, xR, "f") ? MR(this, _R, "f").carColors : null !== (n = null === (t = MR(this, bR, "f").loadUserProfile(e)) || void 0 === t ? void 0 : t.carColors) && void 0 !== n ? n : wu.random()
             }
             syncUserProfile(e) {
                 const t = this.getUserProfile();
@@ -36797,12 +36811,12 @@
                 ))
             }
         }
-        mR = kR,
-        gR = new WeakMap,
-        vR = new WeakMap,
-        wR = new WeakMap,
-        fR = new WeakSet,
-        yR = function(e) {
+        yR = TR,
+        bR = new WeakMap,
+        xR = new WeakMap,
+        _R = new WeakMap,
+        wR = new WeakSet,
+        kR = function(e) {
             let t, n = "";
             try {
                 const e = new Uint8Array(32);
@@ -36814,42 +36828,42 @@
             } catch (e) {}
             0 == n.length ? (t = null,
             console.error("Failed to generate user token")) : t = (0,
-            hy.sha256)(n);
-            const i = mR.defaultNickname
+            fy.sha256)(n);
+            const i = yR.defaultNickname
               , r = wu.random();
-            _R(this, gR, "f").saveUserProfile(e, t, i, r)
+            MR(this, bR, "f").saveUserProfile(e, t, i, r)
         }
         ,
-        bR = function(e) {
+        ER = function(e) {
             var t;
-            return null == _R(this, gR, "f").loadUserProfile(e) && _R(this, fR, "m", yR).call(this, e),
-            null !== (t = _R(this, gR, "f").loadUserProfile(e)) && void 0 !== t ? t : new pR
+            return null == MR(this, bR, "f").loadUserProfile(e) && MR(this, wR, "m", kR).call(this, e),
+            null !== (t = MR(this, bR, "f").loadUserProfile(e)) && void 0 !== t ? t : new vR
         }
         ,
-        kR.defaultNickname = "Anonymous";
-        const ER = kR;
-        var SR, MR, TR, AR, CR, PR, RR, LR, IR, NR, DR, UR, BR, OR, zR, FR, WR, HR, VR, GR = function(e, t, n, i) {
+        TR.defaultNickname = "Anonymous";
+        const AR = TR;
+        var CR, PR, RR, LR, IR, NR, DR, UR, BR, OR, zR, FR, WR, HR, VR, GR, jR, qR, XR, YR = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        class jR {
+        class KR {
             constructor() {
-                SR.add(this)
+                CR.add(this)
             }
             migrate(e) {
-                GR(MR, MR, "f", TR) || GR(MR, MR, "f", AR) || GR(this, SR, "m", BR).call(this) || (GR(this, SR, "m", PR).call(this, e),
-                GR(this, SR, "m", RR).call(this, e),
-                GR(this, SR, "m", LR).call(this, e),
-                GR(this, SR, "m", UR).call(this))
+                YR(PR, PR, "f", RR) || YR(PR, PR, "f", LR) || YR(this, CR, "m", WR).call(this) || (YR(this, CR, "m", NR).call(this, e),
+                YR(this, CR, "m", DR).call(this, e),
+                YR(this, CR, "m", UR).call(this, e),
+                YR(this, CR, "m", FR).call(this))
             }
             saveRecord(e, t, n, i, r) {
                 if (!Number.isSafeInteger(e) || e < 0)
                     throw "Profile slot is invalid";
                 try {
-                    localStorage.setItem(GR(MR, MR, "f", OR) + e + "_" + t, JSON.stringify({
+                    localStorage.setItem(YR(PR, PR, "f", HR) + e + "_" + t, JSON.stringify({
                         uploadId: n,
                         frames: i.numberOfFrames.toString(),
                         recording: r.serialize()
@@ -36862,7 +36876,7 @@
                 if (!Number.isSafeInteger(e) || e < 0)
                     throw "Profile slot is invalid";
                 try {
-                    const n = localStorage.getItem(GR(MR, MR, "f", OR) + e + "_" + t);
+                    const n = localStorage.getItem(YR(PR, PR, "f", HR) + e + "_" + t);
                     if (null == n)
                         return null;
                     const i = JSON.parse(n);
@@ -36884,7 +36898,7 @@
                     const o = new rp(a);
                     if (!("recording"in i))
                         return null;
-                    const s = Ag.deserialize(i.recording);
+                    const s = Lg.deserialize(i.recording);
                     return null == s ? null : {
                         uploadId: r,
                         time: o,
@@ -36900,7 +36914,7 @@
                     throw "Profile slot is invalid";
                 try {
                     Object.keys(localStorage).forEach((t => {
-                        t.startsWith(GR(MR, MR, "f", OR) + e + "_") && localStorage.removeItem(t)
+                        t.startsWith(YR(PR, PR, "f", HR) + e + "_") && localStorage.removeItem(t)
                     }
                     ))
                 } catch (e) {
@@ -36910,7 +36924,7 @@
             saveTrack(e, t, n) {
                 const i = t.toSaveString(n);
                 try {
-                    return localStorage.setItem(GR(MR, MR, "f", zR) + e, JSON.stringify({
+                    return localStorage.setItem(YR(PR, PR, "f", VR) + e, JSON.stringify({
                         data: i,
                         saveTime: (new Date).getTime()
                     })),
@@ -36923,7 +36937,7 @@
             loadTrack(e, t) {
                 let n, i;
                 try {
-                    const t = localStorage.getItem(GR(MR, MR, "f", zR) + e);
+                    const t = localStorage.getItem(YR(PR, PR, "f", VR) + e);
                     if (null == t)
                         return null;
                     const r = JSON.parse(t);
@@ -36937,7 +36951,7 @@
                     return console.error(e),
                     null
                 }
-                const r = Py.fromSaveString(n, t);
+                const r = Ny.fromSaveString(n, t);
                 return null == r ? null : {
                     trackData: r,
                     saveTime: i
@@ -36945,7 +36959,7 @@
             }
             deleteTrack(e) {
                 try {
-                    return localStorage.removeItem(GR(MR, MR, "f", zR) + e),
+                    return localStorage.removeItem(YR(PR, PR, "f", VR) + e),
                     !0
                 } catch (e) {
                     return console.error(e),
@@ -36954,7 +36968,7 @@
             }
             checkTrackExists(e) {
                 try {
-                    return null != localStorage.getItem(GR(MR, MR, "f", zR) + e)
+                    return null != localStorage.getItem(YR(PR, PR, "f", VR) + e)
                 } catch (e) {
                     return null
                 }
@@ -36967,20 +36981,20 @@
                     return console.error(e),
                     null
                 }
-                return e.filter((e => e.startsWith(GR(MR, MR, "f", zR)))).map((e => e.substring(GR(MR, MR, "f", zR).length)))
+                return e.filter((e => e.startsWith(YR(PR, PR, "f", VR)))).map((e => e.substring(YR(PR, PR, "f", VR).length)))
             }
             saveUserProfileSlot(e) {
                 if (!Number.isSafeInteger(e) || e < 0)
                     throw "Profile slot is invalid";
                 try {
-                    localStorage.setItem(GR(MR, MR, "f", FR), JSON.stringify(e))
+                    localStorage.setItem(YR(PR, PR, "f", GR), JSON.stringify(e))
                 } catch (e) {
                     console.error(e)
                 }
             }
             loadUserProfileSlot() {
                 try {
-                    const e = localStorage.getItem(GR(MR, MR, "f", FR));
+                    const e = localStorage.getItem(YR(PR, PR, "f", GR));
                     if (null != e)
                         try {
                             const t = JSON.parse(e);
@@ -36999,7 +37013,7 @@
                 if (!Number.isSafeInteger(e) || e < 0)
                     throw "Profile slot is invalid";
                 try {
-                    localStorage.setItem(GR(MR, MR, "f", WR) + e, JSON.stringify({
+                    localStorage.setItem(YR(PR, PR, "f", jR) + e, JSON.stringify({
                         token: t,
                         nickname: n,
                         carColors: i.serialize()
@@ -37012,7 +37026,7 @@
                 if (!Number.isSafeInteger(e) || e < 0)
                     throw "Profile slot is invalid";
                 try {
-                    const t = localStorage.getItem(GR(MR, MR, "f", WR) + e);
+                    const t = localStorage.getItem(YR(PR, PR, "f", jR) + e);
                     if (null != t)
                         try {
                             const e = JSON.parse(t);
@@ -37039,7 +37053,7 @@
             }
             deleteUserProfile(e) {
                 try {
-                    localStorage.removeItem(GR(MR, MR, "f", WR) + e)
+                    localStorage.removeItem(YR(PR, PR, "f", jR) + e)
                 } catch (e) {
                     console.error(e)
                 }
@@ -37049,14 +37063,14 @@
                     const t = [];
                     for (const [n,i] of e.entries())
                         t.push([Jh[n], i]);
-                    localStorage.setItem(GR(MR, MR, "f", HR), JSON.stringify(t))
+                    localStorage.setItem(YR(PR, PR, "f", qR), JSON.stringify(t))
                 } catch (e) {
                     console.error(e)
                 }
             }
             loadSettings() {
                 try {
-                    const e = localStorage.getItem(GR(MR, MR, "f", HR));
+                    const e = localStorage.getItem(YR(PR, PR, "f", qR));
                     if (null == e)
                         return null;
                     const t = JSON.parse(e);
@@ -37088,15 +37102,15 @@
                 try {
                     const t = [];
                     for (const [n,i] of e.entries())
-                        t.push([Lb[n], i]);
-                    localStorage.setItem(GR(MR, MR, "f", VR), JSON.stringify(t))
+                        t.push([Ub[n], i]);
+                    localStorage.setItem(YR(PR, PR, "f", XR), JSON.stringify(t))
                 } catch (e) {
                     console.error(e)
                 }
             }
             loadKeyBindings() {
                 try {
-                    const e = localStorage.getItem(GR(MR, MR, "f", VR));
+                    const e = localStorage.getItem(YR(PR, PR, "f", XR));
                     if (null == e)
                         return null;
                     const t = JSON.parse(e);
@@ -37111,7 +37125,7 @@
                         if ("string" != typeof e[0])
                             return;
                         const t = e[0]
-                          , i = Lb[t];
+                          , i = Ub[t];
                         if (null == i)
                             return;
                         const r = e[1];
@@ -37125,9 +37139,9 @@
                 return null
             }
         }
-        MR = jR,
-        SR = new WeakSet,
-        PR = function(e) {
+        PR = KR,
+        CR = new WeakSet,
+        NR = function(e) {
             try {
                 Object.keys(localStorage).forEach((t => {
                     if ("car_colors" == t)
@@ -37136,7 +37150,7 @@
                             if (null != e) {
                                 const n = JSON.parse(e)
                                   , i = new wu(new tr(n[0]),new tr(n[1]),new tr(n[2]),new tr(n[3]));
-                                GR(this, SR, "m", NR).call(this, i),
+                                YR(this, CR, "m", OR).call(this, i),
                                 localStorage.removeItem(t)
                             }
                         } catch (e) {
@@ -37152,7 +37166,7 @@
                         try {
                             const n = localStorage.getItem(t);
                             if (null != n) {
-                                const i = xy(JSON.parse(n), e);
+                                const i = Sy(JSON.parse(n), e);
                                 if (null != i) {
                                     const {trackName: n, trackData: r} = i;
                                     this.saveTrack(n, r, e) && localStorage.removeItem(t)
@@ -37168,7 +37182,7 @@
             }
         }
         ,
-        RR = function(e) {
+        DR = function(e) {
             try {
                 Object.keys(localStorage).forEach((t => {
                     if ("v1_car" == t)
@@ -37177,7 +37191,7 @@
                             if (null != e) {
                                 const n = JSON.parse(e)
                                   , i = new wu(new tr(n[0]),new tr(n[1]),new tr(n[2]),new tr(n[3]));
-                                GR(this, SR, "m", NR).call(this, i),
+                                YR(this, CR, "m", OR).call(this, i),
                                 localStorage.removeItem(t)
                             }
                         } catch (e) {
@@ -37194,7 +37208,7 @@
                             const n = localStorage.getItem(t);
                             if (null != n) {
                                 const i = t.substring(9)
-                                  , r = _y(n, e);
+                                  , r = My(n, e);
                                 if (null == r)
                                     throw "Failed to load v1 track for migration";
                                 if (!this.saveTrack(i, r, e))
@@ -37211,7 +37225,7 @@
             }
         }
         ,
-        LR = function(e) {
+        UR = function(e) {
             try {
                 Object.keys(localStorage).forEach((t => {
                     if ("v2_car" == t)
@@ -37219,7 +37233,7 @@
                             const e = localStorage.getItem(t);
                             if (null != e) {
                                 const n = wu.deserialize(e);
-                                GR(this, SR, "m", NR).call(this, n),
+                                YR(this, CR, "m", OR).call(this, n),
                                 localStorage.removeItem(t)
                             }
                         } catch (e) {
@@ -37239,7 +37253,7 @@
                                 if ("string" != typeof r)
                                     throw "User profile nickname is not a string";
                                 const a = wu.random();
-                                GR(this, SR, "m", IR).call(this, i, r, a),
+                                YR(this, CR, "m", BR).call(this, i, r, a),
                                 localStorage.removeItem(t)
                             }
                         } catch (e) {
@@ -37256,7 +37270,7 @@
                             const n = localStorage.getItem(t);
                             if (null != n) {
                                 const i = t.substring(9)
-                                  , r = ky(n, e);
+                                  , r = Ty(n, e);
                                 if (null == r)
                                     throw "Failed to load v2 track for migration";
                                 if (!this.saveTrack(i, r, e))
@@ -37273,66 +37287,66 @@
             }
         }
         ,
-        IR = function(e, t, n) {
+        BR = function(e, t, n) {
             var i;
             const r = this.loadUserProfile(0);
             null == r ? this.saveUserProfile(0, e, t, n) : this.saveUserProfile(0, null !== (i = r.token) && void 0 !== i ? i : e, r.nickname, r.carColors)
         }
         ,
-        NR = function(e) {
+        OR = function(e) {
             const t = this.loadUserProfile(0);
-            null == t ? this.saveUserProfile(0, null, ER.defaultNickname, e) : this.saveUserProfile(0, t.token, t.nickname, e)
+            null == t ? this.saveUserProfile(0, null, AR.defaultNickname, e) : this.saveUserProfile(0, t.token, t.nickname, e)
         }
         ,
-        UR = function() {
+        FR = function() {
             try {
-                localStorage.setItem(GR(MR, MR, "f", DR), "")
+                localStorage.setItem(YR(PR, PR, "f", zR), "")
             } catch (e) {
                 console.error(e)
             }
         }
         ,
-        BR = function() {
+        WR = function() {
             try {
-                return null != localStorage.getItem(GR(MR, MR, "f", DR))
+                return null != localStorage.getItem(YR(PR, PR, "f", zR))
             } catch (e) {
                 console.error(e)
             }
             return !1
         }
         ,
-        TR = {
-            value: "0.0.0" == wC.rE
+        RR = {
+            value: "0.0.0" == _C.rE
         },
-        AR = {
-            value: wC.rE.toLowerCase().includes("beta")
+        LR = {
+            value: _C.rE.toLowerCase().includes("beta")
         },
-        CR = {
-            value: "polytrack_v3_" + (GR(MR, MR, "f", TR) ? "dev_" : "") + (GR(MR, MR, "f", AR) ? "beta_" : "")
-        },
-        DR = {
-            value: GR(MR, MR, "f", CR) + "migrated"
-        },
-        OR = {
-            value: GR(MR, MR, "f", CR) + "record_"
+        IR = {
+            value: "polytrack_v3_" + (YR(PR, PR, "f", RR) ? "dev_" : "") + (YR(PR, PR, "f", LR) ? "beta_" : "")
         },
         zR = {
-            value: GR(MR, MR, "f", CR) + "track_"
-        },
-        FR = {
-            value: GR(MR, MR, "f", CR) + "user_slot"
-        },
-        WR = {
-            value: GR(MR, MR, "f", CR) + "user_"
+            value: YR(PR, PR, "f", IR) + "migrated"
         },
         HR = {
-            value: GR(MR, MR, "f", CR) + "settings"
+            value: YR(PR, PR, "f", IR) + "record_"
         },
         VR = {
-            value: GR(MR, MR, "f", CR) + "key_bindings"
+            value: YR(PR, PR, "f", IR) + "track_"
+        },
+        GR = {
+            value: YR(PR, PR, "f", IR) + "user_slot"
+        },
+        jR = {
+            value: YR(PR, PR, "f", IR) + "user_"
+        },
+        qR = {
+            value: YR(PR, PR, "f", IR) + "settings"
+        },
+        XR = {
+            value: YR(PR, PR, "f", IR) + "key_bindings"
         };
-        const qR = jR;
-        var XR, YR, KR, ZR, JR, QR, $R, eL = function(e, t, n, i, r) {
+        const ZR = KR;
+        var JR, QR, $R, eL, tL, nL, iL, rL = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -37341,69 +37355,69 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, tL = function(e, t, n, i) {
+        }, aL = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        class nL {
+        class oL {
             constructor() {
-                XR.add(this),
-                KR.set(this, void 0),
-                ZR.set(this, !1),
-                JR.set(this, null);
+                JR.add(this),
+                $R.set(this, void 0),
+                eL.set(this, !1),
+                tL.set(this, null);
                 const e = document.getElementById("ui");
                 if (null == e)
                     throw "Failed to find UI element";
-                eL(this, KR, e, "f"),
+                rL(this, $R, e, "f"),
                 window.addEventListener("mousemove", ( () => {
                     document.body.classList.remove("hide-cursor"),
-                    tL(this, ZR, "f") && (null != tL(this, JR, "f") && clearTimeout(tL(this, JR, "f")),
-                    eL(this, JR, setTimeout(( () => {
+                    aL(this, eL, "f") && (null != aL(this, tL, "f") && clearTimeout(aL(this, tL, "f")),
+                    rL(this, tL, setTimeout(( () => {
                         document.body.classList.add("hide-cursor"),
-                        eL(this, JR, null, "f")
+                        rL(this, tL, null, "f")
                     }
-                    ), tL(YR, YR, "f", QR)), "f"))
+                    ), aL(QR, QR, "f", nL)), "f"))
                 }
                 )),
                 window.addEventListener("resize", ( () => {
-                    tL(this, XR, "m", $R).call(this)
+                    aL(this, JR, "m", iL).call(this)
                 }
                 )),
-                tL(this, XR, "m", $R).call(this)
+                aL(this, JR, "m", iL).call(this)
             }
             setCursorHiddenWhenInactive(e) {
-                eL(this, ZR, e, "f"),
-                e ? eL(this, JR, setTimeout(( () => {
+                rL(this, eL, e, "f"),
+                e ? rL(this, tL, setTimeout(( () => {
                     document.body.classList.add("hide-cursor"),
-                    eL(this, JR, null, "f")
+                    rL(this, tL, null, "f")
                 }
-                ), tL(YR, YR, "f", QR)), "f") : (document.body.classList.remove("hide-cursor"),
-                null != tL(this, JR, "f") && (clearTimeout(tL(this, JR, "f")),
-                eL(this, JR, null, "f")))
+                ), aL(QR, QR, "f", nL)), "f") : (document.body.classList.remove("hide-cursor"),
+                null != aL(this, tL, "f") && (clearTimeout(aL(this, tL, "f")),
+                rL(this, tL, null, "f")))
             }
         }
-        YR = nL,
-        KR = new WeakMap,
-        ZR = new WeakMap,
-        JR = new WeakMap,
-        XR = new WeakSet,
-        $R = function() {
+        QR = oL,
+        $R = new WeakMap,
+        eL = new WeakMap,
+        tL = new WeakMap,
+        JR = new WeakSet,
+        iL = function() {
             const e = Math.max(.01, Math.min(window.innerWidth, 1.4375 * window.innerHeight) / 1150);
-            e < 1 ? (tL(this, KR, "f").style.width = "calc(100% / " + e + ")",
-            tL(this, KR, "f").style.height = "calc(100% / " + e + ")",
-            tL(this, KR, "f").style.transform = "scale(" + e + ")") : (tL(this, KR, "f").style.width = "",
-            tL(this, KR, "f").style.height = "",
-            tL(this, KR, "f").style.transform = "")
+            e < 1 ? (aL(this, $R, "f").style.width = "calc(100% / " + e + ")",
+            aL(this, $R, "f").style.height = "calc(100% / " + e + ")",
+            aL(this, $R, "f").style.transform = "scale(" + e + ")") : (aL(this, $R, "f").style.width = "",
+            aL(this, $R, "f").style.height = "",
+            aL(this, $R, "f").style.transform = "")
         }
         ,
-        QR = {
+        nL = {
             value: 1e3
         };
-        const iL = nL;
-        var rL, aL, oL, sL = function(e, t, n, i, r) {
+        const sL = oL;
+        var lL, cL, hL, dL = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -37412,32 +37426,32 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, lL = function(e, t, n, i) {
+        }, uL = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        const cL = "https://vps.kodub.com:43273/";
-        rL = new WeakMap,
-        aL = new WeakMap,
-        oL = new WeakMap;
-        const hL = class {
+        const pL = "https://vps.kodub.com:43273/";
+        lL = new WeakMap,
+        cL = new WeakMap,
+        hL = new WeakMap;
+        const fL = class {
             constructor(e) {
-                rL.set(this, void 0),
+                lL.set(this, void 0),
                 this.submitAllowed = !1,
-                aL.set(this, 2e4),
-                oL.set(this, 1e4),
-                sL(this, rL, e, "f")
+                cL.set(this, 2e4),
+                hL.set(this, 1e4),
+                dL(this, lL, e, "f")
             }
             getLeaderboard(e, t, n, i) {
-                const r = lL(this, rL, "f").getTokenHash();
+                const r = uL(this, lL, "f").getTokenHash();
                 let a = 'https://raw.githubusercontent.com/DoraChad/PolyTAS-Tool/refs/heads/main/leaderboards';
                 return null != r && (a),
                 new Promise(( (e, t) => {
                     const n = new XMLHttpRequest;
-                    n.timeout = lL(this, aL, "f"),
+                    n.timeout = uL(this, cL, "f"),
                     n.overrideMimeType("text/plain"),
                     n.onreadystatechange = () => {
                         if (n.readyState == XMLHttpRequest.DONE)
@@ -37539,7 +37553,7 @@
                 const t = 'http://localhost:8000/';
                 return new Promise(( (e, n) => {
                     const i = new XMLHttpRequest;
-                    i.timeout = lL(this, aL, "f"),
+                    i.timeout = uL(this, cL, "f"),
                     i.overrideMimeType("text/plain"),
                     i.onreadystatechange = () => {
                         if (i.readyState == XMLHttpRequest.DONE)
@@ -37548,7 +37562,7 @@
                                     const t = JSON.parse(i.responseText);
                                     if ("string" != typeof t.recording)
                                         return void n("JSON recording field has incorrect type");
-                                    const r = Ag.deserialize(t.recording);
+                                    const r = Lg.deserialize(t.recording);
                                     if (null == r)
                                         return void n("Failed to deserialize recording");
                                     let a = null;
@@ -37586,17 +37600,17 @@
             }
             submitLeaderboard(e, t, n, i) {
                 return new Promise(( (r, a) => {
-                    const o = lL(this, rL, "f").getToken();
+                    const o = uL(this, lL, "f").getToken();
                     if (this.submitAllowed && null != o) {
-                        const s = lL(this, rL, "f").getNickname()
+                        const s = uL(this, lL, "f").getNickname()
                           , l = n.serialize();
-                        if (l.length >= lL(this, oL, "f"))
+                        if (l.length >= uL(this, hL, "f"))
                             a("Recording is too large");
                         else {
-                            const n = cL + "leaderboard"
-                              , c = "version=" + wC.rE + "&userToken=" + encodeURIComponent(o) + "&name=" + encodeURIComponent(s) + "&carColors=" + i.serialize() + "&trackId=" + e + "&frames=" + t.numberOfFrames + "&recording=" + l
+                            const n = pL + "leaderboard"
+                              , c = "version=" + _C.rE + "&userToken=" + encodeURIComponent(o) + "&name=" + encodeURIComponent(s) + "&carColors=" + i.serialize() + "&trackId=" + e + "&frames=" + t.numberOfFrames + "&recording=" + l
                               , h = new XMLHttpRequest;
-                            h.timeout = lL(this, aL, "f"),
+                            h.timeout = uL(this, cL, "f"),
                             h.overrideMimeType("text/plain"),
                             h.onreadystatechange = () => {
                                 if (4 == h.readyState)
@@ -37633,10 +37647,10 @@
             submitUserProfile(e, t, n) {
                 return new Promise(( (i, r) => {
                     if (this.submitAllowed && null != e) {
-                        const a = cL + "user"
-                          , o = "version=" + wC.rE + "&userToken=" + encodeURIComponent(e) + "&name=" + encodeURIComponent(t) + "&carColors=" + n.serialize()
+                        const a = pL + "user"
+                          , o = "version=" + _C.rE + "&userToken=" + encodeURIComponent(e) + "&name=" + encodeURIComponent(t) + "&carColors=" + n.serialize()
                           , s = new XMLHttpRequest;
-                        s.timeout = lL(this, aL, "f"),
+                        s.timeout = uL(this, cL, "f"),
                         s.overrideMimeType("text/plain"),
                         s.onreadystatechange = () => {
                             4 == s.readyState && (200 == s.status ? i() : r("Failed to connect to server, status: " + s.status))
@@ -37655,10 +37669,10 @@
                         if (null == e)
                             a("No user token");
                         else {
-                            const o = cL + "verifyRecordings"
-                              , s = "version=" + wC.rE + "&userToken=" + encodeURIComponent(e) + (null != t ? "&trackId=" + t : "") + "&maxFrames=" + n.numberOfFrames + "&recordings=" + encodeURIComponent(JSON.stringify(i))
+                            const o = pL + "verifyRecordings"
+                              , s = "version=" + _C.rE + "&userToken=" + encodeURIComponent(e) + (null != t ? "&trackId=" + t : "") + "&maxFrames=" + n.numberOfFrames + "&recordings=" + encodeURIComponent(JSON.stringify(i))
                               , l = new XMLHttpRequest;
-                            l.timeout = lL(this, aL, "f"),
+                            l.timeout = uL(this, cL, "f"),
                             l.overrideMimeType("text/plain"),
                             l.onreadystatechange = () => {
                                 if (4 == l.readyState)
@@ -37713,9 +37727,9 @@
                     if (null == e)
                         n("No user token");
                     else {
-                        const i = cL + "user?version=" + wC.rE + "&userToken=" + encodeURIComponent(e)
+                        const i = pL + "user?version=" + _C.rE + "&userToken=" + encodeURIComponent(e)
                           , r = new XMLHttpRequest;
-                        r.timeout = lL(this, aL, "f"),
+                        r.timeout = uL(this, cL, "f"),
                         r.overrideMimeType("text/plain"),
                         r.onreadystatechange = () => {
                             if (r.readyState == XMLHttpRequest.DONE)
@@ -37727,7 +37741,7 @@
                                         const i = e.name;
                                         if ("string" != typeof i)
                                             return void n("Name is not a string");
-                                        const a = JA(i);
+                                        const a = tC(i);
                                         if (0 == a || a > 50)
                                             return void n("Name as invalid length");
                                         const o = e.carColors;
@@ -37757,7 +37771,7 @@
             }
         }
         ;
-        var dL, uL, pL, fL, mL, gL = function(e, t, n, i, r) {
+        var mL, gL, vL, wL, yL, bL = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -37766,49 +37780,49 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, vL = function(e, t, n, i) {
+        }, xL = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        uL = new WeakMap,
-        pL = new WeakMap,
-        fL = new WeakMap,
-        dL = new WeakSet,
-        mL = function(e) {
+        gL = new WeakMap,
+        vL = new WeakMap,
+        wL = new WeakMap,
+        mL = new WeakSet,
+        yL = function(e) {
             e.forEach(( ([e,t]) => {
-                if (!vL(this, fL, "f").has(e))
+                if (!xL(this, wL, "f").has(e))
                     throw "Key binding is missing";
-                vL(this, fL, "f").set(e, t)
+                xL(this, wL, "f").set(e, t)
             }
             ))
         }
         ;
-        const wL = class {
+        const _L = class {
             constructor(e) {
-                dL.add(this),
-                uL.set(this, void 0),
-                pL.set(this, this.defaultSettings()),
-                fL.set(this, this.defaultKeyBindings()),
-                gL(this, uL, e, "f");
+                mL.add(this),
+                gL.set(this, void 0),
+                vL.set(this, this.defaultSettings()),
+                wL.set(this, this.defaultKeyBindings()),
+                bL(this, gL, e, "f");
                 const t = e.loadSettings();
                 null != t && this.updateSettings(t);
                 const n = e.loadKeyBindings();
-                null != n && vL(this, dL, "m", mL).call(this, n)
+                null != n && xL(this, mL, "m", yL).call(this, n)
             }
             defaultSettings() {
                 return new Map([[Jh.ImperialUnitsEnabled, "false"], [Jh.ResetHintEnabled, "true"], [Jh.GhostCarEnabled, "true"], [Jh.CockpitCameraToggle, "true"], [Jh.CheckpointsPosition, "false"], [Jh.TimerPosition, "false"], [Jh.SpeedometerPosition, "false"], [Jh.Language, "en-US"], [Jh.CarShadowQuality, "2048"], [Jh.TrackShadowEnabled, "true"], [Jh.CloudsEnabled, "true"], [Jh.ParticlesEnabled, "true"], [Jh.SkidmarksEnabled, "true"], [Jh.RenderScale, "1"], [Jh.Antialiasing, "true"], [Jh.SoundEffectVolume, "1"], [Jh.MusicVolume, "1"], [Jh.CheckpointVolume, "1"]])
             }
             defaultKeyBindings() {
-                return new Map([[Lb.VehicleAccelerate, ["KeyW", "ArrowUp"]], [Lb.VehicleTurnRight, ["KeyD", "ArrowRight"]], [Lb.VehicleBrake, ["KeyS", "ArrowDown"]], [Lb.VehicleTurnLeft, ["KeyA", "ArrowLeft"]], [Lb.VehicleReset, ["KeyR", "Enter"]], [Lb.VehicleCockpitCamera, ["KeyC", "KeyM"]], [Lb.ToggleUI, ["KeyH", null]], [Lb.EditorRotate, ["KeyR", "Space"]], [Lb.EditorHeightModifier, ["ShiftLeft", "ShiftRight"]], [Lb.EditorDelete, ["Delete", "KeyX"]], [Lb.EditorMoveForwards, ["KeyW", "ArrowUp"]], [Lb.EditorMoveRight, ["KeyD", "ArrowRight"]], [Lb.EditorMoveBackwards, ["KeyS", "ArrowDown"]], [Lb.EditorMoveLeft, ["KeyA", "ArrowLeft"]], [Lb.EditorRotateLeft, ["KeyQ", null]], [Lb.EditorRotateRight, ["KeyE", null]], [Lb.EditorMoveDown, ["KeyZ", null]], [Lb.EditorMoveUp, ["KeyC", null]], [Lb.EditorTest, ["KeyT", null]], [Lb.EditorPick, ["KeyG", null]], [Lb.ToggleFpsCounter, ["Comma", null]], [Lb.ToggleSpectatorCamera, ["Period", null]], [Lb.SpectatorMoveForwards, ["KeyW", "ArrowUp"]], [Lb.SpectatorMoveRight, ["KeyD", "ArrowRight"]], [Lb.SpectatorMoveBackwards, ["KeyS", "ArrowDown"]], [Lb.SpectatorMoveLeft, ["KeyA", "ArrowLeft"]], [Lb.SpectatorSpeedModifier, ["ShiftLeft", "ShiftRight"]]])
+                return new Map([[Ub.VehicleAccelerate, ["KeyW", "ArrowUp"]], [Ub.VehicleTurnRight, ["KeyD", "ArrowRight"]], [Ub.VehicleBrake, ["KeyS", "ArrowDown"]], [Ub.VehicleTurnLeft, ["KeyA", "ArrowLeft"]], [Ub.VehicleReset, ["KeyR", "Enter"]], [Ub.VehicleCockpitCamera, ["KeyC", "KeyM"]], [Ub.ToggleUI, ["KeyH", null]], [Ub.EditorRotate, ["KeyR", "Space"]], [Ub.EditorHeightModifier, ["ShiftLeft", "ShiftRight"]], [Ub.EditorDelete, ["Delete", "KeyX"]], [Ub.EditorMoveForwards, ["KeyW", "ArrowUp"]], [Ub.EditorMoveRight, ["KeyD", "ArrowRight"]], [Ub.EditorMoveBackwards, ["KeyS", "ArrowDown"]], [Ub.EditorMoveLeft, ["KeyA", "ArrowLeft"]], [Ub.EditorRotateLeft, ["KeyQ", null]], [Ub.EditorRotateRight, ["KeyE", null]], [Ub.EditorMoveDown, ["KeyZ", null]], [Ub.EditorMoveUp, ["KeyC", null]], [Ub.EditorTest, ["KeyT", null]], [Ub.EditorPick, ["KeyG", null]], [Ub.ToggleFpsCounter, ["Comma", null]], [Ub.ToggleSpectatorCamera, ["Period", null]], [Ub.SpectatorMoveForwards, ["KeyW", "ArrowUp"]], [Ub.SpectatorMoveRight, ["KeyD", "ArrowRight"]], [Ub.SpectatorMoveBackwards, ["KeyS", "ArrowDown"]], [Ub.SpectatorMoveLeft, ["KeyA", "ArrowLeft"]], [Ub.SpectatorSpeedModifier, ["ShiftLeft", "ShiftRight"]]])
             }
             getSettings() {
-                return Array.from(vL(this, pL, "f"))
+                return Array.from(xL(this, vL, "f"))
             }
             getSetting(e) {
-                const t = vL(this, pL, "f").get(e);
+                const t = xL(this, vL, "f").get(e);
                 if (null == t)
                     throw "Setting name is missing";
                 return t
@@ -37824,26 +37838,26 @@
             }
             updateSettings(e) {
                 e.forEach(( ([e,t]) => {
-                    if (!vL(this, pL, "f").has(e))
+                    if (!xL(this, vL, "f").has(e))
                         throw "Setting name is missing";
-                    vL(this, pL, "f").set(e, t)
+                    xL(this, vL, "f").set(e, t)
                 }
                 ))
             }
             saveSettings() {
-                vL(this, uL, "f").saveSettings(vL(this, pL, "f"))
+                xL(this, gL, "f").saveSettings(xL(this, vL, "f"))
             }
             getKeyBindings(e) {
                 var t;
-                return null !== (t = vL(this, fL, "f").get(e)) && void 0 !== t ? t : [null, null]
+                return null !== (t = xL(this, wL, "f").get(e)) && void 0 !== t ? t : [null, null]
             }
             setKeyBindings(e) {
-                vL(this, dL, "m", mL).call(this, e),
-                vL(this, uL, "f").saveKeyBindings(vL(this, fL, "f"))
+                xL(this, mL, "m", yL).call(this, e),
+                xL(this, gL, "f").saveKeyBindings(xL(this, wL, "f"))
             }
             checkKeyBinding(e, t) {
                 var n;
-                const i = null !== (n = vL(this, fL, "f").get(t)) && void 0 !== n ? n : [];
+                const i = null !== (n = xL(this, wL, "f").get(t)) && void 0 !== n ? n : [];
                 for (let t = 0; t < i.length; t++) {
                     const n = i[t];
                     if (null != n && e.code == n)
@@ -37853,7 +37867,7 @@
             }
         }
         ;
-        var yL;
+        var kL;
         !function(e) {
             e[e.Init = 0] = "Init",
             e[e.Verify = 1] = "Verify",
@@ -37866,9 +37880,9 @@
             e[e.VerifyResult = 8] = "VerifyResult",
             e[e.DeterminismResult = 9] = "DeterminismResult",
             e[e.UpdateResult = 10] = "UpdateResult"
-        }(yL || (yL = {}));
-        const bL = yL;
-        var xL, _L, kL, EL, SL, ML, TL, AL = function(e, t, n, i, r) {
+        }(kL || (kL = {}));
+        const EL = kL;
+        var SL, ML, TL, AL, CL, PL, RL, LL = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -37877,44 +37891,44 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, CL = function(e, t, n, i) {
+        }, IL = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        _L = new WeakMap,
-        kL = new WeakMap,
-        EL = new WeakMap,
-        SL = new WeakMap,
         ML = new WeakMap,
-        xL = new WeakSet,
-        TL = function(e) {
-            CL(this, kL, "f").postMessage({
-                messageType: bL.Init,
+        TL = new WeakMap,
+        AL = new WeakMap,
+        CL = new WeakMap,
+        PL = new WeakMap,
+        SL = new WeakSet,
+        RL = function(e) {
+            IL(this, TL, "f").postMessage({
+                messageType: EL.Init,
                 trackParts: e.getPhysicsParts()
             })
         }
         ;
-        const PL = class {
+        const NL = class {
             constructor(e, t) {
-                xL.add(this),
-                _L.set(this, void 0),
-                kL.set(this, void 0),
-                EL.set(this, !1),
-                SL.set(this, 0),
-                ML.set(this, new Map),
-                AL(this, kL, new Worker("simulation_worker.bundle.js"), "f"),
-                null != e && null != t ? (AL(this, _L, e, "f"),
-                t.hasLoaded() ? CL(this, xL, "m", TL).call(this, e) : t.addCompleteListener(( () => {
-                    CL(this, xL, "m", TL).call(this, e)
+                SL.add(this),
+                ML.set(this, void 0),
+                TL.set(this, void 0),
+                AL.set(this, !1),
+                CL.set(this, 0),
+                PL.set(this, new Map),
+                LL(this, TL, new Worker("simulation_worker.bundle.js"), "f"),
+                null != e && null != t ? (LL(this, ML, e, "f"),
+                t.hasLoaded() ? IL(this, SL, "m", RL).call(this, e) : t.addCompleteListener(( () => {
+                    IL(this, SL, "m", RL).call(this, e)
                 }
-                ))) : AL(this, _L, null, "f")
+                ))) : LL(this, ML, null, "f")
             }
             dispose() {
-                CL(this, kL, "f").terminate(),
-                AL(this, EL, !0, "f")
+                IL(this, TL, "f").terminate(),
+                LL(this, AL, !0, "f")
             }
             validate(e, t, n) {
                 return new Promise(( (i, r) => {
@@ -37923,39 +37937,39 @@
                     if (null == s)
                         i(!1);
                     else {
-                        const l = iT.createMountainVertices(e.getBounds());
-                        if (null == CL(this, _L, "f"))
+                        const l = sT.createMountainVertices(e.getBounds());
+                        if (null == IL(this, ML, "f"))
                             throw "TrackPartManager is not initialized";
-                        if (null == Uv.models)
+                        if (null == Fv.models)
                             throw "Car collision model not loaded";
-                        const c = (AL(this, SL, (o = CL(this, SL, "f"),
+                        const c = (LL(this, CL, (o = IL(this, CL, "f"),
                         a = o++,
                         o), "f"),
                         a)
                           , h = setInterval(( () => {
-                            CL(this, EL, "f") && (clearInterval(h),
+                            IL(this, AL, "f") && (clearInterval(h),
                             r("Simulation has been disposed"))
                         }
                         ), 10)
                           , d = e => {
-                            e.data.messageType == bL.VerifyResult && e.data.carId == c && (clearInterval(h),
-                            CL(this, kL, "f").removeEventListener("message", d),
+                            e.data.messageType == EL.VerifyResult && e.data.carId == c && (clearInterval(h),
+                            IL(this, TL, "f").removeEventListener("message", d),
                             i(e.data.result))
                         }
                         ;
-                        CL(this, kL, "f").addEventListener("message", d),
-                        CL(this, kL, "f").postMessage({
-                            messageType: bL.Verify,
+                        IL(this, TL, "f").addEventListener("message", d),
+                        IL(this, TL, "f").postMessage({
+                            messageType: EL.Verify,
                             mountainVertices: l.vertices,
                             mountainOffset: {
                                 x: l.offset.x,
                                 y: l.offset.y,
                                 z: l.offset.z
                             },
-                            trackData: e.toSaveString(CL(this, _L, "f")),
+                            trackData: e.toSaveString(IL(this, ML, "f")),
                             carId: c,
-                            carCollisionShapeVertices: Uv.models.collisionShapeVertices,
-                            carMassOffset: Uv.massOffset,
+                            carCollisionShapeVertices: Fv.models.collisionShapeVertices,
+                            carMassOffset: Fv.massOffset,
                             carRecording: t.serialize(),
                             carPosition: {
                                 x: s.position.x,
@@ -37977,30 +37991,30 @@
             testDeterminism() {
                 return new Promise((e => {
                     const t = n => {
-                        if (n.data.messageType === bL.DeterminismResult)
-                            CL(this, kL, "f").removeEventListener("message", t),
+                        if (n.data.messageType === EL.DeterminismResult)
+                            IL(this, TL, "f").removeEventListener("message", t),
                             e(n.data.isDeterminstic)
                     }
                     ;
-                    CL(this, kL, "f").addEventListener("message", t),
-                    CL(this, kL, "f").postMessage({
-                        messageType: bL.TestDeterminism
+                    IL(this, TL, "f").addEventListener("message", t),
+                    IL(this, TL, "f").postMessage({
+                        messageType: EL.TestDeterminism
                     })
                 }
                 ))
             }
             createCar(e, t, n, i, r, a) {
                 var o, s;
-                if (null == CL(this, _L, "f"))
+                if (null == IL(this, ML, "f"))
                     throw "TrackPartManager is not initialized";
-                if (null == Uv.models)
+                if (null == Fv.models)
                     throw "Car collision model not loaded";
-                const l = (AL(this, SL, (s = CL(this, SL, "f"),
+                const l = (LL(this, CL, (s = IL(this, CL, "f"),
                 o = s++,
                 s), "f"),
                 o)
                   , c = e => {
-                    if (e.data.messageType == bL.UpdateResult) {
+                    if (e.data.messageType == EL.UpdateResult) {
                         e.data.carStates.forEach((e => {
                             e.id == l && a(e)
                         }
@@ -38008,20 +38022,20 @@
                     }
                 }
                 ;
-                CL(this, kL, "f").addEventListener("message", c),
-                CL(this, ML, "f").set(l, c),
-                CL(this, kL, "f").postMessage({
-                    messageType: bL.CreateCar,
+                IL(this, TL, "f").addEventListener("message", c),
+                IL(this, PL, "f").set(l, c),
+                IL(this, TL, "f").postMessage({
+                    messageType: EL.CreateCar,
                     mountainVertices: t,
                     mountainOffset: {
                         x: n.x,
                         y: n.y,
                         z: n.z
                     },
-                    trackData: i.toSaveString(CL(this, _L, "f")),
+                    trackData: i.toSaveString(IL(this, ML, "f")),
                     carId: l,
-                    carCollisionShapeVertices: Uv.models.collisionShapeVertices,
-                    carMassOffset: Uv.massOffset,
+                    carCollisionShapeVertices: Fv.models.collisionShapeVertices,
+                    carMassOffset: Fv.massOffset,
                     carPosition: {
                         x: e.position.x,
                         y: e.position.y,
@@ -38076,26 +38090,26 @@
                 }
             }
             deleteCar(e) {
-                CL(this, kL, "f").postMessage({
-                    messageType: bL.DeleteCar,
+                IL(this, TL, "f").postMessage({
+                    messageType: EL.DeleteCar,
                     carId: e
                 });
-                const t = CL(this, ML, "f").get(e);
+                const t = IL(this, PL, "f").get(e);
                 if (null == t)
                     throw "Deleting non-existant car";
-                CL(this, kL, "f").removeEventListener("message", t),
-                CL(this, ML, "f").delete(e)
+                IL(this, TL, "f").removeEventListener("message", t),
+                IL(this, PL, "f").delete(e)
             }
             startCar(e, t) {
-                CL(this, kL, "f").postMessage({
-                    messageType: bL.StartCar,
+                IL(this, TL, "f").postMessage({
+                    messageType: EL.StartCar,
                     carId: e,
                     targetSimulationTimeFrames: null == t ? void 0 : t.numberOfFrames
                 })
             }
             controlCar(e, t, n, i, r) {
-                CL(this, kL, "f").postMessage({
-                    messageType: bL.ControlCar,
+                IL(this, TL, "f").postMessage({
+                    messageType: EL.ControlCar,
                     carId: e,
                     up: t,
                     right: n,
@@ -38104,24 +38118,24 @@
                 })
             }
             pauseCar(e, t) {
-                CL(this, kL, "f").postMessage({
-                    messageType: bL.PauseCar,
+                IL(this, TL, "f").postMessage({
+                    messageType: EL.PauseCar,
                     carId: e,
                     isPaused: t
                 })
             }
         }
         ;
-        var RL = n(796)
-          , LL = {};
-        LL.styleTagTransform = u(),
-        LL.setAttributes = l(),
-        LL.insert = o().bind(null, "head"),
-        LL.domAPI = r(),
-        LL.insertStyleElement = h();
-        t()(RL.A, LL);
-        RL.A && RL.A.locals && RL.A.locals;
-        var IL, NL, DL, UL, BL = function(e, t, n, i, r) {
+        var DL = n(796)
+          , UL = {};
+        UL.styleTagTransform = u(),
+        UL.setAttributes = l(),
+        UL.insert = o().bind(null, "head"),
+        UL.domAPI = r(),
+        UL.insertStyleElement = h();
+        t()(DL.A, UL);
+        DL.A && DL.A.locals && DL.A.locals;
+        var BL, OL, zL, FL, WL = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -38130,29 +38144,29 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, OL = function(e, t, n, i) {
+        }, HL = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        IL = new WeakMap,
-        NL = new WeakMap,
-        DL = new WeakMap,
-        UL = new WeakMap;
-        const zL = class {
+        BL = new WeakMap,
+        OL = new WeakMap,
+        zL = new WeakMap,
+        FL = new WeakMap;
+        const VL = class {
             constructor(e, t) {
-                IL.set(this, void 0),
-                NL.set(this, void 0),
-                DL.set(this, void 0),
-                UL.set(this, void 0),
-                BL(this, IL, document.getElementById("ui"), "f"),
-                BL(this, NL, document.createElement("div"), "f"),
-                OL(this, NL, "f").className = "verifier-ui",
-                OL(this, IL, "f").appendChild(OL(this, NL, "f")),
-                BL(this, DL, document.createElement("p"), "f"),
-                OL(this, NL, "f").appendChild(OL(this, DL, "f"));
+                BL.set(this, void 0),
+                OL.set(this, void 0),
+                zL.set(this, void 0),
+                FL.set(this, void 0),
+                WL(this, BL, document.getElementById("ui"), "f"),
+                WL(this, OL, document.createElement("div"), "f"),
+                HL(this, OL, "f").className = "verifier-ui",
+                HL(this, BL, "f").appendChild(HL(this, OL, "f")),
+                WL(this, zL, document.createElement("p"), "f"),
+                HL(this, OL, "f").appendChild(HL(this, zL, "f"));
                 const n = document.createElement("button");
                 n.className = "button",
                 n.textContent = "Stop",
@@ -38161,23 +38175,23 @@
                     t()
                 }
                 )),
-                OL(this, NL, "f").appendChild(n),
-                window.addEventListener("keydown", BL(this, UL, (e => {
+                HL(this, OL, "f").appendChild(n),
+                window.addEventListener("keydown", WL(this, FL, (e => {
                     "Escape" == e.code && (t(),
                     e.preventDefault())
                 }
                 ), "f"))
             }
             dispose() {
-                OL(this, IL, "f").removeChild(OL(this, NL, "f")),
-                window.removeEventListener("keydown", OL(this, UL, "f"))
+                HL(this, BL, "f").removeChild(HL(this, OL, "f")),
+                window.removeEventListener("keydown", HL(this, FL, "f"))
             }
             setText(e) {
-                OL(this, DL, "f").textContent = e
+                HL(this, zL, "f").textContent = e
             }
         }
         ;
-        var FL, WL, HL, VL, GL, jL, qL, XL, YL, KL, ZL, JL, QL, $L, eI, tI, nI, iI, rI, aI, oI, sI, lI, cI, hI, dI, uI, pI, fI = function(e, t, n, i, r) {
+        var GL, jL, qL, XL, YL, KL, ZL, JL, QL, $L, eI, tI, nI, iI, rI, aI, oI, sI, lI, cI, hI, dI, uI, pI, fI, mI, gI, vI, wI, yI = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -38186,17 +38200,13 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, mI = function(e, t, n, i) {
+        }, bI = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        WL = new WeakMap,
-        HL = new WeakMap,
-        VL = new WeakMap,
-        GL = new WeakMap,
         jL = new WeakMap,
         qL = new WeakMap,
         XL = new WeakMap,
@@ -38217,9 +38227,14 @@
         lI = new WeakMap,
         cI = new WeakMap,
         hI = new WeakMap,
-        FL = new WeakSet,
-        dI = function(e) {
-            const t = mI(this, KL, "f").slice();
+        dI = new WeakMap,
+        uI = new WeakMap,
+        pI = new WeakMap,
+        fI = new WeakMap,
+        mI = new WeakMap,
+        GL = new WeakSet,
+        gI = function(e) {
+            const t = bI(this, $L, "f").slice();
             do {
                 const n = Math.floor(Math.random() * t.length)
                   , i = t.splice(n, 1)[0];
@@ -38229,69 +38244,73 @@
             return null
         }
         ,
-        uI = function() {
+        vI = function() {
             var e;
             const t = new Date;
-            if (!mI(this, QL, "f") && mI(this, JL, "f").length < mI(this, sI, "f") && Math.abs(t.getTime() - mI(this, $L, "f").getTime()) >= mI(this, lI, "f")) {
-                fI(this, QL, !0, "f"),
-                fI(this, $L, t, "f");
-                const n = mI(this, FL, "m", dI).call(this, t);
-                null != n || mI(this, ZL, "f").length > 0 && 0 == mI(this, JL, "f").length || mI(this, ZL, "f").length > mI(this, oI, "f") ? mI(this, GL, "f").verifyRecordings(mI(this, qL, "f"), null !== (e = null == n ? void 0 : n.id) && void 0 !== e ? e : null, mI(this, cI, "f"), mI(this, ZL, "f")).then(( ({unverifiedRecordings: e, exhaustive: i}) => {
-                    mI(this, ZL, "f").length = 0,
-                    null != n && (fI(this, JL, mI(this, JL, "f").concat(e.map(( ({id: e, recording: t, frames: i}) => ({
+            if (!bI(this, nI, "f") && bI(this, tI, "f").length < bI(this, dI, "f") && Math.abs(t.getTime() - bI(this, iI, "f").getTime()) >= bI(this, uI, "f")) {
+                yI(this, nI, !0, "f"),
+                yI(this, iI, t, "f");
+                const n = bI(this, GL, "m", gI).call(this, t);
+                null != n || bI(this, eI, "f").length > 0 && 0 == bI(this, tI, "f").length || bI(this, eI, "f").length > bI(this, hI, "f") ? bI(this, YL, "f").verifyRecordings(bI(this, ZL, "f"), null !== (e = null == n ? void 0 : n.id) && void 0 !== e ? e : null, bI(this, pI, "f"), bI(this, eI, "f")).then(( ({unverifiedRecordings: e, exhaustive: i}) => {
+                    bI(this, eI, "f").length = 0,
+                    null != n && (yI(this, tI, bI(this, tI, "f").concat(e.map(( ({id: e, recording: t, frames: i}) => ({
                         trackData: n.data,
                         recordingId: e,
-                        recording: Ag.deserialize(t),
+                        recording: Lg.deserialize(t),
                         time: new rp(i)
                     })))), "f"),
-                    i && (n.timeout = new Date(t.getTime() + Math.floor(6e4 * (30 + 30 * Math.random())))))
+                    i && (n.timeout = new Date(t.getTime() + Math.floor(432e5 + 12 * Math.random() * 60 * 60 * 1e3))))
                 }
                 )).catch((e => {
                     console.error(e),
-                    mI(this, GL, "f").getUser(mI(this, qL, "f")).then((e => {
-                        null != e && e.isVerifier || fI(this, eI, !1, "f")
+                    bI(this, YL, "f").getUser(bI(this, ZL, "f")).then((e => {
+                        null != e && e.isVerifier || yI(this, rI, !1, "f")
                     }
                     ))
                 }
                 )).finally(( () => {
-                    fI(this, QL, !1, "f")
+                    yI(this, nI, !1, "f")
                 }
-                )) : fI(this, QL, !1, "f")
+                )) : yI(this, nI, !1, "f")
             }
         }
         ,
-        pI = function() {
-            mI(this, jL, "f").hasLoaded() && mI(this, eI, "f") && (mI(this, FL, "m", uI).call(this),
-            mI(this, YL, "f").forEach((e => {
-                var t;
-                if (!e.isBusy && mI(this, JL, "f").length > 0) {
+        wI = function() {
+            bI(this, KL, "f").hasLoaded() && bI(this, rI, "f") && (bI(this, GL, "m", vI).call(this),
+            bI(this, QL, "f").forEach((e => {
+                var t, n, i;
+                if (!e.isBusy && bI(this, tI, "f").length > 0) {
                     e.isBusy = !0;
-                    const {trackData: n, recordingId: i, recording: r, time: a} = mI(this, JL, "f").splice(0, 1)[0];
-                    null == r ? (mI(this, ZL, "f").push({
-                        id: i,
+                    const {trackData: r, recordingId: a, recording: o, time: s} = bI(this, tI, "f").splice(0, 1)[0];
+                    null == o ? (yI(this, lI, (t = bI(this, lI, "f"),
+                    ++t), "f"),
+                    yI(this, cI, (n = bI(this, cI, "f"),
+                    ++n), "f"),
+                    bI(this, eI, "f").push({
+                        id: a,
                         verifiedState: !1
                     }),
-                    e.isBusy = !1) : (fI(this, iI, (t = mI(this, iI, "f"),
-                    ++t), "f"),
-                    e.simulation.validate(n, r, a).then((e => {
+                    e.isBusy = !1) : (yI(this, sI, (i = bI(this, sI, "f"),
+                    ++i), "f"),
+                    e.simulation.validate(r, o, s).then((e => {
                         var t, n;
-                        fI(this, rI, (t = mI(this, rI, "f"),
+                        yI(this, lI, (t = bI(this, lI, "f"),
                         ++t), "f"),
-                        e || fI(this, aI, (n = mI(this, aI, "f"),
+                        e || yI(this, cI, (n = bI(this, cI, "f"),
                         ++n), "f"),
-                        mI(this, ZL, "f").push({
-                            id: i,
+                        bI(this, eI, "f").push({
+                            id: a,
                             verifiedState: e
                         })
                     }
                     )).catch((e => {
-                        if (!mI(this, nI, "f"))
+                        if (!bI(this, oI, "f"))
                             throw e
                     }
                     )).finally(( () => {
                         var t;
                         e.isBusy = !1,
-                        fI(this, iI, (t = mI(this, iI, "f"),
+                        yI(this, sI, (t = bI(this, sI, "f"),
                         --t), "f")
                     }
                     )))
@@ -38300,49 +38319,50 @@
             )))
         }
         ;
-        const gI = class {
+        const xI = class {
             constructor(e, t, n, i, r, a, o, s, l) {
-                FL.add(this),
-                WL.set(this, void 0),
-                HL.set(this, void 0),
-                VL.set(this, void 0),
-                GL.set(this, void 0),
+                GL.add(this),
                 jL.set(this, void 0),
                 qL.set(this, void 0),
                 XL.set(this, void 0),
-                YL.set(this, []),
-                KL.set(this, []),
-                ZL.set(this, []),
-                JL.set(this, []),
-                QL.set(this, !1),
-                $L.set(this, new Date),
-                eI.set(this, !0),
-                tI.set(this, void 0),
+                YL.set(this, void 0),
+                KL.set(this, void 0),
+                ZL.set(this, void 0),
+                JL.set(this, void 0),
+                QL.set(this, []),
+                $L.set(this, []),
+                eI.set(this, []),
+                tI.set(this, []),
                 nI.set(this, !1),
-                iI.set(this, 0),
-                rI.set(this, 0),
-                aI.set(this, 0),
-                oI.set(this, 100),
-                sI.set(this, 100),
-                lI.set(this, 1e3),
-                cI.set(this, new rp(6e5)),
-                hI.set(this, 4),
-                fI(this, WL, e, "f"),
-                fI(this, HL, t, "f"),
-                fI(this, VL, a, "f"),
-                fI(this, GL, n, "f"),
-                fI(this, jL, o, "f"),
-                fI(this, qL, s, "f"),
+                iI.set(this, new Date),
+                rI.set(this, !0),
+                aI.set(this, void 0),
+                oI.set(this, !1),
+                sI.set(this, 0),
+                lI.set(this, 0),
+                cI.set(this, 0),
+                hI.set(this, 100),
+                dI.set(this, 100),
+                uI.set(this, 1e3),
+                pI.set(this, new rp(6e5)),
+                fI.set(this, 4),
+                mI.set(this, null),
+                yI(this, jL, e, "f"),
+                yI(this, qL, t, "f"),
+                yI(this, XL, a, "f"),
+                yI(this, YL, n, "f"),
+                yI(this, KL, o, "f"),
+                yI(this, ZL, s, "f"),
                 t.clear(),
-                fI(this, XL, new zL(e,l), "f"),
-                navigator && navigator.hardwareConcurrency > 0 && fI(this, hI, navigator.hardwareConcurrency, "f");
-                for (let e = 0; e < mI(this, hI, "f"); e++)
-                    mI(this, YL, "f").push({
-                        simulation: new PL(r,mI(this, jL, "f")),
+                yI(this, JL, new VL(e,l), "f"),
+                navigator && navigator.hardwareConcurrency > 0 && yI(this, fI, navigator.hardwareConcurrency, "f");
+                for (let e = 0; e < bI(this, fI, "f"); e++)
+                    bI(this, QL, "f").push({
+                        simulation: new NL(r,bI(this, KL, "f")),
                         isBusy: !1
                     });
                 i.forEach(( (e, t, n) => {
-                    mI(this, KL, "f").push({
+                    bI(this, $L, "f").push({
                         id: e,
                         name: t,
                         data: n,
@@ -38350,45 +38370,63 @@
                     })
                 }
                 )),
-                fI(this, tI, setInterval(( () => {
-                    mI(this, FL, "m", pI).call(this)
+                yI(this, aI, setInterval(( () => {
+                    bI(this, GL, "m", wI).call(this)
                 }
-                ), 10), "f")
+                ), 10), "f");
+                try {
+                    navigator.wakeLock.request("screen").then((e => {
+                        bI(this, oI, "f") ? e.release().catch((e => {
+                            console.error(e)
+                        }
+                        )) : yI(this, mI, e, "f")
+                    }
+                    )).catch((e => {
+                        console.warn(e)
+                    }
+                    ))
+                } catch (e) {
+                    console.error(e)
+                }
             }
             dispose() {
-                fI(this, nI, !0, "f"),
-                mI(this, XL, "f").dispose(),
-                mI(this, YL, "f").forEach((e => {
+                yI(this, oI, !0, "f"),
+                bI(this, JL, "f").dispose(),
+                bI(this, QL, "f").forEach((e => {
                     e.simulation.dispose()
                 }
                 )),
-                mI(this, YL, "f").length = 0,
-                clearInterval(mI(this, tI, "f"))
+                bI(this, QL, "f").length = 0,
+                clearInterval(bI(this, aI, "f")),
+                null != bI(this, mI, "f") && bI(this, mI, "f").release().catch((e => {
+                    console.error(e)
+                }
+                ))
             }
             update(e) {
-                if (mI(this, jL, "f").hasLoaded()) {
+                if (bI(this, KL, "f").hasLoaded()) {
                     const e = new Date;
                     let t = "";
-                    mI(this, eI, "f") ? (t += "Recordings are being verified...\n",
-                    t += "\nNumber of threads: " + mI(this, hI, "f"),
+                    bI(this, rI, "f") ? (t += "Recordings are being verified...\n",
+                    t += "\nNumber of threads: " + bI(this, fI, "f"),
                     t += "\n",
-                    t += "\nBacklog: " + mI(this, JL, "f").length,
-                    t += "\nProcessing: " + mI(this, iI, "f"),
-                    t += "\nRecordings verified: " + mI(this, rI, "f"),
-                    t += "\nInvalid recordings found: " + mI(this, aI, "f"),
+                    t += "\nBacklog: " + bI(this, tI, "f").length,
+                    t += "\nProcessing: " + bI(this, sI, "f"),
+                    t += "\nRecordings verified: " + bI(this, lI, "f"),
+                    t += "\nInvalid recordings found: " + bI(this, cI, "f"),
                     t += "\n",
                     t += "\nTracks",
-                    mI(this, KL, "f").forEach((n => {
+                    bI(this, $L, "f").forEach((n => {
                         const i = e <= n.timeout;
                         t += i ? "\n\tEmpty\t- " + n.name : "\n\tProcessing\t- " + n.name
                     }
                     ))) : t += "Error: User is no longer a verifier",
-                    mI(this, XL, "f").setText(t)
+                    bI(this, JL, "f").setText(t)
                 }
-                mI(this, WL, "f").update(e, !1, mI(this, HL, "f"), mI(this, VL, "f"))
+                bI(this, jL, "f").update(e, !1, bI(this, qL, "f"), bI(this, XL, "f"))
             }
         }
-          , vI = {
+          , _I = {
             Checkpoints: "النقاط التفتيشية",
             "Checkpoint order": "ترتيب النقاط التفتيشية",
             Height: "الارتفاع",
@@ -38572,7 +38610,7 @@
             'Are you sure you want to delete "{0}"?': 'هل أنت متأكد من أنك تريد حذف "{0}"؟',
             Delete: "حذف"
         }
-          , wI = {
+          , kI = {
             Checkpoints: "Kontrollpunkte",
             "Checkpoint order": "Kontrollpunktreihenfolge",
             Height: "Höhe",
@@ -38756,7 +38794,7 @@
             'Are you sure you want to delete "{0}"?': 'Sind Sie sicher, dass Sie "{0}" löschen möchten?',
             Delete: "Löschen"
         }
-          , yI = {
+          , EI = {
             Checkpoints: "Checkpoints",
             "Checkpoint order": "Checkpoint order",
             Height: "Height",
@@ -38940,7 +38978,7 @@
             'Are you sure you want to delete "{0}"?': 'Are you sure you want to delete "{0}"?',
             Delete: "Delete"
         }
-          , bI = {
+          , SI = {
             Checkpoints: "Puntos de control",
             "Checkpoint order": "Orden de puntos de control",
             Height: "Altura",
@@ -39124,7 +39162,7 @@
             'Are you sure you want to delete "{0}"?': '¿Estás seguro de que deseas eliminar "{0}"?',
             Delete: "Eliminar"
         }
-          , xI = {
+          , MI = {
             Checkpoints: "Points de contrôle",
             "Checkpoint order": "Ordre des points de contrôle",
             Height: "Hauteur",
@@ -39308,7 +39346,7 @@
             'Are you sure you want to delete "{0}"?': 'Êtes-vous sûr de vouloir supprimer "{0}" ?',
             Delete: "Supprimer"
         }
-          , _I = {
+          , TI = {
             Checkpoints: "Checkpoint",
             "Checkpoint order": "Ordine dei checkpoint",
             Height: "Altezza",
@@ -39492,7 +39530,7 @@
             'Are you sure you want to delete "{0}"?': 'Sei sicuro di voler eliminare "{0}"?',
             Delete: "Elimina"
         }
-          , kI = {
+          , AI = {
             Checkpoints: "チェックポイント",
             "Checkpoint order": "チェックポイントの順序",
             Height: "高さ",
@@ -39676,7 +39714,7 @@
             'Are you sure you want to delete "{0}"?': '"{0}" を削除してもよろしいですか？',
             Delete: "削除"
         }
-          , EI = {
+          , CI = {
             Checkpoints: "체크포인트",
             "Checkpoint order": "체크포인트 순서",
             Height: "높이",
@@ -39860,7 +39898,7 @@
             'Are you sure you want to delete "{0}"?': '"{0}"을(를) 삭제하시겠습니까?',
             Delete: "삭제"
         }
-          , SI = {
+          , PI = {
             Checkpoints: "Punkty kontrolne",
             "Checkpoint order": "Kolejność punktów kontrolnych",
             Height: "Wysokość",
@@ -40044,7 +40082,7 @@
             'Are you sure you want to delete "{0}"?': "Czy na pewno chcesz usunąć „{0}”?",
             Delete: "Usuń"
         }
-          , MI = {
+          , RI = {
             Checkpoints: "Pontos de Verificação",
             "Checkpoint order": "Ordem dos Pontos de Verificação",
             Height: "Altura",
@@ -40228,7 +40266,7 @@
             'Are you sure you want to delete "{0}"?': 'Tem certeza de que deseja excluir "{0}"?',
             Delete: "Excluir"
         }
-          , TI = {
+          , LI = {
             Checkpoints: "Pontos de Verificação",
             "Checkpoint order": "Ordem dos Pontos de Verificação",
             Height: "Altura",
@@ -40412,7 +40450,7 @@
             'Are you sure you want to delete "{0}"?': 'Tem a certeza de que deseja eliminar "{0}"?',
             Delete: "Eliminar"
         }
-          , AI = {
+          , II = {
             Checkpoints: "Контрольные точки",
             "Checkpoint order": "Порядок контрольных точек",
             Height: "Высота",
@@ -40596,7 +40634,7 @@
             'Are you sure you want to delete "{0}"?': 'Вы уверены, что хотите удалить "{0}"?',
             Delete: "Удалить"
         }
-          , CI = {
+          , NI = {
             Checkpoints: "Kontroller",
             "Checkpoint order": "Kontrol noktası sırası",
             Height: "Yükseklik",
@@ -40780,7 +40818,7 @@
             'Are you sure you want to delete "{0}"?': '"{0}" silmek istediğinizden emin misiniz?',
             Delete: "Sil"
         }
-          , PI = {
+          , DI = {
             Checkpoints: "Пункти контролю",
             "Checkpoint order": "Порядок пунктів контролю",
             Height: "Висота",
@@ -40964,7 +41002,7 @@
             'Are you sure you want to delete "{0}"?': 'Ви впевнені, що хочете видалити "{0}"?',
             Delete: "Видалити"
         }
-          , RI = {
+          , UI = {
             Checkpoints: "检查点",
             "Checkpoint order": "检查点顺序",
             Height: "高度",
@@ -41148,7 +41186,7 @@
             'Are you sure you want to delete "{0}"?': '确定要删除 "{0}" 吗？',
             Delete: "删除"
         }
-          , LI = {
+          , BI = {
             Checkpoints: "檢查點",
             "Checkpoint order": "檢查點順序",
             Height: "高度",
@@ -41332,13 +41370,13 @@
             'Are you sure you want to delete "{0}"?': '您確定要刪除 "{0}" 嗎？',
             Delete: "刪除"
         };
-        var II, NI, DI, UI, BI, OI = function(e, t, n, i) {
+        var OI, zI, FI, WI, HI, VI = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
-        }, zI = function(e, t, n, i, r) {
+        }, GI = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -41348,29 +41386,29 @@
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
         };
-        NI = new WeakMap,
-        DI = new WeakMap,
-        UI = new WeakMap,
-        II = new WeakSet,
-        BI = function(e) {
-            const t = OI(this, UI, "f").get(e);
-            return null != t ? t : yI
+        zI = new WeakMap,
+        FI = new WeakMap,
+        WI = new WeakMap,
+        OI = new WeakSet,
+        HI = function(e) {
+            const t = VI(this, WI, "f").get(e);
+            return null != t ? t : EI
         }
         ;
-        const FI = class {
+        const jI = class {
             constructor(e) {
-                II.add(this),
-                NI.set(this, !1),
-                DI.set(this, void 0),
-                UI.set(this, new Map([["ar", vI], ["de-DE", wI], ["es-ES", bI], ["fr-FR", xI], ["it-IT", _I], ["ja-JP", kI], ["ko-KR", EI], ["pl-PL", SI], ["pt-BR", MI], ["pt-PT", TI], ["ru-RU", AI], ["tr-TR", CI], ["uk-UA", PI], ["zh-CN", RI], ["zh-TW", LI]])),
-                zI(this, DI, OI(this, II, "m", BI).call(this, e), "f")
+                OI.add(this),
+                zI.set(this, !1),
+                FI.set(this, void 0),
+                WI.set(this, new Map([["ar", _I], ["de-DE", kI], ["es-ES", SI], ["fr-FR", MI], ["it-IT", TI], ["ja-JP", AI], ["ko-KR", CI], ["pl-PL", PI], ["pt-BR", RI], ["pt-PT", LI], ["ru-RU", II], ["tr-TR", NI], ["uk-UA", DI], ["zh-CN", UI], ["zh-TW", BI]])),
+                GI(this, FI, VI(this, OI, "m", HI).call(this, e), "f")
             }
             set language(e) {
-                zI(this, DI, OI(this, II, "m", BI).call(this, e), "f")
+                GI(this, FI, VI(this, OI, "m", HI).call(this, e), "f")
             }
             get(e, t) {
                 let n;
-                return n = OI(this, NI, "f") ? "###" : e in OI(this, DI, "f") ? OI(this, DI, "f")[e] : e,
+                return n = VI(this, zI, "f") ? "###" : e in VI(this, FI, "f") ? VI(this, FI, "f")[e] : e,
                 null != t && t.forEach(( (e, t) => {
                     n = n.replace(new RegExp("\\{" + t + "\\}","g"), e)
                 }
@@ -41379,16 +41417,16 @@
             }
         }
         ;
-        var WI = n(465)
-          , HI = {};
-        HI.styleTagTransform = u(),
-        HI.setAttributes = l(),
-        HI.insert = o().bind(null, "head"),
-        HI.domAPI = r(),
-        HI.insertStyleElement = h();
-        t()(WI.A, HI);
-        WI.A && WI.A.locals && WI.A.locals;
-        var VI, GI, jI, qI, XI, YI, KI = function(e, t, n, i, r) {
+        var qI = n(465)
+          , XI = {};
+        XI.styleTagTransform = u(),
+        XI.setAttributes = l(),
+        XI.insert = o().bind(null, "head"),
+        XI.domAPI = r(),
+        XI.insertStyleElement = h();
+        t()(qI.A, XI);
+        qI.A && qI.A.locals && qI.A.locals;
+        var YI, KI, ZI, JI, QI, $I, eN = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -41397,69 +41435,69 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, ZI = function(e, t, n, i) {
+        }, tN = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        VI = new WeakMap,
-        GI = new WeakMap,
-        jI = new WeakMap,
-        qI = new WeakMap,
-        XI = new WeakMap,
-        YI = new WeakMap;
-        const JI = class {
+        YI = new WeakMap,
+        KI = new WeakMap,
+        ZI = new WeakMap,
+        JI = new WeakMap,
+        QI = new WeakMap,
+        $I = new WeakMap;
+        const nN = class {
             constructor() {
-                VI.set(this, void 0),
-                GI.set(this, void 0),
-                jI.set(this, void 0),
-                qI.set(this, void 0),
-                XI.set(this, void 0),
                 YI.set(this, void 0),
-                KI(this, VI, document.getElementById("ui"), "f"),
-                KI(this, GI, document.createElement("div"), "f"),
-                ZI(this, GI, "f").className = "input-visualizer",
-                ZI(this, VI, "f").appendChild(ZI(this, GI, "f")),
-                KI(this, jI, document.createElement("div"), "f"),
-                ZI(this, jI, "f").className = "arrow-up",
-                ZI(this, jI, "f").innerHTML = '<img src="images/arrow_up.svg">',
-                ZI(this, GI, "f").appendChild(ZI(this, jI, "f")),
-                KI(this, qI, document.createElement("div"), "f"),
-                ZI(this, qI, "f").className = "arrow-right",
-                ZI(this, qI, "f").innerHTML = '<img src="images/arrow_right.svg">',
-                ZI(this, GI, "f").appendChild(ZI(this, qI, "f")),
-                KI(this, XI, document.createElement("div"), "f"),
-                ZI(this, XI, "f").className = "arrow-down",
-                ZI(this, XI, "f").innerHTML = '<img src="images/arrow_down.svg">',
-                ZI(this, GI, "f").appendChild(ZI(this, XI, "f")),
-                KI(this, YI, document.createElement("div"), "f"),
-                ZI(this, YI, "f").className = "arrow-left",
-                ZI(this, YI, "f").innerHTML = '<img src="images/arrow_left.svg">',
-                ZI(this, GI, "f").appendChild(ZI(this, YI, "f"))
+                KI.set(this, void 0),
+                ZI.set(this, void 0),
+                JI.set(this, void 0),
+                QI.set(this, void 0),
+                $I.set(this, void 0),
+                eN(this, YI, document.getElementById("ui"), "f"),
+                eN(this, KI, document.createElement("div"), "f"),
+                tN(this, KI, "f").className = "input-visualizer",
+                tN(this, YI, "f").appendChild(tN(this, KI, "f")),
+                eN(this, ZI, document.createElement("div"), "f"),
+                tN(this, ZI, "f").className = "arrow-up",
+                tN(this, ZI, "f").innerHTML = '<img src="images/arrow_up.svg">',
+                tN(this, KI, "f").appendChild(tN(this, ZI, "f")),
+                eN(this, JI, document.createElement("div"), "f"),
+                tN(this, JI, "f").className = "arrow-right",
+                tN(this, JI, "f").innerHTML = '<img src="images/arrow_right.svg">',
+                tN(this, KI, "f").appendChild(tN(this, JI, "f")),
+                eN(this, QI, document.createElement("div"), "f"),
+                tN(this, QI, "f").className = "arrow-down",
+                tN(this, QI, "f").innerHTML = '<img src="images/arrow_down.svg">',
+                tN(this, KI, "f").appendChild(tN(this, QI, "f")),
+                eN(this, $I, document.createElement("div"), "f"),
+                tN(this, $I, "f").className = "arrow-left",
+                tN(this, $I, "f").innerHTML = '<img src="images/arrow_left.svg">',
+                tN(this, KI, "f").appendChild(tN(this, $I, "f"))
             }
             dispose() {
-                ZI(this, VI, "f").removeChild(ZI(this, GI, "f"))
+                tN(this, YI, "f").removeChild(tN(this, KI, "f"))
             }
             update(e) {
-                ZI(this, jI, "f").className = e.up ? "active arrow-up" : "arrow-up",
-                ZI(this, qI, "f").className = e.right ? "active arrow-right" : "arrow-right",
-                ZI(this, XI, "f").className = e.down ? "active arrow-down" : "arrow-down",
-                ZI(this, YI, "f").className = e.left ? "active arrow-left" : "arrow-left"
+                tN(this, ZI, "f").className = e.up ? "active arrow-up" : "arrow-up",
+                tN(this, JI, "f").className = e.right ? "active arrow-right" : "arrow-right",
+                tN(this, QI, "f").className = e.down ? "active arrow-down" : "arrow-down",
+                tN(this, $I, "f").className = e.left ? "active arrow-left" : "arrow-left"
             }
         }
         ;
-        var QI = n(543)
-          , $I = {};
-        $I.styleTagTransform = u(),
-        $I.setAttributes = l(),
-        $I.insert = o().bind(null, "head"),
-        $I.domAPI = r(),
-        $I.insertStyleElement = h();
-        t()(QI.A, $I);
-        QI.A && QI.A.locals && QI.A.locals;
-        var eN, tN, nN, iN, rN, aN, oN, sN, lN, cN, hN, dN, uN, pN, fN, mN, gN = function(e, t, n, i, r) {
+        var iN = n(543)
+          , rN = {};
+        rN.styleTagTransform = u(),
+        rN.setAttributes = l(),
+        rN.insert = o().bind(null, "head"),
+        rN.domAPI = r(),
+        rN.insertStyleElement = h();
+        t()(iN.A, rN);
+        iN.A && iN.A.locals && iN.A.locals;
+        var aN, oN, sN, lN, cN, hN, dN, uN, pN, fN, mN, gN, vN, wN, yN, bN, xN = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -41468,18 +41506,13 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, vN = function(e, t, n, i) {
+        }, _N = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        tN = new WeakMap,
-        nN = new WeakMap,
-        iN = new WeakMap,
-        rN = new WeakMap,
-        aN = new WeakMap,
         oN = new WeakMap,
         sN = new WeakMap,
         lN = new WeakMap,
@@ -41488,130 +41521,135 @@
         dN = new WeakMap,
         uN = new WeakMap,
         pN = new WeakMap,
-        eN = new WeakSet,
-        fN = function(e) {
-            const t = vN(this, aN, "f").getBoundingClientRect()
+        fN = new WeakMap,
+        mN = new WeakMap,
+        gN = new WeakMap,
+        vN = new WeakMap,
+        wN = new WeakMap,
+        aN = new WeakSet,
+        yN = function(e) {
+            const t = _N(this, hN, "f").getBoundingClientRect()
               , n = (e.clientX - t.left) / (t.width - 8)
-              , i = new rp(Math.max(0, Math.floor(n * vN(this, hN, "f").time * 1e3)));
-            vN(this, nN, "f").call(this, i)
+              , i = new rp(Math.max(0, Math.floor(n * _N(this, mN, "f").time * 1e3)));
+            _N(this, sN, "f").call(this, i)
         }
         ,
-        mN = function() {
-            vN(this, cN, "f") ? vN(this, rN, "f").innerHTML = '<img src="images/reset.svg">' : vN(this, lN, "f") ? vN(this, rN, "f").innerHTML = '<img src="images/play.svg">' : vN(this, rN, "f").innerHTML = '<img src="images/pause.svg">'
+        bN = function() {
+            _N(this, fN, "f") ? _N(this, cN, "f").innerHTML = '<img src="images/reset.svg">' : _N(this, pN, "f") ? _N(this, cN, "f").innerHTML = '<img src="images/play.svg">' : _N(this, cN, "f").innerHTML = '<img src="images/pause.svg">'
         }
         ;
-        const wN = class {
+        const kN = class {
             constructor(e, t, n, i) {
-                eN.add(this),
-                tN.set(this, void 0),
-                nN.set(this, void 0),
-                iN.set(this, void 0),
-                rN.set(this, void 0),
-                aN.set(this, void 0),
+                aN.add(this),
                 oN.set(this, void 0),
                 sN.set(this, void 0),
                 lN.set(this, void 0),
-                cN.set(this, !1),
+                cN.set(this, void 0),
                 hN.set(this, void 0),
-                dN.set(this, !1),
+                dN.set(this, void 0),
                 uN.set(this, void 0),
                 pN.set(this, void 0),
-                gN(this, lN, i, "f"),
-                gN(this, tN, document.getElementById("ui"), "f"),
-                gN(this, nN, n, "f"),
-                gN(this, hN, t, "f"),
-                gN(this, iN, document.createElement("div"), "f"),
-                vN(this, iN, "f").className = "time-bar",
-                vN(this, tN, "f").appendChild(vN(this, iN, "f")),
-                gN(this, rN, document.createElement("button"), "f"),
-                vN(this, rN, "f").className = "button",
-                vN(this, rN, "f").addEventListener("click", ( () => {
+                fN.set(this, !1),
+                mN.set(this, void 0),
+                gN.set(this, !1),
+                vN.set(this, void 0),
+                wN.set(this, void 0),
+                xN(this, pN, i, "f"),
+                xN(this, oN, document.getElementById("ui"), "f"),
+                xN(this, sN, n, "f"),
+                xN(this, mN, t, "f"),
+                xN(this, lN, document.createElement("div"), "f"),
+                _N(this, lN, "f").className = "time-bar",
+                _N(this, oN, "f").appendChild(_N(this, lN, "f")),
+                xN(this, cN, document.createElement("button"), "f"),
+                _N(this, cN, "f").className = "button",
+                _N(this, cN, "f").addEventListener("click", ( () => {
                     e.playUIClick(),
-                    vN(this, cN, "f") ? (vN(this, nN, "f").call(this, new rp(0)),
+                    _N(this, fN, "f") ? (_N(this, sN, "f").call(this, new rp(0)),
                     this.isPaused = !1) : this.isPaused = !this.isPaused
                 }
                 )),
-                vN(this, iN, "f").appendChild(vN(this, rN, "f")),
-                vN(this, eN, "m", mN).call(this),
-                gN(this, aN, document.createElement("div"), "f"),
-                vN(this, aN, "f").className = "bar",
-                vN(this, aN, "f").addEventListener("pointerdown", (e => {
-                    gN(this, dN, !0, "f"),
-                    vN(this, eN, "m", fN).call(this, e)
+                _N(this, lN, "f").appendChild(_N(this, cN, "f")),
+                _N(this, aN, "m", bN).call(this),
+                xN(this, hN, document.createElement("div"), "f"),
+                _N(this, hN, "f").className = "bar",
+                _N(this, hN, "f").addEventListener("pointerdown", (e => {
+                    xN(this, gN, !0, "f"),
+                    _N(this, aN, "m", yN).call(this, e)
                 }
                 )),
-                window.addEventListener("pointermove", gN(this, uN, (e => {
-                    vN(this, dN, "f") && vN(this, eN, "m", fN).call(this, e)
+                window.addEventListener("pointermove", xN(this, vN, (e => {
+                    _N(this, gN, "f") && _N(this, aN, "m", yN).call(this, e)
                 }
                 ), "f")),
-                window.addEventListener("pointerup", gN(this, pN, (e => {
-                    vN(this, dN, "f") && (gN(this, dN, !1, "f"),
-                    vN(this, eN, "m", fN).call(this, e))
+                window.addEventListener("pointerup", xN(this, wN, (e => {
+                    _N(this, gN, "f") && (xN(this, gN, !1, "f"),
+                    _N(this, aN, "m", yN).call(this, e))
                 }
                 ), "f")),
-                vN(this, iN, "f").appendChild(vN(this, aN, "f"));
+                _N(this, lN, "f").appendChild(_N(this, hN, "f"));
                 const r = document.createElement("div");
-                if (vN(this, aN, "f").appendChild(r),
-                gN(this, oN, document.createElement("div"), "f"),
-                vN(this, oN, "f").className = "unloaded-fill",
-                r.appendChild(vN(this, oN, "f")),
-                gN(this, sN, document.createElement("div"), "f"),
-                vN(this, sN, "f").className = "fill",
-                r.appendChild(vN(this, sN, "f")),
-                vN(this, hN, "f").time < 1e4) {
+                if (_N(this, hN, "f").appendChild(r),
+                xN(this, dN, document.createElement("div"), "f"),
+                _N(this, dN, "f").className = "unloaded-fill",
+                r.appendChild(_N(this, dN, "f")),
+                xN(this, uN, document.createElement("div"), "f"),
+                _N(this, uN, "f").className = "fill",
+                r.appendChild(_N(this, uN, "f")),
+                _N(this, mN, "f").time < 1e4) {
                     let e, t;
-                    vN(this, hN, "f").time > 2e3 ? (e = 60,
-                    t = 600) : vN(this, hN, "f").time > 200 ? (e = 10,
+                    _N(this, mN, "f").time > 2e3 ? (e = 60,
+                    t = 600) : _N(this, mN, "f").time > 200 ? (e = 10,
                     t = 60) : (e = 1,
                     t = 10);
-                    for (let n = e; n < vN(this, hN, "f").time; n += e) {
+                    for (let n = e; n < _N(this, mN, "f").time; n += e) {
                         const e = document.createElement("div");
                         e.className = n % t == 0 ? "dash long" : "dash",
-                        e.style.left = "calc(" + n / vN(this, hN, "f").time * 100 + "% - 1px)",
+                        e.style.left = "calc(" + n / _N(this, mN, "f").time * 100 + "% - 1px)",
                         r.appendChild(e)
                     }
                 }
             }
             dispose() {
-                vN(this, tN, "f").removeChild(vN(this, iN, "f")),
-                window.removeEventListener("pointermove", vN(this, uN, "f")),
-                window.removeEventListener("pointerup", vN(this, pN, "f"))
+                _N(this, oN, "f").removeChild(_N(this, lN, "f")),
+                window.removeEventListener("pointermove", _N(this, vN, "f")),
+                window.removeEventListener("pointerup", _N(this, wN, "f"))
             }
             get isDragging() {
-                return vN(this, dN, "f")
+                return _N(this, gN, "f")
             }
             get isPaused() {
-                return vN(this, lN, "f")
+                return _N(this, pN, "f")
             }
             set isPaused(e) {
-                gN(this, lN, e, "f"),
-                vN(this, eN, "m", mN).call(this)
+                xN(this, pN, e, "f"),
+                _N(this, aN, "m", bN).call(this)
             }
             set time(e) {
                 let t;
-                null == vN(this, hN, "f") ? (t = !1,
-                vN(this, sN, "f").style.visibility = "hidden") : (t = e.numberOfFrames >= vN(this, hN, "f").numberOfFrames,
-                vN(this, sN, "f").style.width = "calc(8px + " + e.numberOfFrames / vN(this, hN, "f").numberOfFrames * 100 + "%)",
-                0 == e.numberOfFrames ? vN(this, sN, "f").style.visibility = "hidden" : vN(this, sN, "f").style.visibility = "visible"),
-                vN(this, cN, "f") != t && (gN(this, cN, t, "f"),
-                vN(this, eN, "m", mN).call(this))
+                null == _N(this, mN, "f") ? (t = !1,
+                _N(this, uN, "f").style.visibility = "hidden") : (t = e.numberOfFrames >= _N(this, mN, "f").numberOfFrames,
+                _N(this, uN, "f").style.width = "calc(8px + " + e.numberOfFrames / _N(this, mN, "f").numberOfFrames * 100 + "%)",
+                0 == e.numberOfFrames ? _N(this, uN, "f").style.visibility = "hidden" : _N(this, uN, "f").style.visibility = "visible"),
+                _N(this, fN, "f") != t && (xN(this, fN, t, "f"),
+                _N(this, aN, "m", bN).call(this))
             }
             set loadedTime(e) {
-                null == vN(this, hN, "f") ? vN(this, oN, "f").style.visibility = "hidden" : (vN(this, oN, "f").style.width = "calc(8px + " + 100 * (1 - e.numberOfFrames / vN(this, hN, "f").numberOfFrames) + "%)",
-                e.numberOfFrames >= vN(this, hN, "f").numberOfFrames ? vN(this, oN, "f").style.visibility = "hidden" : vN(this, oN, "f").style.visibility = "visible")
+                null == _N(this, mN, "f") ? _N(this, dN, "f").style.visibility = "hidden" : (_N(this, dN, "f").style.width = "calc(8px + " + 100 * (1 - e.numberOfFrames / _N(this, mN, "f").numberOfFrames) + "%)",
+                e.numberOfFrames >= _N(this, mN, "f").numberOfFrames ? _N(this, dN, "f").style.visibility = "hidden" : _N(this, dN, "f").style.visibility = "visible")
             }
         }
         ;
-        var yN = n(768)
-          , bN = {};
-        bN.styleTagTransform = u(),
-        bN.setAttributes = l(),
-        bN.insert = o().bind(null, "head"),
-        bN.domAPI = r(),
-        bN.insertStyleElement = h();
-        t()(yN.A, bN);
-        yN.A && yN.A.locals && yN.A.locals;
-        var xN, _N, kN = function(e, t, n, i, r) {
+        var EN = n(768)
+          , SN = {};
+        SN.styleTagTransform = u(),
+        SN.setAttributes = l(),
+        SN.insert = o().bind(null, "head"),
+        SN.domAPI = r(),
+        SN.insertStyleElement = h();
+        t()(EN.A, SN);
+        EN.A && EN.A.locals && EN.A.locals;
+        var MN, TN, AN = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -41620,22 +41658,22 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, EN = function(e, t, n, i) {
+        }, CN = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        xN = new WeakMap,
-        _N = new WeakMap;
-        const SN = class {
+        MN = new WeakMap,
+        TN = new WeakMap;
+        const PN = class {
             constructor(e, t, n) {
-                xN.set(this, void 0),
-                _N.set(this, void 0),
-                kN(this, xN, document.getElementById("ui"), "f"),
-                kN(this, _N, document.createElement("div"), "f"),
-                EN(this, _N, "f").className = "preview-toolbar";
+                MN.set(this, void 0),
+                TN.set(this, void 0),
+                AN(this, MN, document.getElementById("ui"), "f"),
+                AN(this, TN, document.createElement("div"), "f"),
+                CN(this, TN, "f").className = "preview-toolbar";
                 const i = document.createElement("button");
                 i.className = "button",
                 i.innerHTML = '<img class="button-icon" src="images/quit.svg"> ',
@@ -41645,15 +41683,15 @@
                     n()
                 }
                 )),
-                EN(this, _N, "f").appendChild(i),
-                EN(this, xN, "f").appendChild(EN(this, _N, "f"))
+                CN(this, TN, "f").appendChild(i),
+                CN(this, MN, "f").appendChild(CN(this, TN, "f"))
             }
             dispose() {
-                EN(this, xN, "f").removeChild(EN(this, _N, "f"))
+                CN(this, MN, "f").removeChild(CN(this, TN, "f"))
             }
         }
         ;
-        var MN, TN, AN, CN, PN, RN, LN, IN, NN, DN, UN, BN, ON, zN, FN, WN, HN, VN, GN, jN, qN, XN, YN, KN, ZN, JN, QN, $N = function(e, t, n, i, r) {
+        var RN, LN, IN, NN, DN, UN, BN, ON, zN, FN, WN, HN, VN, GN, jN, qN, XN, YN, KN, ZN, JN, QN, $N, eD, tD, nD, iD, rD = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -41662,18 +41700,13 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, eD = function(e, t, n, i) {
+        }, aD = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        TN = new WeakMap,
-        AN = new WeakMap,
-        CN = new WeakMap,
-        PN = new WeakMap,
-        RN = new WeakMap,
         LN = new WeakMap,
         IN = new WeakMap,
         NN = new WeakMap,
@@ -41693,182 +41726,187 @@
         YN = new WeakMap,
         KN = new WeakMap,
         ZN = new WeakMap,
-        MN = new WeakSet,
-        JN = function(e) {
+        JN = new WeakMap,
+        QN = new WeakMap,
+        $N = new WeakMap,
+        eD = new WeakMap,
+        tD = new WeakMap,
+        RN = new WeakSet,
+        nD = function(e) {
             var t, n, i, r, a;
-            e ? ($N(this, GN, new wN(eD(this, RN, "f"),eD(this, NN, "f").time,(e => {
+            e ? (rD(this, KN, new kN(aD(this, UN, "f"),aD(this, zN, "f").time,(e => {
                 var t, n, i;
-                $N(this, FN, Math.max(0, Math.min(eD(this, WN, "f"), e.time)), "f");
-                const r = Math.round(1e3 * eD(this, FN, "f"));
-                eD(this, MN, "m", QN).call(this, r),
-                eD(this, ON, "f").update(0),
-                null != eD(this, GN, "f") && (eD(this, GN, "f").time = new rp(r)),
-                null === (t = eD(this, qN, "f")) || void 0 === t || t.update(eD(this, ON, "f").getControls()),
-                null === (n = eD(this, XN, "f")) || void 0 === n || n.update(eD(this, ON, "f")),
-                null === (i = eD(this, YN, "f")) || void 0 === i || i.update(eD(this, ON, "f"))
+                rD(this, jN, Math.max(0, Math.min(aD(this, qN, "f"), e.time)), "f");
+                const r = Math.round(1e3 * aD(this, jN, "f"));
+                aD(this, RN, "m", iD).call(this, r),
+                aD(this, VN, "f").update(0),
+                null != aD(this, KN, "f") && (aD(this, KN, "f").time = new rp(r)),
+                null === (t = aD(this, JN, "f")) || void 0 === t || t.update(aD(this, VN, "f").getControls()),
+                null === (n = aD(this, QN, "f")) || void 0 === n || n.update(aD(this, VN, "f")),
+                null === (i = aD(this, $N, "f")) || void 0 === i || i.update(aD(this, VN, "f"))
             }
-            ),eD(this, zN, "f")), "f"),
-            $N(this, jN, new SN(eD(this, RN, "f"),eD(this, LN, "f"),eD(this, DN, "f")), "f"),
-            $N(this, qN, new JI, "f"),
-            $N(this, XN, new AE(eD(this, IN, "f")), "f"),
-            eD(this, XN, "f").setOverridePosition(!1),
-            $N(this, YN, new sx(eD(this, LN, "f"),eD(this, IN, "f"),null,!0), "f"),
-            eD(this, YN, "f").setOverridePosition(!1)) : (null === (t = eD(this, GN, "f")) || void 0 === t || t.dispose(),
-            $N(this, GN, null, "f"),
-            null === (n = eD(this, jN, "f")) || void 0 === n || n.dispose(),
-            $N(this, jN, null, "f"),
-            null === (i = eD(this, qN, "f")) || void 0 === i || i.dispose(),
-            $N(this, qN, null, "f"),
-            null === (r = eD(this, XN, "f")) || void 0 === r || r.dispose(),
-            $N(this, XN, null, "f"),
-            null === (a = eD(this, YN, "f")) || void 0 === a || a.dispose(),
-            $N(this, YN, null, "f"))
+            ),aD(this, GN, "f")), "f"),
+            rD(this, ZN, new PN(aD(this, UN, "f"),aD(this, BN, "f"),aD(this, FN, "f")), "f"),
+            rD(this, JN, new nN, "f"),
+            rD(this, QN, new LE(aD(this, ON, "f")), "f"),
+            aD(this, QN, "f").setOverridePosition(!1),
+            rD(this, $N, new dx(aD(this, BN, "f"),aD(this, ON, "f"),null,!0), "f"),
+            aD(this, $N, "f").setOverridePosition(!1)) : (null === (t = aD(this, KN, "f")) || void 0 === t || t.dispose(),
+            rD(this, KN, null, "f"),
+            null === (n = aD(this, ZN, "f")) || void 0 === n || n.dispose(),
+            rD(this, ZN, null, "f"),
+            null === (i = aD(this, JN, "f")) || void 0 === i || i.dispose(),
+            rD(this, JN, null, "f"),
+            null === (r = aD(this, QN, "f")) || void 0 === r || r.dispose(),
+            rD(this, QN, null, "f"),
+            null === (a = aD(this, $N, "f")) || void 0 === a || a.dispose(),
+            rD(this, $N, null, "f"))
         }
         ,
-        QN = function(e) {
-            if (eD(this, ON, "f").getTotalTime().numberOfFrames != e) {
-                const t = eD(this, UN, "f").getFrame(e);
-                null != t && eD(this, ON, "f").setCarState(t)
+        iD = function(e) {
+            if (aD(this, VN, "f").getTotalTime().numberOfFrames != e) {
+                const t = aD(this, WN, "f").getFrame(e);
+                null != t && aD(this, VN, "f").setCarState(t)
             }
         }
         ;
-        const tD = class {
+        const oD = class {
             constructor(e, t, n, i, r, a, o, s, l, c) {
-                MN.add(this),
-                TN.set(this, void 0),
-                AN.set(this, void 0),
-                CN.set(this, void 0),
-                PN.set(this, void 0),
-                RN.set(this, void 0),
+                RN.add(this),
                 LN.set(this, void 0),
                 IN.set(this, void 0),
                 NN.set(this, void 0),
                 DN.set(this, void 0),
                 UN.set(this, void 0),
-                BN.set(this, null),
+                BN.set(this, void 0),
                 ON.set(this, void 0),
-                zN.set(this, !1),
-                FN.set(this, 0),
-                WN.set(this, 0),
-                HN.set(this, void 0),
-                VN.set(this, !0),
-                GN.set(this, void 0),
-                jN.set(this, void 0),
-                qN.set(this, void 0),
+                zN.set(this, void 0),
+                FN.set(this, void 0),
+                WN.set(this, void 0),
+                HN.set(this, null),
+                VN.set(this, void 0),
+                GN.set(this, !1),
+                jN.set(this, 0),
+                qN.set(this, 0),
                 XN.set(this, void 0),
-                YN.set(this, void 0),
+                YN.set(this, !0),
                 KN.set(this, void 0),
                 ZN.set(this, void 0),
-                $N(this, TN, e, "f"),
-                $N(this, AN, t, "f"),
-                $N(this, CN, i, "f"),
-                $N(this, PN, r, "f"),
-                $N(this, RN, a, "f"),
-                $N(this, LN, o, "f"),
-                $N(this, IN, s, "f"),
-                $N(this, NN, l, "f"),
-                $N(this, DN, c, "f"),
+                JN.set(this, void 0),
+                QN.set(this, void 0),
+                $N.set(this, void 0),
+                eD.set(this, void 0),
+                tD.set(this, void 0),
+                rD(this, LN, e, "f"),
+                rD(this, IN, t, "f"),
+                rD(this, NN, i, "f"),
+                rD(this, DN, r, "f"),
+                rD(this, UN, a, "f"),
+                rD(this, BN, o, "f"),
+                rD(this, ON, s, "f"),
+                rD(this, zN, l, "f"),
+                rD(this, FN, c, "f"),
                 t.loadTrackData(n),
                 t.generateMeshes(),
                 i.generateMountains(t.getBounds());
                 const h = t.getStartTransform();
                 if (null == h)
                     throw "Track has no starting point";
-                $N(this, UN, new NS, "f");
-                const d = e.createCar(h, eD(this, CN, "f").getMountainVertices(), eD(this, CN, "f").getMountainOffset(), eD(this, AN, "f").getTrackData(), l.recording, (t => {
-                    eD(this, UN, "f").push(t),
-                    null != eD(this, BN, "f") && t.totalFrames >= l.time.numberOfFrames && (e.deleteCar(eD(this, BN, "f")),
-                    $N(this, BN, null, "f"))
+                rD(this, WN, new OS, "f");
+                const d = e.createCar(h, aD(this, NN, "f").getMountainVertices(), aD(this, NN, "f").getMountainOffset(), aD(this, IN, "f").getTrackData(), l.recording, (t => {
+                    aD(this, WN, "f").push(t),
+                    null != aD(this, HN, "f") && t.totalFrames >= l.time.numberOfFrames && (e.deleteCar(aD(this, HN, "f")),
+                    rD(this, HN, null, "f"))
                 }
                 ));
-                eD(this, UN, "f").push(d),
+                aD(this, WN, "f").push(d),
                 e.startCar(d.id, l.time),
-                $N(this, BN, d.id, "f"),
-                $N(this, WN, l.time.time, "f"),
-                $N(this, ON, new Uv(null,h,l.recording,null,!0,r,a,i,t,s), "f"),
-                eD(this, ON, "f").setColors(l.carColors),
-                r.setCamera(eD(this, ON, "f").cameraOrbit),
-                $N(this, HN, new pS(s), "f"),
-                eD(this, HN, "f").addToggleListener((e => {
-                    e ? r.setCamera(eD(this, HN, "f").camera) : null != eD(this, ON, "f") && r.setCamera(eD(this, ON, "f").cameraOrbit)
+                rD(this, HN, d.id, "f"),
+                rD(this, qN, l.time.time, "f"),
+                rD(this, VN, new Fv(null,h,l.recording,null,!0,r,a,i,t,s), "f"),
+                aD(this, VN, "f").setColors(l.carColors),
+                r.setCamera(aD(this, VN, "f").cameraOrbit),
+                rD(this, XN, new vS(s), "f"),
+                aD(this, XN, "f").addToggleListener((e => {
+                    e ? r.setCamera(aD(this, XN, "f").camera) : null != aD(this, VN, "f") && r.setCamera(aD(this, VN, "f").cameraOrbit)
                 }
                 )),
-                eD(this, MN, "m", JN).call(this, !0),
-                window.addEventListener("keydown", $N(this, KN, (e => {
-                    if (eD(this, HN, "f").enabled || ("Escape" == e.code ? (c(),
-                    e.preventDefault()) : s.checkKeyBinding(e, Lb.VehicleReset) ? ($N(this, FN, 0, "f"),
-                    e.preventDefault()) : eD(this, IN, "f").checkKeyBinding(e, Lb.VehicleCockpitCamera) && (e.repeat || null == eD(this, ON, "f") || eD(this, ON, "f").hasFinished() || (eD(this, IN, "f").getSettingBoolean(Jh.CockpitCameraToggle) ? eD(this, PN, "f").camera == eD(this, ON, "f").cameraOrbit ? eD(this, PN, "f").setCamera(eD(this, ON, "f").cameraCockpit) : eD(this, PN, "f").setCamera(eD(this, ON, "f").cameraOrbit) : eD(this, PN, "f").setCamera(eD(this, ON, "f").cameraCockpit)),
+                aD(this, RN, "m", nD).call(this, !0),
+                window.addEventListener("keydown", rD(this, eD, (e => {
+                    if (aD(this, XN, "f").enabled || ("Escape" == e.code ? (c(),
+                    e.preventDefault()) : s.checkKeyBinding(e, Ub.VehicleReset) ? (rD(this, jN, 0, "f"),
+                    e.preventDefault()) : aD(this, ON, "f").checkKeyBinding(e, Ub.VehicleCockpitCamera) && (e.repeat || null == aD(this, VN, "f") || aD(this, VN, "f").hasFinished() || (aD(this, ON, "f").getSettingBoolean(Jh.CockpitCameraToggle) ? aD(this, DN, "f").camera == aD(this, VN, "f").cameraOrbit ? aD(this, DN, "f").setCamera(aD(this, VN, "f").cameraCockpit) : aD(this, DN, "f").setCamera(aD(this, VN, "f").cameraOrbit) : aD(this, DN, "f").setCamera(aD(this, VN, "f").cameraCockpit)),
                     e.preventDefault())),
-                    s.checkKeyBinding(e, Lb.ToggleUI) && ($N(this, VN, !eD(this, VN, "f"), "f"),
-                    eD(this, MN, "m", JN).call(this, eD(this, VN, "f")),
+                    s.checkKeyBinding(e, Ub.ToggleUI) && (rD(this, YN, !aD(this, YN, "f"), "f"),
+                    aD(this, RN, "m", nD).call(this, aD(this, YN, "f")),
                     e.preventDefault()),
-                    s.checkKeyBinding(e, Lb.ToggleSpectatorCamera)) {
-                        eD(this, HN, "f").camera.position.copy(eD(this, PN, "f").camera.position);
-                        const t = new _i(0,0,0,"YXZ").setFromQuaternion(eD(this, PN, "f").camera.quaternion);
+                    s.checkKeyBinding(e, Ub.ToggleSpectatorCamera)) {
+                        aD(this, XN, "f").camera.position.copy(aD(this, DN, "f").camera.position);
+                        const t = new _i(0,0,0,"YXZ").setFromQuaternion(aD(this, DN, "f").camera.quaternion);
                         t.z = 0,
-                        eD(this, HN, "f").camera.quaternion.setFromEuler(t),
-                        eD(this, HN, "f").toggle(),
+                        aD(this, XN, "f").camera.quaternion.setFromEuler(t),
+                        aD(this, XN, "f").toggle(),
                         e.preventDefault()
                     }
-                    "Space" == e.code && ($N(this, zN, !eD(this, zN, "f"), "f"),
-                    null != eD(this, GN, "f") && (eD(this, GN, "f").isPaused = eD(this, zN, "f")),
+                    "Space" == e.code && (rD(this, GN, !aD(this, GN, "f"), "f"),
+                    null != aD(this, KN, "f") && (aD(this, KN, "f").isPaused = aD(this, GN, "f")),
                     e.preventDefault())
                 }
                 ), "f")),
-                window.addEventListener("keyup", $N(this, ZN, (e => {
-                    eD(this, HN, "f").enabled || eD(this, IN, "f").checkKeyBinding(e, Lb.VehicleCockpitCamera) && (eD(this, ON, "f").hasFinished() || eD(this, IN, "f").getSettingBoolean(Jh.CockpitCameraToggle) || eD(this, PN, "f").setCamera(eD(this, ON, "f").cameraOrbit))
+                window.addEventListener("keyup", rD(this, tD, (e => {
+                    aD(this, XN, "f").enabled || aD(this, ON, "f").checkKeyBinding(e, Ub.VehicleCockpitCamera) && (aD(this, VN, "f").hasFinished() || aD(this, ON, "f").getSettingBoolean(Jh.CockpitCameraToggle) || aD(this, DN, "f").setCamera(aD(this, VN, "f").cameraOrbit))
                 }
                 ), "f"))
             }
             dispose() {
-                eD(this, AN, "f").clear(),
-                eD(this, CN, "f").clearMountains(),
-                null != eD(this, BN, "f") && (eD(this, TN, "f").deleteCar(eD(this, BN, "f")),
-                $N(this, BN, null, "f")),
-                eD(this, ON, "f").dispose(),
-                eD(this, HN, "f").dispose(),
-                eD(this, MN, "m", JN).call(this, !1),
-                window.removeEventListener("keydown", eD(this, KN, "f")),
-                window.removeEventListener("keyup", eD(this, ZN, "f"))
+                aD(this, IN, "f").clear(),
+                aD(this, NN, "f").clearMountains(),
+                null != aD(this, HN, "f") && (aD(this, LN, "f").deleteCar(aD(this, HN, "f")),
+                rD(this, HN, null, "f")),
+                aD(this, VN, "f").dispose(),
+                aD(this, XN, "f").dispose(),
+                aD(this, RN, "m", nD).call(this, !1),
+                window.removeEventListener("keydown", aD(this, eD, "f")),
+                window.removeEventListener("keyup", aD(this, tD, "f"))
             }
             update(e) {
                 var t, n, i, r, a;
-                null != eD(this, GN, "f") && $N(this, zN, eD(this, GN, "f").isPaused, "f");
-                const o = eD(this, UN, "f").getLastFrame();
+                null != aD(this, KN, "f") && rD(this, GN, aD(this, KN, "f").isPaused, "f");
+                const o = aD(this, WN, "f").getLastFrame();
                 let s;
-                if (eD(this, zN, "f") || (null === (t = eD(this, GN, "f")) || void 0 === t ? void 0 : t.isDragging))
+                if (aD(this, GN, "f") || (null === (t = aD(this, KN, "f")) || void 0 === t ? void 0 : t.isDragging))
                     s = 0,
-                    eD(this, ON, "f").audioVolume = 0;
+                    aD(this, VN, "f").audioVolume = 0;
                 else {
-                    const t = Math.min(eD(this, WN, "f"), eD(this, FN, "f") + e);
-                    o.time >= t ? ($N(this, FN, t, "f"),
-                    eD(this, FN, "f") == eD(this, WN, "f") && (null != eD(this, GN, "f") && (eD(this, GN, "f").isPaused = !0),
-                    $N(this, zN, !0, "f")),
+                    const t = Math.min(aD(this, qN, "f"), aD(this, jN, "f") + e);
+                    o.time >= t ? (rD(this, jN, t, "f"),
+                    aD(this, jN, "f") == aD(this, qN, "f") && (null != aD(this, KN, "f") && (aD(this, KN, "f").isPaused = !0),
+                    rD(this, GN, !0, "f")),
                     s = e,
-                    eD(this, ON, "f").audioVolume = 1) : (s = 0,
-                    eD(this, ON, "f").audioVolume = 0)
+                    aD(this, VN, "f").audioVolume = 1) : (s = 0,
+                    aD(this, VN, "f").audioVolume = 0)
                 }
-                const l = Math.round(1e3 * eD(this, FN, "f"))
-                  , c = Math.min(l, eD(this, UN, "f").getLastFrame().numberOfFrames);
-                if ((null === (n = eD(this, GN, "f")) || void 0 === n ? void 0 : n.isDragging) || c < eD(this, ON, "f").getTotalTime().numberOfFrames || c > eD(this, ON, "f").getTotalTime().numberOfFrames + 1e3)
-                    eD(this, MN, "m", QN).call(this, c);
+                const l = Math.round(1e3 * aD(this, jN, "f"))
+                  , c = Math.min(l, aD(this, WN, "f").getLastFrame().numberOfFrames);
+                if ((null === (n = aD(this, KN, "f")) || void 0 === n ? void 0 : n.isDragging) || c < aD(this, VN, "f").getTotalTime().numberOfFrames || c > aD(this, VN, "f").getTotalTime().numberOfFrames + 1e3)
+                    aD(this, RN, "m", iD).call(this, c);
                 else {
-                    for (let e = eD(this, ON, "f").getTotalTime().numberOfFrames + 1; e <= c; e++)
-                        eD(this, MN, "m", QN).call(this, e)
+                    for (let e = aD(this, VN, "f").getTotalTime().numberOfFrames + 1; e <= c; e++)
+                        aD(this, RN, "m", iD).call(this, e)
                 }
-                null != eD(this, GN, "f") && (eD(this, GN, "f").time = eD(this, ON, "f").getTotalTime(),
-                eD(this, GN, "f").loadedTime = o),
-                null === (i = eD(this, qN, "f")) || void 0 === i || i.update(eD(this, ON, "f").getControls()),
-                null === (r = eD(this, XN, "f")) || void 0 === r || r.update(eD(this, ON, "f")),
-                null === (a = eD(this, YN, "f")) || void 0 === a || a.update(eD(this, ON, "f")),
-                eD(this, ON, "f").update(s),
-                eD(this, HN, "f").update(e),
-                eD(this, PN, "f").update(eD(this, ON, "f").getPosition()),
-                eD(this, RN, "f").update(e, !1, eD(this, PN, "f"), eD(this, IN, "f"))
+                null != aD(this, KN, "f") && (aD(this, KN, "f").time = aD(this, VN, "f").getTotalTime(),
+                aD(this, KN, "f").loadedTime = o),
+                null === (i = aD(this, JN, "f")) || void 0 === i || i.update(aD(this, VN, "f").getControls()),
+                null === (r = aD(this, QN, "f")) || void 0 === r || r.update(aD(this, VN, "f")),
+                null === (a = aD(this, $N, "f")) || void 0 === a || a.update(aD(this, VN, "f")),
+                aD(this, VN, "f").update(s),
+                aD(this, XN, "f").update(e),
+                aD(this, DN, "f").update(aD(this, VN, "f").getPosition()),
+                aD(this, UN, "f").update(e, !1, aD(this, DN, "f"), aD(this, ON, "f"))
             }
         }
         ;
-        var nD, iD, rD = function(e, t, n, i, r) {
+        var sD, lD, cD = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -41877,44 +41915,44 @@
                 throw new TypeError("Cannot write private member to an object whose class did not declare it");
             return "a" === i ? r.call(e, n) : r ? r.value = n : t.set(e, n),
             n
-        }, aD = function(e, t, n, i) {
+        }, hD = function(e, t, n, i) {
             if ("a" === n && !i)
                 throw new TypeError("Private accessor was defined without a getter");
             if ("function" == typeof t ? e !== t || !i : !t.has(e))
                 throw new TypeError("Cannot read private member from an object whose class did not declare it");
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
-        nD = new WeakMap,
-        iD = new WeakMap;
-        const oD = class {
+        sD = new WeakMap,
+        lD = new WeakMap;
+        const dD = class {
             constructor() {
-                nD.set(this, !1),
-                iD.set(this, []),
+                sD.set(this, !1),
+                lD.set(this, []),
                 window.addEventListener("touchstart", ( () => {
-                    rD(this, nD, !0, "f"),
-                    aD(this, iD, "f").forEach((e => e(aD(this, nD, "f"))))
+                    cD(this, sD, !0, "f"),
+                    hD(this, lD, "f").forEach((e => e(hD(this, sD, "f"))))
                 }
                 )),
                 window.addEventListener("keydown", ( () => {
-                    rD(this, nD, !1, "f"),
-                    aD(this, iD, "f").forEach((e => e(aD(this, nD, "f"))))
+                    cD(this, sD, !1, "f"),
+                    hD(this, lD, "f").forEach((e => e(hD(this, sD, "f"))))
                 }
                 ))
             }
             get touchEnabled() {
-                return aD(this, nD, "f")
+                return hD(this, sD, "f")
             }
             addChangeListener(e) {
-                aD(this, iD, "f").push(e),
-                e(aD(this, nD, "f"))
+                hD(this, lD, "f").push(e),
+                e(hD(this, sD, "f"))
             }
             removeChangeListener(e) {
-                const t = aD(this, iD, "f").indexOf(e);
-                t >= 0 && aD(this, iD, "f").splice(t, 1)
+                const t = hD(this, lD, "f").indexOf(e);
+                t >= 0 && hD(this, lD, "f").splice(t, 1)
             }
         }
         ;
-        var sD = function(e, t, n, i) {
+        var uD, pD = function(e, t, n, i) {
             return new (n || (n = Promise))((function(r, a) {
                 function o(e) {
                     try {
@@ -41942,45 +41980,107 @@
             }
             ))
         };
-        function lD() {
-            try {
-                window.CrazyGames ? window.CrazyGames.SDK.game.gameplayStart() : window.PokiSDK && window.PokiSDK.gameplayStart()
-            } catch (e) {
-                console.error(e)
-            }
-        }
-        function cD() {
-            try {
-                window.CrazyGames ? window.CrazyGames.SDK.game.gameplayStop() : window.PokiSDK && window.PokiSDK.gameplayStop()
-            } catch (e) {
-                console.error(e)
-            }
-        }
-        function hD() {
-            try {
-                window.CrazyGames ? window.CrazyGames.SDK.game.loadingStart() : window.PokiSDK
-            } catch (e) {
-                console.error(e)
-            }
-        }
-        function dD() {
-            try {
-                window.CrazyGames ? window.CrazyGames.SDK.game.loadingStop() : window.PokiSDK
-            } catch (e) {
-                console.error(e)
-            }
-        }
-        function uD(e) {
-            return new Promise(( (t, n) => {
+        !function(e) {
+            e[e.Loading = 0] = "Loading",
+            e[e.Error = 1] = "Error",
+            e[e.Ready = 2] = "Ready"
+        }(uD || (uD = {}));
+        let fD = uD.Loading;
+        function mD() {
+            return pD(this, void 0, void 0, (function*() {
                 try {
-                    window.CrazyGames ? window.CrazyGames.SDK.ad.requestAd("midgame", {
-                        adFinished: t,
-                        adError: n,
-                        adStarted: e
-                    }) : window.PokiSDK ? window.PokiSDK.commercialBreak().then(t).catch(n) : t()
+                    if (window.CrazyGames)
+                        yield window.CrazyGames.SDK.init(),
+                        fD = uD.Ready;
+                    else if (window.PokiSDK)
+                        yield window.PokiSDK.init(),
+                        fD = uD.Ready;
+                    else if (window.adsbygoogle) {
+                        const e = window.adsbygoogle;
+                        yield new Promise((t => {
+                            const n = setTimeout(( () => {
+                                fD = uD.Error,
+                                t()
+                            }
+                            ), 2e3);
+                            e.push({
+                                preloadAdBreaks: "on",
+                                sound: "on",
+                                onReady: () => {
+                                    clearTimeout(n),
+                                    fD = uD.Ready,
+                                    t()
+                                }
+                            })
+                        }
+                        ))
+                    }
                 } catch (e) {
-                    n(e)
+                    fD = uD.Error,
+                    console.error(e)
                 }
+            }
+            ))
+        }
+        function gD() {
+            if (fD == uD.Ready)
+                try {
+                    window.CrazyGames ? window.CrazyGames.SDK.game.gameplayStart() : window.PokiSDK && window.PokiSDK.gameplayStart()
+                } catch (e) {
+                    console.error(e)
+                }
+        }
+        function vD() {
+            if (fD == uD.Ready)
+                try {
+                    window.CrazyGames ? window.CrazyGames.SDK.game.gameplayStop() : window.PokiSDK && window.PokiSDK.gameplayStop()
+                } catch (e) {
+                    console.error(e)
+                }
+        }
+        function wD() {
+            if (fD == uD.Ready)
+                try {
+                    window.CrazyGames ? window.CrazyGames.SDK.game.loadingStart() : window.PokiSDK
+                } catch (e) {
+                    console.error(e)
+                }
+        }
+        function yD() {
+            if (fD == uD.Ready)
+                try {
+                    window.CrazyGames ? window.CrazyGames.SDK.game.loadingStop() : window.PokiSDK
+                } catch (e) {
+                    console.error(e)
+                }
+        }
+        function bD() {
+            if (fD == uD.Ready)
+                try {
+                    window.CrazyGames ? window.CrazyGames.SDK.game.loadingStop() : window.PokiSDK && window.PokiSDK.gameLoadingFinished()
+                } catch (e) {
+                    console.error(e)
+                }
+        }
+        function xD(e, t) {
+            return new Promise(( (n, i) => {
+                if (fD == uD.Ready)
+                    try {
+                        window.CrazyGames ? window.CrazyGames.SDK.ad.requestAd("midgame", {
+                            adFinished: n,
+                            adError: i,
+                            adStarted: e
+                        }) : window.PokiSDK ? window.PokiSDK.commercialBreak().then(n).catch(i) : window.adsbygoogle ? window.adsbygoogle.push({
+                            type: "start",
+                            name: t,
+                            beforeAd: e,
+                            adBreakDone: n
+                        }) : n()
+                    } catch (e) {
+                        i(e)
+                    }
+                else
+                    n()
             }
             ))
         }
@@ -41990,29 +42090,14 @@
  */
         bn.enabled = !1,
         function() {
-            const e = new AP;
+            const e = new LP;
             e.addResource(),
-            function() {
-                return sD(this, void 0, void 0, (function*() {
-                    try {
-                        window.CrazyGames ? yield window.CrazyGames.SDK.init() : window.PokiSDK && (yield window.PokiSDK.init())
-                    } catch (e) {
-                        console.error(e)
-                    }
-                }
-                ))
-            }().then(( () => {
+            mD().then(( () => {
                 e.loadedResource()
             }
             )),
             e.addCompleteListener(( () => {
-                !function() {
-                    try {
-                        window.CrazyGames ? window.CrazyGames.SDK.game.loadingStop() : window.PokiSDK && window.PokiSDK.gameLoadingFinished()
-                    } catch (e) {
-                        console.error(e)
-                    }
-                }()
+                bD()
             }
             )),
             e.preloadImage("images/apply.svg"),
@@ -42055,8 +42140,8 @@
             e.preloadImage("images/state_verified.svg"),
             e.preloadImage("images/test.svg"),
             e.preloadImage("images/verified.svg");
-            const t = new sR
-              , n = new iL
+            const t = new dR
+              , n = new sL
               , i = new hd(e);
             i.load("music", ["audio/music.mp3", "audio/music.flac"]),
             i.load("click", ["audio/click.flac"]),
@@ -42069,64 +42154,64 @@
             i.load("checkpoint", ["audio/checkpoint.flac"]),
             i.load("finish", ["audio/checkpoint.flac"]),
             Ou.initResources(e),
-            Uv.initResources(e),
-            rb.initResources(e);
-            const r = new rR(e)
-              , a = new qR;
+            Fv.initResources(e),
+            lb.initResources(e);
+            const r = new lR(e)
+              , a = new ZR;
             a.migrate(r),
             e.addResource();
-            const o = new PL(r,e)
-              , s = new PL(r,e);
+            const o = new NL(r,e)
+              , s = new NL(r,e);
             o.testDeterminism().then((t => {
                 d.submitAllowed = t,
                 e.loadedResource()
             }
             ));
-            const l = new wL(a)
-              , c = new FI(l.getSetting(Jh.Language))
-              , h = new ER(a)
-              , d = new hL(h);
+            const l = new _L(a)
+              , c = new jI(l.getSetting(Jh.Language))
+              , h = new AR(a)
+              , d = new fL(h);
             h.syncUserProfile(d);
-            const u = new OP(a,d,h)
+            const u = new HP(a,d,h)
               , p = document.getElementById("screen")
-              , f = new HM(p,l)
-              , m = new uR(f,l,e)
-              , g = new iT(f)
-              , v = new Ky(f,l,r)
-              , w = new YP(e,r,a)
-              , y = new ny
-              , b = new xP(i)
-              , x = new oD
+              , f = new qM(p,l)
+              , m = new gR(f,l,e)
+              , g = new sT(f)
+              , v = new $y(f,l,r)
+              , w = new QP(e,r,a)
+              , y = new oy
+              , b = new SP(i)
+              , x = new dD
               , _ = () => {
                 t.trigger(( () => {
-                    cD(),
-                    hD(),
+                    vD(),
+                    wD(),
                     A.dispose(),
-                    A = new sP(o,v,r,g,w,c,b,h,u,f,i,a,l,d,e,k,E,S,M,T),
-                    dD()
+                    A = new dP(o,v,r,g,w,c,b,h,u,f,i,a,l,d,e,k,E,S,M,T),
+                    yD()
                 }
                 ))
             }
               , k = () => {
                 t.trigger(( () => {
-                    cD(),
-                    hD(),
+                    vD(),
+                    wD(),
                     A.dispose(),
-                    A = new Xw(o,c,v,g,f,i,h,l,d,_),
-                    dD()
+                    A = new Jw(o,c,v,g,f,i,h,l,d,_),
+                    yD()
                 }
                 ))
             }
               , E = () => {
                 t.trigger(( () => {
-                    hD(),
+                    wD(),
                     A.dispose();
-                    const p = A = new Gk(v,r,c,i,f,l,t,h,u,a,w,b,x,( () => {
+                    const p = A = new Yk(v,r,c,i,f,l,t,h,u,a,w,b,x,( () => {
                         A.dispose(),
-                        A = new sP(o,v,r,g,w,c,b,h,u,f,i,a,l,d,e,k,E,S,M,T)
+                        A = new dP(o,v,r,g,w,c,b,h,u,f,i,a,l,d,e,k,E,S,M,T)
                     }
                     ),( (e, t, r) => {
-                        const a = A = new PM(o,s,v,g,c,f,i,h,l,n,x,e,t,{
+                        const a = A = new NM(o,s,v,g,c,f,i,h,l,n,x,e,t,{
                             recording: null,
                             carColors: null,
                             name: null,
@@ -42141,13 +42226,13 @@
                         ))
                     }
                     ));
-                    return dD(),
-                    lD(),
+                    return yD(),
+                    gD(),
                     p.isPaused = !0,
-                    uD(( () => {
+                    xD(( () => {
                         i.mute()
                     }
-                    )).finally(( () => {
+                    ), "start-editor").finally(( () => {
                         i.unmute(),
                         p.isPaused = !1
                     }
@@ -42157,24 +42242,24 @@
             }
               , S = (e, a, d) => {
                 t.trigger(( () => {
-                    hD(),
+                    wD(),
                     A.dispose();
                     const t = h.profileSlot
                       , p = u.getRecordTime(t, a.getId(r))
-                      , m = A = new PM(o,s,v,g,c,f,i,h,l,n,x,e,a,d,p,( (e, n, i, r) => {
+                      , m = A = new NM(o,s,v,g,c,f,i,h,l,n,x,e,a,d,p,( (e, n, i, r) => {
                         if (null != e) {
                             const a = u.getRecordTime(t, e);
                             (null == a || i.lessThan(a)) && u.setRecord(t, e, i, n, r)
                         }
                     }
                     ),_);
-                    return dD(),
-                    lD(),
+                    return yD(),
+                    gD(),
                     m.isPaused = !0,
-                    uD(( () => {
+                    xD(( () => {
                         i.mute()
                     }
-                    )).finally(( () => {
+                    ), "start-game").finally(( () => {
                         i.unmute(),
                         m.isPaused = !1
                     }
@@ -42184,26 +42269,26 @@
             }
               , M = (e, n) => {
                 t.trigger(( () => {
-                    hD(),
+                    wD(),
                     A.dispose(),
-                    A = new tD(o,v,e,g,f,i,c,l,n,_),
-                    dD(),
-                    lD()
+                    A = new oD(o,v,e,g,f,i,c,l,n,_),
+                    yD(),
+                    gD()
                 }
                 ))
             }
               , T = n => {
                 t.trigger(( () => {
-                    hD(),
+                    wD(),
                     A.dispose(),
-                    A = new gI(i,f,d,w,r,l,e,n,_),
-                    dD(),
-                    lD()
+                    A = new xI(i,f,d,w,r,l,e,n,_),
+                    yD(),
+                    gD()
                 }
                 ))
             }
             ;
-            let A = new sP(o,v,r,g,w,c,b,h,u,f,i,a,l,d,e,k,E,S,M,T)
+            let A = new dP(o,v,r,g,w,c,b,h,u,f,i,a,l,d,e,k,E,S,M,T)
               , C = 0;
             f.setAnimationLoop((function(e) {
                 const t = Math.max(e - C, 0) / 1e3;
@@ -42215,7 +42300,7 @@
             }
             )),
             window.addEventListener("keyup", (function(e) {
-                l.checkKeyBinding(e, Lb.ToggleFpsCounter) && y.toggle()
+                l.checkKeyBinding(e, Ub.ToggleFpsCounter) && y.toggle()
             }
             ))
         }()
